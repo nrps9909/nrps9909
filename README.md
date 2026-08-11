@@ -7,11 +7,11 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 ## Maintained projects
 
 - [twstock-predictor](https://github.com/nrps9909/twstock-predictor) — primary maintainer of an MIT-licensed Taiwan equity research stack. The project has 263 automated tests, public CI, a tagged v3.0.0 release, contributor guidance, and private vulnerability reporting.
-- [EduAi](https://github.com/NTNU-SoftwareEngineering/EduAi) — historical contributor with 41 commits to a multi-contributor educational AI project.
+- [EduAi](https://github.com/NTNU-SoftwareEngineering/EduAi) — maintainer with current `Maintain` repository permission and 41 commits to a multi-contributor educational AI project. Current work includes [project CI and contribution/security workflows](https://github.com/NTNU-SoftwareEngineering/EduAi/pull/53), [dependency security remediation](https://github.com/NTNU-SoftwareEngineering/EduAi/pull/55), and public issue triage.
 
 ## Recent upstream contributions
 
-The list below covers 29 different public upstream repositories and excludes projects I maintain. Every contribution uses a cryptographically signed commit verified by GitHub.
+The list below covers 30 different public upstream repositories and excludes projects I maintain. Every contribution uses a cryptographically signed commit verified by GitHub.
 
 ### Merged
 
@@ -23,6 +23,7 @@ The list below covers 29 different public upstream repositories and excludes pro
 ### Under review
 
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
+- [Ventoy: complete and correct Traditional Chinese boot-menu help](https://github.com/ventoy/Ventoy/pull/3729)
 - [Ant Design: correct 41 Traditional Chinese UI strings](https://github.com/ant-design/ant-design/pull/58947)
 - [Neovim: complete and repair the Traditional Chinese message catalog](https://github.com/neovim/neovim/pull/41273)
 - [AppFlowy: refine 54 Traditional Chinese UI strings](https://github.com/AppFlowy-IO/AppFlowy/pull/8939)
