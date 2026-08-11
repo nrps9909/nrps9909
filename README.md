@@ -11,7 +11,7 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Recent upstream contributions
 
-The list below covers 21 different public upstream repositories and excludes projects I maintain. Every contribution uses a cryptographically signed commit verified by GitHub.
+The list below covers 25 different public upstream repositories and excludes projects I maintain. Every contribution uses a cryptographically signed commit verified by GitHub.
 
 ### Merged
 
@@ -20,6 +20,10 @@ The list below covers 21 different public upstream repositories and excludes pro
 ### Under review
 
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
+- [SiYuan: polish 142 Traditional Chinese UI strings](https://github.com/siyuan-note/siyuan/pull/18650)
+- [Payload CMS: correct Traditional Chinese UI terminology](https://github.com/payloadcms/payload/pull/17744)
+- [Umami: polish 53 Traditional Chinese 2FA strings](https://github.com/umami-software/umami/pull/4437)
+- [PLANKA: add Traditional Chinese 2FA and security strings](https://github.com/plankanban/planka/pull/1757)
 - [Clash Verge Rev: localize backend notifications for Traditional Chinese](https://github.com/clash-verge-rev/clash-verge-rev/pull/7726)
 - [NextChat: translate recent chat, TTS, realtime, artifact, and MCP UI](https://github.com/ChatGPTNextWeb/NextChat/pull/6872)
 - [AnythingLLM: correct Traditional Chinese scheduled-job terminology](https://github.com/Mintplex-Labs/anything-llm/pull/6112)
