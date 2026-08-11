@@ -11,7 +11,7 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Recent upstream contributions
 
-The list below covers 30 different public upstream repositories and excludes projects I maintain. Every contribution uses a cryptographically signed commit verified by GitHub.
+The list below covers 32 different public upstream repositories and excludes projects I maintain. Every contribution uses a cryptographically signed commit verified by GitHub.
 
 ### Merged
 
@@ -22,6 +22,8 @@ The list below covers 30 different public upstream repositories and excludes pro
 
 ### Under review
 
+- [Supabase: synchronize and improve the Traditional Chinese project guide](https://github.com/supabase/supabase/pull/48936)
+- [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
 - [Ventoy: complete and correct Traditional Chinese boot-menu help](https://github.com/ventoy/Ventoy/pull/3729)
 - [Ant Design: correct 41 Traditional Chinese UI strings](https://github.com/ant-design/ant-design/pull/58947)
