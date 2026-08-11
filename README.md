@@ -23,6 +23,7 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
 - [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
 - [Clash Verge Rev: localize backend notifications for Traditional Chinese](https://github.com/clash-verge-rev/clash-verge-rev/pull/7726)
+- [AnythingLLM: correct Traditional Chinese scheduled-job terminology](https://github.com/Mintplex-Labs/anything-llm/pull/6112)
 
 ### Under review
 
@@ -40,7 +41,6 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [Umami: polish 53 Traditional Chinese 2FA strings](https://github.com/umami-software/umami/pull/4437)
 - [PLANKA: add Traditional Chinese 2FA and security strings](https://github.com/plankanban/planka/pull/1757)
 - [NextChat: translate recent chat, TTS, realtime, artifact, and MCP UI](https://github.com/ChatGPTNextWeb/NextChat/pull/6872)
-- [AnythingLLM: correct Traditional Chinese scheduled-job terminology](https://github.com/Mintplex-Labs/anything-llm/pull/6112)
 - [v2rayN: polish Traditional Chinese DNS settings](https://github.com/2dust/v2rayN/pull/9947)
 - [Jan: complete Traditional Chinese chat and assistant UI](https://github.com/janhq/jan/pull/8631)
 - [Puter: add Traditional Chinese app-management UI](https://github.com/HeyPuter/puter/pull/3541)
