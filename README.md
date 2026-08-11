@@ -11,7 +11,7 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Recent upstream contributions
 
-The list below covers 20 different public upstream repositories and excludes projects I maintain. Every contribution uses a cryptographically signed commit verified by GitHub.
+The list below covers 21 different public upstream repositories and excludes projects I maintain. Every contribution uses a cryptographically signed commit verified by GitHub.
 
 ### Merged
 
@@ -25,6 +25,7 @@ The list below covers 20 different public upstream repositories and excludes pro
 - [AnythingLLM: correct Traditional Chinese scheduled-job terminology](https://github.com/Mintplex-Labs/anything-llm/pull/6112)
 - [v2rayN: polish Traditional Chinese DNS settings](https://github.com/2dust/v2rayN/pull/9947)
 - [Jan: complete Traditional Chinese chat and assistant UI](https://github.com/janhq/jan/pull/8631)
+- [Puter: add Traditional Chinese app-management UI](https://github.com/HeyPuter/puter/pull/3541)
 - [Logseq: translate account and authentication messages](https://github.com/logseq/logseq/pull/13012)
 - [3x-ui: localize Traditional Chinese Xray labels](https://github.com/MHSanaei/3x-ui/pull/6202)
 - [drawDB: complete missing Traditional Chinese UI strings](https://github.com/drawdb-io/drawdb/pull/1099)
