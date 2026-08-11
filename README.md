@@ -11,16 +11,22 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Recent upstream contributions
 
-The list below covers 25 different public upstream repositories and excludes projects I maintain. Every contribution uses a cryptographically signed commit verified by GitHub.
+The list below covers 29 different public upstream repositories and excludes projects I maintain. Every contribution uses a cryptographically signed commit verified by GitHub.
 
 ### Merged
 
 - [RustDesk: complete Traditional Chinese sign-in strings](https://github.com/rustdesk/rustdesk/pull/15829)
+- [Dashy: complete 19 missing Traditional Chinese UI strings](https://github.com/Lissy93/dashy/pull/2292)
+- [Memos: complete 83 missing Traditional Chinese UI strings](https://github.com/usememos/memos/pull/6177)
+- [SiYuan: polish 142 Traditional Chinese UI strings](https://github.com/siyuan-note/siyuan/pull/18650)
 
 ### Under review
 
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
-- [SiYuan: polish 142 Traditional Chinese UI strings](https://github.com/siyuan-note/siyuan/pull/18650)
+- [Ant Design: correct 41 Traditional Chinese UI strings](https://github.com/ant-design/ant-design/pull/58947)
+- [Neovim: complete and repair the Traditional Chinese message catalog](https://github.com/neovim/neovim/pull/41273)
+- [AppFlowy: refine 54 Traditional Chinese UI strings](https://github.com/AppFlowy-IO/AppFlowy/pull/8939)
+- [1Panel: polish 121 Traditional Chinese AI agent strings](https://github.com/1Panel-dev/1Panel/pull/13536)
 - [Payload CMS: correct Traditional Chinese UI terminology](https://github.com/payloadcms/payload/pull/17744)
 - [Umami: polish 53 Traditional Chinese 2FA strings](https://github.com/umami-software/umami/pull/4437)
 - [PLANKA: add Traditional Chinese 2FA and security strings](https://github.com/plankanban/planka/pull/1757)
@@ -34,10 +40,8 @@ The list below covers 25 different public upstream repositories and excludes pro
 - [3x-ui: localize Traditional Chinese Xray labels](https://github.com/MHSanaei/3x-ui/pull/6202)
 - [drawDB: complete missing Traditional Chinese UI strings](https://github.com/drawdb-io/drawdb/pull/1099)
 - [SwitchHosts: polish Traditional Chinese UI copy](https://github.com/oldj/SwitchHosts/pull/1036)
-- [Dashy: complete 19 missing Traditional Chinese UI strings](https://github.com/Lissy93/dashy/pull/2292)
 - [Gopeed: complete 63 missing Traditional Chinese strings](https://github.com/GopeedLab/gopeed/pull/1431)
 - [Mailspring: add missing Traditional Chinese localizations](https://github.com/Foundry376/Mailspring/pull/2790)
-- [Memos: complete 83 missing Traditional Chinese UI strings](https://github.com/usememos/memos/pull/6177)
 - [Tiny RDM: improve 54 Traditional Chinese UI strings](https://github.com/tiny-craft/tiny-rdm/pull/580)
 - [tldr-pages: add the Traditional Chinese OpenCode page](https://github.com/tldr-pages/tldr/pull/23548)
 - [Krita AI Diffusion: improve Traditional Chinese setup translations](https://github.com/Acly/krita-ai-diffusion/pull/2586)
