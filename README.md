@@ -21,6 +21,8 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [Ant Design: correct 41 Traditional Chinese UI strings](https://github.com/ant-design/ant-design/pull/58947)
 - [Ant Design: use Taiwan week terminology in DatePicker](https://github.com/ant-design/ant-design/pull/58951)
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
+- [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
+- [Clash Verge Rev: localize backend notifications for Traditional Chinese](https://github.com/clash-verge-rev/clash-verge-rev/pull/7726)
 
 ### Under review
 
@@ -30,7 +32,6 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [Bootstrap: document robust rounded table containers](https://github.com/twbs/bootstrap/pull/42823)
 - [Apache Superset: correct and confirm Traditional Chinese dynamic UI messages](https://github.com/apache/superset/pull/43063)
 - [Supabase: synchronize and improve the Traditional Chinese project guide](https://github.com/supabase/supabase/pull/48936)
-- [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
 - [Ventoy: complete and correct Traditional Chinese boot-menu help](https://github.com/ventoy/Ventoy/pull/3729)
 - [Neovim: complete and repair the Traditional Chinese message catalog](https://github.com/neovim/neovim/pull/41273)
 - [AppFlowy: refine 54 Traditional Chinese UI strings](https://github.com/AppFlowy-IO/AppFlowy/pull/8939)
@@ -38,7 +39,6 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [Payload CMS: correct Traditional Chinese UI terminology](https://github.com/payloadcms/payload/pull/17744)
 - [Umami: polish 53 Traditional Chinese 2FA strings](https://github.com/umami-software/umami/pull/4437)
 - [PLANKA: add Traditional Chinese 2FA and security strings](https://github.com/plankanban/planka/pull/1757)
-- [Clash Verge Rev: localize backend notifications for Traditional Chinese](https://github.com/clash-verge-rev/clash-verge-rev/pull/7726)
 - [NextChat: translate recent chat, TTS, realtime, artifact, and MCP UI](https://github.com/ChatGPTNextWeb/NextChat/pull/6872)
 - [AnythingLLM: correct Traditional Chinese scheduled-job terminology](https://github.com/Mintplex-Labs/anything-llm/pull/6112)
 - [v2rayN: polish Traditional Chinese DNS settings](https://github.com/2dust/v2rayN/pull/9947)
