@@ -19,14 +19,14 @@ The list below covers 32 different public upstream repositories and excludes pro
 - [Dashy: complete 19 missing Traditional Chinese UI strings](https://github.com/Lissy93/dashy/pull/2292)
 - [Memos: complete 83 missing Traditional Chinese UI strings](https://github.com/usememos/memos/pull/6177)
 - [SiYuan: polish 142 Traditional Chinese UI strings](https://github.com/siyuan-note/siyuan/pull/18650)
+- [Ant Design: correct 41 Traditional Chinese UI strings](https://github.com/ant-design/ant-design/pull/58947)
+- [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
 
 ### Under review
 
 - [Supabase: synchronize and improve the Traditional Chinese project guide](https://github.com/supabase/supabase/pull/48936)
 - [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
-- [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
 - [Ventoy: complete and correct Traditional Chinese boot-menu help](https://github.com/ventoy/Ventoy/pull/3729)
-- [Ant Design: correct 41 Traditional Chinese UI strings](https://github.com/ant-design/ant-design/pull/58947)
 - [Neovim: complete and repair the Traditional Chinese message catalog](https://github.com/neovim/neovim/pull/41273)
 - [AppFlowy: refine 54 Traditional Chinese UI strings](https://github.com/AppFlowy-IO/AppFlowy/pull/8939)
 - [1Panel: polish 121 Traditional Chinese AI agent strings](https://github.com/1Panel-dev/1Panel/pull/13536)
