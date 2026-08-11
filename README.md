@@ -4,10 +4,9 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 來自台灣的開源開發者，關注可重現的 AI／資料工具，以及符合台灣用語的繁體中文在地化。
 
-## Maintained projects
+## Maintained project
 
 - [twstock-predictor](https://github.com/nrps9909/twstock-predictor) — primary maintainer of an MIT-licensed Taiwan equity research stack. The project has 263 automated tests, public CI, a tagged v3.0.0 release, contributor guidance, and private vulnerability reporting.
-- [EduAi](https://github.com/NTNU-SoftwareEngineering/EduAi) — maintainer with current `Maintain` repository permission and 41 commits to a multi-contributor educational AI project. Current work includes [project CI and contribution/security workflows](https://github.com/NTNU-SoftwareEngineering/EduAi/pull/53), [dependency security remediation](https://github.com/NTNU-SoftwareEngineering/EduAi/pull/55), and public issue triage.
 
 ## Recent upstream contributions
 
@@ -20,9 +19,12 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [Memos: complete 83 missing Traditional Chinese UI strings](https://github.com/usememos/memos/pull/6177)
 - [SiYuan: polish 142 Traditional Chinese UI strings](https://github.com/siyuan-note/siyuan/pull/18650)
 - [Ant Design: correct 41 Traditional Chinese UI strings](https://github.com/ant-design/ant-design/pull/58947)
+- [Ant Design: use Taiwan week terminology in DatePicker](https://github.com/ant-design/ant-design/pull/58951)
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
 
 ### Under review
+
+- Ant Design localization and accessibility: [localized Upload action names](https://github.com/ant-design/ant-design/pull/58953), [component-level Transfer remove labels](https://github.com/ant-design/ant-design/pull/58955), and [localized Modal/Notification close-button names](https://github.com/ant-design/ant-design/pull/58957)
 
 - [Oh My Zsh: fix Poetry environment handling across project subdirectories](https://github.com/ohmyzsh/ohmyzsh/pull/13932)
 - [Bootstrap: document robust rounded table containers](https://github.com/twbs/bootstrap/pull/42823)
@@ -55,3 +57,5 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [MDN Web Docs: remove obsolete page lifecycle guidance](https://github.com/mdn/content/pull/45081)
 
 I keep changes scoped, check for duplicate work before contributing, preserve runtime placeholders, and run each project's documented validation. AI assistance is disclosed when a project requires it, and localization is checked against the English source and established Taiwan terminology.
+
+In Ant Design, I am also deepening the same subsystem through issue triage and review: [a reproducible Table row-selection localization report](https://github.com/ant-design/ant-design/issues/58954) led to an external implementation, which I [validated and reviewed against the repository's locale and accessibility contracts](https://github.com/ant-design/ant-design/pull/58956#pullrequestreview-4908696328).
