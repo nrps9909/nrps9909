@@ -23,6 +23,9 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
 - [Clash Verge Rev: localize backend notifications for Traditional Chinese](https://github.com/clash-verge-rev/clash-verge-rev/pull/7726)
 - [AnythingLLM: correct Traditional Chinese scheduled-job terminology](https://github.com/Mintplex-Labs/anything-llm/pull/6112)
+- [1Panel: polish 121 Traditional Chinese AI agent strings](https://github.com/1Panel-dev/1Panel/pull/13536)
+- [Umami: polish 53 Traditional Chinese 2FA strings](https://github.com/umami-software/umami/pull/4437)
+- [Puter: add Traditional Chinese app-management UI](https://github.com/HeyPuter/puter/pull/3541)
 
 ### Under review
 
@@ -35,16 +38,13 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [Ventoy: complete and correct Traditional Chinese boot-menu help](https://github.com/ventoy/Ventoy/pull/3729)
 - [Neovim: complete and repair the Traditional Chinese message catalog](https://github.com/neovim/neovim/pull/41273)
 - [AppFlowy: refine 54 Traditional Chinese UI strings](https://github.com/AppFlowy-IO/AppFlowy/pull/8939)
-- [1Panel: polish 121 Traditional Chinese AI agent strings](https://github.com/1Panel-dev/1Panel/pull/13536)
 - [Payload CMS: correct Traditional Chinese UI terminology](https://github.com/payloadcms/payload/pull/17744)
-- [Umami: polish 53 Traditional Chinese 2FA strings](https://github.com/umami-software/umami/pull/4437)
 - [PLANKA: add Traditional Chinese 2FA and security strings](https://github.com/plankanban/planka/pull/1757)
 - [NextChat: translate recent chat, TTS, realtime, artifact, and MCP UI](https://github.com/ChatGPTNextWeb/NextChat/pull/6872)
 - [v2rayN: polish Traditional Chinese DNS settings](https://github.com/2dust/v2rayN/pull/9947)
 - [Jan: complete Traditional Chinese chat and assistant UI](https://github.com/janhq/jan/pull/8631)
-- [Puter: add Traditional Chinese app-management UI](https://github.com/HeyPuter/puter/pull/3541)
 - [Logseq: translate account and authentication messages](https://github.com/logseq/logseq/pull/13012)
-- [3x-ui: localize Traditional Chinese Xray labels](https://github.com/MHSanaei/3x-ui/pull/6202)
+- [3x-ui: localize Traditional and Simplified Chinese Xray labels](https://github.com/MHSanaei/3x-ui/pull/6202)
 - [drawDB: complete missing Traditional Chinese UI strings](https://github.com/drawdb-io/drawdb/pull/1099)
 - [SwitchHosts: polish Traditional Chinese UI copy](https://github.com/oldj/SwitchHosts/pull/1036)
 - [Gopeed: complete 63 missing Traditional Chinese strings](https://github.com/GopeedLab/gopeed/pull/1431)
