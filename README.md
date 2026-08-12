@@ -4,10 +4,6 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 來自台灣的開源開發者，關注可重現的 AI／資料工具，以及符合台灣用語的繁體中文在地化。
 
-## Maintained project
-
-- [twstock-predictor](https://github.com/nrps9909/twstock-predictor) — primary maintainer of an MIT-licensed Taiwan equity research stack. The project has 263 automated tests, public CI, a tagged v3.0.0 release, contributor guidance, and private vulnerability reporting.
-
 ## Recent upstream contributions
 
 The list below covers 35 different public upstream repositories and excludes projects I maintain. Every contribution uses a cryptographically signed commit verified by GitHub.
@@ -20,6 +16,9 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [SiYuan: polish 142 Traditional Chinese UI strings](https://github.com/siyuan-note/siyuan/pull/18650)
 - [Ant Design: correct 41 Traditional Chinese UI strings](https://github.com/ant-design/ant-design/pull/58947)
 - [Ant Design: use Taiwan week terminology in DatePicker](https://github.com/ant-design/ant-design/pull/58951)
+- [Ant Design: localize Upload action names for assistive technology](https://github.com/ant-design/ant-design/pull/58953)
+- [Ant Design: honor component-level Transfer remove labels](https://github.com/ant-design/ant-design/pull/58955)
+- [Ant Design: localize Modal and Notification close-button names](https://github.com/ant-design/ant-design/pull/58957)
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
 - [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
 - [Clash Verge Rev: localize backend notifications for Traditional Chinese](https://github.com/clash-verge-rev/clash-verge-rev/pull/7726)
@@ -27,7 +26,7 @@ The list below covers 35 different public upstream repositories and excludes pro
 
 ### Under review
 
-- Ant Design localization and accessibility: [localized Upload action names](https://github.com/ant-design/ant-design/pull/58953), [component-level Transfer remove labels](https://github.com/ant-design/ant-design/pull/58955), and [localized Modal/Notification close-button names](https://github.com/ant-design/ant-design/pull/58957)
+- [Ant Design: validate Form placeholders across all bundled locales](https://github.com/ant-design/ant-design/pull/58965)
 
 - [Oh My Zsh: fix Poetry environment handling across project subdirectories](https://github.com/ohmyzsh/ohmyzsh/pull/13932)
 - [Bootstrap: document robust rounded table containers](https://github.com/twbs/bootstrap/pull/42823)
