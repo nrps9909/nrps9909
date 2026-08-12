@@ -27,6 +27,7 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [Umami: polish 53 Traditional Chinese 2FA strings](https://github.com/umami-software/umami/pull/4437)
 - [Puter: add Traditional Chinese app-management UI](https://github.com/HeyPuter/puter/pull/3541)
 - [3x-ui: localize Traditional and Simplified Chinese Xray labels](https://github.com/MHSanaei/3x-ui/pull/6202)
+- [drawDB: complete missing Traditional Chinese UI strings](https://github.com/drawdb-io/drawdb/pull/1099)
 
 ### Under review
 
@@ -45,7 +46,6 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [v2rayN: polish Traditional Chinese DNS settings](https://github.com/2dust/v2rayN/pull/9947)
 - [Jan: complete Traditional Chinese chat and assistant UI](https://github.com/janhq/jan/pull/8631)
 - [Logseq: translate account and authentication messages](https://github.com/logseq/logseq/pull/13012)
-- [drawDB: complete missing Traditional Chinese UI strings](https://github.com/drawdb-io/drawdb/pull/1099)
 - [SwitchHosts: polish Traditional Chinese UI copy](https://github.com/oldj/SwitchHosts/pull/1036)
 - [Gopeed: complete 63 missing Traditional Chinese strings](https://github.com/GopeedLab/gopeed/pull/1431)
 - [Mailspring: add missing Traditional Chinese localizations](https://github.com/Foundry376/Mailspring/pull/2790)
