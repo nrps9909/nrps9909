@@ -35,6 +35,7 @@ The list below covers 35 different public upstream repositories and excludes pro
 
 ### Under review
 
+- [Ant Design: hide the decorative RangePicker separator from assistive technology](https://github.com/ant-design/ant-design/pull/58999)
 - [Oh My Zsh: fix Poetry environment handling across project subdirectories](https://github.com/ohmyzsh/ohmyzsh/pull/13932)
 - [Bootstrap: document robust rounded table containers](https://github.com/twbs/bootstrap/pull/42823)
 - [Apache Superset: correct and confirm Traditional Chinese dynamic UI messages](https://github.com/apache/superset/pull/43063)
@@ -56,4 +57,4 @@ The list below covers 35 different public upstream repositories and excludes pro
 
 I keep changes scoped, check for duplicate work before contributing, preserve runtime placeholders, and run each project's documented validation. AI assistance is disclosed when a project requires it, and localization is checked against the English source and established Taiwan terminology.
 
-In Ant Design, I am also deepening the same subsystem through issue triage and review: [a reproducible Table row-selection localization report](https://github.com/ant-design/ant-design/issues/58954) led to an external implementation, which I [validated and reviewed against the repository's locale and accessibility contracts](https://github.com/ant-design/ant-design/pull/58956#pullrequestreview-4908696328). I also [traced and reported Splitter's hardcoded English collapse-control names](https://github.com/ant-design/ant-design/issues/58971), then [validated all 73 runtime locales and approved the resulting implementation](https://github.com/ant-design/ant-design/pull/58978#pullrequestreview-4943039368).
+In Ant Design, I am also deepening the same subsystem through issue triage and review: [a reproducible Table row-selection localization report](https://github.com/ant-design/ant-design/issues/58954) led to an external implementation, which I [validated and reviewed against the repository's locale and accessibility contracts](https://github.com/ant-design/ant-design/pull/58956#pullrequestreview-4908696328). I also [traced and reported Splitter's hardcoded English collapse-control names](https://github.com/ant-design/ant-design/issues/58971), then [validated all 73 runtime locales and approved the resulting implementation](https://github.com/ant-design/ant-design/pull/58978#pullrequestreview-4943039368). A separate [RangePicker report](https://github.com/ant-design/ant-design/issues/58998) led to [a tested fix](https://github.com/ant-design/ant-design/pull/58999) that hides the decorative default separator while preserving custom accessible names.
