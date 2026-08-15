@@ -28,10 +28,13 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [Puter: add Traditional Chinese app-management UI](https://github.com/HeyPuter/puter/pull/3541)
 - [3x-ui: localize Traditional and Simplified Chinese Xray labels](https://github.com/MHSanaei/3x-ui/pull/6202)
 - [drawDB: complete missing Traditional Chinese UI strings](https://github.com/drawdb-io/drawdb/pull/1099)
+- [Gopeed: complete 63 missing Traditional Chinese strings](https://github.com/GopeedLab/gopeed/pull/1431)
+- [v2rayN: polish Traditional Chinese DNS settings](https://github.com/2dust/v2rayN/pull/9947)
+- [Python Traditional Chinese documentation: translate the asyncio runner guide](https://github.com/python/python-docs-zh-tw/pull/1240)
 
 ### Under review
 
-- [Ant Design: validate Form placeholders across all bundled locales](https://github.com/ant-design/ant-design/pull/58965)
+- [Ant Design: correct invalid Form minimum-value placeholders](https://github.com/ant-design/ant-design/pull/58965)
 
 - [Oh My Zsh: fix Poetry environment handling across project subdirectories](https://github.com/ohmyzsh/ohmyzsh/pull/13932)
 - [Bootstrap: document robust rounded table containers](https://github.com/twbs/bootstrap/pull/42823)
@@ -43,16 +46,13 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [Payload CMS: correct Traditional Chinese UI terminology](https://github.com/payloadcms/payload/pull/17744)
 - [PLANKA: add Traditional Chinese 2FA and security strings](https://github.com/plankanban/planka/pull/1757)
 - [NextChat: translate recent chat, TTS, realtime, artifact, and MCP UI](https://github.com/ChatGPTNextWeb/NextChat/pull/6872)
-- [v2rayN: polish Traditional Chinese DNS settings](https://github.com/2dust/v2rayN/pull/9947)
 - [Jan: complete Traditional Chinese chat and assistant UI](https://github.com/janhq/jan/pull/8631)
 - [Logseq: translate account and authentication messages](https://github.com/logseq/logseq/pull/13012)
 - [SwitchHosts: polish Traditional Chinese UI copy](https://github.com/oldj/SwitchHosts/pull/1036)
-- [Gopeed: complete 63 missing Traditional Chinese strings](https://github.com/GopeedLab/gopeed/pull/1431)
 - [Mailspring: add missing Traditional Chinese localizations](https://github.com/Foundry376/Mailspring/pull/2790)
 - [Tiny RDM: improve 54 Traditional Chinese UI strings](https://github.com/tiny-craft/tiny-rdm/pull/580)
 - [tldr-pages: add the Traditional Chinese OpenCode page](https://github.com/tldr-pages/tldr/pull/23548)
 - [Krita AI Diffusion: improve Traditional Chinese setup translations](https://github.com/Acly/krita-ai-diffusion/pull/2586)
-- [Python Traditional Chinese documentation: translate the asyncio runner guide](https://github.com/python/python-docs-zh-tw/pull/1240)
 - [MDN Web Docs: remove obsolete page lifecycle guidance](https://github.com/mdn/content/pull/45081)
 
 I keep changes scoped, check for duplicate work before contributing, preserve runtime placeholders, and run each project's documented validation. AI assistance is disclosed when a project requires it, and localization is checked against the English source and established Taiwan terminology.
