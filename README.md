@@ -19,6 +19,7 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [Ant Design: localize Upload action names for assistive technology](https://github.com/ant-design/ant-design/pull/58953)
 - [Ant Design: honor component-level Transfer remove labels](https://github.com/ant-design/ant-design/pull/58955)
 - [Ant Design: localize Modal and Notification close-button names](https://github.com/ant-design/ant-design/pull/58957)
+- [Ant Design: correct invalid Form minimum-value placeholders](https://github.com/ant-design/ant-design/pull/58965)
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
 - [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
 - [Clash Verge Rev: localize backend notifications for Traditional Chinese](https://github.com/clash-verge-rev/clash-verge-rev/pull/7726)
@@ -33,8 +34,6 @@ The list below covers 35 different public upstream repositories and excludes pro
 - [Python Traditional Chinese documentation: translate the asyncio runner guide](https://github.com/python/python-docs-zh-tw/pull/1240)
 
 ### Under review
-
-- [Ant Design: correct invalid Form minimum-value placeholders](https://github.com/ant-design/ant-design/pull/58965)
 
 - [Oh My Zsh: fix Poetry environment handling across project subdirectories](https://github.com/ohmyzsh/ohmyzsh/pull/13932)
 - [Bootstrap: document robust rounded table containers](https://github.com/twbs/bootstrap/pull/42823)
