@@ -26,6 +26,7 @@ The list below covers 36 different public upstream repositories and excludes pro
 - [Ant Design: re-enable Rate list-item accessibility checks](https://github.com/ant-design/ant-design/pull/59006)
 - [Ant Design: enforce accessible button names across Alert demos](https://github.com/ant-design/ant-design/pull/59007)
 - [Ant Design: restore Tree connecting-line demo accessibility coverage](https://github.com/ant-design/ant-design/pull/59020)
+- [Ant Design: enforce accessible names across Badge demos](https://github.com/ant-design/ant-design/pull/59024)
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
 - [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
 - [Clash Verge Rev: localize backend notifications for Traditional Chinese](https://github.com/clash-verge-rev/clash-verge-rev/pull/7726)
@@ -43,7 +44,6 @@ The list below covers 36 different public upstream repositories and excludes pro
 ### Under review
 
 - [Ant Design: restore Upload focus-event callbacks across root layouts](https://github.com/ant-design/ant-design/pull/59002)
-- [Ant Design: enforce accessible names across Badge demos](https://github.com/ant-design/ant-design/pull/59024)
 - [Oh My Zsh: fix Poetry environment handling across project subdirectories](https://github.com/ohmyzsh/ohmyzsh/pull/13932)
 - [Bootstrap: document robust rounded table containers](https://github.com/twbs/bootstrap/pull/42823)
 - [Apache Superset: correct and confirm Traditional Chinese dynamic UI messages](https://github.com/apache/superset/pull/43063)
