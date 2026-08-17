@@ -25,6 +25,7 @@ The list below covers 36 different public upstream repositories and excludes pro
 - [Ant Design: document accessible labels for nested complex Form controls](https://github.com/ant-design/ant-design/pull/59001)
 - [Ant Design: re-enable Rate list-item accessibility checks](https://github.com/ant-design/ant-design/pull/59006)
 - [Ant Design: enforce accessible button names across Alert demos](https://github.com/ant-design/ant-design/pull/59007)
+- [Ant Design: restore Tree connecting-line demo accessibility coverage](https://github.com/ant-design/ant-design/pull/59020)
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
 - [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
 - [Clash Verge Rev: localize backend notifications for Traditional Chinese](https://github.com/clash-verge-rev/clash-verge-rev/pull/7726)
@@ -42,7 +43,7 @@ The list below covers 36 different public upstream repositories and excludes pro
 ### Under review
 
 - [Ant Design: restore Upload focus-event callbacks across root layouts](https://github.com/ant-design/ant-design/pull/59002)
-- [Ant Design: restore Tree connecting-line demo accessibility coverage](https://github.com/ant-design/ant-design/pull/59020)
+- [Ant Design: enforce accessible names across Badge demos](https://github.com/ant-design/ant-design/pull/59024)
 - [Oh My Zsh: fix Poetry environment handling across project subdirectories](https://github.com/ohmyzsh/ohmyzsh/pull/13932)
 - [Bootstrap: document robust rounded table containers](https://github.com/twbs/bootstrap/pull/42823)
 - [Apache Superset: correct and confirm Traditional Chinese dynamic UI messages](https://github.com/apache/superset/pull/43063)
@@ -71,3 +72,5 @@ I [revalidated the Anchor raw-identity fix on its latest head](https://github.co
 I also [approved rc-table's fixed-header scrollbar alignment fix](https://github.com/react-component/table/pull/1504#pullrequestreview-4948914712) after 232 tests, TypeScript, lint, documentation build, and a real-Chromium 15px scrollbar layout check. In the Tree dependency, I [approved a detached-list-ref guard](https://github.com/react-component/tree/pull/1067#pullrequestreview-4949139326) after two independent null-ref reproductions and the full test suite. In the image dependency, I [approved keyboard-navigation scroll isolation](https://github.com/react-component/image/pull/526#pullrequestreview-4948992026) and [a preview wheel-event isolation fix](https://github.com/react-component/image/pull/527#pullrequestreview-4948937177) after full suites and independent event probes confirmed that preview navigation does not consume unrelated page input.
 
 I also [retested a stale Form accessibility report](https://github.com/ant-design/ant-design/issues/49508#issuecomment-5302059065) on current master and supplied focused evidence that its Select and DatePicker failure is already resolved. I similarly traced the old [Tabs focus-visibility report](https://github.com/ant-design/ant-design/issues/49680#issuecomment-5302095175) to two merged fixes and the current DOM/style contract, helping maintainers retire obsolete backlog safely. For a separate Tabs defect, I reproduced a critical `aria-required-children` violation in the extra-content DOM and [filed it at the canonical rc-tabs upstream](https://github.com/react-component/tabs/issues/1013) with a focused axe reproduction, source trace, duplicate audit, and implementation boundaries. In [Carousel issue #59003](https://github.com/ant-design/ant-design/issues/59003), I traced another hardcoded-English accessible-name path, checked every open PR for overlap, and requested maintainer direction on the locale contract before implementation rather than introducing an unreviewed public API.
+
+I also [revalidated and triaged a stale Select `aria-activedescendant` report](https://github.com/ant-design/ant-design/issues/44666#issuecomment-5313183253) against current master and the canonical rc-select fix, and [approved a verified CodeQL action pin update](https://github.com/react-component/util/pull/804#pullrequestreview-4949367050) after checking the signed upstream tag, action metadata, and exact-head security workflow.
