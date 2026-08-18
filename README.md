@@ -23,6 +23,7 @@ The list below covers 36 different public upstream repositories and excludes pro
 - [Ant Design: hide the decorative RangePicker separator from assistive technology](https://github.com/ant-design/ant-design/pull/58999)
 - [Ant Design: hide the decorative Collapse expand icon from assistive technology](https://github.com/ant-design/ant-design/pull/59000)
 - [Ant Design: document accessible labels for nested complex Form controls](https://github.com/ant-design/ant-design/pull/59001)
+- [Ant Design: restore Upload focus-event callbacks across root layouts](https://github.com/ant-design/ant-design/pull/59002)
 - [Ant Design: re-enable Rate list-item accessibility checks](https://github.com/ant-design/ant-design/pull/59006)
 - [Ant Design: enforce accessible button names across Alert demos](https://github.com/ant-design/ant-design/pull/59007)
 - [Ant Design: restore Tree connecting-line demo accessibility coverage](https://github.com/ant-design/ant-design/pull/59020)
@@ -44,7 +45,6 @@ The list below covers 36 different public upstream repositories and excludes pro
 
 ### Under review
 
-- [Ant Design: restore Upload focus-event callbacks across root layouts](https://github.com/ant-design/ant-design/pull/59002)
 - [Oh My Zsh: fix Poetry environment handling across project subdirectories](https://github.com/ohmyzsh/ohmyzsh/pull/13932)
 - [Bootstrap: document robust rounded table containers](https://github.com/twbs/bootstrap/pull/42823)
 - [Apache Superset: correct and confirm Traditional Chinese dynamic UI messages](https://github.com/apache/superset/pull/43063)
