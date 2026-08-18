@@ -27,6 +27,7 @@ The list below covers 36 different public upstream repositories and excludes pro
 - [Ant Design: enforce accessible button names across Alert demos](https://github.com/ant-design/ant-design/pull/59007)
 - [Ant Design: restore Tree connecting-line demo accessibility coverage](https://github.com/ant-design/ant-design/pull/59020)
 - [Ant Design: enforce accessible names across Badge demos](https://github.com/ant-design/ant-design/pull/59024)
+- [Ant Design: enforce accessible names across Card demos](https://github.com/ant-design/ant-design/pull/59032)
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
 - [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
 - [Clash Verge Rev: localize backend notifications for Traditional Chinese](https://github.com/clash-verge-rev/clash-verge-rev/pull/7726)
