@@ -6,7 +6,9 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Recent upstream contributions
 
-The list below covers 36 different public upstream repositories and excludes projects I maintain. Every contribution uses a cryptographically signed commit verified by GitHub.
+The public record below includes 32 merged PRs across 18 non-owned repositories, including 15 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 36 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
+
+For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime and accessibility fixes, regression tests, reproducible issue triage, and exact-head reviews across Ant Design and its canonical react-component dependencies.
 
 ### Merged
 
