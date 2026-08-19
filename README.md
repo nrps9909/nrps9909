@@ -6,7 +6,7 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Recent upstream contributions
 
-The public record below includes 32 merged PRs across 18 non-owned repositories, including 15 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 38 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
+The public record below includes 33 merged PRs across 19 non-owned repositories, including 15 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 38 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
 For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime and accessibility fixes, regression tests, reproducible issue triage, and exact-head reviews across Ant Design and its canonical react-component dependencies.
 
@@ -43,6 +43,7 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [Gopeed: complete 63 missing Traditional Chinese strings](https://github.com/GopeedLab/gopeed/pull/1431)
 - [v2rayN: polish Traditional Chinese DNS settings](https://github.com/2dust/v2rayN/pull/9947)
 - [Python Traditional Chinese documentation: translate the asyncio runner guide](https://github.com/python/python-docs-zh-tw/pull/1240)
+- [Neovim: complete and repair the Traditional Chinese message catalog](https://github.com/neovim/neovim/pull/41273)
 - [React Component Pagination: correct Traditional Chinese page-size text and accessible name](https://github.com/react-component/pagination/pull/719)
 
 ### Under review
@@ -54,7 +55,6 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [Apache Superset: correct and confirm Traditional Chinese dynamic UI messages](https://github.com/apache/superset/pull/43063)
 - [Supabase: synchronize and improve the Traditional Chinese project guide](https://github.com/supabase/supabase/pull/48936)
 - [Ventoy: complete and correct Traditional Chinese boot-menu help](https://github.com/ventoy/Ventoy/pull/3729)
-- [Neovim: complete and repair the Traditional Chinese message catalog](https://github.com/neovim/neovim/pull/41273)
 - [AppFlowy: refine 54 Traditional Chinese UI strings](https://github.com/AppFlowy-IO/AppFlowy/pull/8939)
 - [Payload CMS: correct Traditional Chinese UI terminology](https://github.com/payloadcms/payload/pull/17744)
 - [PLANKA: add Traditional Chinese 2FA and security strings](https://github.com/plankanban/planka/pull/1757)
