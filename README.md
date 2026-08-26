@@ -8,7 +8,7 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 The public record below includes 37 merged PRs across 23 non-owned repositories since August 11, 2026, including 15 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 39 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
-For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime and accessibility fixes, regression tests, reproducible issue triage, and 43 distinct current/final exact-head reviews across Ant Design and its canonical react-component dependencies.
+For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime and accessibility fixes, regression tests, reproducible issue triage, and 44 distinct current/final exact-head reviews across Ant Design and its canonical react-component dependencies.
 
 ### Merged
 
@@ -87,6 +87,8 @@ In [rc-tree #1069](https://github.com/react-component/tree/pull/1069#pullrequest
 In [Table #59078](https://github.com/ant-design/ant-design/pull/59078#pullrequestreview-5032465916), I approved restoration of the full custom header `onKeyDown` contract after an expanded Space and arrow-key matrix verified that every key reaches the consumer callback while only Enter changes the sort order. The exact-head sorter suite passed 41 tests and 5 snapshots, with static checks and all 47 applicable remote checks green.
 
 In [Statistic #59101](https://github.com/ant-design/ant-design/pull/59101#pullrequestreview-5032582621), I approved the numeric-zero semantic-node fix at exact head after both the complete Jest and Vitest files passed 27 tests and an independent rerender probe verified that zero-valued title, prefix, and suffix nodes are created and then removed for empty-string, false, and null values. The expanded probe passed 28 tests under each runner; focused lint and all applicable remote checks were green.
+
+In [Alert #59100](https://github.com/ant-design/ant-design/pull/59100#pullrequestreview-5032737035), I approved the exact-head global `closable` type correction after tracing that ConfigProvider only supplies enablement, `closeIcon`, and ARIA attributes while component-level configuration owns `onClose` and `afterClose`. An independent compile-time matrix accepted booleans, empty objects, icons, and ARIA labels while rejecting `onClose`, `afterClose`, and `disabled`; the 86-test ConfigProvider suite, focused static checks, and all 47 applicable remote checks passed.
 
 In [Alert and Empty #59094](https://github.com/ant-design/ant-design/pull/59094#pullrequestreview-5032582633), I approved consistent numeric-zero rendering after the complete Alert and Empty suites passed 38 tests and 5 snapshots under Jest and 38 tests under Vitest. Independent rerender probes expanded that matrix to 40 tests under both runners and verified removal of the title, description, action, footer, and `with-description` state for empty values; the review explicitly separates this focused verification from maintainer-triggered CI.
 
