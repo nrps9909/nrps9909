@@ -6,7 +6,7 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Recent upstream contributions
 
-The public record below includes 37 merged PRs across 23 non-owned repositories since August 11, 2026, including 15 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 42 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
+The public record below includes 45 merged PRs across 27 non-owned repositories since August 11, 2026, including 18 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 42 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
 For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime and accessibility fixes, regression tests, reproducible issue triage, and 54 distinct current/final exact-head reviews across Ant Design and its canonical react-component dependencies.
 
@@ -31,6 +31,14 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [Ant Design: restore Tree connecting-line demo accessibility coverage](https://github.com/ant-design/ant-design/pull/59020)
 - [Ant Design: enforce accessible names across Badge demos](https://github.com/ant-design/ant-design/pull/59024)
 - [Ant Design: enforce accessible names across Card demos](https://github.com/ant-design/ant-design/pull/59032)
+- [Ant Design: document Tree.useTree memo dependencies](https://github.com/ant-design/ant-design/pull/59103)
+- [Ant Design: hide decorative Steps panel arrows from assistive technology](https://github.com/ant-design/ant-design/pull/59105)
+- [Ant Design: hide the decorative Skeleton.Image placeholder from assistive technology](https://github.com/ant-design/ant-design/pull/59107)
+- [React Component Slider: support aria-describedby on single and range handles](https://github.com/react-component/slider/pull/1088)
+- [React Component Tree: preserve nested first-child drag-and-drop targets](https://github.com/react-component/tree/pull/1070)
+- [React Component Tree: preserve consumer `text/plain` drag payloads](https://github.com/react-component/tree/pull/1071)
+- [React Component Tooltip: show default tooltips on focus](https://github.com/react-component/tooltip/pull/541)
+- [React Component Progress: expose accessible SVG semantics](https://github.com/react-component/progress/pull/325)
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
 - [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
 - [Clash Verge Rev: localize backend notifications for Traditional Chinese](https://github.com/clash-verge-rev/clash-verge-rev/pull/7726)
@@ -59,26 +67,18 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [React Component Notification: prevent close controls from submitting forms](https://github.com/react-component/notification/pull/408)
 - [React Component Input: keep the autosize measurement textarea out of keyboard focus](https://github.com/react-component/input/pull/200)
 - [React Component Picker: correct the Belgian French date-selection prompt](https://github.com/react-component/picker/pull/1003)
-- [React Component Progress: expose accessible SVG semantics](https://github.com/react-component/progress/pull/325)
 - [React Component Table: honor rowExpandable for tree data](https://github.com/react-component/table/pull/1508)
-- [React Component Tooltip: show default tooltips on focus](https://github.com/react-component/tooltip/pull/541)
 - [React Component Tooltip: close open tooltips with Escape](https://github.com/react-component/tooltip/pull/540)
 - [Ant Design ProComponents: correct zh-TW line-action glyphs](https://github.com/ant-design/pro-components/pull/9691)
 - [Ant Design ProComponents: preserve fixed columns after settings drag](https://github.com/ant-design/pro-components/pull/9690)
 - [Ant Design ProComponents: support Select `showSearch` object configuration](https://github.com/ant-design/pro-components/pull/9689)
-- [Ant Design: hide the decorative Skeleton.Image placeholder from assistive technology](https://github.com/ant-design/ant-design/pull/59107)
 - [Ant Design: hide decorative Result exception illustrations from assistive technology](https://github.com/ant-design/ant-design/pull/59106)
-- [Ant Design: hide decorative Steps panel arrows from assistive technology](https://github.com/ant-design/ant-design/pull/59105)
-- [Ant Design: document Tree.useTree memo dependencies](https://github.com/ant-design/ant-design/pull/59103)
 - [React Component Util: preserve immutable sources when removing nested values](https://github.com/react-component/util/pull/807)
 - [React Component Util: cancel delayed state updates on unmount](https://github.com/react-component/util/pull/806)
 - [React Component Mini Decimal: normalize negative zero at integer precision](https://github.com/react-component/mini-decimal/pull/16)
 - [React Component Slider: finish drag when an ancestor stops mouseup propagation](https://github.com/react-component/slider/pull/1089)
-- [React Component Slider: support aria-describedby on single and range handles](https://github.com/react-component/slider/pull/1088)
 - [React Component Slider: prevent null-container crashes during active dragging](https://github.com/react-component/slider/pull/1087)
 - [React Component Tour: prevent negative mask click-blocker dimensions at viewport edges](https://github.com/react-component/tour/pull/109)
-- [React Component Tree: preserve nested first-child drag-and-drop targets](https://github.com/react-component/tree/pull/1070)
-- [React Component Tree: preserve consumer `text/plain` drag payloads](https://github.com/react-component/tree/pull/1071)
 - [React Component Tree Select: search selectable children below disabled parents](https://github.com/react-component/tree-select/pull/684)
 - [Oh My Zsh: fix Poetry environment handling across project subdirectories](https://github.com/ohmyzsh/ohmyzsh/pull/13932)
 - [Bootstrap: document robust rounded table containers](https://github.com/twbs/bootstrap/pull/42823)
@@ -156,11 +156,11 @@ For [rc-tree issue #931](https://github.com/react-component/tree/issues/931), I 
 
 After a maintainer clarified in [Tree issue #59069](https://github.com/ant-design/ant-design/issues/59069) that `useTree().getPath` intentionally keeps a stable identity while reading the latest data at call time, I submitted a signed [bilingual API documentation clarification](https://github.com/ant-design/ant-design/pull/59103). It shows that memoized values derived from `getPath` must also depend on `treeData` and the lookup key, making the otherwise invisible dependency boundary explicit without changing the runtime contract.
 
-In [Steps #59105](https://github.com/ant-design/ant-design/pull/59105), I reproduced that every visual panel separator exposed the repeated, English-only computed accessible name `Arrow`. The signed fix preserves the SVG separators while hiding them from assistive technology and adds a regression for both their physical presence and absent accessible names. The complete Steps scope passed 83 tests and 64 snapshots, with focused Jest/Vitest coverage and static checks green; the PR remains under review and is not counted as merged.
+In [Steps #59105](https://github.com/ant-design/ant-design/pull/59105), I reproduced that every visual panel separator exposed the repeated, English-only computed accessible name `Arrow`. The signed fix preserves the SVG separators while hiding them from assistive technology and adds a regression for both their physical presence and absent accessible names. The complete Steps scope passed 83 tests and 64 snapshots, with focused Jest/Vitest coverage and static checks green; the PR merged on August 27, 2026.
 
 In [Result #59106](https://github.com/ant-design/ant-design/pull/59106), I reproduced that the built-in 403, 404, and 500 illustrations exposed hardcoded English SVG titles even though Result already renders the status as visible text. The signed fix marks only those built-in illustrations as decorative and non-focusable while preserving custom icon semantics. Its exact-base regression failed on the missing `aria-hidden`; the final Result scope passed all 17 tests under both Jest and Vitest together with focused lint, formatting, and diff validation. The PR remains under review and is not counted as merged.
 
-In [Skeleton.Image #59107](https://github.com/ant-design/ant-design/pull/59107), I reproduced that the visual loading placeholder exposed the hardcoded English SVG name `Image placeholder` even though it neither identifies loaded content nor communicates loading state. The signed fix hides only the built-in illustration from assistive technology and legacy keyboard focus while preserving custom Skeleton.Node content. Its exact-base regression failed on the missing `aria-hidden`; all 32 Skeleton tests pass under both Jest and Vitest, with focused lint, formatting, and diff checks green. The PR remains under review and is not counted as merged.
+In [Skeleton.Image #59107](https://github.com/ant-design/ant-design/pull/59107), I reproduced that the visual loading placeholder exposed the hardcoded English SVG name `Image placeholder` even though it neither identifies loaded content nor communicates loading state. The signed fix hides only the built-in illustration from assistive technology and legacy keyboard focus while preserving custom Skeleton.Node content. Its exact-base regression failed on the missing `aria-hidden`; all 32 Skeleton tests pass under both Jest and Vitest, with focused lint, formatting, and diff checks green. The PR merged on August 27, 2026.
 
 In [rc-image #530](https://github.com/react-component/image/pull/530), I found that the Preview Close and Previous controls omitted `type="button"` even though the Next and action controls already used it. Native buttons default to submitting their containing form, so a preview mounted through a custom or inline portal container could trigger an unrelated form submission. The signed fix makes all three preview controls non-submitting and adds a regression covering their rendered button types. The exact-base regression failed on the missing attributes; the fixed repository passed all 8 suites, 81 tests, and its snapshot together with TypeScript, formatting, and diff validation. The PR remains under review and is not counted as merged.
 
