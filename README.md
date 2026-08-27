@@ -6,7 +6,7 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Recent upstream contributions
 
-The public record below includes 47 merged PRs across 28 non-owned repositories since August 11, 2026, including 18 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 42 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
+The public record below includes 48 merged PRs across 29 non-owned repositories since August 11, 2026, including 18 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 42 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
 For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime and accessibility fixes, regression tests, reproducible issue triage, and 55 distinct current/final exact-head reviews across Ant Design and its canonical react-component dependencies.
 
@@ -41,6 +41,7 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [React Component Tooltip: preserve existing `aria-describedby` relationships](https://github.com/react-component/tooltip/pull/542)
 - [React Component Progress: expose accessible SVG semantics](https://github.com/react-component/progress/pull/325)
 - [React Component Notification: prevent close controls from submitting forms](https://github.com/react-component/notification/pull/408)
+- [React Component Steps: preserve item callbacks on keyboard activation](https://github.com/react-component/steps/pull/395)
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
 - [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
 - [Clash Verge Rev: localize backend notifications for Traditional Chinese](https://github.com/clash-verge-rev/clash-verge-rev/pull/7726)
@@ -65,7 +66,6 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [Ant Design: preserve List items whose row key is numeric zero](https://github.com/ant-design/ant-design/pull/59113)
 - [React Component Segmented: remove the redundant radiogroup tab stop](https://github.com/react-component/segmented/pull/343)
 - [React Component Rate: support Space key activation](https://github.com/react-component/rate/pull/219)
-- [React Component Steps: preserve item callbacks on keyboard activation](https://github.com/react-component/steps/pull/395)
 - [React Component Image: prevent preview controls from submitting forms](https://github.com/react-component/image/pull/530)
 - [React Component Tour: prevent default navigation actions from submitting forms](https://github.com/react-component/tour/pull/110)
 - [React Component Upload: remove inactive button semantics when click upload is disabled](https://github.com/react-component/upload/pull/728)
@@ -176,7 +176,7 @@ In [Typography #59112](https://github.com/ant-design/ant-design/pull/59112), I f
 
 In [List #59113](https://github.com/ant-design/ant-design/pull/59113), I found that the row-key fallback treated numeric `0` as missing and replaced it with an index-based key. Reordering the data therefore remounted that item and could discard local state or focus. The signed nullish-assignment fix preserves zero while retaining the fallback for `null` and `undefined`, with a regression that tracks child mounts across a reorder. The exact base produced mount history `[0, 1, 0]`; the fixed complete List scope passed 15 suites, 110 tests, and 68 snapshots together with focused ESLint, Biome, and diff validation. I audited open issues and PRs before submission; #58604 touches the same file only for an unrelated pagination callback. The PR remains under review and is not counted as merged.
 
-In [rc-steps #395](https://github.com/react-component/steps/pull/395), I reproduced that Enter and Space activation changed the current Step but silently skipped the public item-level `onClick` callback that mouse activation invokes. Space also retained its page-scroll default. The signed fix routes keyboard activation through the existing click path so both callbacks remain consistent and prevents the default key action. The exact-base regression received two parent changes but zero item callbacks; the fixed full suite passed 24 tests and 13 snapshots together with TypeScript, lint, formatting, ESM/CJS/declaration and Less compilation, and diff validation. The PR remains under review and is not counted as merged.
+In [rc-steps #395](https://github.com/react-component/steps/pull/395), I reproduced that Enter and Space activation changed the current Step but silently skipped the public item-level `onClick` callback that mouse activation invokes. Space also retained its page-scroll default. The signed fix routes keyboard activation through the existing click path so both callbacks remain consistent and prevents the default key action. The exact-base regression received two parent changes but zero item callbacks; the fixed full suite passed 24 tests and 13 snapshots together with TypeScript, lint, formatting, ESM/CJS/declaration and Less compilation, and diff validation. Maintainer `yoyo837` approved and merged it as `a880d11` on August 27, 2026.
 
 In [rc-rate #219](https://github.com/react-component/rate/pull/219), I found that each enabled star exposed focusable radio semantics but accepted only Enter, leaving the conventional Space activation key ineffective and free to scroll the page. The signed fix supports both keys and prevents their default action during selection. Its exact-base regression received only the Enter change; the fixed full suite passed 40 tests and 7 snapshots together with TypeScript, ESM/CJS/declaration and Less compilation, diff validation, and lint with no errors. I also audited every open PR touching `Star.tsx`; none changes the keyboard handler. The PR remains under review and is not counted as merged.
 
