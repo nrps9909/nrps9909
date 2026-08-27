@@ -95,6 +95,7 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [React Component Input: render numeric zero affixes and addons](https://github.com/react-component/input/pull/201)
 - [React Component Dialog: render numeric zero titles and footers](https://github.com/react-component/dialog/pull/586)
 - [React Component Tabs: preserve numeric zero tab content](https://github.com/react-component/tabs/pull/1017)
+- [React Component Tabs: wrap initial overflow ArrowUp navigation to the last enabled tab](https://github.com/react-component/tabs/pull/1019)
 - [React Component Picker: correct the Belgian French date-selection prompt](https://github.com/react-component/picker/pull/1003)
 - [React Component Picker: make package exports loadable in Node](https://github.com/react-component/picker/pull/1004)
 - [React Component Picker: support Android virtual keyboards in masked inputs](https://github.com/react-component/picker/pull/1005)
