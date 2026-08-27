@@ -6,7 +6,7 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Recent upstream contributions
 
-The public record below includes 48 merged PRs across 29 non-owned repositories since August 11, 2026, including 18 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 42 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
+The public record below includes 50 merged PRs across 30 non-owned repositories since August 11, 2026, including 19 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 42 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
 For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime and accessibility fixes, regression tests, reproducible issue triage, and 58 distinct current/final exact-head reviews across Ant Design and its canonical react-component dependencies.
 
@@ -34,6 +34,8 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [Ant Design: document Tree.useTree memo dependencies](https://github.com/ant-design/ant-design/pull/59103)
 - [Ant Design: hide decorative Steps panel arrows from assistive technology](https://github.com/ant-design/ant-design/pull/59105)
 - [Ant Design: hide the decorative Skeleton.Image placeholder from assistive technology](https://github.com/ant-design/ant-design/pull/59107)
+- [Ant Design: preserve List items whose row key is numeric zero](https://github.com/ant-design/ant-design/pull/59113)
+- [Ant Design ProComponents: correct zh-TW line-action glyphs](https://github.com/ant-design/pro-components/pull/9691)
 - [React Component Slider: support aria-describedby on single and range handles](https://github.com/react-component/slider/pull/1088)
 - [React Component Tree: preserve nested first-child drag-and-drop targets](https://github.com/react-component/tree/pull/1070)
 - [React Component Tree: preserve consumer `text/plain` drag payloads](https://github.com/react-component/tree/pull/1071)
@@ -64,8 +66,6 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 ### Under review
 
 - [Ant Design: configure generated Input.Search buttons](https://github.com/ant-design/ant-design/pull/59116)
-- [Ant Design: prioritize local CheckableTag styles over ConfigProvider defaults](https://github.com/ant-design/ant-design/pull/59114)
-- [Ant Design: preserve List items whose row key is numeric zero](https://github.com/ant-design/ant-design/pull/59113)
 - [React Component Segmented: remove the redundant radiogroup tab stop](https://github.com/react-component/segmented/pull/343)
 - [React Component Rate: support Space key activation](https://github.com/react-component/rate/pull/219)
 - [React Component Image: prevent preview controls from submitting forms](https://github.com/react-component/image/pull/530)
@@ -76,7 +76,6 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [React Component Picker: correct the Belgian French date-selection prompt](https://github.com/react-component/picker/pull/1003)
 - [React Component Table: honor rowExpandable for tree data](https://github.com/react-component/table/pull/1508)
 - [React Component Tree Select: preserve numeric zero tree keys](https://github.com/react-component/tree-select/pull/685)
-- [Ant Design ProComponents: correct zh-TW line-action glyphs](https://github.com/ant-design/pro-components/pull/9691)
 - [Ant Design ProComponents: preserve fixed columns after settings drag](https://github.com/ant-design/pro-components/pull/9690)
 - [Ant Design ProComponents: support Select `showSearch` object configuration](https://github.com/ant-design/pro-components/pull/9689)
 - [Ant Design: avoid duplicate button semantics in editable Typography](https://github.com/ant-design/ant-design/pull/59112)
@@ -108,7 +107,7 @@ For [ProComponents issue #9680](https://github.com/ant-design/pro-components/iss
 
 For [ProComponents issue #9688](https://github.com/ant-design/pro-components/issues/9688), I traced lost fixed-column state after settings drag-and-drop to inconsistent array `dataIndex` keys: the store generated `test-name` while the rendered column generated `test,name`. The signed [ProTable fix](https://github.com/ant-design/pro-components/pull/9690) keeps both paths on the canonical normalized key. Its exact-base regression created an unexpected comma-keyed `{ order: 0 }` entry, while the fixed head passed the complete 24-test column-settings file, all 1,194 repository tests, TypeScript, focused lint, UMD/ES/CJS/declaration builds, and diff validation.
 
-In [ProComponents #9691](https://github.com/ant-design/pro-components/pull/9691), I found that the zh-TW locale's Delete and Copy line actions retained the Simplified Chinese glyph `项`, while the same locale consistently uses Traditional Chinese `項`. The signed two-string correction adds a regression through the public `zhTWIntl` export. The exact-base test failed on `刪除此项`; the fixed provider scope passed all 3 tests together with TypeScript, focused lint, formatting, and diff validation. The PR remains under review and is not counted as merged.
+In [ProComponents #9691](https://github.com/ant-design/pro-components/pull/9691), I found that the zh-TW locale's Delete and Copy line actions retained the Simplified Chinese glyph `项`, while the same locale consistently uses Traditional Chinese `項`. The signed two-string correction adds a regression through the public `zhTWIntl` export. The exact-base test failed on `刪除此项`; the fixed provider scope passed all 3 tests together with TypeScript, focused lint, formatting, and diff validation. Maintainer `leshalv` merged it as `23ad476`.
 
 For [rc-tooltip issue #510](https://github.com/react-component/tooltip/issues/510), I initially proposed an Escape listener, then withdrew [PR #540](https://github.com/react-component/tooltip/pull/540) after review showed that canonical Trigger and Portal already own topmost-overlay ordering, IME guards, controlled-state requests, disabled-state preservation, and UniqueProvider timing. Signed commit `a005347` restores the exact upstream implementation with no remaining diff, and the focused 27-test file passes. The closed PR is not counted as merged.
 
@@ -182,9 +181,7 @@ In [Result #59106](https://github.com/ant-design/ant-design/pull/59106), I repro
 
 In [Typography #59112](https://github.com/ant-design/ant-design/pull/59112), I found that the localized native edit button contained a default `EditOutlined` child explicitly marked with a second `role="button"`. Accessibility queries therefore exposed one visual edit action as two buttons. The signed fix removes the redundant interactive role while retaining the parent button and normal icon rendering. Its exact-base regression received two button roles; the fixed complete Typography scope passed 10 suites, 163 tests, and 47 snapshots together with focused ESLint, Biome lint, snapshot formatting, and diff validation. The PR remains under review and is not counted as merged.
 
-In [List #59113](https://github.com/ant-design/ant-design/pull/59113), I found that the row-key fallback treated numeric `0` as missing and replaced it with an index-based key. Reordering the data therefore remounted that item and could discard local state or focus. The signed nullish-assignment fix preserves zero while retaining the fallback for `null` and `undefined`, with a regression that tracks child mounts across a reorder. The exact base produced mount history `[0, 1, 0]`; the fixed complete List scope passed 15 suites, 110 tests, and 68 snapshots together with focused ESLint, Biome, and diff validation. I audited open issues and PRs before submission; #58604 touches the same file only for an unrelated pagination callback. The PR remains under review and is not counted as merged.
-
-For [Tag issue #59086](https://github.com/ant-design/ant-design/issues/59086), I confirmed that CheckableTag spread its local `style` before the ConfigProvider default, reversing the normal precedence and also affecting option-level CheckableTagGroup styles. The signed [fix](https://github.com/ant-design/ant-design/pull/59114) changes only that merge order and adds standalone plus group regressions while verifying that uninvolved global properties remain inherited. Both exact-base regressions failed with the global color winning; the fixed complete Tag scope passed 6 Jest suites with 96 tests, 3 skips, and 35 snapshots, plus the applicable 6-test Vitest scope, ESLint, Biome, and diff validation. The PR remains under review and is not counted as merged.
+In [List #59113](https://github.com/ant-design/ant-design/pull/59113), I found that the row-key fallback treated numeric `0` as missing and replaced it with an index-based key. Reordering the data therefore remounted that item and could discard local state or focus. The signed nullish-assignment fix preserves zero while retaining the fallback for `null` and `undefined`, with a regression that tracks child mounts across a reorder. The exact base produced mount history `[0, 1, 0]`; the fixed complete List scope passed 15 suites, 110 tests, and 68 snapshots together with focused ESLint, Biome, and diff validation. I audited open issues and PRs before submission; #58604 touches the same file only for an unrelated pagination callback. Maintainer `QDyanbing` merged it as `c09c0e6` after `yoyo837` approved the exact head.
 
 For [Input.Search issue #57175](https://github.com/ant-design/ant-design/issues/57175), a maintainer confirmed the need for a dedicated way to configure the generated search button's accessible name and welcomed an `enterButtonProps` contribution. The signed [implementation](https://github.com/ant-design/ant-design/pull/59116) forwards Button props only to the generated button, composes its class and pointer/click callbacks with Search behavior, preserves disabled/loading state, and documents the custom-element boundary in English and Chinese. On the exact base, the new prop leaked to the input, triggered React's unknown-prop warning, and left the button named only `search`; the fixed Search scope passed all 42 tests and 12 snapshots under both Jest and Vitest, while the complete Input scope passed 22 suites, 377 tests, 4 skips, and 195 snapshots. The PR remains under review and is not counted as merged.
 
