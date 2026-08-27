@@ -122,6 +122,7 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [Ventoy: complete and correct Traditional Chinese boot-menu help](https://github.com/ventoy/Ventoy/pull/3729)
 - [AppFlowy: refine 54 Traditional Chinese UI strings](https://github.com/AppFlowy-IO/AppFlowy/pull/8939)
 - [Payload CMS: correct Traditional Chinese UI terminology](https://github.com/payloadcms/payload/pull/17744)
+- [Memos: complete Traditional Chinese Space translations](https://github.com/usememos/memos/pull/6241)
 - [PLANKA: add Traditional Chinese 2FA and security strings](https://github.com/plankanban/planka/pull/1757)
 - [NextChat: translate recent chat, TTS, realtime, artifact, and MCP UI](https://github.com/ChatGPTNextWeb/NextChat/pull/6872)
 - [Jan: complete Traditional Chinese chat and assistant UI](https://github.com/janhq/jan/pull/8631)
