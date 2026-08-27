@@ -8,7 +8,7 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 The public record below includes 51 merged PRs across 30 non-owned repositories since August 11, 2026, including 20 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 42 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
-For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime and accessibility fixes, regression tests, reproducible issue triage, and 89 distinct current/final exact-head reviews across Ant Design and its canonical react-component dependencies.
+For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime and accessibility fixes, regression tests, reproducible issue triage, and 99 distinct current/final exact-head reviews across Ant Design and its canonical react-component dependencies.
 
 ### Merged
 
