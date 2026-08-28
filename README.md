@@ -6,7 +6,7 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Recent upstream contributions
 
-The public record below includes 51 merged PRs across 30 non-owned repositories since August 11, 2026, including 20 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 42 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
+The public record below includes 58 merged PRs across 35 non-owned repositories, including 20 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 42 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
 For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime and accessibility fixes, regression tests, reproducible issue triage, and 105 distinct current/final exact-head reviews across Ant Design and its canonical react-component dependencies.
 
@@ -36,15 +36,22 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [Ant Design: hide the decorative Skeleton.Image placeholder from assistive technology](https://github.com/ant-design/ant-design/pull/59107)
 - [Ant Design: preserve List items whose row key is numeric zero](https://github.com/ant-design/ant-design/pull/59113)
 - [Ant Design: synchronize Notification snapshots for non-submitting close controls](https://github.com/ant-design/ant-design/pull/59126)
+- [Ant Design Icons: guard invalid icon definitions](https://github.com/ant-design/ant-design-icons/pull/762)
 - [Ant Design ProComponents: correct zh-TW line-action glyphs](https://github.com/ant-design/pro-components/pull/9691)
+- [React Component Async Validator: support single-label URL hosts](https://github.com/react-component/async-validator/pull/30)
+- [React Component Badgeboard: remove the duplicate resize-observer project](https://github.com/react-component/badgeboard/pull/10)
+- [React Component Drawer: type resize callback sizes](https://github.com/react-component/drawer/pull/628)
 - [React Component Slider: support aria-describedby on single and range handles](https://github.com/react-component/slider/pull/1088)
 - [React Component Tree: preserve nested first-child drag-and-drop targets](https://github.com/react-component/tree/pull/1070)
 - [React Component Tree: preserve consumer `text/plain` drag payloads](https://github.com/react-component/tree/pull/1071)
+- [React Component Tree: cancel drag expansion on unmount](https://github.com/react-component/tree/pull/1072)
 - [React Component Tooltip: show default tooltips on focus](https://github.com/react-component/tooltip/pull/541)
 - [React Component Tooltip: preserve existing `aria-describedby` relationships](https://github.com/react-component/tooltip/pull/542)
 - [React Component Progress: expose accessible SVG semantics](https://github.com/react-component/progress/pull/325)
+- [React Component Progress: honor a zero rail width](https://github.com/react-component/progress/pull/326)
 - [React Component Notification: prevent close controls from submitting forms](https://github.com/react-component/notification/pull/408)
 - [React Component Steps: preserve item callbacks on keyboard activation](https://github.com/react-component/steps/pull/395)
+- [React Component Virtual List: remove legacy disabled-prop documentation](https://github.com/react-component/virtual-list/pull/383)
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
 - [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
 - [Clash Verge Rev: localize backend notifications for Traditional Chinese](https://github.com/clash-verge-rev/clash-verge-rev/pull/7726)
@@ -66,6 +73,9 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 
 ### Under review
 
+- [React Component Util: guard a missing React version export](https://github.com/react-component/util/pull/810)
+- [React Component Virtual List: default a missing horizontal offset](https://github.com/react-component/virtual-list/pull/384)
+- [React Component Async Validator: preserve transformed-value type inference](https://github.com/react-component/async-validator/pull/31)
 - [Ant Design Mobile: expose the Tabs header border as a typed CSS variable](https://github.com/ant-design/ant-design-mobile/pull/7079)
 - [Ant Design Mobile: localize isolated documentation demos](https://github.com/ant-design/ant-design-mobile/pull/7078)
 - [React Component Portal: preserve non-element children when forwarding refs](https://github.com/react-component/portal/pull/43)
