@@ -6,7 +6,7 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Recent upstream contributions
 
-The public record below includes 58 merged PRs across 35 non-owned repositories, including 20 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 42 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
+The public record below includes 59 merged PRs across 35 non-owned repositories, including 20 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 42 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
 For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime and accessibility fixes, regression tests, reproducible issue triage, and 105 distinct current/final exact-head reviews across Ant Design and its canonical react-component dependencies.
 
@@ -52,6 +52,7 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [React Component Notification: prevent close controls from submitting forms](https://github.com/react-component/notification/pull/408)
 - [React Component Steps: preserve item callbacks on keyboard activation](https://github.com/react-component/steps/pull/395)
 - [React Component Virtual List: remove legacy disabled-prop documentation](https://github.com/react-component/virtual-list/pull/383)
+- [React Component Virtual List: default a missing horizontal offset](https://github.com/react-component/virtual-list/pull/384)
 - [LocalSend: improve Traditional Chinese wording](https://github.com/localsend/localsend/pull/3272)
 - [MUI Material UI: complete Traditional Chinese accessibility localizations](https://github.com/mui/material-ui/pull/48946)
 - [Clash Verge Rev: localize backend notifications for Traditional Chinese](https://github.com/clash-verge-rev/clash-verge-rev/pull/7726)
@@ -74,7 +75,6 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 ### Under review
 
 - [React Component Util: guard a missing React version export](https://github.com/react-component/util/pull/810)
-- [React Component Virtual List: default a missing horizontal offset](https://github.com/react-component/virtual-list/pull/384)
 - [React Component Async Validator: preserve transformed-value type inference](https://github.com/react-component/async-validator/pull/31)
 - [Ant Design Mobile: expose the Tabs header border as a typed CSS variable](https://github.com/ant-design/ant-design-mobile/pull/7079)
 - [Ant Design Mobile: localize isolated documentation demos](https://github.com/ant-design/ant-design-mobile/pull/7078)
@@ -531,7 +531,7 @@ In [rc-menu #692](https://github.com/react-component/menu/pull/692#pullrequestre
 
 In [rc-collapse #180](https://github.com/react-component/collapse/pull/180#issuecomment-5447190984), I revalidated a 2020 proposal to reserve `"unset"` as an `activeKey` sentinel against current master `dcd0f78`. The current controlled-state hook already treats `activeKey={undefined}` as uncontrolled: a temporary regression rendered `defaultActiveKey="default"` and allowed subsequent internal updates. A second regression verified that `"unset"` is presently a legal literal panel key. Both passed with the full 97-test, one-snapshot file; porting the proposed sentinel semantics kept the undefined case passing but made the literal-key case fail with zero active panels. I recommended closing the branch instead of consuming a valid `React.Key` value or rebasing an implementation more than 100 commits behind without coverage. The temporary probes were removed and the worktree restored clean. This is public maintenance triage, not an authored or merged PR.
 
-For my [rc-virtual-list #384](https://github.com/react-component/virtual-list/pull/384), I applied maintainer feedback at signed exact head `8f3cb457e82780beda33d3c57cd9a69f4d429049`, simplifying the undefined horizontal-offset fallback to `-offsetX || 0` while retaining the causal regression. The complete repository passes 9 suites and 282 tests together with TypeScript, ESM/CJS/declaration builds, Prettier, focused ESLint, CodeQL, React Doctor, preview, Socket, Codecov, and CodeRabbit. The lone red Vercel status is external-fork deployment authorization rather than a source failure. The PR is open, mergeable, and not counted as merged.
+For my merged [rc-virtual-list #384](https://github.com/react-component/virtual-list/pull/384), I applied maintainer feedback at signed exact head `8f3cb457e82780beda33d3c57cd9a69f4d429049`, simplifying the undefined horizontal-offset fallback to `-offsetX || 0` while retaining the causal regression. The complete repository passes 9 suites and 282 tests together with TypeScript, ESM/CJS/declaration builds, Prettier, focused ESLint, CodeQL, React Doctor, preview, Socket, Codecov, and CodeRabbit. The lone red Vercel status was external-fork deployment authorization rather than a source failure. Maintainer yoyo837 merged the exact head on 2026-08-28 at 10:59:10 UTC, raising the strict authored-upstream count to 59.
 
 For my [rc-util #810](https://github.com/react-component/util/pull/810), I linked the independently reported Vite 7.3 / React 18 production crash in issue #783 to the same unguarded React `version.split(...)` module-load path already reproduced by #647. The signed head `a42c5a7423a8ebd5e3b241e40edd643259614203` adds the optional-version guard and a regression for a missing named export; the full repository passes 30 suites with 183 tests and one skip, TypeScript, ESM/CJS/declaration builds, lint, Prettier, and diff validation. The PR now closes both reports, remains open and mergeable, and is not counted as merged; the remaining remote blockers are maintainer-triggered Actions approval and fork Vercel authorization.
 
