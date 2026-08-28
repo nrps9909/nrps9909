@@ -76,6 +76,7 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 
 ### Under review
 
+- [NWSAPI: guard `:has()` sibling matching at root elements](https://github.com/dperini/nwsapi/pull/169)
 - [Ant Design Icons: isolate custom icon-provider prefix styles](https://github.com/ant-design/ant-design-icons/pull/763)
 - [Ant Design Icons: continue loading after cached iconfont scripts](https://github.com/ant-design/ant-design-icons/pull/765)
 - [React Component Util: forward writes through proxied element refs](https://github.com/react-component/util/pull/812)
@@ -160,6 +161,8 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [tldr-pages: add the Traditional Chinese kubectl krew page](https://github.com/tldr-pages/tldr/pull/23697)
 - [tldr-pages: correct the govulncheck extract-mode description](https://github.com/tldr-pages/tldr/pull/23698)
 - [MDN Web Docs: remove obsolete page lifecycle guidance](https://github.com/mdn/content/pull/45081)
+
+For [NWSAPI regression #168](https://github.com/dperini/nwsapi/issues/168), I traced two independent Ant Design CI failures to the newly published 2.2.25 selector engine rather than either PR's component changes. A minimal A/B showed that root evaluation of `:has(+ ...)` and `:has(~ ...)` throws after the release removed a parent guard: 2.2.25 failed 6/55 affected Tooltip tests on Ant Design #59151, while 2.2.24 and the focused local repair passed 55/55 with 5 snapshots. The signed [NWSAPI fix #169](https://github.com/dperini/nwsapi/pull/169) restores the guard and adds a browser regression covering both root sibling forms and a positive compound selector. GitHub verifies commit `dcff913`; the PR is open and is not counted as merged.
 
 I keep changes scoped, check for duplicate work before contributing, preserve runtime placeholders, and run each project's documented validation. AI assistance is disclosed when a project requires it, and localization is checked against the English source and established Taiwan terminology.
 
