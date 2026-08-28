@@ -8,7 +8,7 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 The public record below includes 60 merged PRs across 36 non-owned repositories, including 20 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 42 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
-For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime and accessibility fixes, regression tests, reproducible issue triage, and 110 distinct current/final exact-head reviews across Ant Design and its canonical react-component dependencies.
+For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime and accessibility fixes, regression tests, reproducible issue triage, and 113 distinct current/final exact-head reviews across Ant Design and its canonical react-component dependencies.
 
 ### Merged
 
@@ -160,6 +160,12 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [MDN Web Docs: remove obsolete page lifecycle guidance](https://github.com/mdn/content/pull/45081)
 
 I keep changes scoped, check for duplicate work before contributing, preserve runtime placeholders, and run each project's documented validation. AI assistance is disclosed when a project requires it, and localization is checked against the English source and established Taiwan terminology.
+
+In [rc-util #455](https://github.com/react-component/util/pull/455#pullrequestreview-5050994778), I tested exact head `903dfe1c23c09fc41aa2fe5de0a3812fa35a8236` against the transient missing-container state described by the linked issue. Both `injectCSS` and `updateCSS` still threw while `document.head` and `document.body` were absent, and the new prepend guard left the returned style node detached in an empty valid container. I submitted a focused review with the required null-container and unconditional `insertBefore` boundaries after validating the corrected shape against 184 passing tests, TypeScript, and lint.
+
+In [rc-util #547](https://github.com/react-component/util/pull/547#pullrequestreview-5051062682), I found that the proposed Proxy `set` trap returned `undefined` for every property other than `value`, so a normal strict-mode write such as `proxyDiv.id = "updated"` threw a falsish-trap `TypeError`. A real Chrome 151 probe also reproduced the original illegal native receiver and verified that `Reflect.set(target, prop, value, target)` preserves generic property semantics while binding setters to the real element. I submitted the exact-head finding with the focused and full-suite evidence.
+
+In [Ant Design Input.OTP #58762](https://github.com/ant-design/ant-design/pull/58762#pullrequestreview-5051595673), I approved exact head `c0fdf7b84d026e7509c14177f8c8ffae7ccbe98c` after all 33 focused tests, the snapshot, ESLint, Biome, and diff checks passed. A causal mutation that removed the composition/native-`isComposing` and trailing-input deduplication path made four IME regressions fail, then restoring the head returned the suite to green. GitHub currently reports a merge conflict with `master`, so the public approval is explicitly exact-head evidence and the PR remains open rather than being counted as merged.
 
 In [Prettier #19848](https://github.com/prettier/prettier/pull/19848#pullrequestreview-5044663722), I reviewed exact head `0bb843b6393495cda9803a3def038caf55e8afe1` for a Markdown table-delimiter idempotency fix. The submitted focused suites passed, but an independent generated matrix exposed a missing spaced-delimiter path: with `proseWrap: "always"` and `printWidth: 1`, an indented `| --- | --- |` line changed from a single paragraph into a paragraph plus table after one format and produced a different second output. I reduced the failure to a standalone input, verified both outputs and AST node types, and submitted `CHANGES_REQUESTED` with the sibling-token reconstruction gap. This review is public maintenance evidence and is not counted as an authored or merged PR.
 
