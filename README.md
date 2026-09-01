@@ -6,7 +6,7 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Recent upstream contributions
 
-The public record below includes 63 merged PRs across 37 non-owned repositories, including 21 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 42 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
+The public record below includes 65 merged PRs across 37 non-owned repositories, including 23 merged Ant Design PRs in a focused i18n/accessibility lane. In total it covers 42 different public upstream repositories and excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
 For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime and accessibility fixes, regression tests, reproducible issue triage, and 116 distinct current/final exact-head reviews across Ant Design and its canonical react-component dependencies.
 
@@ -37,6 +37,9 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [Ant Design: hide the decorative Skeleton.Image placeholder from assistive technology](https://github.com/ant-design/ant-design/pull/59107)
 - [Ant Design: preserve List items whose row key is numeric zero](https://github.com/ant-design/ant-design/pull/59113)
 - [Ant Design: synchronize Notification snapshots for non-submitting close controls](https://github.com/ant-design/ant-design/pull/59126)
+- [Ant Design: correct Traditional Chinese picker terminology](https://github.com/ant-design/ant-design/pull/59129)
+- [Ant Design: ignore repeated Tag key activation](https://github.com/ant-design/ant-design/pull/59134)
+- [Ant Design: ignore repeated Input.Password key activation](https://github.com/ant-design/ant-design/pull/59135)
 - [Ant Design Icons: guard invalid icon definitions](https://github.com/ant-design/ant-design-icons/pull/762)
 - [Ant Design ProComponents: correct zh-TW line-action glyphs](https://github.com/ant-design/pro-components/pull/9691)
 - [React Component Async Validator: support single-label URL hosts](https://github.com/react-component/async-validator/pull/30)
@@ -90,12 +93,9 @@ For clarity, I am an external Ant Design contributor—not an organization membe
 - [Ant Design: localize and keyboard-enable Table filter triggers](https://github.com/ant-design/ant-design/pull/59138)
 - [React Component Steps: restore custom item icon rendering](https://github.com/react-component/steps/pull/396)
 - [Ant Design: avoid duplicate Empty descriptions in assistive technology](https://github.com/ant-design/ant-design/pull/59128)
-- [Ant Design: correct Traditional Chinese picker terminology](https://github.com/ant-design/ant-design/pull/59129)
 - [Ant Design: make the default ColorPicker trigger keyboard accessible](https://github.com/ant-design/ant-design/pull/59130)
 - [Ant Design: localize interactive Collapse icon labels](https://github.com/ant-design/ant-design/pull/59132)
 - [Ant Design: render numeric zero content nodes](https://github.com/ant-design/ant-design/pull/59133)
-- [Ant Design: ignore repeated Tag key activation](https://github.com/ant-design/ant-design/pull/59134)
-- [Ant Design: ignore repeated Input.Password key activation](https://github.com/ant-design/ant-design/pull/59135)
 - [Ant Design: render numeric zero in Descriptions headers](https://github.com/ant-design/ant-design/pull/59125)
 - [Ant Design: render numeric zero in List headers, footers, and item metadata](https://github.com/ant-design/ant-design/pull/59118)
 - [Ant Design: configure generated Input.Search buttons](https://github.com/ant-design/ant-design/pull/59116)
