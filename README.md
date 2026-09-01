@@ -1,8 +1,14 @@
 # Ting-An Chen
 
-Open-source contributor from Taiwan, focused on the Ant Design ecosystem, accessible React components, reproducible bug fixes, and Traditional Chinese localization.
+Open-source contributor from Taiwan, focused on the Ant Design ecosystem, accessible React components, reproducible bug fixes, and Traditional Chinese localization. I also build practical AI workflows through [AgentJE](https://github.com/nrps9909/agentje).
 
-來自台灣的開源貢獻者，主要投入 Ant Design 生態、React 元件可及性、可重現的問題修正，以及符合台灣用語的繁體中文在地化。
+來自台灣的開源貢獻者，主要投入 Ant Design 生態、React 元件可及性、可重現的問題修正，以及符合台灣用語的繁體中文在地化；同時透過 [AgentJE](https://github.com/nrps9909/agentje) 實作 AI 工具整合與工作流程自動化。
+
+## Experience
+
+- **AgentJE:** AI tool integration, workflow automation, system delivery, and practical adoption for Taiwan SMEs.
+- **CommScope Communications Systems Taiwan:** Intern, June 2025 - June 2026, reporting to QA Engineering.
+- **National Taiwan Normal University:** Department of Technology Application and Human Resource Development (Technology).
 
 ## Open-source work at a glance
 
