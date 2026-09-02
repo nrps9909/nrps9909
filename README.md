@@ -18,7 +18,7 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 | Non-owned upstream repositories with merged work                 |        **37** |
 | Merged PRs in the Ant Design main repository                     |        **23** |
 | Merged PRs across the Ant Design ecosystem                       |        **42** |
-| Current or final exact-head Ant Design / react-component reviews |       **118** |
+| Current or final exact-head public upstream reviews              |       **122** |
 
 These figures exclude repositories I own and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md).
 
@@ -46,6 +46,7 @@ I contribute beyond authored patches by reproducing issues, checking duplicate w
 
 Recent examples:
 
+- [Ant Design Pro dependency security #11933](https://github.com/ant-design/ant-design-pro/pull/11933#pullrequestreview-5089586626): compared current base/head audit graphs, verified the critical and targeted alerts were removed, then ran the clean install, 54 tests, lint, type-check, and production build before exact-head approval.
 - [Ant Design Transfer #59166](https://github.com/ant-design/ant-design/pull/59166#pullrequestreview-5080742057): reproduced the stale-selection failure on the base commit, validated 53 tests and 289 adversarial key signatures, then approved the exact head.
 - [Ant Design Input.Password #59168](https://github.com/ant-design/ant-design/pull/59168#pullrequestreview-5080777704): proved the controlled-state regression on the base commit and verified controlled, keyboard, callback, and uncontrolled-transition boundaries before approval.
 - [Ant Design Splitter #58978](https://github.com/ant-design/ant-design/pull/58978#pullrequestreview-4943039368): validated localization, fallbacks, custom-icon precedence, RTL, and vertical behavior across all bundled locales.
