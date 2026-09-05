@@ -18,7 +18,7 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 | Non-owned upstream repositories with merged work                 |        **37** |
 | Merged PRs in the Ant Design main repository                     |        **23** |
 | Merged PRs across the Ant Design ecosystem                       |        **42** |
-| Public upstream PRs reviewed as an external contributor          |       **156** |
+| Public upstream PRs reviewed as an external contributor          |       **157** |
 
 These figures exclude repositories I own and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-05.json).
 
@@ -42,6 +42,8 @@ These figures exclude repositories I own and count a PR only after GitHub report
 
 ## Latest contribution
 
+- [Ant Design Tools #298](https://github.com/ant-design/antd-tools/pull/298): preserve binary image imports, choose the correct module format, and prevent stale image caching. Seven base-failing regressions pass after the fix; Ant Design Image consumer validation passes 118 tests and 56 snapshots. The signed PR is open and upstream CI requires maintainer approval.
+- [Tabs #59221](https://github.com/ant-design/ant-design/pull/59221#pullrequestreview-5120796382): approved the exact popup-style fix after a base reproduction and independent probes. The review discloses one identical base/head snapshot mismatch in the otherwise passing related-suite run, plus existing nested-style merge behavior.
 - [Ant Design Tools #297](https://github.com/ant-design/antd-tools/pull/297): fix stale Jest transform caching. A two-process regression proves that an edited module is recompiled; the patch passes build, lint, type checks, all 7 tools tests, and two cached runs of Ant Design's 78-test Checkbox suite. The PR is open; upstream CI requires maintainer approval.
 - [Checkbox.Group #59217](https://github.com/ant-design/ant-design/pull/59217#pullrequestreview-5119978772) and [Anchor #59211](https://github.com/ant-design/ant-design/pull/59211#pullrequestreview-5119978864): submitted commit-specific approvals after base-versus-head reproductions, independent boundary probes, complete component suites (78 and 96 tests), and 42 successful remote checks per PR.
 

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-05T05:50:27.517696+00:00",
+  "checked_at": "2026-09-05T10:06:40.706288+00:00",
   "github_user": "nrps9909",
   "methodology": {
     "merged": "Public authored merged PRs; exclude nrps9909/* and Mes0903/NTNU-GameDesign. Open and approved PRs do not count.",
@@ -10,7 +10,7 @@
     "merged_upstream_repositories": 37,
     "ant_design_main_merged_prs": 23,
     "ant_design_ecosystem_merged_prs": 42,
-    "reviewed_upstream_prs": 156
+    "reviewed_upstream_prs": 157
   },
   "merged": [
     {
@@ -326,6 +326,12 @@
       "title": "fix(i18n): polish Traditional Chinese DNS settings"
     },
     {
+      "repository": "drawdb-io/drawdb",
+      "number": 1099,
+      "url": "https://github.com/drawdb-io/drawdb/pull/1099",
+      "title": "fix(i18n): complete Traditional Chinese UI strings"
+    },
+    {
       "repository": "Mintplex-Labs/anything-llm",
       "number": 6112,
       "url": "https://github.com/Mintplex-Labs/anything-llm/pull/6112",
@@ -336,12 +342,6 @@
       "number": 6202,
       "url": "https://github.com/MHSanaei/3x-ui/pull/6202",
       "title": "fix(i18n): localize Chinese Xray labels"
-    },
-    {
-      "repository": "drawdb-io/drawdb",
-      "number": 1099,
-      "url": "https://github.com/drawdb-io/drawdb/pull/1099",
-      "title": "fix(i18n): complete Traditional Chinese UI strings"
     },
     {
       "repository": "oldj/SwitchHosts",
@@ -405,6 +405,11 @@
     }
   ],
   "reviewed": [
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59221,
+      "url": "https://github.com/ant-design/ant-design/pull/59221"
+    },
     {
       "repository": "ant-design/ant-design",
       "number": 59217,
