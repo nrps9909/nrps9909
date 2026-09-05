@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-05T17:45:27.256531+00:00",
+  "checked_at": "2026-09-05T19:14:42.841153+00:00",
   "github_user": "nrps9909",
   "methodology": {
     "merged": "Public authored merged PRs; exclude nrps9909/* and Mes0903/NTNU-GameDesign. Open and approved PRs do not count.",
@@ -10,7 +10,7 @@
     "merged_upstream_repositories": 37,
     "ant_design_main_merged_prs": 23,
     "ant_design_ecosystem_merged_prs": 42,
-    "reviewed_upstream_prs": 156
+    "reviewed_upstream_prs": 159
   },
   "merged": [
     {
@@ -406,6 +406,11 @@
   ],
   "reviewed": [
     {
+      "repository": "tj/commander.js",
+      "number": 2604,
+      "url": "https://github.com/tj/commander.js/pull/2604"
+    },
+    {
       "repository": "ant-design/ant-design",
       "number": 59221,
       "url": "https://github.com/ant-design/ant-design/pull/59221"
@@ -419,6 +424,16 @@
       "repository": "ant-design/ant-design",
       "number": 59211,
       "url": "https://github.com/ant-design/ant-design/pull/59211"
+    },
+    {
+      "repository": "validatorjs/validator.js",
+      "number": 2875,
+      "url": "https://github.com/validatorjs/validator.js/pull/2875"
+    },
+    {
+      "repository": "iamkun/dayjs",
+      "number": 3201,
+      "url": "https://github.com/iamkun/dayjs/pull/3201"
     },
     {
       "repository": "ant-design/ant-design-pro",
@@ -1189,13 +1204,18 @@
   "comparison_with_previous_snapshot": {
     "previous_checked_at": "2026-09-05",
     "previous_reviewed_upstream_prs": 157,
-    "current_reviewed_upstream_prs": 156,
+    "current_reviewed_upstream_prs": 159,
     "no_longer_resolves_in_github_graphql": [
       "https://github.com/react-component/tabs/pull/1015"
     ],
-    "note": "The old dated snapshot is retained. The current count excludes the no-longer-retrievable PR without inferring why it is unavailable. Merged authorship totals are unchanged."
+    "note": "The September 5 snapshot is retained. The current tally excludes the no-longer-retrievable Tabs PR and includes three independently verified reviews published on September 6 (Taipei). Merged authorship is unchanged.",
+    "added_in_broader_oss_round": [
+      "https://github.com/tj/commander.js/pull/2604#pullrequestreview-5122666124",
+      "https://github.com/validatorjs/validator.js/pull/2875#pullrequestreview-5122666181",
+      "https://github.com/iamkun/dayjs/pull/3201#pullrequestreview-5122666225"
+    ]
   },
-  "maintenance_checked_at": "2026-09-05T18:26:42.453078+00:00",
+  "maintenance_checked_at": "2026-09-05T19:14:42.841153+00:00",
   "maintenance_updates": [
     {
       "repository": "ant-design/ant-design",
@@ -1251,6 +1271,61 @@
         "failure_reason": "Vercel deployment authorization required"
       },
       "discussion_reply": "https://github.com/ant-design/ant-design/pull/59222#issuecomment-5553873437"
+    },
+    {
+      "repository": "tj/commander.js",
+      "number": 2608,
+      "url": "https://github.com/tj/commander.js/pull/2608",
+      "head": "2e4b72b06af30d19622beeb139a552e5b0fbcf4d",
+      "signed_commit_verified": true,
+      "state": "OPEN",
+      "base": "97411c66e29260bff2a0de6c73185336ad6fd7fa",
+      "local_validation": {
+        "base_failures_with_NO_COLOR": 2,
+        "environment_configurations_passed": 6,
+        "full_tests_passed": 1420,
+        "minimum_node_version_checked": "22.12.0",
+        "minimum_node_focused_tests_passed": 24,
+        "type_lint_format": "passed"
+      },
+      "upstream_workflows": [
+        {
+          "name": "build",
+          "conclusion": "action_required",
+          "url": "https://github.com/tj/commander.js/actions/runs/33986456986"
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "action_required",
+          "url": "https://github.com/tj/commander.js/actions/runs/33986456987"
+        }
+      ]
+    }
+  ],
+  "broader_oss_reviews": [
+    {
+      "repository": "tj/commander.js",
+      "number": 2604,
+      "url": "https://github.com/tj/commander.js/pull/2604#pullrequestreview-5122666124",
+      "head": "3ac5c5d01fa91090218b8c4ed10663616cd03825",
+      "decision": "APPROVED",
+      "submitted_at": "2026-09-05T19:13:13Z"
+    },
+    {
+      "repository": "validatorjs/validator.js",
+      "number": 2875,
+      "url": "https://github.com/validatorjs/validator.js/pull/2875#pullrequestreview-5122666181",
+      "head": "66622ba31e8241eb36a12b6390112464416c9e28",
+      "decision": "APPROVED",
+      "submitted_at": "2026-09-05T19:13:14Z"
+    },
+    {
+      "repository": "iamkun/dayjs",
+      "number": 3201,
+      "url": "https://github.com/iamkun/dayjs/pull/3201#pullrequestreview-5122666225",
+      "head": "e6f20e244622e8999eaeea938480d39e9ffe853a",
+      "decision": "APPROVED",
+      "submitted_at": "2026-09-05T19:13:15Z"
     }
   ]
 }

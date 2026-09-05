@@ -18,7 +18,7 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 | Non-owned upstream repositories with merged work        |        **37** |
 | Merged PRs in the Ant Design main repository            |        **23** |
 | Merged PRs across the Ant Design ecosystem              |        **42** |
-| Public upstream PRs reviewed as an external contributor |       **156** |
+| Public upstream PRs reviewed as an external contributor |       **159** |
 
 These figures exclude repositories I own and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-06.json).
 
@@ -41,6 +41,9 @@ These figures exclude repositories I own and count a PR only after GitHub report
 - **Neovim:** [complete and repair the Traditional Chinese message catalog](https://github.com/neovim/neovim/pull/41273) while preserving catalog structure.
 
 ## Latest contribution
+
+- [Commander #2608](https://github.com/tj/commander.js/pull/2608): isolate color tests from inherited shell settings and restore the environment after failed assertions. Reproduced the failure on develop; six environment configurations, all 1,420 tests, static checks, and the focused suite on Node 22.12 pass. The signed/Verified PR is open; upstream workflows require maintainer approval.
+- Cross-project reviews: [Commander Electron parsing](https://github.com/tj/commander.js/pull/2604#pullrequestreview-5122666124), [Day.js ISO weeks](https://github.com/iamkun/dayjs/pull/3201#pullrequestreview-5122666225), and [validator.js JWT structure](https://github.com/validatorjs/validator.js/pull/2875#pullrequestreview-5122666181), each published against the tested commit. The Day.js review independently compares 534,744 local/UTC cases across four timezones, with zero mismatches after reproducing 357 baseline failures.
 
 - [Picker #1013](https://github.com/react-component/picker/pull/1013): fix localized month input being parsed with the wrong global language. Six regressions fail on base; the fix passes the full 481-test suite and 29 snapshots, preserving strict validation and fallback for unloaded locales. The signed PR is open; upstream CI and preview authorization require maintainer action.
 - [Ant Design #59223](https://github.com/ant-design/ant-design/pull/59223): preserve ConfigProvider properties when local nested styles override one property. Resolved all four review threads and the coverage failure. All 43 current upstream checks pass, including the three visual shards; Codecov reports all modified lines covered and 100% project coverage. The PR remains open.
