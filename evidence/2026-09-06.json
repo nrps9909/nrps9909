@@ -1,0 +1,1256 @@
+{
+  "checked_at": "2026-09-05T17:45:27.256531+00:00",
+  "github_user": "nrps9909",
+  "methodology": {
+    "merged": "Public authored merged PRs; exclude nrps9909/* and Mes0903/NTNU-GameDesign. Open and approved PRs do not count.",
+    "reviewed": "GitHub reviewed-by:nrps9909, public repositories only; one PR per repository/number; exclude own authored PRs, nrps9909/* and Mes0903/NTNU-GameDesign. This counts published review activity, not current-head approval or merged authorship."
+  },
+  "counts": {
+    "merged_upstream_prs": 65,
+    "merged_upstream_repositories": 37,
+    "ant_design_main_merged_prs": 23,
+    "ant_design_ecosystem_merged_prs": 42,
+    "reviewed_upstream_prs": 156
+  },
+  "merged": [
+    {
+      "repository": "react-component/virtual-list",
+      "number": 384,
+      "url": "https://github.com/react-component/virtual-list/pull/384",
+      "merged_at": "2026-08-28T10:59:10Z"
+    },
+    {
+      "repository": "react-component/badgeboard",
+      "number": 10,
+      "url": "https://github.com/react-component/badgeboard/pull/10",
+      "merged_at": "2026-08-28T08:48:37Z"
+    },
+    {
+      "repository": "react-component/drawer",
+      "number": 628,
+      "url": "https://github.com/react-component/drawer/pull/628",
+      "merged_at": "2026-08-28T10:02:26Z"
+    },
+    {
+      "repository": "react-component/tree",
+      "number": 1072,
+      "url": "https://github.com/react-component/tree/pull/1072",
+      "merged_at": "2026-08-28T08:34:32Z"
+    },
+    {
+      "repository": "react-component/progress",
+      "number": 326,
+      "url": "https://github.com/react-component/progress/pull/326",
+      "merged_at": "2026-08-28T07:58:57Z"
+    },
+    {
+      "repository": "ant-design/ant-design-icons",
+      "number": 762,
+      "url": "https://github.com/ant-design/ant-design-icons/pull/762",
+      "merged_at": "2026-08-28T07:14:22Z"
+    },
+    {
+      "repository": "react-component/async-validator",
+      "number": 30,
+      "url": "https://github.com/react-component/async-validator/pull/30",
+      "merged_at": "2026-08-28T07:40:30Z"
+    },
+    {
+      "repository": "react-component/virtual-list",
+      "number": 383,
+      "url": "https://github.com/react-component/virtual-list/pull/383",
+      "merged_at": "2026-08-28T06:41:04Z"
+    },
+    {
+      "repository": "tldr-pages/tldr",
+      "number": 23698,
+      "url": "https://github.com/tldr-pages/tldr/pull/23698",
+      "merged_at": "2026-08-29T15:53:50Z"
+    },
+    {
+      "repository": "usememos/memos",
+      "number": 6241,
+      "url": "https://github.com/usememos/memos/pull/6241",
+      "merged_at": "2026-08-28T13:47:32Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59135,
+      "url": "https://github.com/ant-design/ant-design/pull/59135",
+      "merged_at": "2026-09-01T03:39:32Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59134,
+      "url": "https://github.com/ant-design/ant-design/pull/59134",
+      "merged_at": "2026-09-01T05:40:04Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59129,
+      "url": "https://github.com/ant-design/ant-design/pull/59129",
+      "merged_at": "2026-08-30T05:19:39Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59126,
+      "url": "https://github.com/ant-design/ant-design/pull/59126",
+      "merged_at": "2026-08-27T11:44:37Z"
+    },
+    {
+      "repository": "react-component/select",
+      "number": 1250,
+      "url": "https://github.com/react-component/select/pull/1250",
+      "merged_at": "2026-08-28T12:17:32Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59113,
+      "url": "https://github.com/ant-design/ant-design/pull/59113",
+      "merged_at": "2026-08-27T06:14:04Z"
+    },
+    {
+      "repository": "react-component/steps",
+      "number": 395,
+      "url": "https://github.com/react-component/steps/pull/395",
+      "merged_at": "2026-08-27T05:30:11Z"
+    },
+    {
+      "repository": "react-component/tooltip",
+      "number": 542,
+      "url": "https://github.com/react-component/tooltip/pull/542",
+      "merged_at": "2026-08-27T05:09:53Z"
+    },
+    {
+      "repository": "react-component/notification",
+      "number": 408,
+      "url": "https://github.com/react-component/notification/pull/408",
+      "merged_at": "2026-08-27T04:25:28Z"
+    },
+    {
+      "repository": "ant-design/pro-components",
+      "number": 9691,
+      "url": "https://github.com/ant-design/pro-components/pull/9691",
+      "merged_at": "2026-08-27T06:09:33Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59107,
+      "url": "https://github.com/ant-design/ant-design/pull/59107",
+      "merged_at": "2026-08-27T00:19:18Z"
+    },
+    {
+      "repository": "react-component/tooltip",
+      "number": 541,
+      "url": "https://github.com/react-component/tooltip/pull/541",
+      "merged_at": "2026-08-27T02:46:22Z"
+    },
+    {
+      "repository": "react-component/progress",
+      "number": 325,
+      "url": "https://github.com/react-component/progress/pull/325",
+      "merged_at": "2026-08-27T03:00:48Z"
+    },
+    {
+      "repository": "react-component/tree",
+      "number": 1071,
+      "url": "https://github.com/react-component/tree/pull/1071",
+      "merged_at": "2026-08-27T02:02:26Z"
+    },
+    {
+      "repository": "react-component/slider",
+      "number": 1088,
+      "url": "https://github.com/react-component/slider/pull/1088",
+      "merged_at": "2026-08-27T01:50:27Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59105,
+      "url": "https://github.com/ant-design/ant-design/pull/59105",
+      "merged_at": "2026-08-27T01:46:04Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59103,
+      "url": "https://github.com/ant-design/ant-design/pull/59103",
+      "merged_at": "2026-08-27T00:38:08Z"
+    },
+    {
+      "repository": "react-component/tree",
+      "number": 1070,
+      "url": "https://github.com/react-component/tree/pull/1070",
+      "merged_at": "2026-08-27T01:51:34Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59032,
+      "url": "https://github.com/ant-design/ant-design/pull/59032",
+      "merged_at": "2026-08-18T03:27:14Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59024,
+      "url": "https://github.com/ant-design/ant-design/pull/59024",
+      "merged_at": "2026-08-17T07:58:34Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59020,
+      "url": "https://github.com/ant-design/ant-design/pull/59020",
+      "merged_at": "2026-08-17T07:27:27Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59007,
+      "url": "https://github.com/ant-design/ant-design/pull/59007",
+      "merged_at": "2026-08-16T01:09:46Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59006,
+      "url": "https://github.com/ant-design/ant-design/pull/59006",
+      "merged_at": "2026-08-16T01:10:52Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59002,
+      "url": "https://github.com/ant-design/ant-design/pull/59002",
+      "merged_at": "2026-08-18T06:02:50Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59001,
+      "url": "https://github.com/ant-design/ant-design/pull/59001",
+      "merged_at": "2026-08-16T01:21:05Z"
+    },
+    {
+      "repository": "react-component/pagination",
+      "number": 719,
+      "url": "https://github.com/react-component/pagination/pull/719",
+      "merged_at": "2026-08-15T08:24:50Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59000,
+      "url": "https://github.com/ant-design/ant-design/pull/59000",
+      "merged_at": "2026-08-17T02:12:59Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58999,
+      "url": "https://github.com/ant-design/ant-design/pull/58999",
+      "merged_at": "2026-08-17T02:11:30Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58965,
+      "url": "https://github.com/ant-design/ant-design/pull/58965",
+      "merged_at": "2026-08-15T06:44:15Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58957,
+      "url": "https://github.com/ant-design/ant-design/pull/58957",
+      "merged_at": "2026-08-12T03:10:42Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58955,
+      "url": "https://github.com/ant-design/ant-design/pull/58955",
+      "merged_at": "2026-08-12T03:10:22Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58953,
+      "url": "https://github.com/ant-design/ant-design/pull/58953",
+      "merged_at": "2026-08-12T03:12:50Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58951,
+      "url": "https://github.com/ant-design/ant-design/pull/58951",
+      "merged_at": "2026-08-11T16:35:34Z"
+    },
+    {
+      "repository": "apache/superset",
+      "number": 43063,
+      "url": "https://github.com/apache/superset/pull/43063",
+      "merged_at": "2026-08-25T17:28:13Z"
+    },
+    {
+      "repository": "mui/material-ui",
+      "number": 48946,
+      "url": "https://github.com/mui/material-ui/pull/48946",
+      "merged_at": "2026-08-11T17:09:51Z"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58947,
+      "url": "https://github.com/ant-design/ant-design/pull/58947",
+      "merged_at": "2026-08-11T12:00:28Z"
+    },
+    {
+      "repository": "1Panel-dev/1Panel",
+      "number": 13536,
+      "url": "https://github.com/1Panel-dev/1Panel/pull/13536",
+      "merged_at": "2026-08-12T07:32:40Z"
+    },
+    {
+      "repository": "neovim/neovim",
+      "number": 41273,
+      "url": "https://github.com/neovim/neovim/pull/41273",
+      "merged_at": "2026-08-18T20:27:14Z"
+    },
+    {
+      "repository": "siyuan-note/siyuan",
+      "number": 18650,
+      "url": "https://github.com/siyuan-note/siyuan/pull/18650",
+      "merged_at": "2026-08-11T10:03:58Z"
+    },
+    {
+      "repository": "umami-software/umami",
+      "number": 4437,
+      "url": "https://github.com/umami-software/umami/pull/4437",
+      "merged_at": "2026-08-12T03:55:08Z"
+    },
+    {
+      "repository": "HeyPuter/puter",
+      "number": 3541,
+      "url": "https://github.com/HeyPuter/puter/pull/3541",
+      "merged_at": "2026-08-12T04:18:37Z"
+    },
+    {
+      "repository": "2dust/v2rayN",
+      "number": 9947,
+      "url": "https://github.com/2dust/v2rayN/pull/9947",
+      "merged_at": "2026-08-14T02:20:17Z"
+    },
+    {
+      "repository": "drawdb-io/drawdb",
+      "number": 1099,
+      "url": "https://github.com/drawdb-io/drawdb/pull/1099",
+      "merged_at": "2026-08-12T19:01:54Z"
+    },
+    {
+      "repository": "Mintplex-Labs/anything-llm",
+      "number": 6112,
+      "url": "https://github.com/Mintplex-Labs/anything-llm/pull/6112",
+      "merged_at": "2026-08-11T17:50:25Z"
+    },
+    {
+      "repository": "MHSanaei/3x-ui",
+      "number": 6202,
+      "url": "https://github.com/MHSanaei/3x-ui/pull/6202",
+      "merged_at": "2026-08-12T14:56:12Z"
+    },
+    {
+      "repository": "oldj/SwitchHosts",
+      "number": 1036,
+      "url": "https://github.com/oldj/SwitchHosts/pull/1036",
+      "merged_at": "2026-08-22T06:26:13Z"
+    },
+    {
+      "repository": "GopeedLab/gopeed",
+      "number": 1431,
+      "url": "https://github.com/GopeedLab/gopeed/pull/1431",
+      "merged_at": "2026-08-13T11:38:31Z"
+    },
+    {
+      "repository": "python/python-docs-zh-tw",
+      "number": 1240,
+      "url": "https://github.com/python/python-docs-zh-tw/pull/1240",
+      "merged_at": "2026-08-14T02:35:36Z"
+    },
+    {
+      "repository": "clash-verge-rev/clash-verge-rev",
+      "number": 7726,
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev/pull/7726",
+      "merged_at": "2026-08-11T17:34:11Z"
+    },
+    {
+      "repository": "lissy93/dashy",
+      "number": 2292,
+      "url": "https://github.com/lissy93/dashy/pull/2292",
+      "merged_at": "2026-08-11T06:49:53Z"
+    },
+    {
+      "repository": "usememos/memos",
+      "number": 6177,
+      "url": "https://github.com/usememos/memos/pull/6177",
+      "merged_at": "2026-08-11T10:33:15Z"
+    },
+    {
+      "repository": "Acly/krita-ai-diffusion",
+      "number": 2586,
+      "url": "https://github.com/Acly/krita-ai-diffusion/pull/2586",
+      "merged_at": "2026-08-19T08:21:29Z"
+    },
+    {
+      "repository": "Foundry376/Mailspring",
+      "number": 2790,
+      "url": "https://github.com/Foundry376/Mailspring/pull/2790",
+      "merged_at": "2026-08-23T18:41:49Z"
+    },
+    {
+      "repository": "rustdesk/rustdesk",
+      "number": 15829,
+      "url": "https://github.com/rustdesk/rustdesk/pull/15829",
+      "merged_at": "2026-08-11T06:00:06Z"
+    },
+    {
+      "repository": "localsend/localsend",
+      "number": 3272,
+      "url": "https://github.com/localsend/localsend/pull/3272",
+      "merged_at": "2026-08-11T13:54:29Z"
+    }
+  ],
+  "reviewed": [
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59221,
+      "url": "https://github.com/ant-design/ant-design/pull/59221"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59217,
+      "url": "https://github.com/ant-design/ant-design/pull/59217"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59211,
+      "url": "https://github.com/ant-design/ant-design/pull/59211"
+    },
+    {
+      "repository": "ant-design/ant-design-pro",
+      "number": 11941,
+      "url": "https://github.com/ant-design/ant-design-pro/pull/11941"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59189,
+      "url": "https://github.com/ant-design/ant-design/pull/59189"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59168,
+      "url": "https://github.com/ant-design/ant-design/pull/59168"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59166,
+      "url": "https://github.com/ant-design/ant-design/pull/59166"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59164,
+      "url": "https://github.com/ant-design/ant-design/pull/59164"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59157,
+      "url": "https://github.com/ant-design/ant-design/pull/59157"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59150,
+      "url": "https://github.com/ant-design/ant-design/pull/59150"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59147,
+      "url": "https://github.com/ant-design/ant-design/pull/59147"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59142,
+      "url": "https://github.com/ant-design/ant-design/pull/59142"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59141,
+      "url": "https://github.com/ant-design/ant-design/pull/59141"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59139,
+      "url": "https://github.com/ant-design/ant-design/pull/59139"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59137,
+      "url": "https://github.com/ant-design/ant-design/pull/59137"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59136,
+      "url": "https://github.com/ant-design/ant-design/pull/59136"
+    },
+    {
+      "repository": "react-component/util",
+      "number": 808,
+      "url": "https://github.com/react-component/util/pull/808"
+    },
+    {
+      "repository": "react-component/trigger",
+      "number": 646,
+      "url": "https://github.com/react-component/trigger/pull/646"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59122,
+      "url": "https://github.com/ant-design/ant-design/pull/59122"
+    },
+    {
+      "repository": "ant-design/pro-components",
+      "number": 9693,
+      "url": "https://github.com/ant-design/pro-components/pull/9693"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59121,
+      "url": "https://github.com/ant-design/ant-design/pull/59121"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59117,
+      "url": "https://github.com/ant-design/ant-design/pull/59117"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59110,
+      "url": "https://github.com/ant-design/ant-design/pull/59110"
+    },
+    {
+      "repository": "ant-design/x",
+      "number": 2039,
+      "url": "https://github.com/ant-design/x/pull/2039"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59109,
+      "url": "https://github.com/ant-design/ant-design/pull/59109"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59101,
+      "url": "https://github.com/ant-design/ant-design/pull/59101"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59100,
+      "url": "https://github.com/ant-design/ant-design/pull/59100"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59095,
+      "url": "https://github.com/ant-design/ant-design/pull/59095"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59094,
+      "url": "https://github.com/ant-design/ant-design/pull/59094"
+    },
+    {
+      "repository": "php/doc-en",
+      "number": 5791,
+      "url": "https://github.com/php/doc-en/pull/5791"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59093,
+      "url": "https://github.com/ant-design/ant-design/pull/59093"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59092,
+      "url": "https://github.com/ant-design/ant-design/pull/59092"
+    },
+    {
+      "repository": "ant-design/x",
+      "number": 2036,
+      "url": "https://github.com/ant-design/x/pull/2036"
+    },
+    {
+      "repository": "ant-design/x",
+      "number": 2035,
+      "url": "https://github.com/ant-design/x/pull/2035"
+    },
+    {
+      "repository": "ant-design/x",
+      "number": 2034,
+      "url": "https://github.com/ant-design/x/pull/2034"
+    },
+    {
+      "repository": "ant-design/x",
+      "number": 2033,
+      "url": "https://github.com/ant-design/x/pull/2033"
+    },
+    {
+      "repository": "ant-design/x",
+      "number": 2032,
+      "url": "https://github.com/ant-design/x/pull/2032"
+    },
+    {
+      "repository": "ant-design/x",
+      "number": 2031,
+      "url": "https://github.com/ant-design/x/pull/2031"
+    },
+    {
+      "repository": "ant-design/x",
+      "number": 2030,
+      "url": "https://github.com/ant-design/x/pull/2030"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59087,
+      "url": "https://github.com/ant-design/ant-design/pull/59087"
+    },
+    {
+      "repository": "ant-design/x",
+      "number": 2028,
+      "url": "https://github.com/ant-design/x/pull/2028"
+    },
+    {
+      "repository": "react-component/rate",
+      "number": 218,
+      "url": "https://github.com/react-component/rate/pull/218"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59084,
+      "url": "https://github.com/ant-design/ant-design/pull/59084"
+    },
+    {
+      "repository": "react-component/tabs",
+      "number": 1016,
+      "url": "https://github.com/react-component/tabs/pull/1016"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59078,
+      "url": "https://github.com/ant-design/ant-design/pull/59078"
+    },
+    {
+      "repository": "ant-design/x",
+      "number": 2026,
+      "url": "https://github.com/ant-design/x/pull/2026"
+    },
+    {
+      "repository": "react-component/tree",
+      "number": 1069,
+      "url": "https://github.com/react-component/tree/pull/1069"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59075,
+      "url": "https://github.com/ant-design/ant-design/pull/59075"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59074,
+      "url": "https://github.com/ant-design/ant-design/pull/59074"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59073,
+      "url": "https://github.com/ant-design/ant-design/pull/59073"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59072,
+      "url": "https://github.com/ant-design/ant-design/pull/59072"
+    },
+    {
+      "repository": "react-component/virtual-list",
+      "number": 380,
+      "url": "https://github.com/react-component/virtual-list/pull/380"
+    },
+    {
+      "repository": "react-component/select",
+      "number": 1248,
+      "url": "https://github.com/react-component/select/pull/1248"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59068,
+      "url": "https://github.com/ant-design/ant-design/pull/59068"
+    },
+    {
+      "repository": "react-component/menu",
+      "number": 890,
+      "url": "https://github.com/react-component/menu/pull/890"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59066,
+      "url": "https://github.com/ant-design/ant-design/pull/59066"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59059,
+      "url": "https://github.com/ant-design/ant-design/pull/59059"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59058,
+      "url": "https://github.com/ant-design/ant-design/pull/59058"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59057,
+      "url": "https://github.com/ant-design/ant-design/pull/59057"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59056,
+      "url": "https://github.com/ant-design/ant-design/pull/59056"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59046,
+      "url": "https://github.com/ant-design/ant-design/pull/59046"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59038,
+      "url": "https://github.com/ant-design/ant-design/pull/59038"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59036,
+      "url": "https://github.com/ant-design/ant-design/pull/59036"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59033,
+      "url": "https://github.com/ant-design/ant-design/pull/59033"
+    },
+    {
+      "repository": "react-component/cascader",
+      "number": 662,
+      "url": "https://github.com/react-component/cascader/pull/662"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59029,
+      "url": "https://github.com/ant-design/ant-design/pull/59029"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59028,
+      "url": "https://github.com/ant-design/ant-design/pull/59028"
+    },
+    {
+      "repository": "ant-design/ant-design-icons",
+      "number": 758,
+      "url": "https://github.com/ant-design/ant-design-icons/pull/758"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59022,
+      "url": "https://github.com/ant-design/ant-design/pull/59022"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59021,
+      "url": "https://github.com/ant-design/ant-design/pull/59021"
+    },
+    {
+      "repository": "ant-design/ant-design-pro",
+      "number": 11933,
+      "url": "https://github.com/ant-design/ant-design-pro/pull/11933"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59009,
+      "url": "https://github.com/ant-design/ant-design/pull/59009"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59005,
+      "url": "https://github.com/ant-design/ant-design/pull/59005"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59004,
+      "url": "https://github.com/ant-design/ant-design/pull/59004"
+    },
+    {
+      "repository": "prettier/prettier",
+      "number": 19848,
+      "url": "https://github.com/prettier/prettier/pull/19848"
+    },
+    {
+      "repository": "react-component/image",
+      "number": 529,
+      "url": "https://github.com/react-component/image/pull/529"
+    },
+    {
+      "repository": "react-component/image",
+      "number": 528,
+      "url": "https://github.com/react-component/image/pull/528"
+    },
+    {
+      "repository": "react-component/father-plugin",
+      "number": 25,
+      "url": "https://github.com/react-component/father-plugin/pull/25"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58984,
+      "url": "https://github.com/ant-design/ant-design/pull/58984"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58981,
+      "url": "https://github.com/ant-design/ant-design/pull/58981"
+    },
+    {
+      "repository": "react-component/input-number",
+      "number": 751,
+      "url": "https://github.com/react-component/input-number/pull/751"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58979,
+      "url": "https://github.com/ant-design/ant-design/pull/58979"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58978,
+      "url": "https://github.com/ant-design/ant-design/pull/58978"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58969,
+      "url": "https://github.com/ant-design/ant-design/pull/58969"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58956,
+      "url": "https://github.com/ant-design/ant-design/pull/58956"
+    },
+    {
+      "repository": "ant-design/x",
+      "number": 2023,
+      "url": "https://github.com/ant-design/x/pull/2023"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58948,
+      "url": "https://github.com/ant-design/ant-design/pull/58948"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58934,
+      "url": "https://github.com/ant-design/ant-design/pull/58934"
+    },
+    {
+      "repository": "react-component/image",
+      "number": 527,
+      "url": "https://github.com/react-component/image/pull/527"
+    },
+    {
+      "repository": "react-component/tree",
+      "number": 1067,
+      "url": "https://github.com/react-component/tree/pull/1067"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58899,
+      "url": "https://github.com/ant-design/ant-design/pull/58899"
+    },
+    {
+      "repository": "react-component/menu",
+      "number": 888,
+      "url": "https://github.com/react-component/menu/pull/888"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58886,
+      "url": "https://github.com/ant-design/ant-design/pull/58886"
+    },
+    {
+      "repository": "react-component/image",
+      "number": 526,
+      "url": "https://github.com/react-component/image/pull/526"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58866,
+      "url": "https://github.com/ant-design/ant-design/pull/58866"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58865,
+      "url": "https://github.com/ant-design/ant-design/pull/58865"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58861,
+      "url": "https://github.com/ant-design/ant-design/pull/58861"
+    },
+    {
+      "repository": "react-component/tabs",
+      "number": 1012,
+      "url": "https://github.com/react-component/tabs/pull/1012"
+    },
+    {
+      "repository": "react-component/util",
+      "number": 804,
+      "url": "https://github.com/react-component/util/pull/804"
+    },
+    {
+      "repository": "ant-design/x",
+      "number": 2001,
+      "url": "https://github.com/ant-design/x/pull/2001"
+    },
+    {
+      "repository": "ant-design/x",
+      "number": 1999,
+      "url": "https://github.com/ant-design/x/pull/1999"
+    },
+    {
+      "repository": "react-component/tree",
+      "number": 1063,
+      "url": "https://github.com/react-component/tree/pull/1063"
+    },
+    {
+      "repository": "react-component/table",
+      "number": 1505,
+      "url": "https://github.com/react-component/table/pull/1505"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58834,
+      "url": "https://github.com/ant-design/ant-design/pull/58834"
+    },
+    {
+      "repository": "react-component/table",
+      "number": 1504,
+      "url": "https://github.com/react-component/table/pull/1504"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58814,
+      "url": "https://github.com/ant-design/ant-design/pull/58814"
+    },
+    {
+      "repository": "react-component/picker",
+      "number": 998,
+      "url": "https://github.com/react-component/picker/pull/998"
+    },
+    {
+      "repository": "react-component/slider",
+      "number": 1084,
+      "url": "https://github.com/react-component/slider/pull/1084"
+    },
+    {
+      "repository": "react-component/steps",
+      "number": 393,
+      "url": "https://github.com/react-component/steps/pull/393"
+    },
+    {
+      "repository": "react-component/upload",
+      "number": 723,
+      "url": "https://github.com/react-component/upload/pull/723"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58775,
+      "url": "https://github.com/ant-design/ant-design/pull/58775"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58762,
+      "url": "https://github.com/ant-design/ant-design/pull/58762"
+    },
+    {
+      "repository": "ant-design/ant-design-web3",
+      "number": 1618,
+      "url": "https://github.com/ant-design/ant-design-web3/pull/1618"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58759,
+      "url": "https://github.com/ant-design/ant-design/pull/58759"
+    },
+    {
+      "repository": "react-component/rate",
+      "number": 214,
+      "url": "https://github.com/react-component/rate/pull/214"
+    },
+    {
+      "repository": "react-component/trigger",
+      "number": 639,
+      "url": "https://github.com/react-component/trigger/pull/639"
+    },
+    {
+      "repository": "react-component/pagination",
+      "number": 713,
+      "url": "https://github.com/react-component/pagination/pull/713"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58609,
+      "url": "https://github.com/ant-design/ant-design/pull/58609"
+    },
+    {
+      "repository": "react-component/picker",
+      "number": 990,
+      "url": "https://github.com/react-component/picker/pull/990"
+    },
+    {
+      "repository": "react-component/picker",
+      "number": 987,
+      "url": "https://github.com/react-component/picker/pull/987"
+    },
+    {
+      "repository": "react-component/picker",
+      "number": 986,
+      "url": "https://github.com/react-component/picker/pull/986"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58503,
+      "url": "https://github.com/ant-design/ant-design/pull/58503"
+    },
+    {
+      "repository": "react-component/textarea",
+      "number": 83,
+      "url": "https://github.com/react-component/textarea/pull/83"
+    },
+    {
+      "repository": "iamkun/dayjs",
+      "number": 3138,
+      "url": "https://github.com/iamkun/dayjs/pull/3138"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58267,
+      "url": "https://github.com/ant-design/ant-design/pull/58267"
+    },
+    {
+      "repository": "react-component/trigger",
+      "number": 625,
+      "url": "https://github.com/react-component/trigger/pull/625"
+    },
+    {
+      "repository": "react-component/color-picker",
+      "number": 286,
+      "url": "https://github.com/react-component/color-picker/pull/286"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58211,
+      "url": "https://github.com/ant-design/ant-design/pull/58211"
+    },
+    {
+      "repository": "react-component/trigger",
+      "number": 624,
+      "url": "https://github.com/react-component/trigger/pull/624"
+    },
+    {
+      "repository": "ant-design/fast-color",
+      "number": 96,
+      "url": "https://github.com/ant-design/fast-color/pull/96"
+    },
+    {
+      "repository": "react-component/util",
+      "number": 768,
+      "url": "https://github.com/react-component/util/pull/768"
+    },
+    {
+      "repository": "react-component/trigger",
+      "number": 622,
+      "url": "https://github.com/react-component/trigger/pull/622"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58083,
+      "url": "https://github.com/ant-design/ant-design/pull/58083"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 58022,
+      "url": "https://github.com/ant-design/ant-design/pull/58022"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 57980,
+      "url": "https://github.com/ant-design/ant-design/pull/57980"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 57883,
+      "url": "https://github.com/ant-design/ant-design/pull/57883"
+    },
+    {
+      "repository": "react-component/util",
+      "number": 744,
+      "url": "https://github.com/react-component/util/pull/744"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 57345,
+      "url": "https://github.com/ant-design/ant-design/pull/57345"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 57343,
+      "url": "https://github.com/ant-design/ant-design/pull/57343"
+    },
+    {
+      "repository": "antvis/util",
+      "number": 131,
+      "url": "https://github.com/antvis/util/pull/131"
+    },
+    {
+      "repository": "react-component/image",
+      "number": 495,
+      "url": "https://github.com/react-component/image/pull/495"
+    },
+    {
+      "repository": "react-component/textarea",
+      "number": 81,
+      "url": "https://github.com/react-component/textarea/pull/81"
+    },
+    {
+      "repository": "react-component/notification",
+      "number": 381,
+      "url": "https://github.com/react-component/notification/pull/381"
+    },
+    {
+      "repository": "react-component/portal",
+      "number": 35,
+      "url": "https://github.com/react-component/portal/pull/35"
+    },
+    {
+      "repository": "react-component/mentions",
+      "number": 307,
+      "url": "https://github.com/react-component/mentions/pull/307"
+    },
+    {
+      "repository": "react-component/textarea",
+      "number": 78,
+      "url": "https://github.com/react-component/textarea/pull/78"
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 55029,
+      "url": "https://github.com/ant-design/ant-design/pull/55029"
+    },
+    {
+      "repository": "react-component/portal",
+      "number": 26,
+      "url": "https://github.com/react-component/portal/pull/26"
+    },
+    {
+      "repository": "react-component/cascader",
+      "number": 596,
+      "url": "https://github.com/react-component/cascader/pull/596"
+    },
+    {
+      "repository": "ant-design/ant-design-mobile",
+      "number": 6813,
+      "url": "https://github.com/ant-design/ant-design-mobile/pull/6813"
+    },
+    {
+      "repository": "react-component/slider",
+      "number": 1047,
+      "url": "https://github.com/react-component/slider/pull/1047"
+    },
+    {
+      "repository": "react-component/util",
+      "number": 547,
+      "url": "https://github.com/react-component/util/pull/547"
+    },
+    {
+      "repository": "react-component/menu",
+      "number": 692,
+      "url": "https://github.com/react-component/menu/pull/692"
+    },
+    {
+      "repository": "react-component/menu",
+      "number": 690,
+      "url": "https://github.com/react-component/menu/pull/690"
+    },
+    {
+      "repository": "react-component/collapse",
+      "number": 335,
+      "url": "https://github.com/react-component/collapse/pull/335"
+    },
+    {
+      "repository": "react-component/util",
+      "number": 455,
+      "url": "https://github.com/react-component/util/pull/455"
+    }
+  ],
+  "comparison_with_previous_snapshot": {
+    "previous_checked_at": "2026-09-05",
+    "previous_reviewed_upstream_prs": 157,
+    "current_reviewed_upstream_prs": 156,
+    "no_longer_resolves_in_github_graphql": [
+      "https://github.com/react-component/tabs/pull/1015"
+    ],
+    "note": "The old dated snapshot is retained. The current count excludes the no-longer-retrievable PR without inferring why it is unavailable. Merged authorship totals are unchanged."
+  },
+  "maintenance_checked_at": "2026-09-05T18:26:42.453078+00:00",
+  "maintenance_updates": [
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59223,
+      "url": "https://github.com/ant-design/ant-design/pull/59223",
+      "head": "1e1f458357f9b21558d311798563cbe3a020cfb3",
+      "signed_commit_verified": true,
+      "state": "OPEN",
+      "checks": {
+        "success": 43,
+        "skipped": 2,
+        "pending": 0,
+        "failure": 0
+      },
+      "review_threads": {
+        "resolved": 4,
+        "total": 4
+      },
+      "codecov": {
+        "modified_lines_covered": true,
+        "project_coverage_percent": 100
+      },
+      "local_validation": {
+        "tests": 15,
+        "snapshots": 4,
+        "hook_line_coverage_percent": 100
+      },
+      "test_workflow": "https://github.com/ant-design/ant-design/actions/runs/33982344147",
+      "visual_workflow": "https://github.com/ant-design/ant-design/actions/runs/33982344186"
+    },
+    {
+      "repository": "react-component/picker",
+      "number": 1013,
+      "url": "https://github.com/react-component/picker/pull/1013",
+      "head": "52f4917a97d1b2b7b6d2f8278c925b0a7311cb99",
+      "signed_commit_verified": true,
+      "state": "OPEN",
+      "local_validation": {
+        "base_failing_regressions": 6,
+        "new_tests_passed": 9,
+        "full_tests_passed": 481,
+        "full_tests_skipped": 2,
+        "snapshots_passed": 29,
+        "build": "passed",
+        "baseline_type_errors": 10
+      },
+      "upstream_test_workflow": "https://github.com/react-component/picker/actions/runs/33983864254",
+      "upstream_test_conclusion": "action_required",
+      "preview_gate": "Vercel: Authorization required to deploy.",
+      "auxiliary_checks": {
+        "success": 4,
+        "failure": 1,
+        "failure_reason": "Vercel deployment authorization required"
+      },
+      "discussion_reply": "https://github.com/ant-design/ant-design/pull/59222#issuecomment-5553873437"
+    }
+  ]
+}
