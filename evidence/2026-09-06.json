@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-09-05T19:14:42.841153+00:00",
+  "checked_at": "2026-09-05T20:43:32.642016+00:00",
   "github_user": "nrps9909",
   "methodology": {
     "merged": "Public authored merged PRs; exclude nrps9909/* and Mes0903/NTNU-GameDesign. Open and approved PRs do not count.",
     "reviewed": "GitHub reviewed-by:nrps9909, public repositories only; one PR per repository/number; exclude own authored PRs, nrps9909/* and Mes0903/NTNU-GameDesign. This counts published review activity, not current-head approval or merged authorship."
   },
   "counts": {
-    "merged_upstream_prs": 65,
-    "merged_upstream_repositories": 37,
+    "merged_upstream_prs": 66,
+    "merged_upstream_repositories": 38,
     "ant_design_main_merged_prs": 23,
     "ant_design_ecosystem_merged_prs": 42,
-    "reviewed_upstream_prs": 159
+    "reviewed_upstream_prs": 161
   },
   "merged": [
     {
@@ -278,6 +278,12 @@
       "merged_at": "2026-08-25T17:28:13Z"
     },
     {
+      "repository": "ohmyzsh/ohmyzsh",
+      "number": 13932,
+      "url": "https://github.com/ohmyzsh/ohmyzsh/pull/13932",
+      "merged_at": "2026-09-05T19:41:41Z"
+    },
+    {
       "repository": "mui/material-ui",
       "number": 48946,
       "url": "https://github.com/mui/material-ui/pull/48946",
@@ -405,6 +411,11 @@
     }
   ],
   "reviewed": [
+    {
+      "repository": "tj/commander.js",
+      "number": 2607,
+      "url": "https://github.com/tj/commander.js/pull/2607"
+    },
     {
       "repository": "tj/commander.js",
       "number": 2604,
@@ -1101,6 +1112,11 @@
       "url": "https://github.com/ant-design/ant-design/pull/57883"
     },
     {
+      "repository": "import-js/eslint-plugin-import",
+      "number": 3244,
+      "url": "https://github.com/import-js/eslint-plugin-import/pull/3244"
+    },
+    {
       "repository": "react-component/util",
       "number": 744,
       "url": "https://github.com/react-component/util/pull/744"
@@ -1204,18 +1220,22 @@
   "comparison_with_previous_snapshot": {
     "previous_checked_at": "2026-09-05",
     "previous_reviewed_upstream_prs": 157,
-    "current_reviewed_upstream_prs": 159,
+    "current_reviewed_upstream_prs": 161,
     "no_longer_resolves_in_github_graphql": [
       "https://github.com/react-component/tabs/pull/1015"
     ],
-    "note": "The September 5 snapshot is retained. The current tally excludes the no-longer-retrievable Tabs PR and includes three independently verified reviews published on September 6 (Taipei). Merged authorship is unchanged.",
+    "note": "The September 5 snapshot is retained. The current tally excludes the no-longer-retrievable Tabs PR and includes five independently verified reviews published on September 6 (Taipei). Oh My Zsh #13932 has since merged, increasing authored merges to 66 across 38 upstream repositories.",
     "added_in_broader_oss_round": [
       "https://github.com/tj/commander.js/pull/2604#pullrequestreview-5122666124",
       "https://github.com/validatorjs/validator.js/pull/2875#pullrequestreview-5122666181",
       "https://github.com/iamkun/dayjs/pull/3201#pullrequestreview-5122666225"
+    ],
+    "added_in_continuation_2": [
+      "https://github.com/tj/commander.js/pull/2607#pullrequestreview-5122890850",
+      "https://github.com/import-js/eslint-plugin-import/pull/3244#pullrequestreview-5122903786"
     ]
   },
-  "maintenance_checked_at": "2026-09-05T19:14:42.841153+00:00",
+  "maintenance_checked_at": "2026-09-05T20:43:32.642016+00:00",
   "maintenance_updates": [
     {
       "repository": "ant-design/ant-design",
@@ -1244,7 +1264,8 @@
         "hook_line_coverage_percent": 100
       },
       "test_workflow": "https://github.com/ant-design/ant-design/actions/runs/33982344147",
-      "visual_workflow": "https://github.com/ant-design/ant-design/actions/runs/33982344186"
+      "visual_workflow": "https://github.com/ant-design/ant-design/actions/runs/33982344186",
+      "checked_at": "2026-09-05T19:14:42.841153+00:00"
     },
     {
       "repository": "react-component/picker",
@@ -1270,13 +1291,14 @@
         "failure": 1,
         "failure_reason": "Vercel deployment authorization required"
       },
-      "discussion_reply": "https://github.com/ant-design/ant-design/pull/59222#issuecomment-5553873437"
+      "discussion_reply": "https://github.com/ant-design/ant-design/pull/59222#issuecomment-5553873437",
+      "checked_at": "2026-09-05T19:14:42.841153+00:00"
     },
     {
       "repository": "tj/commander.js",
       "number": 2608,
       "url": "https://github.com/tj/commander.js/pull/2608",
-      "head": "2e4b72b06af30d19622beeb139a552e5b0fbcf4d",
+      "head": "f57c87b8a12ebf8ea2b24ea9395d03e05d1b9d3f",
       "signed_commit_verified": true,
       "state": "OPEN",
       "base": "97411c66e29260bff2a0de6c73185336ad6fd7fa",
@@ -1292,12 +1314,51 @@
         {
           "name": "build",
           "conclusion": "action_required",
-          "url": "https://github.com/tj/commander.js/actions/runs/33986456986"
+          "url": "https://github.com/tj/commander.js/actions/runs/33990016449"
         },
         {
           "name": "CodeQL",
           "conclusion": "action_required",
-          "url": "https://github.com/tj/commander.js/actions/runs/33986456987"
+          "url": "https://github.com/tj/commander.js/actions/runs/33990016511"
+        }
+      ],
+      "checked_at": "2026-09-05T20:42:46.234566+00:00",
+      "follow_up": {
+        "change": "Restore original environment once with t.after; retain beforeEach isolation.",
+        "reply": "https://github.com/tj/commander.js/pull/2608#issuecomment-5554555706"
+      }
+    },
+    {
+      "repository": "markedjs/marked",
+      "number": 4086,
+      "url": "https://github.com/markedjs/marked/pull/4086",
+      "head": "2348276b11d4767ee0cfaee6cfa11e4b75b64502",
+      "base": "4417582f35d69926f0778ee133c3af75b7f3f966",
+      "signed_commit_verified": true,
+      "state": "OPEN",
+      "checked_at": "2026-09-05T20:42:46.232333+00:00",
+      "local_validation": {
+        "base_failing_new_regressions": 8,
+        "head_passing_new_regressions": 8,
+        "each_regression_gfm_modes": 2,
+        "spec_harness_tests_passed": 1801,
+        "unit_tests_passed": 199,
+        "full_npm_test": "passed",
+        "commonmark_comparison": {
+          "inputs": 2058,
+          "base_mismatches": 1862,
+          "head_mismatches": 1410,
+          "fixed": 452,
+          "new_mismatches": 0
+        }
+      },
+      "limitations": "Structural and leading-indentation tab discrepancies remain. This fixes internal content tabs only and does not close the broad issue.",
+      "auxiliary_checks_success": 3,
+      "upstream_workflows": [
+        {
+          "name": "Tests",
+          "conclusion": "action_required",
+          "url": "https://github.com/markedjs/marked/actions/runs/33990604924"
         }
       ]
     }
@@ -1326,6 +1387,54 @@
       "head": "e6f20e244622e8999eaeea938480d39e9ffe853a",
       "decision": "APPROVED",
       "submitted_at": "2026-09-05T19:13:15Z"
+    },
+    {
+      "repository": "tj/commander.js",
+      "number": 2607,
+      "url": "https://github.com/tj/commander.js/pull/2607#pullrequestreview-5122890850",
+      "head": "99c705336a209e1ab83a45a38ae5d460d589729a",
+      "decision": "CHANGES_REQUESTED",
+      "submitted_at": "2026-09-05T20:36:06Z"
+    },
+    {
+      "repository": "import-js/eslint-plugin-import",
+      "number": 3244,
+      "url": "https://github.com/import-js/eslint-plugin-import/pull/3244#pullrequestreview-5122903786",
+      "head": "5a6c4b0e1f52c883d688586e783a49631651fbd4",
+      "decision": "APPROVED",
+      "submitted_at": "2026-09-05T20:42:22Z"
+    }
+  ],
+  "maintenance_history": [
+    {
+      "repository": "tj/commander.js",
+      "number": 2608,
+      "url": "https://github.com/tj/commander.js/pull/2608",
+      "head": "2e4b72b06af30d19622beeb139a552e5b0fbcf4d",
+      "signed_commit_verified": true,
+      "state": "OPEN",
+      "base": "97411c66e29260bff2a0de6c73185336ad6fd7fa",
+      "local_validation": {
+        "base_failures_with_NO_COLOR": 2,
+        "environment_configurations_passed": 6,
+        "full_tests_passed": 1420,
+        "minimum_node_version_checked": "22.12.0",
+        "minimum_node_focused_tests_passed": 24,
+        "type_lint_format": "passed"
+      },
+      "upstream_workflows": [
+        {
+          "name": "build",
+          "conclusion": "action_required",
+          "url": "https://github.com/tj/commander.js/actions/runs/33986456986"
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "action_required",
+          "url": "https://github.com/tj/commander.js/actions/runs/33986456987"
+        }
+      ],
+      "checked_at": "2026-09-05T19:14:42.841153+00:00"
     }
   ]
 }

@@ -14,11 +14,11 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 
 | Verified public record (2026-09-06)                     | Current total |
 | ------------------------------------------------------- | ------------: |
-| Merged PRs in non-owned upstream repositories           |        **65** |
-| Non-owned upstream repositories with merged work        |        **37** |
+| Merged PRs in non-owned upstream repositories           |        **66** |
+| Non-owned upstream repositories with merged work        |        **38** |
 | Merged PRs in the Ant Design main repository            |        **23** |
 | Merged PRs across the Ant Design ecosystem              |        **42** |
-| Public upstream PRs reviewed as an external contributor |       **159** |
+| Public upstream PRs reviewed as an external contributor |       **161** |
 
 These figures exclude repositories I own and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-06.json).
 
@@ -42,7 +42,10 @@ These figures exclude repositories I own and count a PR only after GitHub report
 
 ## Latest contribution
 
-- [Commander #2608](https://github.com/tj/commander.js/pull/2608): isolate color tests from inherited shell settings and restore the environment after failed assertions. Reproduced the failure on develop; six environment configurations, all 1,420 tests, static checks, and the focused suite on Node 22.12 pass. The signed/Verified PR is open; upstream workflows require maintainer approval.
+- [Marked #4086](https://github.com/markedjs/marked/pull/4086): preserve literal tabs inside list code spans and fences. Eight new regressions fail on base and pass with the fix; the full test/build/lint pipeline passes. An independent 2,058-input comparison improves 452 results without new mismatches; pre-existing indentation gaps remain disclosed. The signed/Verified PR is open; upstream tests require maintainer approval.
+- [Commander #2608](https://github.com/tj/commander.js/pull/2608): isolate color tests from inherited shell settings and restore the environment after failed assertions. Addressed reviewer feedback by restoring values once after the test group. Revalidated six environment configurations, all 1,420 tests, static checks, and the focused suite on Node 22.12. The signed/Verified PR is open; upstream workflows require maintainer approval.
+- Latest reviews: [Commander subtree validation](https://github.com/tj/commander.js/pull/2607#pullrequestreview-5122890850) identifies an unhandled `addCommand` construction order that still swallows forwarded options; [ESLint import default exports](https://github.com/import-js/eslint-plugin-import/pull/3244#pullrequestreview-5122903786) verifies repeated-lint correctness with 13 independent checks and 3,015 passing tests. Both reviews document exact commits and validation limits.
+- Newly merged: [Oh My Zsh #13932](https://github.com/ohmyzsh/ohmyzsh/pull/13932), preserving the Poetry environment while navigating project subdirectories. The maintainer merged it on September 6 (Taipei).
 - Cross-project reviews: [Commander Electron parsing](https://github.com/tj/commander.js/pull/2604#pullrequestreview-5122666124), [Day.js ISO weeks](https://github.com/iamkun/dayjs/pull/3201#pullrequestreview-5122666225), and [validator.js JWT structure](https://github.com/validatorjs/validator.js/pull/2875#pullrequestreview-5122666181), each published against the tested commit. The Day.js review independently compares 534,744 local/UTC cases across four timezones, with zero mismatches after reproducing 357 baseline failures.
 
 - [Picker #1013](https://github.com/react-component/picker/pull/1013): fix localized month input being parsed with the wrong global language. Six regressions fail on base; the fix passes the full 481-test suite and 29 snapshots, preserving strict validation and fallback for unloaded locales. The signed PR is open; upstream CI and preview authorization require maintainer action.

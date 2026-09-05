@@ -8,9 +8,17 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Upstream contributions
 
-The public record below includes 65 merged PRs across 37 non-owned repositories, including 23 merged Ant Design PRs in a focused i18n/accessibility lane. The merged total excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
+The public record below includes 66 merged PRs across 38 non-owned repositories, including 23 merged Ant Design PRs in a focused i18n/accessibility lane. The merged total excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
-For clarity, I am an external Ant Design contributor—not an organization member, repository owner, or maintainer with write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 159 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-06 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-06.json).
+I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 161 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-06 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-06.json).
+
+### September 6, 2026: list parsing, review feedback and a confirmed merge
+
+- Authored [Marked #4086](https://github.com/markedjs/marked/pull/4086), signed/Verified head `2348276b11d4767ee0cfaee6cfa11e4b75b64502`, based on `4417582f35d69926f0778ee133c3af75b7f3f966`. List tokenization expanded internal tabs before code-span and fenced-code parsing. The fix expands only the leading whitespace prefix and preserves subsequent content tabs. All eight new regressions fail on base and pass on head, each with GFM enabled and disabled. Full `npm test` passes 1,801 spec-harness tests, 199 unit tests, docs/build, UMD/CJS, type/package checks and lint. An independent CommonMark 0.31.2 comparison covers 2,058 inputs: 452 mismatches fixed, zero new mismatches, and 1,410 existing mismatches remaining in a deliberately broad indentation corpus. This scoped fix does not close the broader structural-tab issue. The PR is open; three auxiliary/preview checks pass, but the test workflow requires maintainer approval.
+- Updated [Commander #2608](https://github.com/tj/commander.js/pull/2608) after reviewer feedback, replacing redundant per-subtest restoration with one group-level `t.after` cleanup while preserving `beforeEach` isolation. Signed/Verified head `f57c87b8a12ebf8ea2b24ea9395d03e05d1b9d3f` passes all six environment configurations, 1,420 tests, types/lint/format and 24 focused tests on Node 22.12. [The reply](https://github.com/tj/commander.js/pull/2608#issuecomment-5554555706) records the change. Build and CodeQL on this new head still require maintainer approval.
+- Requested changes on [Commander #2607](https://github.com/tj/commander.js/pull/2607#pullrequestreview-5122890850) at `99c705336a209e1ab83a45a38ae5d460d589729a`. The new direct-construction tests pass, as do all 1,422 tests and static checks, but a detached command subtree attached through `addCommand` bypasses descendant validation. A root `--dry-run` consumes the leaf's forwarded option. The review includes a minimal reproduction, the fully positional root control, and a request to retarget the PR to the documented `develop` branch.
+- Approved the scoped default-export cache fix in [eslint-plugin-import #3244](https://github.com/import-js/eslint-plugin-import/pull/3244#pullrequestreview-5122903786) at `5a6c4b0e1f52c883d688586e783a49631651fbd4`. The added repeated-lint regression fails on base `3a99e4c8d3bfd2cd466353d11784eb06dad9b166`; the focused head run passes 153 tests with one pending. Thirteen independent observations all pass on head versus six failures on base, covering repeated lint, quoted default specifiers, genuine unused exports and consumer-import removal. ESLint 8.57.1 passes full `npm test` (3,015 tests, one pending), lint, generated docs, markdownlint and build. ESLint 9.39.5 passes 3,011 tests with one pending, but its posttest hits legacy tooling compatibility. The public review discloses two failed old-ESLint CI jobs and 16 cancelled Windows jobs; the log endpoint returns HTTP 410, so their causes remain unverified.
+- Confirmed the earlier [Oh My Zsh #13932](https://github.com/ohmyzsh/ohmyzsh/pull/13932) Poetry-environment contribution was merged by `robbyrussell` at `2026-09-05T19:41:41Z` (September 6, 03:41 Taipei). Fresh public queries now return 66 authored merged PRs across 38 non-owned upstream repositories and 161 other-authored reviewed PRs. Ant Design remains 23 main-repository / 42 ecosystem merges. New open PRs and reviews are excluded from merged authorship.
 
 ### September 6, 2026: maintenance across three more projects
 
@@ -42,6 +50,8 @@ These are three newly authored open PRs and three reviews of other authors' PRs 
 
 ### Merged
 
+- [Oh My Zsh: fix Poetry environment handling across project subdirectories](https://github.com/ohmyzsh/ohmyzsh/pull/13932)
+- [tldr-pages: clarify govulncheck extract-mode output](https://github.com/tldr-pages/tldr/pull/23698)
 - [RustDesk: complete Traditional Chinese sign-in strings](https://github.com/rustdesk/rustdesk/pull/15829)
 - [Dashy: complete 19 missing Traditional Chinese UI strings](https://github.com/Lissy93/dashy/pull/2292)
 - [Memos: complete 83 missing Traditional Chinese UI strings](https://github.com/usememos/memos/pull/6177)
@@ -174,7 +184,6 @@ These are three newly authored open PRs and three reviews of other authors' PRs 
 - [React Component Slider: prevent null-container crashes during active dragging](https://github.com/react-component/slider/pull/1087)
 - [React Component Tour: prevent negative mask click-blocker dimensions at viewport edges](https://github.com/react-component/tour/pull/109)
 - [React Component Tree Select: search selectable children below disabled parents](https://github.com/react-component/tree-select/pull/684)
-- [Oh My Zsh: fix Poetry environment handling across project subdirectories](https://github.com/ohmyzsh/ohmyzsh/pull/13932)
 - [Bootstrap: document robust rounded table containers](https://github.com/twbs/bootstrap/pull/42823)
 - [Supabase: synchronize and improve the Traditional Chinese project guide](https://github.com/supabase/supabase/pull/48936)
 - [Ventoy: complete and correct Traditional Chinese boot-menu help](https://github.com/ventoy/Ventoy/pull/3729)
