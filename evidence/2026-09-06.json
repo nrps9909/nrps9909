@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-06T07:40:42.262450+00:00",
+  "checked_at": "2026-09-06T11:53:51.041272+00:00",
   "github_user": "nrps9909",
   "methodology": {
     "merged": "Public authored merged PRs; exclude nrps9909/* and Mes0903/NTNU-GameDesign. Open and approved PRs do not count. Manual incorporation credited in an upstream commit is documented separately when GitHub does not mark the PR merged.",
@@ -10,7 +10,7 @@
     "merged_upstream_repositories": 38,
     "ant_design_main_merged_prs": 23,
     "ant_design_ecosystem_merged_prs": 42,
-    "reviewed_upstream_prs": 165
+    "reviewed_upstream_prs": 166
   },
   "merged": [
     {
@@ -411,6 +411,11 @@
     }
   ],
   "reviewed": [
+    {
+      "repository": "sindresorhus/type-fest",
+      "number": 1516,
+      "url": "https://github.com/sindresorhus/type-fest/pull/1516"
+    },
     {
       "repository": "dperini/nwsapi",
       "number": 201,
@@ -1240,11 +1245,11 @@
   "comparison_with_previous_snapshot": {
     "previous_checked_at": "2026-09-05",
     "previous_reviewed_upstream_prs": 157,
-    "current_reviewed_upstream_prs": 165,
+    "current_reviewed_upstream_prs": 166,
     "no_longer_resolves_in_github_graphql": [
       "https://github.com/react-component/tabs/pull/1015"
     ],
-    "note": "The September 5 snapshot is retained. The current tally excludes the no-longer-retrievable Tabs PR and includes nine independently verified reviews published on September 6 (Taipei). Oh My Zsh #13932 has since merged, increasing authored merges to 66 across 38 upstream repositories. Reviews include approvals, changes requested and non-approving validation comments.",
+    "note": "The September 5 snapshot is retained. The current tally excludes the no-longer-retrievable Tabs PR and includes ten independently verified reviews published on September 6 (Taipei). Oh My Zsh #13932 has since merged, increasing authored merges to 66 across 38 upstream repositories. Reviews include approvals, changes requested and non-approving validation comments.",
     "added_in_broader_oss_round": [
       "https://github.com/tj/commander.js/pull/2604#pullrequestreview-5122666124",
       "https://github.com/validatorjs/validator.js/pull/2875#pullrequestreview-5122666181",
@@ -1263,9 +1268,12 @@
     ],
     "added_in_continuation_5": [
       "https://github.com/dperini/nwsapi/pull/201#pullrequestreview-5124627201"
+    ],
+    "added_in_continuation_6": [
+      "https://github.com/sindresorhus/type-fest/pull/1516#pullrequestreview-5125224510"
     ]
   },
-  "maintenance_checked_at": "2026-09-06T07:43:23.597752+00:00",
+  "maintenance_checked_at": "2026-09-06T11:56:19.212683+00:00",
   "maintenance_updates": [
     {
       "repository": "ant-design/ant-design",
@@ -1503,7 +1511,11 @@
       "url": "https://github.com/tj/commander.js/pull/2607#pullrequestreview-5122890850",
       "head": "99c705336a209e1ab83a45a38ae5d460d589729a",
       "decision": "CHANGES_REQUESTED",
-      "submitted_at": "2026-09-05T20:36:06Z"
+      "submitted_at": "2026-09-05T20:36:06Z",
+      "pr_state": "CLOSED",
+      "merged_at": null,
+      "state_checked_at": "2026-09-06T11:56:19.212683+00:00",
+      "note": "Earlier review remains historical. Maintainer closed the PR without merging."
     },
     {
       "repository": "import-js/eslint-plugin-import",
@@ -1544,6 +1556,14 @@
       "head": "36f19c8ab2b0dc230a7e5194a91507a55d0da3ad",
       "decision": "CHANGES_REQUESTED",
       "submitted_at": "2026-09-06T07:40:06Z"
+    },
+    {
+      "repository": "sindresorhus/type-fest",
+      "number": 1516,
+      "url": "https://github.com/sindresorhus/type-fest/pull/1516#pullrequestreview-5125224510",
+      "head": "08b29d21cf4391350dd73f0c94bc1f0b4927c582",
+      "decision": "COMMENTED",
+      "submitted_at": "2026-09-06T11:53:32Z"
     }
   ],
   "maintenance_history": [
@@ -2061,6 +2081,35 @@
       "formatting": "passed",
       "upstream_node_check": "success",
       "limitation": "The isolation TODO was already documented by the author. Review adds concrete public regressions and a quoted-value control. Two inherited expected failures remain."
+    }
+  },
+  "continuation_6_validation": {
+    "type_fest_1516": {
+      "base": "5715dfe23dc5853a148afa37df3c0a698ca9cbb9",
+      "head": "08b29d21cf4391350dd73f0c94bc1f0b4927c582",
+      "decision": "COMMENTED",
+      "node_for_independent_compiler_checks": "24.15.0",
+      "compilers": [
+        "5.9.3",
+        "6.0.3",
+        "7.0.2"
+      ],
+      "observations_per_compiler_and_implementation": 175,
+      "base_failures": 6,
+      "head_failures": 15,
+      "new_head_readonly_regressions": 12,
+      "candidate_failures": 3,
+      "candidate_remaining_failure_scope": "Inherited explicit-keyof generic forms",
+      "candidate_negative_assertions": 7,
+      "candidate_negative_assertions_failing_on_head": 7,
+      "candidate_negative_assertions_passing": 7,
+      "full_tsc": "passed on head and candidate",
+      "full_tsd": "passed on head and candidate",
+      "node_test_runner_passed": 38,
+      "candidate_focused_lint": "passed",
+      "full_npm_test": "four identical pre-existing XO errors on base/head/candidate; upstream failed job agrees",
+      "artifact": "https://github.com/nrps9909/nrps9909/tree/main/evidence/type-fest-1516",
+      "adoption": "Candidate only; not an upstream PR or adopted fix"
     }
   }
 }

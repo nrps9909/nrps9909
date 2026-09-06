@@ -1,0 +1,668 @@
+{
+  "node": "v24.15.0",
+  "versions": [
+    {
+      "typescript": "5.9.3",
+      "sides": {
+        "base": {
+          "exit": 2,
+          "total": 175,
+          "failures": [
+            {
+              "name": "this/default",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "typeof-this/default",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "typeof-this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "generic/default",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "generic/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            }
+          ],
+          "unclassified": [],
+          "unexpectedOutput": []
+        },
+        "head": {
+          "exit": 2,
+          "total": 175,
+          "failures": [
+            {
+              "name": "AllReadonly/keys-0/'a'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "AllReadonly/keys-0/'b'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "AllReadonly/keys-0/7",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "AllReadonly/keys-0/typeof token",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "MixedReadonly/keys-0/'b'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "MixedReadonly/keys-0/7",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "derived-empty/'a'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "derived-empty/'b'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "derived-empty/7",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "derived-empty/typeof token",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "typeof-this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "generic/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "index/empty/named",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "index/empty/arbitrary",
+              "expectedCodes": [
+                2542
+              ],
+              "actualCodes": [],
+              "pass": false
+            }
+          ],
+          "unclassified": [],
+          "unexpectedOutput": []
+        },
+        "candidate": {
+          "exit": 2,
+          "total": 175,
+          "failures": [
+            {
+              "name": "this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "typeof-this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "generic/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            }
+          ],
+          "unclassified": [],
+          "unexpectedOutput": []
+        }
+      }
+    },
+    {
+      "typescript": "6.0.3",
+      "sides": {
+        "base": {
+          "exit": 2,
+          "total": 175,
+          "failures": [
+            {
+              "name": "this/default",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "typeof-this/default",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "typeof-this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "generic/default",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "generic/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            }
+          ],
+          "unclassified": [],
+          "unexpectedOutput": []
+        },
+        "head": {
+          "exit": 2,
+          "total": 175,
+          "failures": [
+            {
+              "name": "AllReadonly/keys-0/'a'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "AllReadonly/keys-0/'b'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "AllReadonly/keys-0/7",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "AllReadonly/keys-0/typeof token",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "MixedReadonly/keys-0/'b'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "MixedReadonly/keys-0/7",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "derived-empty/'a'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "derived-empty/'b'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "derived-empty/7",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "derived-empty/typeof token",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "typeof-this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "generic/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "index/empty/named",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "index/empty/arbitrary",
+              "expectedCodes": [
+                2542
+              ],
+              "actualCodes": [],
+              "pass": false
+            }
+          ],
+          "unclassified": [],
+          "unexpectedOutput": []
+        },
+        "candidate": {
+          "exit": 2,
+          "total": 175,
+          "failures": [
+            {
+              "name": "this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "typeof-this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "generic/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            }
+          ],
+          "unclassified": [],
+          "unexpectedOutput": []
+        }
+      }
+    },
+    {
+      "typescript": "7.0.2",
+      "sides": {
+        "base": {
+          "exit": 1,
+          "total": 175,
+          "failures": [
+            {
+              "name": "this/default",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "typeof-this/default",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "typeof-this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "generic/default",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "generic/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            }
+          ],
+          "unclassified": [],
+          "unexpectedOutput": []
+        },
+        "head": {
+          "exit": 1,
+          "total": 175,
+          "failures": [
+            {
+              "name": "AllReadonly/keys-0/'a'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "AllReadonly/keys-0/'b'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "AllReadonly/keys-0/7",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "AllReadonly/keys-0/typeof token",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "MixedReadonly/keys-0/'b'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "MixedReadonly/keys-0/7",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "derived-empty/'a'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "derived-empty/'b'",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "derived-empty/7",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "derived-empty/typeof token",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "typeof-this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "generic/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "index/empty/named",
+              "expectedCodes": [
+                2540
+              ],
+              "actualCodes": [],
+              "pass": false
+            },
+            {
+              "name": "index/empty/arbitrary",
+              "expectedCodes": [
+                2542
+              ],
+              "actualCodes": [],
+              "pass": false
+            }
+          ],
+          "unclassified": [],
+          "unexpectedOutput": []
+        },
+        "candidate": {
+          "exit": 1,
+          "total": 175,
+          "failures": [
+            {
+              "name": "this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "typeof-this/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            },
+            {
+              "name": "generic/explicit-keyof",
+              "expectedCodes": [],
+              "actualCodes": [
+                2339
+              ],
+              "pass": false
+            }
+          ],
+          "unclassified": [],
+          "unexpectedOutput": []
+        }
+      }
+    }
+  ]
+}

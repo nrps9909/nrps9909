@@ -1,0 +1,2 @@
+# Unified patches contain required context-prefix whitespace.
+evidence/type-fest-1516/*.patch -whitespace
