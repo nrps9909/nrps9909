@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-09-06T04:56:53.837845+00:00",
+  "checked_at": "2026-09-06T07:40:42.262450+00:00",
   "github_user": "nrps9909",
   "methodology": {
-    "merged": "Public authored merged PRs; exclude nrps9909/* and Mes0903/NTNU-GameDesign. Open and approved PRs do not count.",
+    "merged": "Public authored merged PRs; exclude nrps9909/* and Mes0903/NTNU-GameDesign. Open and approved PRs do not count. Manual incorporation credited in an upstream commit is documented separately when GitHub does not mark the PR merged.",
     "reviewed": "GitHub reviewed-by:nrps9909, public repositories only; one PR per repository/number; exclude own authored PRs, nrps9909/* and Mes0903/NTNU-GameDesign. This counts published review activity, not current-head approval or merged authorship."
   },
   "counts": {
@@ -10,7 +10,7 @@
     "merged_upstream_repositories": 38,
     "ant_design_main_merged_prs": 23,
     "ant_design_ecosystem_merged_prs": 42,
-    "reviewed_upstream_prs": 164
+    "reviewed_upstream_prs": 165
   },
   "merged": [
     {
@@ -411,6 +411,11 @@
     }
   ],
   "reviewed": [
+    {
+      "repository": "dperini/nwsapi",
+      "number": 201,
+      "url": "https://github.com/dperini/nwsapi/pull/201"
+    },
     {
       "repository": "tj/commander.js",
       "number": 2607,
@@ -1235,11 +1240,11 @@
   "comparison_with_previous_snapshot": {
     "previous_checked_at": "2026-09-05",
     "previous_reviewed_upstream_prs": 157,
-    "current_reviewed_upstream_prs": 164,
+    "current_reviewed_upstream_prs": 165,
     "no_longer_resolves_in_github_graphql": [
       "https://github.com/react-component/tabs/pull/1015"
     ],
-    "note": "The September 5 snapshot is retained. The current tally excludes the no-longer-retrievable Tabs PR and includes eight independently verified reviews published on September 6 (Taipei). Oh My Zsh #13932 has since merged, increasing authored merges to 66 across 38 upstream repositories. Reviews include approvals, changes requested and non-approving validation comments.",
+    "note": "The September 5 snapshot is retained. The current tally excludes the no-longer-retrievable Tabs PR and includes nine independently verified reviews published on September 6 (Taipei). Oh My Zsh #13932 has since merged, increasing authored merges to 66 across 38 upstream repositories. Reviews include approvals, changes requested and non-approving validation comments.",
     "added_in_broader_oss_round": [
       "https://github.com/tj/commander.js/pull/2604#pullrequestreview-5122666124",
       "https://github.com/validatorjs/validator.js/pull/2875#pullrequestreview-5122666181",
@@ -1255,9 +1260,12 @@
     ],
     "added_in_continuation_4": [
       "https://github.com/validatorjs/validator.js/pull/2841#pullrequestreview-5124200191"
+    ],
+    "added_in_continuation_5": [
+      "https://github.com/dperini/nwsapi/pull/201#pullrequestreview-5124627201"
     ]
   },
-  "maintenance_checked_at": "2026-09-06T05:03:10.857284+00:00",
+  "maintenance_checked_at": "2026-09-06T07:43:23.597752+00:00",
   "maintenance_updates": [
     {
       "repository": "ant-design/ant-design",
@@ -1387,7 +1395,7 @@
       "base": "4417582f35d69926f0778ee133c3af75b7f3f966",
       "signed_commit_verified": true,
       "state": "OPEN",
-      "checked_at": "2026-09-06T05:03:10.857284+00:00",
+      "checked_at": "2026-09-06T07:43:23.597752+00:00",
       "local_validation": {
         "each_regression_gfm_modes": 2,
         "spec_harness_tests_passed": 1833,
@@ -1411,21 +1419,57 @@
       "upstream_workflows": [
         {
           "name": "Tests",
-          "status": "completed",
-          "conclusion": "action_required",
+          "conclusion": "success",
           "url": "https://github.com/markedjs/marked/actions/runs/34012619021",
           "head": "3f63979ca70df7600986ec7c7da53032fe7b8af9"
         }
       ],
       "checks": {
-        "success": 1,
-        "failure": 1,
-        "failure_reason": "Vercel deployment authorization required"
+        "success": 7,
+        "skipped": 1,
+        "failure": 0,
+        "pending": 0
       },
       "follow_up": {
         "change": "Converted the 16 JSON cases to Markdown/HTML pairs as requested. Source, Markdown, expected HTML and options are unchanged.",
         "reply": "https://github.com/markedjs/marked/pull/4086#discussion_r3942988589"
-      }
+      },
+      "maintainer_review": {
+        "author": "UziTech",
+        "state": "APPROVED",
+        "head": "3f63979ca70df7600986ec7c7da53032fe7b8af9",
+        "url": "https://github.com/markedjs/marked/pull/4086#pullrequestreview-5124240665",
+        "submitted_at": "2026-09-06T05:07:03Z"
+      },
+      "preview": "Vercel success"
+    },
+    {
+      "repository": "dperini/nwsapi",
+      "number": 169,
+      "url": "https://github.com/dperini/nwsapi/pull/169",
+      "head": "e33a8aed15a33a09f64a3bb462147fb647128992",
+      "signed_commit_verified": true,
+      "state": "CLOSED",
+      "merged_at": null,
+      "closed_at": "2026-09-06T07:38:56Z",
+      "adopted_commit": "faa8468f15a0e2c708ac62728025f972258f0e3f",
+      "adopted_commit_url": "https://github.com/dperini/nwsapi/commit/faa8468f15a0e2c708ac62728025f972258f0e3f",
+      "adopted_by": "dperini",
+      "adopted_at": "2026-08-30T06:06:56Z",
+      "adopted_scope": "Both runtime root-sibling guards; standalone HTML fixture not incorporated.",
+      "package_verified": "nwsapi@2.2.27",
+      "local_validation": {
+        "direct_cases": 10,
+        "before_failures": 5,
+        "published_current_passed": 10,
+        "ant_design_head": "713b71aff63ccae4a0d9b797fe5504971288cad1",
+        "tooltip_old_package_failed": 4,
+        "tooltip_tests_passed": 52,
+        "tooltip_snapshots_passed": 5
+      },
+      "public_follow_up": "https://github.com/dperini/nwsapi/pull/169#issuecomment-5557789636",
+      "checked_at": "2026-09-06T07:43:23.597752+00:00",
+      "counting": "Manual upstream incorporation; excluded from GitHub merged-PR total."
     }
   ],
   "broader_oss_reviews": [
@@ -1492,6 +1536,14 @@
       "head": "30fb2178b47d71d491a89cf771412dea617b54e3",
       "decision": "APPROVED",
       "submitted_at": "2026-09-06T04:56:31Z"
+    },
+    {
+      "repository": "dperini/nwsapi",
+      "number": 201,
+      "url": "https://github.com/dperini/nwsapi/pull/201#pullrequestreview-5124627201",
+      "head": "36f19c8ab2b0dc230a7e5194a91507a55d0da3ad",
+      "decision": "CHANGES_REQUESTED",
+      "submitted_at": "2026-09-06T07:40:06Z"
     }
   ],
   "maintenance_history": [
@@ -1741,6 +1793,54 @@
         "change": "Moved regression tests into test/specs/new with full HTML renderExact comparisons. Source unchanged.",
         "reply": "https://github.com/markedjs/marked/pull/4086#discussion_r3942057467"
       }
+    },
+    {
+      "repository": "markedjs/marked",
+      "number": 4086,
+      "url": "https://github.com/markedjs/marked/pull/4086",
+      "head": "3f63979ca70df7600986ec7c7da53032fe7b8af9",
+      "base": "4417582f35d69926f0778ee133c3af75b7f3f966",
+      "signed_commit_verified": true,
+      "state": "OPEN",
+      "checked_at": "2026-09-06T05:03:10.857284+00:00",
+      "local_validation": {
+        "each_regression_gfm_modes": 2,
+        "spec_harness_tests_passed": 1833,
+        "unit_tests_passed": 191,
+        "full_npm_test": "passed",
+        "commonmark_comparison": {
+          "inputs": 2058,
+          "base_mismatches": 1862,
+          "head_mismatches": 1410,
+          "fixed": 452,
+          "new_mismatches": 0
+        },
+        "base_failing_spec_fixtures": 16,
+        "head_passing_spec_fixtures": 16,
+        "render_exact": true,
+        "scenarios": 8,
+        "fixture_format": "16 paired .md/.html files with gfm and renderExact front matter",
+        "fixture_content_options_unchanged": true
+      },
+      "limitations": "Structural and leading-indentation tab discrepancies remain. This fixes internal content tabs only and does not close the broad issue.",
+      "upstream_workflows": [
+        {
+          "name": "Tests",
+          "status": "completed",
+          "conclusion": "action_required",
+          "url": "https://github.com/markedjs/marked/actions/runs/34012619021",
+          "head": "3f63979ca70df7600986ec7c7da53032fe7b8af9"
+        }
+      ],
+      "checks": {
+        "success": 1,
+        "failure": 1,
+        "failure_reason": "Vercel deployment authorization required"
+      },
+      "follow_up": {
+        "change": "Converted the 16 JSON cases to Markdown/HTML pairs as requested. Source, Markdown, expected HTML and options are unchanged.",
+        "reply": "https://github.com/markedjs/marked/pull/4086#discussion_r3942988589"
+      }
     }
   ],
   "continuation_3_validation": {
@@ -1903,6 +2003,64 @@
       "mutation_failures": 3,
       "mutation_explanation": "Removing only the immediate ref refresh reproduces stale first input in two uncontrolled scenarios and fails one existing regression; controlled scenarios still pass.",
       "limitation": "Direct-component reproduction; the original custom wrapper was not supplied. Issue remains open. Triage is not authored merged work."
+    }
+  },
+  "documented_manual_incorporations": [
+    {
+      "repository": "dperini/nwsapi",
+      "number": 169,
+      "url": "https://github.com/dperini/nwsapi/pull/169",
+      "head": "e33a8aed15a33a09f64a3bb462147fb647128992",
+      "signed_commit_verified": true,
+      "state": "CLOSED",
+      "merged_at": null,
+      "closed_at": "2026-09-06T07:38:56Z",
+      "adopted_commit": "faa8468f15a0e2c708ac62728025f972258f0e3f",
+      "adopted_commit_url": "https://github.com/dperini/nwsapi/commit/faa8468f15a0e2c708ac62728025f972258f0e3f",
+      "adopted_by": "dperini",
+      "adopted_at": "2026-08-30T06:06:56Z",
+      "adopted_scope": "Both runtime root-sibling guards; standalone HTML fixture not incorporated.",
+      "package_verified": "nwsapi@2.2.27",
+      "local_validation": {
+        "direct_cases": 10,
+        "before_failures": 5,
+        "published_current_passed": 10,
+        "ant_design_head": "713b71aff63ccae4a0d9b797fe5504971288cad1",
+        "tooltip_old_package_failed": 4,
+        "tooltip_tests_passed": 52,
+        "tooltip_snapshots_passed": 5
+      },
+      "public_follow_up": "https://github.com/dperini/nwsapi/pull/169#issuecomment-5557789636",
+      "checked_at": "2026-09-06T07:43:23.597752+00:00",
+      "counting": "Manual upstream incorporation; excluded from GitHub merged-PR total."
+    }
+  ],
+  "continuation_5_validation": {
+    "nwsapi_201": {
+      "base": "eaf4233b2a7b4f950af7ad56ee0457be8e3d38d6",
+      "head": "36f19c8ab2b0dc230a7e5194a91507a55d0da3ad",
+      "node": "v24.15.0",
+      "chromium": "151.0.7922.34",
+      "independent_observations": 1012,
+      "base_mismatches": 122,
+      "head_mismatches": 0,
+      "public_private_selector_regressions": 3,
+      "quoted_value_control": "passed",
+      "node_suite": {
+        "passed": 34,
+        "expected_failures": 2,
+        "skipped": 1
+      },
+      "browser_suite": {
+        "passed": 3,
+        "expected_failures": 2,
+        "native_comparisons": 69
+      },
+      "packed_package_tests": 11,
+      "lint": "passed",
+      "formatting": "passed",
+      "upstream_node_check": "success",
+      "limitation": "The isolation TODO was already documented by the author. Review adds concrete public regressions and a quoted-value control. Two inherited expected failures remain."
     }
   }
 }
