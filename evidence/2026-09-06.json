@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-05T21:09:31.818342+00:00",
+  "checked_at": "2026-09-06T04:56:53.837845+00:00",
   "github_user": "nrps9909",
   "methodology": {
     "merged": "Public authored merged PRs; exclude nrps9909/* and Mes0903/NTNU-GameDesign. Open and approved PRs do not count.",
@@ -10,7 +10,7 @@
     "merged_upstream_repositories": 38,
     "ant_design_main_merged_prs": 23,
     "ant_design_ecosystem_merged_prs": 42,
-    "reviewed_upstream_prs": 163
+    "reviewed_upstream_prs": 164
   },
   "merged": [
     {
@@ -892,6 +892,11 @@
       "url": "https://github.com/react-component/tree/pull/1067"
     },
     {
+      "repository": "validatorjs/validator.js",
+      "number": 2841,
+      "url": "https://github.com/validatorjs/validator.js/pull/2841"
+    },
+    {
       "repository": "ant-design/ant-design",
       "number": 58899,
       "url": "https://github.com/ant-design/ant-design/pull/58899"
@@ -1230,11 +1235,11 @@
   "comparison_with_previous_snapshot": {
     "previous_checked_at": "2026-09-05",
     "previous_reviewed_upstream_prs": 157,
-    "current_reviewed_upstream_prs": 163,
+    "current_reviewed_upstream_prs": 164,
     "no_longer_resolves_in_github_graphql": [
       "https://github.com/react-component/tabs/pull/1015"
     ],
-    "note": "The September 5 snapshot is retained. The current tally excludes the no-longer-retrievable Tabs PR and includes seven independently verified reviews published on September 6 (Taipei). Oh My Zsh #13932 has since merged, increasing authored merges to 66 across 38 upstream repositories. Reviews include approvals, changes requested and non-approving validation comments.",
+    "note": "The September 5 snapshot is retained. The current tally excludes the no-longer-retrievable Tabs PR and includes eight independently verified reviews published on September 6 (Taipei). Oh My Zsh #13932 has since merged, increasing authored merges to 66 across 38 upstream repositories. Reviews include approvals, changes requested and non-approving validation comments.",
     "added_in_broader_oss_round": [
       "https://github.com/tj/commander.js/pull/2604#pullrequestreview-5122666124",
       "https://github.com/validatorjs/validator.js/pull/2875#pullrequestreview-5122666181",
@@ -1247,10 +1252,340 @@
     "added_in_continuation_3": [
       "https://github.com/markedjs/marked/pull/4082#pullrequestreview-5123031084",
       "https://github.com/iamkun/dayjs/pull/3187#pullrequestreview-5123031060"
+    ],
+    "added_in_continuation_4": [
+      "https://github.com/validatorjs/validator.js/pull/2841#pullrequestreview-5124200191"
     ]
   },
-  "maintenance_checked_at": "2026-09-05T21:09:31.818342+00:00",
+  "maintenance_checked_at": "2026-09-06T05:03:10.857284+00:00",
   "maintenance_updates": [
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59223,
+      "url": "https://github.com/ant-design/ant-design/pull/59223",
+      "head": "1e1f458357f9b21558d311798563cbe3a020cfb3",
+      "signed_commit_verified": true,
+      "state": "OPEN",
+      "checks": {
+        "success": 45,
+        "skipped": 3,
+        "pending": 0,
+        "failure": 0
+      },
+      "review_threads": {
+        "resolved": 4,
+        "total": 4
+      },
+      "codecov": {
+        "modified_lines_covered": true,
+        "project_coverage_percent": 100
+      },
+      "local_validation": {
+        "tests": 15,
+        "snapshots": 4,
+        "hook_line_coverage_percent": 100
+      },
+      "test_workflow": "https://github.com/ant-design/ant-design/actions/runs/33982344147",
+      "visual_workflow": "https://github.com/ant-design/ant-design/actions/runs/33982344186",
+      "checked_at": "2026-09-06T05:03:10.857284+00:00"
+    },
+    {
+      "repository": "react-component/picker",
+      "number": 1013,
+      "url": "https://github.com/react-component/picker/pull/1013",
+      "head": "52f4917a97d1b2b7b6d2f8278c925b0a7311cb99",
+      "signed_commit_verified": true,
+      "state": "OPEN",
+      "local_validation": {
+        "base_failing_regressions": 6,
+        "new_tests_passed": 9,
+        "full_tests_passed": 481,
+        "full_tests_skipped": 2,
+        "snapshots_passed": 29,
+        "build": "passed",
+        "baseline_type_errors": 10
+      },
+      "upstream_test_workflow": "https://github.com/react-component/picker/actions/runs/33983864254",
+      "upstream_test_conclusion": "success",
+      "preview_gate": "Vercel: Authorization required to deploy.",
+      "discussion_reply": "https://github.com/ant-design/ant-design/pull/59222#issuecomment-5553873437",
+      "checked_at": "2026-09-06T05:03:10.857284+00:00",
+      "upstream_workflows": [
+        {
+          "name": "\u2705 test",
+          "conclusion": "success",
+          "url": "https://github.com/react-component/picker/actions/runs/33983864254"
+        },
+        {
+          "name": "Surge Preview",
+          "conclusion": "success",
+          "url": "https://github.com/react-component/picker/actions/runs/33983863791"
+        },
+        {
+          "name": "React Doctor",
+          "conclusion": "success",
+          "url": "https://github.com/react-component/picker/actions/runs/33983863803"
+        }
+      ],
+      "checks": {
+        "success": 9,
+        "failure": 1,
+        "failure_reason": "Vercel deployment authorization required"
+      },
+      "codecov": {
+        "modified_lines_covered": true,
+        "project_coverage_percent": 98.88
+      }
+    },
+    {
+      "repository": "tj/commander.js",
+      "number": 2608,
+      "url": "https://github.com/tj/commander.js/pull/2608",
+      "head": "f57c87b8a12ebf8ea2b24ea9395d03e05d1b9d3f",
+      "signed_commit_verified": true,
+      "state": "CLOSED",
+      "base": "97411c66e29260bff2a0de6c73185336ad6fd7fa",
+      "local_validation": {
+        "base_failures_with_NO_COLOR": 2,
+        "environment_configurations_passed": 6,
+        "full_tests_passed": 1420,
+        "minimum_node_version_checked": "22.12.0",
+        "minimum_node_focused_tests_passed": 24,
+        "type_lint_format": "passed"
+      },
+      "checked_at": "2026-09-06T05:03:10.857284+00:00",
+      "follow_up": {
+        "change": "Restore original environment once with t.after; retain beforeEach isolation.",
+        "reply": "https://github.com/tj/commander.js/pull/2608#issuecomment-5554555706"
+      },
+      "closed_at": "2026-09-05T22:10:46Z",
+      "merged_at": null,
+      "last_head_workflows_before_closure": [
+        {
+          "name": "build",
+          "conclusion": "action_required",
+          "url": "https://github.com/tj/commander.js/actions/runs/33990016449"
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "action_required",
+          "url": "https://github.com/tj/commander.js/actions/runs/33990016511"
+        }
+      ],
+      "maintainer_decision": {
+        "author": "shadowspawn",
+        "adopted": false,
+        "reason": "The maintainer does not want the change at this time and is treating it as a support example for #2549.",
+        "url": "https://github.com/tj/commander.js/pull/2608#issuecomment-5555124397"
+      }
+    },
+    {
+      "repository": "markedjs/marked",
+      "number": 4086,
+      "url": "https://github.com/markedjs/marked/pull/4086",
+      "head": "3f63979ca70df7600986ec7c7da53032fe7b8af9",
+      "base": "4417582f35d69926f0778ee133c3af75b7f3f966",
+      "signed_commit_verified": true,
+      "state": "OPEN",
+      "checked_at": "2026-09-06T05:03:10.857284+00:00",
+      "local_validation": {
+        "each_regression_gfm_modes": 2,
+        "spec_harness_tests_passed": 1833,
+        "unit_tests_passed": 191,
+        "full_npm_test": "passed",
+        "commonmark_comparison": {
+          "inputs": 2058,
+          "base_mismatches": 1862,
+          "head_mismatches": 1410,
+          "fixed": 452,
+          "new_mismatches": 0
+        },
+        "base_failing_spec_fixtures": 16,
+        "head_passing_spec_fixtures": 16,
+        "render_exact": true,
+        "scenarios": 8,
+        "fixture_format": "16 paired .md/.html files with gfm and renderExact front matter",
+        "fixture_content_options_unchanged": true
+      },
+      "limitations": "Structural and leading-indentation tab discrepancies remain. This fixes internal content tabs only and does not close the broad issue.",
+      "upstream_workflows": [
+        {
+          "name": "Tests",
+          "status": "completed",
+          "conclusion": "action_required",
+          "url": "https://github.com/markedjs/marked/actions/runs/34012619021",
+          "head": "3f63979ca70df7600986ec7c7da53032fe7b8af9"
+        }
+      ],
+      "checks": {
+        "success": 1,
+        "failure": 1,
+        "failure_reason": "Vercel deployment authorization required"
+      },
+      "follow_up": {
+        "change": "Converted the 16 JSON cases to Markdown/HTML pairs as requested. Source, Markdown, expected HTML and options are unchanged.",
+        "reply": "https://github.com/markedjs/marked/pull/4086#discussion_r3942988589"
+      }
+    }
+  ],
+  "broader_oss_reviews": [
+    {
+      "repository": "tj/commander.js",
+      "number": 2604,
+      "url": "https://github.com/tj/commander.js/pull/2604#pullrequestreview-5122666124",
+      "head": "3ac5c5d01fa91090218b8c4ed10663616cd03825",
+      "decision": "APPROVED",
+      "submitted_at": "2026-09-05T19:13:13Z"
+    },
+    {
+      "repository": "validatorjs/validator.js",
+      "number": 2875,
+      "url": "https://github.com/validatorjs/validator.js/pull/2875#pullrequestreview-5122666181",
+      "head": "66622ba31e8241eb36a12b6390112464416c9e28",
+      "decision": "APPROVED",
+      "submitted_at": "2026-09-05T19:13:14Z"
+    },
+    {
+      "repository": "iamkun/dayjs",
+      "number": 3201,
+      "url": "https://github.com/iamkun/dayjs/pull/3201#pullrequestreview-5122666225",
+      "head": "e6f20e244622e8999eaeea938480d39e9ffe853a",
+      "decision": "APPROVED",
+      "submitted_at": "2026-09-05T19:13:15Z"
+    },
+    {
+      "repository": "tj/commander.js",
+      "number": 2607,
+      "url": "https://github.com/tj/commander.js/pull/2607#pullrequestreview-5122890850",
+      "head": "99c705336a209e1ab83a45a38ae5d460d589729a",
+      "decision": "CHANGES_REQUESTED",
+      "submitted_at": "2026-09-05T20:36:06Z"
+    },
+    {
+      "repository": "import-js/eslint-plugin-import",
+      "number": 3244,
+      "url": "https://github.com/import-js/eslint-plugin-import/pull/3244#pullrequestreview-5122903786",
+      "head": "5a6c4b0e1f52c883d688586e783a49631651fbd4",
+      "decision": "APPROVED",
+      "submitted_at": "2026-09-05T20:42:22Z"
+    },
+    {
+      "repository": "markedjs/marked",
+      "number": 4082,
+      "url": "https://github.com/markedjs/marked/pull/4082#pullrequestreview-5123031084",
+      "head": "d7e1b92ed053451a3585d943323f7f858b780fd5",
+      "decision": "APPROVED",
+      "submitted_at": "2026-09-05T21:08:22Z"
+    },
+    {
+      "repository": "iamkun/dayjs",
+      "number": 3187,
+      "url": "https://github.com/iamkun/dayjs/pull/3187#pullrequestreview-5123031060",
+      "head": "07c5726c8a0ac211af5744e9ccaf743a70289af0",
+      "decision": "COMMENTED",
+      "submitted_at": "2026-09-05T21:08:21Z"
+    },
+    {
+      "repository": "validatorjs/validator.js",
+      "number": 2841,
+      "url": "https://github.com/validatorjs/validator.js/pull/2841#pullrequestreview-5124200191",
+      "head": "30fb2178b47d71d491a89cf771412dea617b54e3",
+      "decision": "APPROVED",
+      "submitted_at": "2026-09-06T04:56:31Z"
+    }
+  ],
+  "maintenance_history": [
+    {
+      "repository": "tj/commander.js",
+      "number": 2608,
+      "url": "https://github.com/tj/commander.js/pull/2608",
+      "head": "2e4b72b06af30d19622beeb139a552e5b0fbcf4d",
+      "signed_commit_verified": true,
+      "state": "OPEN",
+      "base": "97411c66e29260bff2a0de6c73185336ad6fd7fa",
+      "local_validation": {
+        "base_failures_with_NO_COLOR": 2,
+        "environment_configurations_passed": 6,
+        "full_tests_passed": 1420,
+        "minimum_node_version_checked": "22.12.0",
+        "minimum_node_focused_tests_passed": 24,
+        "type_lint_format": "passed"
+      },
+      "upstream_workflows": [
+        {
+          "name": "build",
+          "conclusion": "action_required",
+          "url": "https://github.com/tj/commander.js/actions/runs/33986456986"
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "action_required",
+          "url": "https://github.com/tj/commander.js/actions/runs/33986456987"
+        }
+      ],
+      "checked_at": "2026-09-05T19:14:42.841153+00:00"
+    },
+    {
+      "repository": "react-component/picker",
+      "number": 1013,
+      "url": "https://github.com/react-component/picker/pull/1013",
+      "head": "52f4917a97d1b2b7b6d2f8278c925b0a7311cb99",
+      "signed_commit_verified": true,
+      "state": "OPEN",
+      "local_validation": {
+        "base_failing_regressions": 6,
+        "new_tests_passed": 9,
+        "full_tests_passed": 481,
+        "full_tests_skipped": 2,
+        "snapshots_passed": 29,
+        "build": "passed",
+        "baseline_type_errors": 10
+      },
+      "upstream_test_workflow": "https://github.com/react-component/picker/actions/runs/33983864254",
+      "upstream_test_conclusion": "action_required",
+      "preview_gate": "Vercel: Authorization required to deploy.",
+      "auxiliary_checks": {
+        "success": 4,
+        "failure": 1,
+        "failure_reason": "Vercel deployment authorization required"
+      },
+      "discussion_reply": "https://github.com/ant-design/ant-design/pull/59222#issuecomment-5553873437",
+      "checked_at": "2026-09-05T19:14:42.841153+00:00"
+    },
+    {
+      "repository": "markedjs/marked",
+      "number": 4086,
+      "url": "https://github.com/markedjs/marked/pull/4086",
+      "head": "2348276b11d4767ee0cfaee6cfa11e4b75b64502",
+      "base": "4417582f35d69926f0778ee133c3af75b7f3f966",
+      "signed_commit_verified": true,
+      "state": "OPEN",
+      "checked_at": "2026-09-05T20:42:46.232333+00:00",
+      "local_validation": {
+        "base_failing_new_regressions": 8,
+        "head_passing_new_regressions": 8,
+        "each_regression_gfm_modes": 2,
+        "spec_harness_tests_passed": 1801,
+        "unit_tests_passed": 199,
+        "full_npm_test": "passed",
+        "commonmark_comparison": {
+          "inputs": 2058,
+          "base_mismatches": 1862,
+          "head_mismatches": 1410,
+          "fixed": 452,
+          "new_mismatches": 0
+        }
+      },
+      "limitations": "Structural and leading-indentation tab discrepancies remain. This fixes internal content tabs only and does not close the broad issue.",
+      "auxiliary_checks_success": 3,
+      "upstream_workflows": [
+        {
+          "name": "Tests",
+          "conclusion": "action_required",
+          "url": "https://github.com/markedjs/marked/actions/runs/33990604924"
+        }
+      ]
+    },
     {
       "repository": "ant-design/ant-design",
       "number": 59223,
@@ -1408,157 +1743,6 @@
       }
     }
   ],
-  "broader_oss_reviews": [
-    {
-      "repository": "tj/commander.js",
-      "number": 2604,
-      "url": "https://github.com/tj/commander.js/pull/2604#pullrequestreview-5122666124",
-      "head": "3ac5c5d01fa91090218b8c4ed10663616cd03825",
-      "decision": "APPROVED",
-      "submitted_at": "2026-09-05T19:13:13Z"
-    },
-    {
-      "repository": "validatorjs/validator.js",
-      "number": 2875,
-      "url": "https://github.com/validatorjs/validator.js/pull/2875#pullrequestreview-5122666181",
-      "head": "66622ba31e8241eb36a12b6390112464416c9e28",
-      "decision": "APPROVED",
-      "submitted_at": "2026-09-05T19:13:14Z"
-    },
-    {
-      "repository": "iamkun/dayjs",
-      "number": 3201,
-      "url": "https://github.com/iamkun/dayjs/pull/3201#pullrequestreview-5122666225",
-      "head": "e6f20e244622e8999eaeea938480d39e9ffe853a",
-      "decision": "APPROVED",
-      "submitted_at": "2026-09-05T19:13:15Z"
-    },
-    {
-      "repository": "tj/commander.js",
-      "number": 2607,
-      "url": "https://github.com/tj/commander.js/pull/2607#pullrequestreview-5122890850",
-      "head": "99c705336a209e1ab83a45a38ae5d460d589729a",
-      "decision": "CHANGES_REQUESTED",
-      "submitted_at": "2026-09-05T20:36:06Z"
-    },
-    {
-      "repository": "import-js/eslint-plugin-import",
-      "number": 3244,
-      "url": "https://github.com/import-js/eslint-plugin-import/pull/3244#pullrequestreview-5122903786",
-      "head": "5a6c4b0e1f52c883d688586e783a49631651fbd4",
-      "decision": "APPROVED",
-      "submitted_at": "2026-09-05T20:42:22Z"
-    },
-    {
-      "repository": "markedjs/marked",
-      "number": 4082,
-      "url": "https://github.com/markedjs/marked/pull/4082#pullrequestreview-5123031084",
-      "head": "d7e1b92ed053451a3585d943323f7f858b780fd5",
-      "decision": "APPROVED",
-      "submitted_at": "2026-09-05T21:08:22Z"
-    },
-    {
-      "repository": "iamkun/dayjs",
-      "number": 3187,
-      "url": "https://github.com/iamkun/dayjs/pull/3187#pullrequestreview-5123031060",
-      "head": "07c5726c8a0ac211af5744e9ccaf743a70289af0",
-      "decision": "COMMENTED",
-      "submitted_at": "2026-09-05T21:08:21Z"
-    }
-  ],
-  "maintenance_history": [
-    {
-      "repository": "tj/commander.js",
-      "number": 2608,
-      "url": "https://github.com/tj/commander.js/pull/2608",
-      "head": "2e4b72b06af30d19622beeb139a552e5b0fbcf4d",
-      "signed_commit_verified": true,
-      "state": "OPEN",
-      "base": "97411c66e29260bff2a0de6c73185336ad6fd7fa",
-      "local_validation": {
-        "base_failures_with_NO_COLOR": 2,
-        "environment_configurations_passed": 6,
-        "full_tests_passed": 1420,
-        "minimum_node_version_checked": "22.12.0",
-        "minimum_node_focused_tests_passed": 24,
-        "type_lint_format": "passed"
-      },
-      "upstream_workflows": [
-        {
-          "name": "build",
-          "conclusion": "action_required",
-          "url": "https://github.com/tj/commander.js/actions/runs/33986456986"
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "action_required",
-          "url": "https://github.com/tj/commander.js/actions/runs/33986456987"
-        }
-      ],
-      "checked_at": "2026-09-05T19:14:42.841153+00:00"
-    },
-    {
-      "repository": "react-component/picker",
-      "number": 1013,
-      "url": "https://github.com/react-component/picker/pull/1013",
-      "head": "52f4917a97d1b2b7b6d2f8278c925b0a7311cb99",
-      "signed_commit_verified": true,
-      "state": "OPEN",
-      "local_validation": {
-        "base_failing_regressions": 6,
-        "new_tests_passed": 9,
-        "full_tests_passed": 481,
-        "full_tests_skipped": 2,
-        "snapshots_passed": 29,
-        "build": "passed",
-        "baseline_type_errors": 10
-      },
-      "upstream_test_workflow": "https://github.com/react-component/picker/actions/runs/33983864254",
-      "upstream_test_conclusion": "action_required",
-      "preview_gate": "Vercel: Authorization required to deploy.",
-      "auxiliary_checks": {
-        "success": 4,
-        "failure": 1,
-        "failure_reason": "Vercel deployment authorization required"
-      },
-      "discussion_reply": "https://github.com/ant-design/ant-design/pull/59222#issuecomment-5553873437",
-      "checked_at": "2026-09-05T19:14:42.841153+00:00"
-    },
-    {
-      "repository": "markedjs/marked",
-      "number": 4086,
-      "url": "https://github.com/markedjs/marked/pull/4086",
-      "head": "2348276b11d4767ee0cfaee6cfa11e4b75b64502",
-      "base": "4417582f35d69926f0778ee133c3af75b7f3f966",
-      "signed_commit_verified": true,
-      "state": "OPEN",
-      "checked_at": "2026-09-05T20:42:46.232333+00:00",
-      "local_validation": {
-        "base_failing_new_regressions": 8,
-        "head_passing_new_regressions": 8,
-        "each_regression_gfm_modes": 2,
-        "spec_harness_tests_passed": 1801,
-        "unit_tests_passed": 199,
-        "full_npm_test": "passed",
-        "commonmark_comparison": {
-          "inputs": 2058,
-          "base_mismatches": 1862,
-          "head_mismatches": 1410,
-          "fixed": 452,
-          "new_mismatches": 0
-        }
-      },
-      "limitations": "Structural and leading-indentation tab discrepancies remain. This fixes internal content tabs only and does not close the broad issue.",
-      "auxiliary_checks_success": 3,
-      "upstream_workflows": [
-        {
-          "name": "Tests",
-          "conclusion": "action_required",
-          "url": "https://github.com/markedjs/marked/actions/runs/33990604924"
-        }
-      ]
-    }
-  ],
   "continuation_3_validation": {
     "marked_4082": {
       "unique_inputs": 22160,
@@ -1597,6 +1781,128 @@
       "lint": "passed",
       "decision": "COMMENTED",
       "open_question": "Separate unrelated case-insensitive short-unit aliases or obtain maintainer confirmation of API expansion."
+    }
+  },
+  "continuation_4_validation": {
+    "validator_2841": {
+      "base": "d4e02eea6b1e831b01857214982b8389dc46bbc9",
+      "head": "30fb2178b47d71d491a89cf771412dea617b54e3",
+      "node": "24.15.0",
+      "calendar": {
+        "total": 3960000,
+        "baseMismatches": 67575,
+        "headMismatches": 0,
+        "validRegressions": 0,
+        "examples": [
+          {
+            "input": "0000-02-30T00:00:00Z",
+            "expected": false,
+            "before": true,
+            "after": false
+          },
+          {
+            "input": "0000-02-31T00:00:00Z",
+            "expected": false,
+            "before": true,
+            "after": false
+          },
+          {
+            "input": "0000-04-31T00:00:00Z",
+            "expected": false,
+            "before": true,
+            "after": false
+          },
+          {
+            "input": "0000-06-31T00:00:00Z",
+            "expected": false,
+            "before": true,
+            "after": false
+          },
+          {
+            "input": "0000-09-31T00:00:00Z",
+            "expected": false,
+            "before": true,
+            "after": false
+          },
+          {
+            "input": "0000-11-31T00:00:00Z",
+            "expected": false,
+            "before": true,
+            "after": false
+          },
+          {
+            "input": "0001-02-29T00:00:00Z",
+            "expected": false,
+            "before": true,
+            "after": false
+          },
+          {
+            "input": "0001-02-30T00:00:00Z",
+            "expected": false,
+            "before": true,
+            "after": false
+          },
+          {
+            "input": "0001-02-31T00:00:00Z",
+            "expected": false,
+            "before": true,
+            "after": false
+          },
+          {
+            "input": "0001-04-31T00:00:00Z",
+            "expected": false,
+            "before": true,
+            "after": false
+          },
+          {
+            "input": "0001-06-31T00:00:00Z",
+            "expected": false,
+            "before": true,
+            "after": false
+          },
+          {
+            "input": "0001-09-31T00:00:00Z",
+            "expected": false,
+            "before": true,
+            "after": false
+          }
+        ]
+      },
+      "distributions": {
+        "source": {
+          "total": 5897,
+          "failures": 0
+        },
+        "node": {
+          "total": 5897,
+          "failures": 0
+        },
+        "browser": {
+          "total": 5897,
+          "failures": 0
+        },
+        "minifiedBrowser": {
+          "total": 5897,
+          "failures": 0
+        }
+      },
+      "full_tests_passed": 321,
+      "upstream_checks_success": 13,
+      "limitation": "Calendar-day scope only; existing permissive second-60 handling remains. Approval is not a merge."
+    },
+    "input_number_535": {
+      "url": "https://github.com/react-component/input-number/issues/535#issuecomment-5557068714",
+      "tested_head": "8a45b34167fa0f4769762d02dc2f8c79bb260190",
+      "existing_fix": "https://github.com/react-component/input-number/pull/587",
+      "existing_fix_merged_at": "2023-07-19T06:18:55Z",
+      "full_tests_passed": 170,
+      "new_local_scenarios": 4,
+      "node": "24.15.0",
+      "react": "19.2.8",
+      "util": "1.13.0",
+      "mutation_failures": 3,
+      "mutation_explanation": "Removing only the immediate ref refresh reproduces stale first input in two uncontrolled scenarios and fails one existing regression; controlled scenarios still pass.",
+      "limitation": "Direct-component reproduction; the original custom wrapper was not supplied. Issue remains open. Triage is not authored merged work."
     }
   }
 }
