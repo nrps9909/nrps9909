@@ -12,15 +12,15 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 
 ## Open-source work at a glance
 
-| Verified public record (2026-09-06)                     | Current total |
+| Verified public record (2026-09-07)                     | Current total |
 | ------------------------------------------------------- | ------------: |
-| Merged PRs in non-owned upstream repositories           |        **66** |
-| Non-owned upstream repositories with merged work        |        **38** |
-| Merged PRs in the Ant Design main repository            |        **23** |
-| Merged PRs across the Ant Design ecosystem              |        **42** |
+| Merged PRs in non-owned upstream repositories           |        **68** |
+| Non-owned upstream repositories with merged work        |        **39** |
+| Merged PRs in the Ant Design main repository            |        **24** |
+| Merged PRs across the Ant Design ecosystem              |        **44** |
 | Public upstream PRs reviewed as an external contributor |       **166** |
 
-These figures exclude repositories I own and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-06.json).
+These figures exclude repositories I own and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-07.json).
 
 ## What I maintain
 
@@ -31,6 +31,8 @@ These figures exclude repositories I own and count a PR only after GitHub report
 
 ## Selected merged contributions
 
+- **Ant Design:** [use German DatePicker date and date-time formats](https://github.com/ant-design/ant-design/pull/59151).
+- **React Component Picker:** [parse localized month input with the picker locale](https://github.com/react-component/picker/pull/1013).
 - **Ant Design:** [correct Traditional Chinese picker terminology](https://github.com/ant-design/ant-design/pull/59129) while keeping public locale contracts synchronized with regression coverage.
 - **Ant Design:** [prevent Notification close controls from submitting forms](https://github.com/ant-design/ant-design/pull/59126), preserving native button semantics in embedded forms.
 - **Ant Design:** [preserve List items whose row key is numeric zero](https://github.com/ant-design/ant-design/pull/59113) with a focused React key regression.
@@ -42,9 +44,9 @@ These figures exclude repositories I own and count a PR only after GitHub report
 
 ## Latest contribution
 
-- [type-fest Writable review](https://github.com/sindresorhus/type-fest/pull/1516#pullrequestreview-5125224510): reproduced 12 newly accepted readonly writes on each of TypeScript 5.9.3, 6.0.3 and 7.0.2. A [candidate patch with seven negative regression assertions](https://github.com/nrps9909/nrps9909/tree/main/evidence/type-fest-1516) removes those regressions while preserving the working default-argument repair. Three inherited explicit-keyof generic failures remain. Review is COMMENTED; the candidate is not adopted.
+- [type-fest Writable follow-up](https://github.com/sindresorhus/type-fest/pull/1516#pullrequestreview-5128779168): the updated head fixes the reported empty-selection regression. Expanded checks expose 42 additional readonly failures in my old candidate; the maintainer-directed exact-sentinel implementation fixes all 42. On each of three TypeScript versions, 300/303 observations pass; three inherited generic failures and four existing full-suite lint errors remain. The [old candidate is superseded](./evidence/type-fest-1516). Review state is COMMENTED.
 - [NWSAPI root-sibling fix](https://github.com/dperini/nwsapi/pull/169#issuecomment-5557789636): verified that the maintainer incorporated the runtime change on August 30 with explicit credit, and that published 2.2.27 passes the downstream 52-test Tooltip suite / five snapshots where 2.2.25 fails four tests. Closed the superseded PR; this manually incorporated change is recorded separately from GitHub-merged PRs.
-- [NWSAPI relative-selector review](https://github.com/dperini/nwsapi/pull/201#pullrequestreview-5124627201): 1,012 Chromium comparisons improve from 122 baseline mismatches to zero, but three public queries expose the documented internal-anchor isolation problem. Requested regressions for the public parser while preserving valid quoted attribute values.
+- [NWSAPI relative-selector follow-up](https://github.com/dperini/nwsapi/pull/201#issuecomment-5566181555): the author adopted the private-selector isolation repair and #201 is merged. All 1,012 original relative-selector comparisons still match Chromium. Expanded isolation checks improve from 216 to nine mismatches out of 504; the remaining childless-element path is an inherited deferred-validation issue, reported separately. Node 26 tests, browser/package suites, static checks and all 44 configured WPT/fixture pages pass their expected-result checks. This is review impact on another author's PR.
 - [validator.js calendar-date review](https://github.com/validatorjs/validator.js/pull/2841#pullrequestreview-5124200191): verified every four-digit year across 3,960,000 date cases. The patch rejects 67,575 previously accepted impossible dates with zero remaining mismatches in this corpus; all 321 tests pass. [InputNumber issue triage](https://github.com/react-component/input-number/issues/535#issuecomment-5557068714): traced stale first-keystroke formatter data to an already-merged fix, verified 170 tests and reproduced the old failure by removing the relevant line.
 - [Marked #4086](https://github.com/markedjs/marked/pull/4086): preserve literal tabs inside list code spans and fences. Addressed the maintainer's format request with 16 Markdown/HTML fixture pairs; all fail on base and pass with the fix. Full validation passes 1,833 spec-harness tests, 191 unit tests, build and lint. Maintainer [UziTech approved the exact head](https://github.com/markedjs/marked/pull/4086#pullrequestreview-5124240665); all seven applicable upstream checks and Vercel preview pass (Release skipped). The PR remains open.
 - [Marked list performance review](https://github.com/markedjs/marked/pull/4082#pullrequestreview-5123031084): verified unchanged full token trees and HTML across 110,800 comparisons. A 500-level list used a median 124.3 MiB peak RSS versus 198.5 MiB on base in five local runs each. [Day.js invalid-date review](https://github.com/iamkun/dayjs/pull/3187#pullrequestreview-5123031060): verified the NaN correction and documented a separate, unrelated unit-alias change for maintainer decision.
@@ -53,8 +55,8 @@ These figures exclude repositories I own and count a PR only after GitHub report
 - Newly merged: [Oh My Zsh #13932](https://github.com/ohmyzsh/ohmyzsh/pull/13932), preserving the Poetry environment while navigating project subdirectories. The maintainer merged it on September 6 (Taipei).
 - Cross-project reviews: [Commander Electron parsing](https://github.com/tj/commander.js/pull/2604#pullrequestreview-5122666124), [Day.js ISO weeks](https://github.com/iamkun/dayjs/pull/3201#pullrequestreview-5122666225), and [validator.js JWT structure](https://github.com/validatorjs/validator.js/pull/2875#pullrequestreview-5122666181), each published against the tested commit. The Day.js review independently compares 534,744 local/UTC cases across four timezones, with zero mismatches after reproducing 357 baseline failures.
 
-- [Picker #1013](https://github.com/react-component/picker/pull/1013): fix localized month input being parsed with the wrong global language. Six regressions fail on base; the fix passes the full 481-test suite and 29 snapshots, preserving strict validation and fallback for unloaded locales. Upstream test, Surge Preview and React Doctor workflows now pass. The signed PR is open; Vercel preview still requires deployment authorization.
-- [Ant Design #59223](https://github.com/ant-design/ant-design/pull/59223): preserve ConfigProvider properties when local nested styles override one property. Resolved all four review threads and the coverage failure. All 45 applicable upstream checks pass (three additional checks are skipped), including the three visual shards; Codecov reports all modified lines covered and 100% project coverage. The PR remains open.
+- [Picker #1013](https://github.com/react-component/picker/pull/1013): fix localized month input being parsed with the wrong global language. Six regressions fail on base; the fix passes the full 481-test suite and 29 snapshots, preserving strict validation and fallback for unloaded locales. Upstream test, Surge Preview and React Doctor workflows now pass. Merged by afc163 on September 7 with the same signed head; Vercel preview authorization remains a separate failed check.
+- [Ant Design #59223](https://github.com/ant-design/ant-design/pull/59223): preserve ConfigProvider properties when local nested styles override one property. Resolved all four review threads and the coverage failure. All 45 applicable upstream checks pass (three additional checks are skipped), including the three visual shards; Codecov reports all modified lines covered and 100% project coverage. QDyanbing gave LGTM on September 7; the PR remains open awaiting another functional review.
 - [Ant Design Tools #298](https://github.com/ant-design/antd-tools/pull/298): preserve binary image imports, choose the correct module format, and prevent stale image caching. Seven base-failing regressions pass after the fix; Ant Design Image consumer validation passes 118 tests and 56 snapshots. The signed PR is open and upstream CI requires maintainer approval.
 - [Tabs #59221](https://github.com/ant-design/ant-design/pull/59221#pullrequestreview-5120796382): approved the exact popup-style fix after a base reproduction and independent probes. The review discloses one identical base/head snapshot mismatch in the otherwise passing related-suite run, plus existing nested-style merge behavior.
 - [Ant Design Tools #297](https://github.com/ant-design/antd-tools/pull/297): fix stale Jest transform caching. A two-process regression proves that an edited module is recompiled; the patch passes build, lint, type checks, all 7 tools tests, and two cached runs of Ant Design's 78-test Checkbox suite. The PR is open; upstream CI requires maintainer approval.
