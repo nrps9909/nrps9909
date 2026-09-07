@@ -1,0 +1,526 @@
+{
+  "node": "v26.8.1",
+  "chromium": "151.0.7922.34",
+  "playwright": "1.62.1",
+  "observations_per_version": 486,
+  "rounds": 3,
+  "previous": {
+    "commit": "36f19c8ab2b0dc230a7e5194a91507a55d0da3ad",
+    "sourceSha256": "a17a762dfdc41e57d9172205c6c93f8d058337c1b9a3cbe7dc67c492e6e5d91c",
+    "mismatches": 174
+  },
+  "merged": {
+    "commit": "8227098ca8bf636ba8331bf0717c357bfe7c0b8a",
+    "sourceSha256": "dd31f9b2e790121c4eaddf34cc2b8ff6febd0c7274c7e3105e8bcf43436ba05f",
+    "mismatches": 84
+  },
+  "resolved_observations": 90,
+  "new_failures": 0,
+  "valid_control_observations": 270,
+  "valid_control_failures_on_merged": 0,
+  "remaining_unique_paths": 28,
+  "by_case": [
+    {
+      "name": "unknown",
+      "observations": 27,
+      "previous_mismatches": 15,
+      "merged_mismatches": 15
+    },
+    {
+      "name": "unknown-suffix",
+      "observations": 27,
+      "previous_mismatches": 21,
+      "merged_mismatches": 21
+    },
+    {
+      "name": "private",
+      "observations": 27,
+      "previous_mismatches": 27,
+      "merged_mismatches": 15
+    },
+    {
+      "name": "private-suffix",
+      "observations": 27,
+      "previous_mismatches": 27,
+      "merged_mismatches": 21
+    },
+    {
+      "name": "direct-unknown",
+      "observations": 27,
+      "previous_mismatches": 3,
+      "merged_mismatches": 3
+    },
+    {
+      "name": "direct-private",
+      "observations": 27,
+      "previous_mismatches": 27,
+      "merged_mismatches": 3
+    },
+    {
+      "name": "not-unknown",
+      "observations": 27,
+      "previous_mismatches": 3,
+      "merged_mismatches": 3
+    },
+    {
+      "name": "not-private",
+      "observations": 27,
+      "previous_mismatches": 27,
+      "merged_mismatches": 3
+    },
+    {
+      "name": "valid-has",
+      "observations": 27,
+      "previous_mismatches": 0,
+      "merged_mismatches": 0
+    },
+    {
+      "name": "valid-not",
+      "observations": 27,
+      "previous_mismatches": 0,
+      "merged_mismatches": 0
+    },
+    {
+      "name": "valid-child",
+      "observations": 27,
+      "previous_mismatches": 0,
+      "merged_mismatches": 0
+    },
+    {
+      "name": "valid-empty",
+      "observations": 27,
+      "previous_mismatches": 0,
+      "merged_mismatches": 0
+    },
+    {
+      "name": "forgiving-is",
+      "observations": 27,
+      "previous_mismatches": 12,
+      "merged_mismatches": 0
+    },
+    {
+      "name": "forgiving-where",
+      "observations": 27,
+      "previous_mismatches": 12,
+      "merged_mismatches": 0
+    },
+    {
+      "name": "forgiving-private",
+      "observations": 27,
+      "previous_mismatches": 0,
+      "merged_mismatches": 0
+    },
+    {
+      "name": "quoted-private",
+      "observations": 27,
+      "previous_mismatches": 0,
+      "merged_mismatches": 0
+    },
+    {
+      "name": "quoted-unknown",
+      "observations": 27,
+      "previous_mismatches": 0,
+      "merged_mismatches": 0
+    },
+    {
+      "name": "quoted-comma",
+      "observations": 27,
+      "previous_mismatches": 0,
+      "merged_mismatches": 0
+    }
+  ],
+  "remaining_paths": [
+    {
+      "name": "unknown",
+      "fixture": "attached-empty",
+      "method": "select",
+      "selector": "div:has(:not(:unknown))",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "unknown",
+      "fixture": "attached-empty",
+      "method": "match",
+      "selector": "div:has(:not(:unknown))",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": false
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "unknown-suffix",
+      "fixture": "attached-empty",
+      "method": "select",
+      "selector": "div:has(:not(:unknown)) > p",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "unknown-suffix",
+      "fixture": "attached-empty",
+      "method": "match",
+      "selector": "div:has(:not(:unknown)) > p",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": false
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "private",
+      "fixture": "attached-empty",
+      "method": "select",
+      "selector": "div:has(:not(:-nwsapi-anchor))",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "private",
+      "fixture": "attached-empty",
+      "method": "match",
+      "selector": "div:has(:not(:-nwsapi-anchor))",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": false
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "private-suffix",
+      "fixture": "attached-empty",
+      "method": "select",
+      "selector": "div:has(:not(:-nwsapi-anchor)) > p",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "private-suffix",
+      "fixture": "attached-empty",
+      "method": "match",
+      "selector": "div:has(:not(:-nwsapi-anchor)) > p",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": false
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "unknown-suffix",
+      "fixture": "attached-populated",
+      "method": "match",
+      "selector": "div:has(:not(:unknown)) > p",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": false
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "private-suffix",
+      "fixture": "attached-populated",
+      "method": "match",
+      "selector": "div:has(:not(:-nwsapi-anchor)) > p",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": false
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "unknown",
+      "fixture": "detached-empty",
+      "method": "select",
+      "selector": "div:has(:not(:unknown))",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "unknown",
+      "fixture": "detached-empty",
+      "method": "match",
+      "selector": "div:has(:not(:unknown))",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": false
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "unknown-suffix",
+      "fixture": "detached-empty",
+      "method": "select",
+      "selector": "div:has(:not(:unknown)) > p",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "unknown-suffix",
+      "fixture": "detached-empty",
+      "method": "match",
+      "selector": "div:has(:not(:unknown)) > p",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": false
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "private",
+      "fixture": "detached-empty",
+      "method": "select",
+      "selector": "div:has(:not(:-nwsapi-anchor))",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "private",
+      "fixture": "detached-empty",
+      "method": "match",
+      "selector": "div:has(:not(:-nwsapi-anchor))",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": false
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "private-suffix",
+      "fixture": "detached-empty",
+      "method": "select",
+      "selector": "div:has(:not(:-nwsapi-anchor)) > p",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "private-suffix",
+      "fixture": "detached-empty",
+      "method": "match",
+      "selector": "div:has(:not(:-nwsapi-anchor)) > p",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": false
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "unknown-suffix",
+      "fixture": "detached-populated",
+      "method": "match",
+      "selector": "div:has(:not(:unknown)) > p",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": false
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "private-suffix",
+      "fixture": "detached-populated",
+      "method": "match",
+      "selector": "div:has(:not(:-nwsapi-anchor)) > p",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": false
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "unknown",
+      "fixture": "no-candidates",
+      "method": "select",
+      "selector": "div:has(:not(:unknown))",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "unknown-suffix",
+      "fixture": "no-candidates",
+      "method": "select",
+      "selector": "div:has(:not(:unknown)) > p",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "private",
+      "fixture": "no-candidates",
+      "method": "select",
+      "selector": "div:has(:not(:-nwsapi-anchor))",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "private-suffix",
+      "fixture": "no-candidates",
+      "method": "select",
+      "selector": "div:has(:not(:-nwsapi-anchor)) > p",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "direct-unknown",
+      "fixture": "no-candidates",
+      "method": "select",
+      "selector": "div:has(:unknown)",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "direct-private",
+      "fixture": "no-candidates",
+      "method": "select",
+      "selector": "div:has(:-nwsapi-anchor)",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "not-unknown",
+      "fixture": "no-candidates",
+      "method": "select",
+      "selector": "div:not(:unknown)",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    },
+    {
+      "name": "not-private",
+      "fixture": "no-candidates",
+      "method": "select",
+      "selector": "div:not(:-nwsapi-anchor)",
+      "native": {
+        "error": "SyntaxError"
+      },
+      "actual": {
+        "value": []
+      },
+      "equal": false,
+      "repeat_count": 3
+    }
+  ]
+}
