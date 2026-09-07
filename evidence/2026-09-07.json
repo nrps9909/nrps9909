@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-07T06:41:45.991572+00:00",
+  "checked_at": "2026-09-07T15:13:44.110486+00:00",
   "github_user": "nrps9909",
   "methodology": {
     "merged": "Public authored merged PRs; exclude nrps9909/* and Mes0903/NTNU-GameDesign. Open and approved PRs do not count. Manual incorporation credited in an upstream commit is documented separately when GitHub does not mark the PR merged.",
@@ -14,7 +14,7 @@
     "merged_upstream_repositories": 39,
     "ant_design_main_merged_prs": 24,
     "ant_design_ecosystem_merged_prs": 44,
-    "reviewed_upstream_prs": 166
+    "reviewed_upstream_prs": 167
   },
   "merged": [
     {
@@ -835,6 +835,18 @@
     }
   ],
   "reviewed": [
+    {
+      "number": 2880,
+      "url": "https://github.com/validatorjs/validator.js/pull/2880",
+      "mergedAt": null,
+      "headRefOid": "fd05da79e532eb787809a0c71071b2fda8364906",
+      "author": {
+        "login": "Jerry-val"
+      },
+      "repository": {
+        "nameWithOwner": "validatorjs/validator.js"
+      }
+    },
     {
       "number": 1516,
       "url": "https://github.com/sindresorhus/type-fest/pull/1516",
@@ -1823,7 +1835,7 @@
       "number": 19848,
       "url": "https://github.com/prettier/prettier/pull/19848",
       "mergedAt": null,
-      "headRefOid": "a370c831144e11c87fab8dda9384d3465ae768e9",
+      "headRefOid": "1bdc9436445402f118710dcc8855207d0c2f7482",
       "author": {
         "login": "lazerg"
       },
@@ -1895,7 +1907,7 @@
       "number": 751,
       "url": "https://github.com/react-component/input-number/pull/751",
       "mergedAt": null,
-      "headRefOid": "ed0c30ea71c15dc60dac17c277ab5c7ec3b0fa85",
+      "headRefOid": "09c2d9059cdb6107654846d172ea3bcff9e8ed81",
       "author": {
         "login": "nikzanda"
       },
@@ -2231,7 +2243,7 @@
       "number": 1084,
       "url": "https://github.com/react-component/slider/pull/1084",
       "mergedAt": null,
-      "headRefOid": "c466541a98c1a8e4a672c3cf7f241e9d26e2dd22",
+      "headRefOid": "4e50564d6c58b7db1579c91a6940923560e8813d",
       "author": {
         "login": "dependabot"
       },
@@ -2243,7 +2255,7 @@
       "number": 393,
       "url": "https://github.com/react-component/steps/pull/393",
       "mergedAt": null,
-      "headRefOid": "a846e0eb324390fb57bab566a7922617cdebe7a0",
+      "headRefOid": "96524d36c428572cae71d31f0f68e60c7d9123bd",
       "author": {
         "login": "dependabot"
       },
@@ -2387,7 +2399,7 @@
       "number": 986,
       "url": "https://github.com/react-component/picker/pull/986",
       "mergedAt": null,
-      "headRefOid": "1072e4b2a63261bc55c71c0682aa18d8ba54632d",
+      "headRefOid": "bea742b0f9242bf2cb06051c4f87ac3bffdb3692",
       "author": {
         "login": "Pareder"
       },
@@ -2929,6 +2941,26 @@
       "configured_wpt_fixture_pages": 44,
       "check": "pass",
       "scope": "Configured WPT expectations only, not complete WPT or a new npm release."
+    },
+    "validator_2880": {
+      "url": "https://github.com/validatorjs/validator.js/pull/2880#pullrequestreview-5133486518",
+      "head": "fd05da79e532eb787809a0c71071b2fda8364906",
+      "base": "a79ff980ab14257e795332989e497bdff3218e87",
+      "review_state": "APPROVED",
+      "node": "24.15.0",
+      "full_tests_passed": 325,
+      "new_tests_failing_on_base": 2,
+      "observations_per_form": 2450,
+      "forms": [
+        "source",
+        "node",
+        "browser",
+        "minified"
+      ],
+      "base_false_accepts_per_form": 1310,
+      "head_mismatches_per_form": 0,
+      "upstream_checks_successful": 13,
+      "scope": "Extra coordinate components, selected decimal boundaries and known valid DMS controls; not exhaustive geographic-format conformance."
     }
   },
   "open_follow_up": {

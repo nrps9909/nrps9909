@@ -10,7 +10,12 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 The public record below includes 68 merged PRs across 39 non-owned repositories, including 24 merged Ant Design PRs in a focused i18n/accessibility lane. The merged total excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
-I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 166 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-07 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-07.json).
+I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 167 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-07 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-07.json).
+
+### September 7, 2026: coordinate-pair review
+
+- [validator.js coordinate-pair review](https://github.com/validatorjs/validator.js/pull/2880#pullrequestreview-5133486518): approved exact head `fd05da79e532eb787809a0c71071b2fda8364906` after both new regressions fail on base and all 325 tests, build and lint pass on head. Independent 2,450-case checks on each of four source/distribution forms fix 1,310 false accepts per form with zero remaining corpus mismatches. All 13 reported upstream checks pass. This covers extra components and selected boundary controls, not exhaustive geographic-format conformance.
+- Queried 98 open upstream PRs for unresolved inline review threads, with complete thread/comment pages for those PRs; no unanswered human inline request was found in this batch. Fresh counts remain 68 authored merges across 39 repositories, with 167 other-authored reviewed PRs.
 
 ### September 7, 2026: maintainer-requested PR scope
 

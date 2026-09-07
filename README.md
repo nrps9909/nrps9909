@@ -18,7 +18,7 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 | Non-owned upstream repositories with merged work        |        **39** |
 | Merged PRs in the Ant Design main repository            |        **24** |
 | Merged PRs across the Ant Design ecosystem              |        **44** |
-| Public upstream PRs reviewed as an external contributor |       **166** |
+| Public upstream PRs reviewed as an external contributor |       **167** |
 
 These figures exclude repositories I own and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-07.json).
 
@@ -43,6 +43,8 @@ These figures exclude repositories I own and count a PR only after GitHub report
 - **Neovim:** [complete and repair the Traditional Chinese message catalog](https://github.com/neovim/neovim/pull/41273) while preserving catalog structure.
 
 ## Latest contribution
+
+- [validator.js coordinate-pair review](https://github.com/validatorjs/validator.js/pull/2880#pullrequestreview-5133486518): approved exact head `fd05da79e532eb787809a0c71071b2fda8364906` after both new regressions fail on base and all 325 tests, build and lint pass on head. Independent 2,450-case checks on each of four source/distribution forms fix 1,310 false accepts per form with zero remaining corpus mismatches. All 13 reported upstream checks pass. This covers extra components and selected boundary controls, not exhaustive geographic-format conformance.
 
 - [type-fest Writable follow-up](https://github.com/sindresorhus/type-fest/pull/1516#pullrequestreview-5128779168): the updated head fixes the reported empty-selection regression. Expanded checks expose 42 additional readonly failures in my old candidate; the maintainer-directed exact-sentinel implementation fixes all 42. On each of three TypeScript versions, 300/303 observations pass; three inherited generic failures and four existing full-suite lint errors remain. The [old candidate is superseded](./evidence/type-fest-1516). Review state is COMMENTED.
 - [NWSAPI root-sibling fix](https://github.com/dperini/nwsapi/pull/169#issuecomment-5557789636): verified that the maintainer incorporated the runtime change on August 30 with explicit credit, and that published 2.2.27 passes the downstream 52-test Tooltip suite / five snapshots where 2.2.25 fails four tests. Closed the superseded PR; this manually incorporated change is recorded separately from GitHub-merged PRs.
