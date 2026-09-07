@@ -12,6 +12,10 @@ The public record below includes 68 merged PRs across 39 non-owned repositories,
 
 I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 166 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-07 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-07.json).
 
+### September 7, 2026: maintainer-requested PR scope
+
+- [Ant Design Tools #298](https://github.com/ant-design/antd-tools/pull/298#discussion_r3948721256): afc163 requested removing `tests/imagePreprocessor.test.js`. Signed/GitHub-Verified head `9e010dc364763475398cf03ec4ef2db8e33187d1` does so; the runtime source is unchanged and the PR now contains only `src/jest/imagePreprocessor.ts`. All seven image regressions passed before removal; the remaining one-test suite, compile, ESLint, TypeScript and diff checks pass. The earlier 118-test / 56-snapshot Ant Design consumer run is historical. PR remains open; no merge or complete remote CI claim.
+
 ### September 7, 2026: two merges and review follow-through
 
 - [Ant Design #59151](https://github.com/ant-design/ant-design/pull/59151): German DatePicker formats, merged by yoyo837 on September 7 at `9e9d2d506bc660799d3e186a2b545ac5de733322`. The final maintainer-updated head has 42 successful checks and one skip. Local regression tests are historical checks of the documented earlier heads; the final merge was verified remotely.
