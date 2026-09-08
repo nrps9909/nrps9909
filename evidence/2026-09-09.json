@@ -1,0 +1,2913 @@
+{
+  "github_user": "nrps9909",
+  "methodology": {
+    "merged": "Public authored merged PRs; exclude nrps9909/* and Mes0903/NTNU-GameDesign. Open and approved PRs do not count. Manual incorporation credited in an upstream commit is documented separately when GitHub does not mark the PR merged.",
+    "reviewed": "GitHub reviewed-by:nrps9909, public repositories only; one PR per repository/number; exclude own authored PRs, nrps9909/* and Mes0903/NTNU-GameDesign. This counts published review activity, not current-head approval or merged authorship."
+  },
+  "checked_at": "2026-09-08T17:13:24.442040+00:00",
+  "queries": {
+    "merged": "is:pr is:public is:merged author:nrps9909 -user:nrps9909 -repo:Mes0903/NTNU-GameDesign sort:created-asc",
+    "reviewed": "is:pr is:public reviewed-by:nrps9909 -author:nrps9909 -user:nrps9909 -repo:Mes0903/NTNU-GameDesign sort:created-asc"
+  },
+  "merged": [
+    {
+      "number": 3272,
+      "url": "https://github.com/localsend/localsend/pull/3272",
+      "mergedAt": "2026-08-11T13:54:29Z",
+      "headRefOid": "e27c6f6958d2bb113979d71cb6ff7a6f77b18b14",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "localsend/localsend"
+      }
+    },
+    {
+      "number": 15829,
+      "url": "https://github.com/rustdesk/rustdesk/pull/15829",
+      "mergedAt": "2026-08-11T06:00:06Z",
+      "headRefOid": "e1006d281251bd65123ca03d0cc029e88da60c91",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "rustdesk/rustdesk"
+      }
+    },
+    {
+      "number": 2790,
+      "url": "https://github.com/Foundry376/Mailspring/pull/2790",
+      "mergedAt": "2026-08-23T18:41:49Z",
+      "headRefOid": "dc4652c262fae885891e742da3c5a35bd543eddf",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "Foundry376/Mailspring"
+      }
+    },
+    {
+      "number": 2586,
+      "url": "https://github.com/Acly/krita-ai-diffusion/pull/2586",
+      "mergedAt": "2026-08-19T08:21:29Z",
+      "headRefOid": "2d81efd705b711e2f603d9c562535fe6d47c4765",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "Acly/krita-ai-diffusion"
+      }
+    },
+    {
+      "number": 6177,
+      "url": "https://github.com/usememos/memos/pull/6177",
+      "mergedAt": "2026-08-11T10:33:15Z",
+      "headRefOid": "d2bdf12e6d6e23000d8dbacf542e68bce6f39e4b",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "usememos/memos"
+      }
+    },
+    {
+      "number": 2292,
+      "url": "https://github.com/lissy93/dashy/pull/2292",
+      "mergedAt": "2026-08-11T06:49:53Z",
+      "headRefOid": "e0df5e1f6988c289c3f015fa325f333431c7feb7",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "lissy93/dashy"
+      }
+    },
+    {
+      "number": 7726,
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev/pull/7726",
+      "mergedAt": "2026-08-11T17:34:11Z",
+      "headRefOid": "7a8d467d64cc93ca600e33dae52f8970cd31ae1b",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "clash-verge-rev/clash-verge-rev"
+      }
+    },
+    {
+      "number": 1240,
+      "url": "https://github.com/python/python-docs-zh-tw/pull/1240",
+      "mergedAt": "2026-08-14T02:35:36Z",
+      "headRefOid": "275eb846d5797b744de5fa6345c14dd33ae9a4f9",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "python/python-docs-zh-tw"
+      }
+    },
+    {
+      "number": 1431,
+      "url": "https://github.com/GopeedLab/gopeed/pull/1431",
+      "mergedAt": "2026-08-13T11:38:31Z",
+      "headRefOid": "8eedef9743d75684285bf39cbb7658f98fa1627c",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "GopeedLab/gopeed"
+      }
+    },
+    {
+      "number": 1036,
+      "url": "https://github.com/oldj/SwitchHosts/pull/1036",
+      "mergedAt": "2026-08-22T06:26:13Z",
+      "headRefOid": "118b9840e95afe1a10fc952462653282f29f783b",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "oldj/SwitchHosts"
+      }
+    },
+    {
+      "number": 1099,
+      "url": "https://github.com/drawdb-io/drawdb/pull/1099",
+      "mergedAt": "2026-08-12T19:01:54Z",
+      "headRefOid": "0ee724208d8062356055886efd77bbfa6cc9285f",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "drawdb-io/drawdb"
+      }
+    },
+    {
+      "number": 6112,
+      "url": "https://github.com/Mintplex-Labs/anything-llm/pull/6112",
+      "mergedAt": "2026-08-11T17:50:25Z",
+      "headRefOid": "500e8e86d77832e4483594e951dea04aed75b8d6",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "Mintplex-Labs/anything-llm"
+      }
+    },
+    {
+      "number": 6202,
+      "url": "https://github.com/MHSanaei/3x-ui/pull/6202",
+      "mergedAt": "2026-08-12T14:56:12Z",
+      "headRefOid": "273fa8865da918cc7c1ce1230cd847f2b3855dea",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "MHSanaei/3x-ui"
+      }
+    },
+    {
+      "number": 9947,
+      "url": "https://github.com/2dust/v2rayN/pull/9947",
+      "mergedAt": "2026-08-14T02:20:17Z",
+      "headRefOid": "c7010f17417558dbdd74d3bc651433b7caf2aaa3",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "2dust/v2rayN"
+      }
+    },
+    {
+      "number": 3541,
+      "url": "https://github.com/HeyPuter/puter/pull/3541",
+      "mergedAt": "2026-08-12T04:18:37Z",
+      "headRefOid": "176371ae5b811c34417d91c201fe638f16f93252",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "HeyPuter/puter"
+      }
+    },
+    {
+      "number": 4437,
+      "url": "https://github.com/umami-software/umami/pull/4437",
+      "mergedAt": "2026-08-12T03:55:08Z",
+      "headRefOid": "6e3ff550c2400716093ec745480abdb7015a61c3",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "umami-software/umami"
+      }
+    },
+    {
+      "number": 18650,
+      "url": "https://github.com/siyuan-note/siyuan/pull/18650",
+      "mergedAt": "2026-08-11T10:03:58Z",
+      "headRefOid": "6bc1b8cc713b5a0b0aef13f37f260a4afad4a3fb",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "siyuan-note/siyuan"
+      }
+    },
+    {
+      "number": 41273,
+      "url": "https://github.com/neovim/neovim/pull/41273",
+      "mergedAt": "2026-08-18T20:27:14Z",
+      "headRefOid": "cc71d92f8b4aa8391ef1eb21ed91e087da966fba",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "neovim/neovim"
+      }
+    },
+    {
+      "number": 13536,
+      "url": "https://github.com/1Panel-dev/1Panel/pull/13536",
+      "mergedAt": "2026-08-12T07:32:40Z",
+      "headRefOid": "35eb6bafc2409f9480febef55bb6757835ffdee6",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "1Panel-dev/1Panel"
+      }
+    },
+    {
+      "number": 58947,
+      "url": "https://github.com/ant-design/ant-design/pull/58947",
+      "mergedAt": "2026-08-11T12:00:28Z",
+      "headRefOid": "9947ac4422a075bc78413756ec8c5e14d21020d1",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 48946,
+      "url": "https://github.com/mui/material-ui/pull/48946",
+      "mergedAt": "2026-08-11T17:09:51Z",
+      "headRefOid": "bb9a2208a478bf6a20b6d58b4488ed2437013aac",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "mui/material-ui"
+      }
+    },
+    {
+      "number": 13932,
+      "url": "https://github.com/ohmyzsh/ohmyzsh/pull/13932",
+      "mergedAt": "2026-09-05T19:41:41Z",
+      "headRefOid": "a7248eac7f9b1b901cf47e8017e0f683fb5acca0",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ohmyzsh/ohmyzsh"
+      }
+    },
+    {
+      "number": 43063,
+      "url": "https://github.com/apache/superset/pull/43063",
+      "mergedAt": "2026-08-25T17:28:13Z",
+      "headRefOid": "60e67b3a25912eb6209ab8ae05cb12841f3c6e51",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "apache/superset"
+      }
+    },
+    {
+      "number": 58951,
+      "url": "https://github.com/ant-design/ant-design/pull/58951",
+      "mergedAt": "2026-08-11T16:35:34Z",
+      "headRefOid": "08969317ac09b2b6b37c198349b77779bb21a0a2",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58953,
+      "url": "https://github.com/ant-design/ant-design/pull/58953",
+      "mergedAt": "2026-08-12T03:12:50Z",
+      "headRefOid": "1d76ae9364813eaf58f6cdbd08e825be7dc354a6",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58955,
+      "url": "https://github.com/ant-design/ant-design/pull/58955",
+      "mergedAt": "2026-08-12T03:10:22Z",
+      "headRefOid": "067fe5e031699edcad936c4ef5ebe784c908c770",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58957,
+      "url": "https://github.com/ant-design/ant-design/pull/58957",
+      "mergedAt": "2026-08-12T03:10:42Z",
+      "headRefOid": "a9b74213cbfea5399a9a715fe8278e0de79fd2ca",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58965,
+      "url": "https://github.com/ant-design/ant-design/pull/58965",
+      "mergedAt": "2026-08-15T06:44:15Z",
+      "headRefOid": "56e0d1d3c6f9d805679c2ae627e989f481f2302e",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58999,
+      "url": "https://github.com/ant-design/ant-design/pull/58999",
+      "mergedAt": "2026-08-17T02:11:30Z",
+      "headRefOid": "31dfbc1c48751622a89abb4f81088fe904c43afd",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59000,
+      "url": "https://github.com/ant-design/ant-design/pull/59000",
+      "mergedAt": "2026-08-17T02:12:59Z",
+      "headRefOid": "1eda21cbabd85d3763f0fb705fadfaf5fc56ab92",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 719,
+      "url": "https://github.com/react-component/pagination/pull/719",
+      "mergedAt": "2026-08-15T08:24:50Z",
+      "headRefOid": "3b887e12721f4868ef0f1f067312e3f8199be863",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/pagination"
+      }
+    },
+    {
+      "number": 59001,
+      "url": "https://github.com/ant-design/ant-design/pull/59001",
+      "mergedAt": "2026-08-16T01:21:05Z",
+      "headRefOid": "4ad21fd06ebdae2ca8375d98d6f896ae3ee27c47",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59002,
+      "url": "https://github.com/ant-design/ant-design/pull/59002",
+      "mergedAt": "2026-08-18T06:02:50Z",
+      "headRefOid": "0aea8af2ec8f781fe1e797417caaeb9301891800",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59006,
+      "url": "https://github.com/ant-design/ant-design/pull/59006",
+      "mergedAt": "2026-08-16T01:10:52Z",
+      "headRefOid": "9a70a6b1c3ea22372de03aa67313940ae88a7c19",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59007,
+      "url": "https://github.com/ant-design/ant-design/pull/59007",
+      "mergedAt": "2026-08-16T01:09:46Z",
+      "headRefOid": "f1970be85fb5f217e5d514d8aea964859930e8d5",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59020,
+      "url": "https://github.com/ant-design/ant-design/pull/59020",
+      "mergedAt": "2026-08-17T07:27:27Z",
+      "headRefOid": "980b4b5ba4513035a411151f4d844a1632923bce",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59024,
+      "url": "https://github.com/ant-design/ant-design/pull/59024",
+      "mergedAt": "2026-08-17T07:58:34Z",
+      "headRefOid": "22a63bc27b00b237dac970c6586c19a98410a2c3",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59032,
+      "url": "https://github.com/ant-design/ant-design/pull/59032",
+      "mergedAt": "2026-08-18T03:27:14Z",
+      "headRefOid": "b0913bf7590dd9c456ee4663546efa2753f0f0cd",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 1070,
+      "url": "https://github.com/react-component/tree/pull/1070",
+      "mergedAt": "2026-08-27T01:51:34Z",
+      "headRefOid": "9d6351d61e38067f0e8c8f13c50e9cefe811c882",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/tree"
+      }
+    },
+    {
+      "number": 59103,
+      "url": "https://github.com/ant-design/ant-design/pull/59103",
+      "mergedAt": "2026-08-27T00:38:08Z",
+      "headRefOid": "353c6e04efac78a9c3143109dea05f4db9dedd63",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59105,
+      "url": "https://github.com/ant-design/ant-design/pull/59105",
+      "mergedAt": "2026-08-27T01:46:04Z",
+      "headRefOid": "429acef4ac3f67a1a53e4f25df1d95afff0c423c",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 1088,
+      "url": "https://github.com/react-component/slider/pull/1088",
+      "mergedAt": "2026-08-27T01:50:27Z",
+      "headRefOid": "30c0b786f240b2382de47e8f0ce85e48d592fe38",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/slider"
+      }
+    },
+    {
+      "number": 1071,
+      "url": "https://github.com/react-component/tree/pull/1071",
+      "mergedAt": "2026-08-27T02:02:26Z",
+      "headRefOid": "1b87df974726b00083a1d7e85a00733f2835cbed",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/tree"
+      }
+    },
+    {
+      "number": 325,
+      "url": "https://github.com/react-component/progress/pull/325",
+      "mergedAt": "2026-08-27T03:00:48Z",
+      "headRefOid": "aa2e50042bbb91d24f65e62caf58766649e4300a",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/progress"
+      }
+    },
+    {
+      "number": 541,
+      "url": "https://github.com/react-component/tooltip/pull/541",
+      "mergedAt": "2026-08-27T02:46:22Z",
+      "headRefOid": "2d20ea2b3930df7ddaf9d86f9dfb6dbb1dd6bfd1",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/tooltip"
+      }
+    },
+    {
+      "number": 59107,
+      "url": "https://github.com/ant-design/ant-design/pull/59107",
+      "mergedAt": "2026-08-27T00:19:18Z",
+      "headRefOid": "8e10874a55d75370c6b5a83136aa092dfac6bce6",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 9691,
+      "url": "https://github.com/ant-design/pro-components/pull/9691",
+      "mergedAt": "2026-08-27T06:09:33Z",
+      "headRefOid": "6111fb891f04efc79bd3432545c08a88d3b28f9f",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/pro-components"
+      }
+    },
+    {
+      "number": 408,
+      "url": "https://github.com/react-component/notification/pull/408",
+      "mergedAt": "2026-08-27T04:25:28Z",
+      "headRefOid": "ecfa1690aab49830cd07f16ba49c246803e21305",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/notification"
+      }
+    },
+    {
+      "number": 542,
+      "url": "https://github.com/react-component/tooltip/pull/542",
+      "mergedAt": "2026-08-27T05:09:53Z",
+      "headRefOid": "2f82eb0aa3bad74b286859ef83bd8c4d24632ad3",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/tooltip"
+      }
+    },
+    {
+      "number": 395,
+      "url": "https://github.com/react-component/steps/pull/395",
+      "mergedAt": "2026-08-27T05:30:11Z",
+      "headRefOid": "c0f71dea8905a05b51f5257226e5c6d846519150",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/steps"
+      }
+    },
+    {
+      "number": 59113,
+      "url": "https://github.com/ant-design/ant-design/pull/59113",
+      "mergedAt": "2026-08-27T06:14:04Z",
+      "headRefOid": "9dd7ac7797db6fb374ccb9d74a27639836830994",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 1250,
+      "url": "https://github.com/react-component/select/pull/1250",
+      "mergedAt": "2026-08-28T12:17:32Z",
+      "headRefOid": "103e4a954fd9d1b4bd52f482fe762b795b19a163",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/select"
+      }
+    },
+    {
+      "number": 59126,
+      "url": "https://github.com/ant-design/ant-design/pull/59126",
+      "mergedAt": "2026-08-27T11:44:37Z",
+      "headRefOid": "e934a2cd8e3e4306921460b3910ae62cd63cf209",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59129,
+      "url": "https://github.com/ant-design/ant-design/pull/59129",
+      "mergedAt": "2026-08-30T05:19:39Z",
+      "headRefOid": "6cfb837a289a8a22649e0ef557e7d611fff110eb",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59134,
+      "url": "https://github.com/ant-design/ant-design/pull/59134",
+      "mergedAt": "2026-09-01T05:40:04Z",
+      "headRefOid": "f3563588afd1965beb9dccd279a7fa5c7e00d1e4",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59135,
+      "url": "https://github.com/ant-design/ant-design/pull/59135",
+      "mergedAt": "2026-09-01T03:39:32Z",
+      "headRefOid": "b35575c5fe9f5618d34d82e8c1c62c424df74ebb",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 1007,
+      "url": "https://github.com/react-component/picker/pull/1007",
+      "mergedAt": "2026-09-08T01:37:51Z",
+      "headRefOid": "76e6f353a5f0e3688736ebd566c1038e7077d8b0",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/picker"
+      }
+    },
+    {
+      "number": 6241,
+      "url": "https://github.com/usememos/memos/pull/6241",
+      "mergedAt": "2026-08-28T13:47:32Z",
+      "headRefOid": "c3f4da9eb0e6f15c11b75c1add770867e1205570",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "usememos/memos"
+      }
+    },
+    {
+      "number": 23698,
+      "url": "https://github.com/tldr-pages/tldr/pull/23698",
+      "mergedAt": "2026-08-29T15:53:50Z",
+      "headRefOid": "61567463323413ad3815dabdb0f7ac307a071eb0",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "tldr-pages/tldr"
+      }
+    },
+    {
+      "number": 383,
+      "url": "https://github.com/react-component/virtual-list/pull/383",
+      "mergedAt": "2026-08-28T06:41:04Z",
+      "headRefOid": "3420fcf0f50e97ff5652688a6fa270116fb12b2f",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/virtual-list"
+      }
+    },
+    {
+      "number": 30,
+      "url": "https://github.com/react-component/async-validator/pull/30",
+      "mergedAt": "2026-08-28T07:40:30Z",
+      "headRefOid": "e21da4aad6d6a3863f100b13943dfe519f9e4fc5",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/async-validator"
+      }
+    },
+    {
+      "number": 762,
+      "url": "https://github.com/ant-design/ant-design-icons/pull/762",
+      "mergedAt": "2026-08-28T07:14:22Z",
+      "headRefOid": "7ee56f62340360194e2c7835933b2149885ee528",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design-icons"
+      }
+    },
+    {
+      "number": 326,
+      "url": "https://github.com/react-component/progress/pull/326",
+      "mergedAt": "2026-08-28T07:58:57Z",
+      "headRefOid": "c47631d30cc74d75bbbe541c27b6386adad6ab8f",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/progress"
+      }
+    },
+    {
+      "number": 1072,
+      "url": "https://github.com/react-component/tree/pull/1072",
+      "mergedAt": "2026-08-28T08:34:32Z",
+      "headRefOid": "7806654d2abb01cf4c492cacfef25ccc2d8afd69",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/tree"
+      }
+    },
+    {
+      "number": 628,
+      "url": "https://github.com/react-component/drawer/pull/628",
+      "mergedAt": "2026-08-28T10:02:26Z",
+      "headRefOid": "d634662c4073b1dc9609bad387eb82082ef7b4f4",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/drawer"
+      }
+    },
+    {
+      "number": 10,
+      "url": "https://github.com/react-component/badgeboard/pull/10",
+      "mergedAt": "2026-08-28T08:48:37Z",
+      "headRefOid": "5812b5d100624c1fc0d06add11dc9740903bd12f",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/badgeboard"
+      }
+    },
+    {
+      "number": 384,
+      "url": "https://github.com/react-component/virtual-list/pull/384",
+      "mergedAt": "2026-08-28T10:59:10Z",
+      "headRefOid": "8f3cb457e82780beda33d3c57cd9a69f4d429049",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/virtual-list"
+      }
+    },
+    {
+      "number": 59151,
+      "url": "https://github.com/ant-design/ant-design/pull/59151",
+      "mergedAt": "2026-09-07T06:01:49Z",
+      "headRefOid": "a8c43e1f0a2d3e5197e5b381fe64395aaf59731c",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 1013,
+      "url": "https://github.com/react-component/picker/pull/1013",
+      "mergedAt": "2026-09-07T02:30:51Z",
+      "headRefOid": "52f4917a97d1b2b7b6d2f8278c925b0a7311cb99",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/picker"
+      }
+    }
+  ],
+  "reviewed": [
+    {
+      "number": 455,
+      "url": "https://github.com/react-component/util/pull/455",
+      "mergedAt": null,
+      "headRefOid": "903dfe1c23c09fc41aa2fe5de0a3812fa35a8236",
+      "author": {
+        "login": "zerosrat"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/util"
+      }
+    },
+    {
+      "number": 335,
+      "url": "https://github.com/react-component/collapse/pull/335",
+      "mergedAt": null,
+      "headRefOid": "cb9d48073b0b0ea94ebd022c824c7c7be8347e32",
+      "author": {
+        "login": "Asanio06"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/collapse"
+      }
+    },
+    {
+      "number": 690,
+      "url": "https://github.com/react-component/menu/pull/690",
+      "mergedAt": null,
+      "headRefOid": "57b5938d0bb0bb906217db350280392361cdafc6",
+      "author": {
+        "login": "CooperHash"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/menu"
+      }
+    },
+    {
+      "number": 692,
+      "url": "https://github.com/react-component/menu/pull/692",
+      "mergedAt": null,
+      "headRefOid": "e7abb7e63206dd9786e779c4c32cf8cd541fb884",
+      "author": {
+        "login": "rykercheung"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/menu"
+      }
+    },
+    {
+      "number": 547,
+      "url": "https://github.com/react-component/util/pull/547",
+      "mergedAt": null,
+      "headRefOid": "009b42a3b3eaaad27b1e088657e5cb7715286439",
+      "author": {
+        "login": "xueqianz"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/util"
+      }
+    },
+    {
+      "number": 1047,
+      "url": "https://github.com/react-component/slider/pull/1047",
+      "mergedAt": null,
+      "headRefOid": "cb4bc1977a38d0785f43fe630ce9e6f8607efe1b",
+      "author": {
+        "login": "octojedi"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/slider"
+      }
+    },
+    {
+      "number": 6813,
+      "url": "https://github.com/ant-design/ant-design-mobile/pull/6813",
+      "mergedAt": null,
+      "headRefOid": "a888f07ceff123fe451f4657448cf972668b34dc",
+      "author": {
+        "login": "hanclang"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design-mobile"
+      }
+    },
+    {
+      "number": 596,
+      "url": "https://github.com/react-component/cascader/pull/596",
+      "mergedAt": null,
+      "headRefOid": "793e8da1adce2f554e5351d4bfeccf866e8742ea",
+      "author": {
+        "login": "kiner-tang"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/cascader"
+      }
+    },
+    {
+      "number": 26,
+      "url": "https://github.com/react-component/portal/pull/26",
+      "mergedAt": null,
+      "headRefOid": "7eee91516d75c576568745455065f0155f0d41e6",
+      "author": {
+        "login": "mleister97"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/portal"
+      }
+    },
+    {
+      "number": 55029,
+      "url": "https://github.com/ant-design/ant-design/pull/55029",
+      "mergedAt": null,
+      "headRefOid": "66830d05525374c39b3f8949f35c23a2ba1146b0",
+      "author": {
+        "login": "Linkodt"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 78,
+      "url": "https://github.com/react-component/textarea/pull/78",
+      "mergedAt": null,
+      "headRefOid": "ad936811b5a424b0c1b4c6bfabe959d8735bf51b",
+      "author": {
+        "login": "SocietyNiu"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/textarea"
+      }
+    },
+    {
+      "number": 307,
+      "url": "https://github.com/react-component/mentions/pull/307",
+      "mergedAt": null,
+      "headRefOid": "5fea6da54175efca204c82a63303da85055f63bd",
+      "author": {
+        "login": "ug-one"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/mentions"
+      }
+    },
+    {
+      "number": 35,
+      "url": "https://github.com/react-component/portal/pull/35",
+      "mergedAt": null,
+      "headRefOid": "47a5762b9ec1fefdf51ee41240348c531292e694",
+      "author": {
+        "login": "juno-the-programmer"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/portal"
+      }
+    },
+    {
+      "number": 381,
+      "url": "https://github.com/react-component/notification/pull/381",
+      "mergedAt": null,
+      "headRefOid": "ea760b7a3360a2983645bd4b22e5c76539c01a6e",
+      "author": {
+        "login": "jynxio"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/notification"
+      }
+    },
+    {
+      "number": 81,
+      "url": "https://github.com/react-component/textarea/pull/81",
+      "mergedAt": null,
+      "headRefOid": "d4a7821e31ce9740bb6a77a752d5edf392adebb7",
+      "author": {
+        "login": "tyreer"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/textarea"
+      }
+    },
+    {
+      "number": 495,
+      "url": "https://github.com/react-component/image/pull/495",
+      "mergedAt": null,
+      "headRefOid": "f8ec59be94af7f3cacd0a644b9bed5c99d1e6478",
+      "author": {
+        "login": "AutumnChen"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/image"
+      }
+    },
+    {
+      "number": 131,
+      "url": "https://github.com/antvis/util/pull/131",
+      "mergedAt": null,
+      "headRefOid": "965c7836ef56d8a99b8dfebfde5e26edb57c7ee1",
+      "author": {
+        "login": "copilot-swe-agent"
+      },
+      "repository": {
+        "nameWithOwner": "antvis/util"
+      }
+    },
+    {
+      "number": 57343,
+      "url": "https://github.com/ant-design/ant-design/pull/57343",
+      "mergedAt": null,
+      "headRefOid": "b2df3142e6b7738c2916125632688dab6ae87e4c",
+      "author": {
+        "login": "claytonlin1110"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 57345,
+      "url": "https://github.com/ant-design/ant-design/pull/57345",
+      "mergedAt": null,
+      "headRefOid": "334bff76601c971c5224be707be6db1f47070b93",
+      "author": {
+        "login": "Damon4"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 744,
+      "url": "https://github.com/react-component/util/pull/744",
+      "mergedAt": null,
+      "headRefOid": "b3cf67b088f7c106591b20cb51a51d9dec5ded41",
+      "author": {
+        "login": "danielthegray"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/util"
+      }
+    },
+    {
+      "number": 3244,
+      "url": "https://github.com/import-js/eslint-plugin-import/pull/3244",
+      "mergedAt": null,
+      "headRefOid": "5a6c4b0e1f52c883d688586e783a49631651fbd4",
+      "author": {
+        "login": "whatfontisthis"
+      },
+      "repository": {
+        "nameWithOwner": "import-js/eslint-plugin-import"
+      }
+    },
+    {
+      "number": 57883,
+      "url": "https://github.com/ant-design/ant-design/pull/57883",
+      "mergedAt": null,
+      "headRefOid": "709b2772d829dbccb05fc9655824a1d4225eb30c",
+      "author": {
+        "login": "nickmopen"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 57980,
+      "url": "https://github.com/ant-design/ant-design/pull/57980",
+      "mergedAt": null,
+      "headRefOid": "4138faa6b730ecddaddbe6bbdd88fb472c500e45",
+      "author": {
+        "login": "ai-mountain"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58022,
+      "url": "https://github.com/ant-design/ant-design/pull/58022",
+      "mergedAt": null,
+      "headRefOid": "a2a9f57a073d3b2f3a1c680393148e7b05734dd8",
+      "author": {
+        "login": "yogeshwaran-c"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58083,
+      "url": "https://github.com/ant-design/ant-design/pull/58083",
+      "mergedAt": null,
+      "headRefOid": "9a47b4c79bd22ec1407ddf76203573b93d27d398",
+      "author": {
+        "login": "ug-one"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 622,
+      "url": "https://github.com/react-component/trigger/pull/622",
+      "mergedAt": null,
+      "headRefOid": "9db7ec626fd94ee46794cc450ed9219428661498",
+      "author": {
+        "login": "yezhonghu0503"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/trigger"
+      }
+    },
+    {
+      "number": 768,
+      "url": "https://github.com/react-component/util/pull/768",
+      "mergedAt": null,
+      "headRefOid": "7750d4d7d3eab1e11bdfc655ecc3b363621d3285",
+      "author": {
+        "login": "PinkChampagne17"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/util"
+      }
+    },
+    {
+      "number": 96,
+      "url": "https://github.com/ant-design/fast-color/pull/96",
+      "mergedAt": null,
+      "headRefOid": "0c8a743468234cafd266b59827fac63743f3dce2",
+      "author": {
+        "login": "yezhonghu0503"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/fast-color"
+      }
+    },
+    {
+      "number": 624,
+      "url": "https://github.com/react-component/trigger/pull/624",
+      "mergedAt": null,
+      "headRefOid": "1253e1f53e18b7ed222306f3568b9d8d861dd095",
+      "author": {
+        "login": "PinkChampagne17"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/trigger"
+      }
+    },
+    {
+      "number": 58211,
+      "url": "https://github.com/ant-design/ant-design/pull/58211",
+      "mergedAt": null,
+      "headRefOid": "64dd82cc447bb9b831ea944b2004c7004fa9ac80",
+      "author": {
+        "login": "18062706139fcz"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 286,
+      "url": "https://github.com/react-component/color-picker/pull/286",
+      "mergedAt": null,
+      "headRefOid": "2edb958cff7594fd79cb3f9cae4b2761d50b8096",
+      "author": {
+        "login": "Pareder"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/color-picker"
+      }
+    },
+    {
+      "number": 625,
+      "url": "https://github.com/react-component/trigger/pull/625",
+      "mergedAt": null,
+      "headRefOid": "bc5448b885c01c1b0a744fb9bbf20466ee74fc5b",
+      "author": {
+        "login": "li-jia-nan"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/trigger"
+      }
+    },
+    {
+      "number": 58267,
+      "url": "https://github.com/ant-design/ant-design/pull/58267",
+      "mergedAt": "2026-08-21T01:44:48Z",
+      "headRefOid": "17acd03c32fd15c157df1d190ea7760c2ca0c110",
+      "author": {
+        "login": "Pareder"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 3138,
+      "url": "https://github.com/iamkun/dayjs/pull/3138",
+      "mergedAt": null,
+      "headRefOid": "3a25939d9094946b42b9e93447980c90ce7ae4b1",
+      "author": {
+        "login": "FatahChan"
+      },
+      "repository": {
+        "nameWithOwner": "iamkun/dayjs"
+      }
+    },
+    {
+      "number": 83,
+      "url": "https://github.com/react-component/textarea/pull/83",
+      "mergedAt": null,
+      "headRefOid": "26b66d0212f2e17dcc1d6647b281c55210ed587b",
+      "author": {
+        "login": "protivon"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/textarea"
+      }
+    },
+    {
+      "number": 58503,
+      "url": "https://github.com/ant-design/ant-design/pull/58503",
+      "mergedAt": null,
+      "headRefOid": "4bd5cffb92529d54b35c8c87d740dccab192f3ce",
+      "author": {
+        "login": "biubiukam"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 986,
+      "url": "https://github.com/react-component/picker/pull/986",
+      "mergedAt": null,
+      "headRefOid": "bea742b0f9242bf2cb06051c4f87ac3bffdb3692",
+      "author": {
+        "login": "Pareder"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/picker"
+      }
+    },
+    {
+      "number": 987,
+      "url": "https://github.com/react-component/picker/pull/987",
+      "mergedAt": null,
+      "headRefOid": "85e6945a528b05ce80b70184524ac47bc26d4f08",
+      "author": {
+        "login": "Pareder"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/picker"
+      }
+    },
+    {
+      "number": 990,
+      "url": "https://github.com/react-component/picker/pull/990",
+      "mergedAt": null,
+      "headRefOid": "5f2a6479e88f772319a9dd4408b79b482fd8c4c2",
+      "author": {
+        "login": "Pareder"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/picker"
+      }
+    },
+    {
+      "number": 58609,
+      "url": "https://github.com/ant-design/ant-design/pull/58609",
+      "mergedAt": null,
+      "headRefOid": "9ae16f2acedc5c249fd51f0528c4fe2e523e6031",
+      "author": {
+        "login": "leshalv"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 713,
+      "url": "https://github.com/react-component/pagination/pull/713",
+      "mergedAt": null,
+      "headRefOid": "8fab48edad9f6ee60dca2e3374fe7b8220649c5f",
+      "author": {
+        "login": "ZQDesigned"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/pagination"
+      }
+    },
+    {
+      "number": 639,
+      "url": "https://github.com/react-component/trigger/pull/639",
+      "mergedAt": null,
+      "headRefOid": "c28e7e8c670e9fb35776017d0648a32d509dcd57",
+      "author": {
+        "login": "baofuen"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/trigger"
+      }
+    },
+    {
+      "number": 214,
+      "url": "https://github.com/react-component/rate/pull/214",
+      "mergedAt": null,
+      "headRefOid": "e06c7e2c7e39951606c133256058165ee50fe466",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/rate"
+      }
+    },
+    {
+      "number": 58759,
+      "url": "https://github.com/ant-design/ant-design/pull/58759",
+      "mergedAt": null,
+      "headRefOid": "3086415a840b082d00f13c4d3f17a8b8767da51b",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 1618,
+      "url": "https://github.com/ant-design/ant-design-web3/pull/1618",
+      "mergedAt": null,
+      "headRefOid": "4f6aac53140fc2ff55c7c910fda9dafdc100b975",
+      "author": {
+        "login": "dependabot"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design-web3"
+      }
+    },
+    {
+      "number": 58762,
+      "url": "https://github.com/ant-design/ant-design/pull/58762",
+      "mergedAt": null,
+      "headRefOid": "c0fdf7b84d026e7509c14177f8c8ffae7ccbe98c",
+      "author": {
+        "login": "wanxiankai"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58775,
+      "url": "https://github.com/ant-design/ant-design/pull/58775",
+      "mergedAt": null,
+      "headRefOid": "ae6474c54a725bf9dec81cc99512ddde4c17b99d",
+      "author": {
+        "login": "drewmt"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 723,
+      "url": "https://github.com/react-component/upload/pull/723",
+      "mergedAt": null,
+      "headRefOid": "9b6ff0840dddbd4ac1a0f6e1ff55494a64f2bf45",
+      "author": {
+        "login": "EmilyyyLiu"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/upload"
+      }
+    },
+    {
+      "number": 393,
+      "url": "https://github.com/react-component/steps/pull/393",
+      "mergedAt": null,
+      "headRefOid": "96524d36c428572cae71d31f0f68e60c7d9123bd",
+      "author": {
+        "login": "dependabot"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/steps"
+      }
+    },
+    {
+      "number": 1084,
+      "url": "https://github.com/react-component/slider/pull/1084",
+      "mergedAt": null,
+      "headRefOid": "4e50564d6c58b7db1579c91a6940923560e8813d",
+      "author": {
+        "login": "dependabot"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/slider"
+      }
+    },
+    {
+      "number": 998,
+      "url": "https://github.com/react-component/picker/pull/998",
+      "mergedAt": null,
+      "headRefOid": "8ceb8de1d9f4d646f375a6536b812f04471a7719",
+      "author": {
+        "login": "ZQDesigned"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/picker"
+      }
+    },
+    {
+      "number": 58814,
+      "url": "https://github.com/ant-design/ant-design/pull/58814",
+      "mergedAt": "2026-08-17T07:28:08Z",
+      "headRefOid": "65e23f03bef9beab557ea2cb789ef1d1cd632ff1",
+      "author": {
+        "login": "afc163"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 1504,
+      "url": "https://github.com/react-component/table/pull/1504",
+      "mergedAt": null,
+      "headRefOid": "ca10cce803f451a82c4859b4862e6879aa45bf4a",
+      "author": {
+        "login": "biubiukam"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/table"
+      }
+    },
+    {
+      "number": 58834,
+      "url": "https://github.com/ant-design/ant-design/pull/58834",
+      "mergedAt": "2026-08-17T07:24:37Z",
+      "headRefOid": "a4234a37f20d45b0b082d1217dd211da4967ee94",
+      "author": {
+        "login": "nikzanda"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 1505,
+      "url": "https://github.com/react-component/table/pull/1505",
+      "mergedAt": "2026-08-18T02:09:06Z",
+      "headRefOid": "1969dfd23c328a023d0659769f75a26ee23194ee",
+      "author": {
+        "login": "nikzanda"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/table"
+      }
+    },
+    {
+      "number": 1063,
+      "url": "https://github.com/react-component/tree/pull/1063",
+      "mergedAt": "2026-08-24T06:22:13Z",
+      "headRefOid": "2d3b166b081caaa9e7ced91184516358b03c8006",
+      "author": {
+        "login": "chenyu1ov3"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/tree"
+      }
+    },
+    {
+      "number": 1999,
+      "url": "https://github.com/ant-design/x/pull/1999",
+      "mergedAt": null,
+      "headRefOid": "aa10277bbdb3c08703cd206157904434de364075",
+      "author": {
+        "login": "lkxdsb"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/x"
+      }
+    },
+    {
+      "number": 2001,
+      "url": "https://github.com/ant-design/x/pull/2001",
+      "mergedAt": null,
+      "headRefOid": "7dfd727bb2116d3968c517feee0a0c38200daae3",
+      "author": {
+        "login": "Y-MuYi"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/x"
+      }
+    },
+    {
+      "number": 804,
+      "url": "https://github.com/react-component/util/pull/804",
+      "mergedAt": "2026-09-01T00:56:13Z",
+      "headRefOid": "cf23e812525ebd44c8b6a01d4bad92f4766a9653",
+      "author": {
+        "login": "dependabot"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/util"
+      }
+    },
+    {
+      "number": 1012,
+      "url": "https://github.com/react-component/tabs/pull/1012",
+      "mergedAt": null,
+      "headRefOid": "01c3caf6f571bfb3d1f53c8cd368064bcff8bef2",
+      "author": {
+        "login": "dependabot"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/tabs"
+      }
+    },
+    {
+      "number": 58861,
+      "url": "https://github.com/ant-design/ant-design/pull/58861",
+      "mergedAt": null,
+      "headRefOid": "6fd3ebdfeebbbbe88c1f5606286414b252d53637",
+      "author": {
+        "login": "QdabuliuQ"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58865,
+      "url": "https://github.com/ant-design/ant-design/pull/58865",
+      "mergedAt": "2026-08-17T02:57:10Z",
+      "headRefOid": "c5b3088fc017857cf21626cedee5a54373605554",
+      "author": {
+        "login": "QdabuliuQ"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58866,
+      "url": "https://github.com/ant-design/ant-design/pull/58866",
+      "mergedAt": null,
+      "headRefOid": "e92a3bce01d68b13858ce9e17090fc08e158029f",
+      "author": {
+        "login": "QdabuliuQ"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 526,
+      "url": "https://github.com/react-component/image/pull/526",
+      "mergedAt": null,
+      "headRefOid": "8ee1abcd9d73b24a019d962933e8fdcce8997f5e",
+      "author": {
+        "login": "waterWang"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/image"
+      }
+    },
+    {
+      "number": 58886,
+      "url": "https://github.com/ant-design/ant-design/pull/58886",
+      "mergedAt": null,
+      "headRefOid": "bba228747e3834259417dfa385f7f59f3b546022",
+      "author": {
+        "login": "EmilyyyLiu"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 888,
+      "url": "https://github.com/react-component/menu/pull/888",
+      "mergedAt": "2026-08-19T04:28:55Z",
+      "headRefOid": "53d0fbc2b0b7957d30b8019af54362b1ad7475cf",
+      "author": {
+        "login": "atharv-sys32"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/menu"
+      }
+    },
+    {
+      "number": 58899,
+      "url": "https://github.com/ant-design/ant-design/pull/58899",
+      "mergedAt": null,
+      "headRefOid": "e3b3353f0a4dc5f4bed5e3b9e7cd80cf38c6aa5e",
+      "author": {
+        "login": "EmilyyyLiu"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 2841,
+      "url": "https://github.com/validatorjs/validator.js/pull/2841",
+      "mergedAt": null,
+      "headRefOid": "30fb2178b47d71d491a89cf771412dea617b54e3",
+      "author": {
+        "login": "spokodev"
+      },
+      "repository": {
+        "nameWithOwner": "validatorjs/validator.js"
+      }
+    },
+    {
+      "number": 1067,
+      "url": "https://github.com/react-component/tree/pull/1067",
+      "mergedAt": null,
+      "headRefOid": "4682557bc0ade17847227be55082b1ca77fa09c8",
+      "author": {
+        "login": "hippee-lee"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/tree"
+      }
+    },
+    {
+      "number": 527,
+      "url": "https://github.com/react-component/image/pull/527",
+      "mergedAt": null,
+      "headRefOid": "31d7d1171eb242bce570386ccf594a49a869ea04",
+      "author": {
+        "login": "trudbot"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/image"
+      }
+    },
+    {
+      "number": 58934,
+      "url": "https://github.com/ant-design/ant-design/pull/58934",
+      "mergedAt": null,
+      "headRefOid": "d6e24e3321229fa8d6010e7372e28ba1a415fdf7",
+      "author": {
+        "login": "zick666"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58948,
+      "url": "https://github.com/ant-design/ant-design/pull/58948",
+      "mergedAt": null,
+      "headRefOid": "eef25b565d3e4b073a70d0584adf205a59d2874d",
+      "author": {
+        "login": "yxl-lab"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 2023,
+      "url": "https://github.com/ant-design/x/pull/2023",
+      "mergedAt": null,
+      "headRefOid": "46a386328c2dbda4f5b92cf3e7a551c2bb33fd54",
+      "author": {
+        "login": "waterWang"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/x"
+      }
+    },
+    {
+      "number": 58956,
+      "url": "https://github.com/ant-design/ant-design/pull/58956",
+      "mergedAt": null,
+      "headRefOid": "249ecf40e1c8973e803ef383d924f31e87aa3af2",
+      "author": {
+        "login": "waterWang"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58969,
+      "url": "https://github.com/ant-design/ant-design/pull/58969",
+      "mergedAt": "2026-08-17T09:06:40Z",
+      "headRefOid": "4a981bcbb95bf724cdd751e92784fdb597c424c2",
+      "author": {
+        "login": "thlovey"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58978,
+      "url": "https://github.com/ant-design/ant-design/pull/58978",
+      "mergedAt": "2026-08-17T02:12:35Z",
+      "headRefOid": "804d17ed5a187b21b4ad8290bdeaa6a973a682b5",
+      "author": {
+        "login": "thlovey"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58979,
+      "url": "https://github.com/ant-design/ant-design/pull/58979",
+      "mergedAt": "2026-08-16T08:58:59Z",
+      "headRefOid": "6b84e2b35bceb2a4415a9a020e9b022cf020a219",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 751,
+      "url": "https://github.com/react-component/input-number/pull/751",
+      "mergedAt": "2026-09-08T07:32:05Z",
+      "headRefOid": "09c2d9059cdb6107654846d172ea3bcff9e8ed81",
+      "author": {
+        "login": "nikzanda"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/input-number"
+      }
+    },
+    {
+      "number": 58981,
+      "url": "https://github.com/ant-design/ant-design/pull/58981",
+      "mergedAt": "2026-08-17T03:12:00Z",
+      "headRefOid": "347900fe494a2824f094c2960bb04f7fecddd635",
+      "author": {
+        "login": "nikzanda"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 58984,
+      "url": "https://github.com/ant-design/ant-design/pull/58984",
+      "mergedAt": null,
+      "headRefOid": "9c90ee03a06bea9c46650879cb5f58e0586a61f2",
+      "author": {
+        "login": "waterWang"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 25,
+      "url": "https://github.com/react-component/father-plugin/pull/25",
+      "mergedAt": null,
+      "headRefOid": "1c7568b0066259b0cfafc1bcc37c80f4f36a1cbd",
+      "author": {
+        "login": "Cherry7593"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/father-plugin"
+      }
+    },
+    {
+      "number": 528,
+      "url": "https://github.com/react-component/image/pull/528",
+      "mergedAt": null,
+      "headRefOid": "889c86e01396764fb7aa256b8a44736a9c386773",
+      "author": {
+        "login": "Cherry7593"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/image"
+      }
+    },
+    {
+      "number": 529,
+      "url": "https://github.com/react-component/image/pull/529",
+      "mergedAt": null,
+      "headRefOid": "0621d2d5a87b7eeb9075d0f2495d16c4e9d1ff72",
+      "author": {
+        "login": "Cherry7593"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/image"
+      }
+    },
+    {
+      "number": 19848,
+      "url": "https://github.com/prettier/prettier/pull/19848",
+      "mergedAt": null,
+      "headRefOid": "1bdc9436445402f118710dcc8855207d0c2f7482",
+      "author": {
+        "login": "lazerg"
+      },
+      "repository": {
+        "nameWithOwner": "prettier/prettier"
+      }
+    },
+    {
+      "number": 59004,
+      "url": "https://github.com/ant-design/ant-design/pull/59004",
+      "mergedAt": null,
+      "headRefOid": "f6eebedca94cf83554b258f475b3ba64427c209c",
+      "author": {
+        "login": "shenzhepei"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59005,
+      "url": "https://github.com/ant-design/ant-design/pull/59005",
+      "mergedAt": "2026-08-17T07:34:56Z",
+      "headRefOid": "b26300e843ade87e8e56b49ac4a22d47c4352733",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59009,
+      "url": "https://github.com/ant-design/ant-design/pull/59009",
+      "mergedAt": null,
+      "headRefOid": "79f9a68d4ee31a3b513ed20585d0320036230274",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 11933,
+      "url": "https://github.com/ant-design/ant-design-pro/pull/11933",
+      "mergedAt": null,
+      "headRefOid": "4cd9c7170987c7d202d530d7d1b36417bd0f0e41",
+      "author": {
+        "login": "afc163"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design-pro"
+      }
+    },
+    {
+      "number": 59021,
+      "url": "https://github.com/ant-design/ant-design/pull/59021",
+      "mergedAt": "2026-08-17T07:25:44Z",
+      "headRefOid": "216ef56ff7056911e5615b540da3dc70c4c7dd8e",
+      "author": {
+        "login": "EmilyyyLiu"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59022,
+      "url": "https://github.com/ant-design/ant-design/pull/59022",
+      "mergedAt": null,
+      "headRefOid": "c97c9354863cac14ecd2fb43854b13621b03877d",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 758,
+      "url": "https://github.com/ant-design/ant-design-icons/pull/758",
+      "mergedAt": "2026-08-31T03:12:56Z",
+      "headRefOid": "d4a196bd952659b54abf3c269deed04292ef8a51",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design-icons"
+      }
+    },
+    {
+      "number": 59028,
+      "url": "https://github.com/ant-design/ant-design/pull/59028",
+      "mergedAt": "2026-08-19T08:21:23Z",
+      "headRefOid": "b629484a874cdf7f7c7673f2cb15ef1af682381f",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59029,
+      "url": "https://github.com/ant-design/ant-design/pull/59029",
+      "mergedAt": "2026-08-19T08:22:35Z",
+      "headRefOid": "585ab5b9d64080cecfaf5753cb5e5d887000efe7",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 662,
+      "url": "https://github.com/react-component/cascader/pull/662",
+      "mergedAt": "2026-08-21T03:00:03Z",
+      "headRefOid": "b21ee034b332d1e9bab4ca3739374bebca3b9eb8",
+      "author": {
+        "login": "EmilyyyLiu"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/cascader"
+      }
+    },
+    {
+      "number": 59033,
+      "url": "https://github.com/ant-design/ant-design/pull/59033",
+      "mergedAt": null,
+      "headRefOid": "25d09465c97045b00034d16a20ab66b6193ac000",
+      "author": {
+        "login": "ZQDesigned"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59036,
+      "url": "https://github.com/ant-design/ant-design/pull/59036",
+      "mergedAt": null,
+      "headRefOid": "308490b4fad0a56c9be4d4b5114b77323b63b02f",
+      "author": {
+        "login": "nikzanda"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59038,
+      "url": "https://github.com/ant-design/ant-design/pull/59038",
+      "mergedAt": null,
+      "headRefOid": "5017250447f5411b797004db95d0b358895b4f11",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59046,
+      "url": "https://github.com/ant-design/ant-design/pull/59046",
+      "mergedAt": "2026-09-08T09:56:43Z",
+      "headRefOid": "f7298a09dd4e54a47ce8527b4690dd36e93c6bd8",
+      "author": {
+        "login": "EmilyyyLiu"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59056,
+      "url": "https://github.com/ant-design/ant-design/pull/59056",
+      "mergedAt": null,
+      "headRefOid": "b8e0eb5b8a13c54540f81084877613426a61c393",
+      "author": {
+        "login": "dependabot"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59057,
+      "url": "https://github.com/ant-design/ant-design/pull/59057",
+      "mergedAt": null,
+      "headRefOid": "12a71fba30ac5f3f6466ed34b275071c678b64a4",
+      "author": {
+        "login": "dependabot"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59058,
+      "url": "https://github.com/ant-design/ant-design/pull/59058",
+      "mergedAt": "2026-08-21T08:45:58Z",
+      "headRefOid": "da7c4cb2533ad7482483a299269ed9d568b8d535",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59059,
+      "url": "https://github.com/ant-design/ant-design/pull/59059",
+      "mergedAt": "2026-08-21T08:45:38Z",
+      "headRefOid": "8ed84ed674ac958cb93736c9f75849b379505f8c",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59066,
+      "url": "https://github.com/ant-design/ant-design/pull/59066",
+      "mergedAt": "2026-08-27T07:45:11Z",
+      "headRefOid": "e950086df49b6c965096e473a9269cba69c37147",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 890,
+      "url": "https://github.com/react-component/menu/pull/890",
+      "mergedAt": "2026-09-01T07:51:02Z",
+      "headRefOid": "abd9f85cadde15ef543e88acd743f71082e6369d",
+      "author": {
+        "login": "EmilyyyLiu"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/menu"
+      }
+    },
+    {
+      "number": 59068,
+      "url": "https://github.com/ant-design/ant-design/pull/59068",
+      "mergedAt": null,
+      "headRefOid": "e78110aea94a55084940a3aaf0f96e2a6c60e542",
+      "author": {
+        "login": "EmilyyyLiu"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 1248,
+      "url": "https://github.com/react-component/select/pull/1248",
+      "mergedAt": null,
+      "headRefOid": "6449ac52419fbd2ef278a4809ba2fb4ed1dfeea6",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/select"
+      }
+    },
+    {
+      "number": 380,
+      "url": "https://github.com/react-component/virtual-list/pull/380",
+      "mergedAt": null,
+      "headRefOid": "02c2f6347117be524f4b39dfb906aeb985c64a39",
+      "author": {
+        "login": "RounakKumarAgarwal"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/virtual-list"
+      }
+    },
+    {
+      "number": 59072,
+      "url": "https://github.com/ant-design/ant-design/pull/59072",
+      "mergedAt": null,
+      "headRefOid": "c4eb744a2e7fb7aa86b1af3b00d2938c25fb2a27",
+      "author": {
+        "login": "giaBaoJS"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59073,
+      "url": "https://github.com/ant-design/ant-design/pull/59073",
+      "mergedAt": "2026-09-04T16:04:46Z",
+      "headRefOid": "1c01b4cb5dd36ad277605a5ca6262cf43b943a0a",
+      "author": {
+        "login": "giaBaoJS"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59074,
+      "url": "https://github.com/ant-design/ant-design/pull/59074",
+      "mergedAt": "2026-08-27T01:42:25Z",
+      "headRefOid": "fa70bae5fbbdb002b77218aed8e500ce279f7d88",
+      "author": {
+        "login": "biubiukam"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59075,
+      "url": "https://github.com/ant-design/ant-design/pull/59075",
+      "mergedAt": null,
+      "headRefOid": "245fd8f5ba09677a1587487614e38897cf173e42",
+      "author": {
+        "login": "giaBaoJS"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 1069,
+      "url": "https://github.com/react-component/tree/pull/1069",
+      "mergedAt": null,
+      "headRefOid": "3df3c9cd41ddd66eb845f0d68c4e6535d4736a9a",
+      "author": {
+        "login": "aojunhao123"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/tree"
+      }
+    },
+    {
+      "number": 2026,
+      "url": "https://github.com/ant-design/x/pull/2026",
+      "mergedAt": null,
+      "headRefOid": "6db80a3e798afa68c7dbed56d03204f7eaae0c3b",
+      "author": {
+        "login": "pttydou"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/x"
+      }
+    },
+    {
+      "number": 59078,
+      "url": "https://github.com/ant-design/ant-design/pull/59078",
+      "mergedAt": "2026-08-27T07:10:47Z",
+      "headRefOid": "d38137ca24d2c6ecbaa08a3d5b81d1b929d0ea9f",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 1016,
+      "url": "https://github.com/react-component/tabs/pull/1016",
+      "mergedAt": null,
+      "headRefOid": "6dc0a8071000ced4bf969749f9b9185ab87635a8",
+      "author": {
+        "login": "EmilyyyLiu"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/tabs"
+      }
+    },
+    {
+      "number": 59084,
+      "url": "https://github.com/ant-design/ant-design/pull/59084",
+      "mergedAt": null,
+      "headRefOid": "c3ad5c9edb720104e77d35c2bfc3097761f87ae2",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 218,
+      "url": "https://github.com/react-component/rate/pull/218",
+      "mergedAt": null,
+      "headRefOid": "ba5e1673413471194634594f13e706980f267716",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/rate"
+      }
+    },
+    {
+      "number": 2028,
+      "url": "https://github.com/ant-design/x/pull/2028",
+      "mergedAt": null,
+      "headRefOid": "4cbfc41f2ae031549df8b92b98e34ca54afa93d4",
+      "author": {
+        "login": "Div627"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/x"
+      }
+    },
+    {
+      "number": 59087,
+      "url": "https://github.com/ant-design/ant-design/pull/59087",
+      "mergedAt": "2026-08-27T07:10:24Z",
+      "headRefOid": "a75db42e823d2c4244fd2082b32c3ec2019b1215",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 2030,
+      "url": "https://github.com/ant-design/x/pull/2030",
+      "mergedAt": null,
+      "headRefOid": "c840366537eed944baf0c5744496328d3d50b990",
+      "author": {
+        "login": "advance-hub"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/x"
+      }
+    },
+    {
+      "number": 2031,
+      "url": "https://github.com/ant-design/x/pull/2031",
+      "mergedAt": null,
+      "headRefOid": "36b08c7e431f55ada856b605d75f202f4b433375",
+      "author": {
+        "login": "advance-hub"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/x"
+      }
+    },
+    {
+      "number": 2032,
+      "url": "https://github.com/ant-design/x/pull/2032",
+      "mergedAt": null,
+      "headRefOid": "9ff619c9b54c4d76088aaf07a6b0aedf8d7e98b8",
+      "author": {
+        "login": "advance-hub"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/x"
+      }
+    },
+    {
+      "number": 2033,
+      "url": "https://github.com/ant-design/x/pull/2033",
+      "mergedAt": null,
+      "headRefOid": "189de5b3d21d6792b68920cc95440697c58e6aa1",
+      "author": {
+        "login": "advance-hub"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/x"
+      }
+    },
+    {
+      "number": 2034,
+      "url": "https://github.com/ant-design/x/pull/2034",
+      "mergedAt": null,
+      "headRefOid": "8d052ad59b913e437a2e4dc83810f6364c96add6",
+      "author": {
+        "login": "advance-hub"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/x"
+      }
+    },
+    {
+      "number": 2035,
+      "url": "https://github.com/ant-design/x/pull/2035",
+      "mergedAt": "2026-08-31T08:49:33Z",
+      "headRefOid": "d55222f703df49426cc4dbf7f8a8812c88421316",
+      "author": {
+        "login": "advance-hub"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/x"
+      }
+    },
+    {
+      "number": 2036,
+      "url": "https://github.com/ant-design/x/pull/2036",
+      "mergedAt": null,
+      "headRefOid": "2ce8f4674ed158c01a261d1193edb495cb183838",
+      "author": {
+        "login": "advance-hub"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/x"
+      }
+    },
+    {
+      "number": 59092,
+      "url": "https://github.com/ant-design/ant-design/pull/59092",
+      "mergedAt": null,
+      "headRefOid": "f9eb07a7ea60d9d4b6854310f2c9c8e986713260",
+      "author": {
+        "login": "lazerg"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59093,
+      "url": "https://github.com/ant-design/ant-design/pull/59093",
+      "mergedAt": null,
+      "headRefOid": "9100bc52d99d449545f64d94e6decd75e92651ec",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 5791,
+      "url": "https://github.com/php/doc-en/pull/5791",
+      "mergedAt": null,
+      "headRefOid": "884c31ad27aa3c8ffddc1c46d0f6cba93e6fbccd",
+      "author": {
+        "login": "divinity76"
+      },
+      "repository": {
+        "nameWithOwner": "php/doc-en"
+      }
+    },
+    {
+      "number": 3187,
+      "url": "https://github.com/iamkun/dayjs/pull/3187",
+      "mergedAt": null,
+      "headRefOid": "07c5726c8a0ac211af5744e9ccaf743a70289af0",
+      "author": {
+        "login": "koding88"
+      },
+      "repository": {
+        "nameWithOwner": "iamkun/dayjs"
+      }
+    },
+    {
+      "number": 59094,
+      "url": "https://github.com/ant-design/ant-design/pull/59094",
+      "mergedAt": "2026-08-26T16:58:23Z",
+      "headRefOid": "040cdcae6d86526d4c905e9c0ae68101c945b333",
+      "author": {
+        "login": "bhumin18"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59095,
+      "url": "https://github.com/ant-design/ant-design/pull/59095",
+      "mergedAt": "2026-09-03T05:38:55Z",
+      "headRefOid": "0869ad8e990a195c1261ebbd009c8ac59afaaa98",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59100,
+      "url": "https://github.com/ant-design/ant-design/pull/59100",
+      "mergedAt": "2026-08-27T07:09:26Z",
+      "headRefOid": "01a821e18062c83a477354ea531b38d595955a36",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59101,
+      "url": "https://github.com/ant-design/ant-design/pull/59101",
+      "mergedAt": "2026-08-26T16:56:43Z",
+      "headRefOid": "0f76dce6483819c02f6beb8bce530aa64739c0cf",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59109,
+      "url": "https://github.com/ant-design/ant-design/pull/59109",
+      "mergedAt": "2026-08-27T07:08:07Z",
+      "headRefOid": "1e9ea8e600433b57f944fd1374c95c64d5075bbc",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 2039,
+      "url": "https://github.com/ant-design/x/pull/2039",
+      "mergedAt": null,
+      "headRefOid": "d26059aa9166570bf0464be5ad64618eede84b73",
+      "author": {
+        "login": "cactuser-Lu"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/x"
+      }
+    },
+    {
+      "number": 59110,
+      "url": "https://github.com/ant-design/ant-design/pull/59110",
+      "mergedAt": "2026-08-27T06:53:32Z",
+      "headRefOid": "3ca9ff9364dc0d1edd4c5bbd39f4d32aade98d8d",
+      "author": {
+        "login": "yoyo837"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59117,
+      "url": "https://github.com/ant-design/ant-design/pull/59117",
+      "mergedAt": "2026-08-27T07:40:45Z",
+      "headRefOid": "2534d76965af155b161b853aeb5bd2152d90413c",
+      "author": {
+        "login": "bhumin18"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59121,
+      "url": "https://github.com/ant-design/ant-design/pull/59121",
+      "mergedAt": "2026-08-28T02:44:48Z",
+      "headRefOid": "10f052fe5ed8398fe995371280182dc4539d6a11",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 9693,
+      "url": "https://github.com/ant-design/pro-components/pull/9693",
+      "mergedAt": "2026-08-28T02:37:34Z",
+      "headRefOid": "24515b81542eda3118d7e407ab80ab9e96c1a50b",
+      "author": {
+        "login": "sunven"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/pro-components"
+      }
+    },
+    {
+      "number": 59122,
+      "url": "https://github.com/ant-design/ant-design/pull/59122",
+      "mergedAt": "2026-08-27T11:56:07Z",
+      "headRefOid": "416ab5a7a6c2d7aa1a0a1cff5402131d6ae0e9c9",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 646,
+      "url": "https://github.com/react-component/trigger/pull/646",
+      "mergedAt": null,
+      "headRefOid": "aa2160e9f1cc74e608b6de74cebe4cbd390f3d4d",
+      "author": {
+        "login": "1328837476-hug"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/trigger"
+      }
+    },
+    {
+      "number": 808,
+      "url": "https://github.com/react-component/util/pull/808",
+      "mergedAt": "2026-09-01T02:43:41Z",
+      "headRefOid": "aa74818c872228d47f2c7d09910db6a994555eaa",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/util"
+      }
+    },
+    {
+      "number": 59136,
+      "url": "https://github.com/ant-design/ant-design/pull/59136",
+      "mergedAt": null,
+      "headRefOid": "ed4eadc636160d1284616b40ed0c26c4b907a008",
+      "author": {
+        "login": "bhumin18"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59137,
+      "url": "https://github.com/ant-design/ant-design/pull/59137",
+      "mergedAt": "2026-08-28T00:21:40Z",
+      "headRefOid": "82840f41c23d5a55be5743071c6976ddf1d2031f",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59139,
+      "url": "https://github.com/ant-design/ant-design/pull/59139",
+      "mergedAt": "2026-08-28T02:30:23Z",
+      "headRefOid": "2b795740fec5ca2924181a11384845a47e23ef13",
+      "author": {
+        "login": "github-actions"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59141,
+      "url": "https://github.com/ant-design/ant-design/pull/59141",
+      "mergedAt": "2026-09-02T08:35:57Z",
+      "headRefOid": "2d65bb4583fa919907635b1ab8bfd17df52d10c0",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59142,
+      "url": "https://github.com/ant-design/ant-design/pull/59142",
+      "mergedAt": "2026-08-28T02:43:59Z",
+      "headRefOid": "922d577301c42bb37d04bbbbc3c45021772a3c08",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59147,
+      "url": "https://github.com/ant-design/ant-design/pull/59147",
+      "mergedAt": "2026-08-28T15:21:31Z",
+      "headRefOid": "7adb97cfe5d59981497b6688aa47bf4cb482253c",
+      "author": {
+        "login": "li-jia-nan"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59150,
+      "url": "https://github.com/ant-design/ant-design/pull/59150",
+      "mergedAt": "2026-08-30T05:17:16Z",
+      "headRefOid": "3ae8540d082b20a86c4277114d7b20ad67a9f981",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59157,
+      "url": "https://github.com/ant-design/ant-design/pull/59157",
+      "mergedAt": null,
+      "headRefOid": "319d26ec517083351e34a2443c8a78781d561afc",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59164,
+      "url": "https://github.com/ant-design/ant-design/pull/59164",
+      "mergedAt": null,
+      "headRefOid": "158ea964a180f4696f15071b065025162e48f747",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59166,
+      "url": "https://github.com/ant-design/ant-design/pull/59166",
+      "mergedAt": null,
+      "headRefOid": "19fb633097fe932dda2272eabcd0a3926183e308",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59168,
+      "url": "https://github.com/ant-design/ant-design/pull/59168",
+      "mergedAt": "2026-09-02T08:09:16Z",
+      "headRefOid": "16e6660c330abc4eadbee80b20eccc02c0b82982",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59189,
+      "url": "https://github.com/ant-design/ant-design/pull/59189",
+      "mergedAt": null,
+      "headRefOid": "b01f76422202e3e4dd47db749f3925b3b2412fee",
+      "author": {
+        "login": "EmilyyyLiu"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 11941,
+      "url": "https://github.com/ant-design/ant-design-pro/pull/11941",
+      "mergedAt": null,
+      "headRefOid": "a34067e93fca63e2095785c98b98f1eaec3d384c",
+      "author": {
+        "login": "dependabot"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design-pro"
+      }
+    },
+    {
+      "number": 3201,
+      "url": "https://github.com/iamkun/dayjs/pull/3201",
+      "mergedAt": null,
+      "headRefOid": "e6f20e244622e8999eaeea938480d39e9ffe853a",
+      "author": {
+        "login": "dylanpulver"
+      },
+      "repository": {
+        "nameWithOwner": "iamkun/dayjs"
+      }
+    },
+    {
+      "number": 4082,
+      "url": "https://github.com/markedjs/marked/pull/4082",
+      "mergedAt": null,
+      "headRefOid": "d7e1b92ed053451a3585d943323f7f858b780fd5",
+      "author": {
+        "login": "unshorn"
+      },
+      "repository": {
+        "nameWithOwner": "markedjs/marked"
+      }
+    },
+    {
+      "number": 2875,
+      "url": "https://github.com/validatorjs/validator.js/pull/2875",
+      "mergedAt": null,
+      "headRefOid": "66622ba31e8241eb36a12b6390112464416c9e28",
+      "author": {
+        "login": "spokodev"
+      },
+      "repository": {
+        "nameWithOwner": "validatorjs/validator.js"
+      }
+    },
+    {
+      "number": 59211,
+      "url": "https://github.com/ant-design/ant-design/pull/59211",
+      "mergedAt": null,
+      "headRefOid": "8090af7960402f5da80751dd95a6a942a0b30224",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59217,
+      "url": "https://github.com/ant-design/ant-design/pull/59217",
+      "mergedAt": "2026-09-05T19:45:07Z",
+      "headRefOid": "c6ae683711252a9bbedc72894f3566af29d37667",
+      "author": {
+        "login": "dogledogle"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 59221,
+      "url": "https://github.com/ant-design/ant-design/pull/59221",
+      "mergedAt": null,
+      "headRefOid": "a632e5bafafab048a79518c1bb0fe7540457d516",
+      "author": {
+        "login": "giaBaoJS"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 2604,
+      "url": "https://github.com/tj/commander.js/pull/2604",
+      "mergedAt": null,
+      "headRefOid": "3ac5c5d01fa91090218b8c4ed10663616cd03825",
+      "author": {
+        "login": "nirmal-shaji"
+      },
+      "repository": {
+        "nameWithOwner": "tj/commander.js"
+      }
+    },
+    {
+      "number": 2607,
+      "url": "https://github.com/tj/commander.js/pull/2607",
+      "mergedAt": null,
+      "headRefOid": "99c705336a209e1ab83a45a38ae5d460d589729a",
+      "author": {
+        "login": "dualfroz"
+      },
+      "repository": {
+        "nameWithOwner": "tj/commander.js"
+      }
+    },
+    {
+      "number": 201,
+      "url": "https://github.com/dperini/nwsapi/pull/201",
+      "mergedAt": "2026-09-07T04:10:04Z",
+      "headRefOid": "8227098ca8bf636ba8331bf0717c357bfe7c0b8a",
+      "author": {
+        "login": "jdalton"
+      },
+      "repository": {
+        "nameWithOwner": "dperini/nwsapi"
+      }
+    },
+    {
+      "number": 1516,
+      "url": "https://github.com/sindresorhus/type-fest/pull/1516",
+      "mergedAt": null,
+      "headRefOid": "a7ec8550c5989649bb1b3fd8d328663e18bb330d",
+      "author": {
+        "login": "deshrajvermay9517-png"
+      },
+      "repository": {
+        "nameWithOwner": "sindresorhus/type-fest"
+      }
+    },
+    {
+      "number": 2877,
+      "url": "https://github.com/validatorjs/validator.js/pull/2877",
+      "mergedAt": null,
+      "headRefOid": "a972b6a85df21386f09f46fc054402d15f5c05e9",
+      "author": {
+        "login": "yfwmaniish"
+      },
+      "repository": {
+        "nameWithOwner": "validatorjs/validator.js"
+      }
+    },
+    {
+      "number": 2878,
+      "url": "https://github.com/validatorjs/validator.js/pull/2878",
+      "mergedAt": null,
+      "headRefOid": "f3355718020ef3addf989727617baa65105f03e2",
+      "author": {
+        "login": "yfwmaniish"
+      },
+      "repository": {
+        "nameWithOwner": "validatorjs/validator.js"
+      }
+    },
+    {
+      "number": 2880,
+      "url": "https://github.com/validatorjs/validator.js/pull/2880",
+      "mergedAt": null,
+      "headRefOid": "fd05da79e532eb787809a0c71071b2fda8364906",
+      "author": {
+        "login": "Jerry-val"
+      },
+      "repository": {
+        "nameWithOwner": "validatorjs/validator.js"
+      }
+    },
+    {
+      "number": 2881,
+      "url": "https://github.com/validatorjs/validator.js/pull/2881",
+      "mergedAt": null,
+      "headRefOid": "85029bfc67e4a00c181c72606e168bc7edf7f399",
+      "author": {
+        "login": "Jerry-val"
+      },
+      "repository": {
+        "nameWithOwner": "validatorjs/validator.js"
+      }
+    }
+  ],
+  "counts": {
+    "merged_upstream_prs": 69,
+    "merged_upstream_repositories": 39,
+    "ant_design_main_merged_prs": 24,
+    "ant_design_ecosystem_merged_prs": 45,
+    "reviewed_upstream_prs": 170
+  },
+  "isbn_review": {
+    "url": "https://github.com/validatorjs/validator.js/pull/2882#pullrequestreview-5144834497",
+    "head": "797b78e858d6a156651e623eff15da73e4564b35",
+    "state": "APPROVED",
+    "base": "a79ff980ab14257e795332989e497bdff3218e87",
+    "full_tests": 327,
+    "base_regressions_failed": 3,
+    "forms": [
+      "source",
+      "node",
+      "browser",
+      "minified"
+    ],
+    "inputs": 1406,
+    "option_cases": 16,
+    "observations_per_form": 22496,
+    "base_mismatches_per_form": 1204,
+    "head_mismatches_per_form": 0,
+    "upstream_checks_passed": 13,
+    "pr_state": "OPEN",
+    "counting": "Direct review receipt; #2882 not yet included in 170 indexed reviewed PRs. No authored merge."
+  }
+}

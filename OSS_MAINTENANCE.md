@@ -10,7 +10,12 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 The public record below includes 69 merged PRs across 39 non-owned repositories, including 24 merged Ant Design PRs in a focused i18n/accessibility lane. The merged total excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
-I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 169 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-08 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-08.json).
+I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 170 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-09 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-09.json).
+
+### September 9, 2026: ISBN default-options review
+
+- [validator.js ISBN options review](https://github.com/validatorjs/validator.js/pull/2882#pullrequestreview-5144834497): approved exact head `797b78e858d6a156651e623eff15da73e4564b35`. Three new regressions fail on base; head passes 327 tests, build, lint, and 13 upstream checks. Four forms each pass 22,496 option-dispatch observations, fixing 1,204 mismatches per form against unchanged explicit-version results. PR remains open; this validates option compatibility, not exhaustive ISBN conformance.
+- Search now includes #2877 and returns 170 unique reviewed PRs; #2882 has a separate direct receipt while indexing is pending. Authored merges remain 69 across 39 repositories.
 
 ### September 8, 2026: container-ID anchoring review
 
