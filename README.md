@@ -18,7 +18,7 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 | Non-owned upstream repositories with merged work        |        **39** |
 | Merged PRs in the Ant Design main repository            |        **24** |
 | Merged PRs across the Ant Design ecosystem              |        **45** |
-| Public upstream PRs reviewed as an external contributor |       **168** |
+| Public upstream PRs reviewed as an external contributor |       **169** |
 
 These figures exclude repositories I own and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-08.json).
 
@@ -44,7 +44,7 @@ These figures exclude repositories I own and count a PR only after GitHub report
 
 ## Latest contribution
 
-- [validator.js float-locale follow-up](https://github.com/validatorjs/validator.js/pull/2878#pullrequestreview-5137738704): identified inherited-property names bypassing the proposed unknown-locale fallback (`__proto__` still accepts `3[object Object]5`). This is an inherited boundary, not a new regression. A local own-property guard and regression pass full 324 tests; four forms each run 5,148 fallback-equivalence observations, reducing 75 head mismatches to zero while preserving all 68 known locales. Published as COMMENTED with the candidate code; not adopted or approved.
+- [validator.js float-locale follow-up](https://github.com/validatorjs/validator.js/pull/2878#pullrequestreview-5140086205): the [author adopted my suggested own-property guard](https://github.com/validatorjs/validator.js/pull/2878#issuecomment-5581253540) and added inherited-name regressions. Approved exact head `f3355718020ef3addf989727617baa65105f03e2` after full 323 tests, build, lint, and 13 upstream checks pass. Four forms each pass 5,148 fallback-equivalence observations, resolving all 75 mismatches from the previously reviewed head while preserving all 68 known locales. PR remains open; this is an adopted review suggestion, not an authored merge.
 
 - [Picker #1007](https://github.com/react-component/picker/pull/1007): Taiwan week terminology, merged by yoyo837 on September 8 at `45fc86c2aca4566a292b41c03af44bffa16b6f5e`. The head is GitHub Verified; this round verifies merge state rather than rerunning historical component tests.
 - [validator.js MIME underscore review](https://github.com/validatorjs/validator.js/pull/2881#pullrequestreview-5137647145): approved exact head `85029bfc67e4a00c181c72606e168bc7edf7f399`. Both new tests fail on base; full 325 tests, build, lint and 13 upstream checks pass. Each of four forms passes 1,900 compatibility cases after fixing 1,260 false rejects per form. Four inherited RFC discrepancies are disclosed separately; this is a scoped underscore fix, not full MIME conformance.

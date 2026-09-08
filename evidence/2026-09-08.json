@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-08T05:26:31.526989+00:00",
+  "checked_at": "2026-09-08T09:45:06.699533+00:00",
   "github_user": "nrps9909",
   "methodology": {
     "merged": "Public authored merged PRs; exclude nrps9909/* and Mes0903/NTNU-GameDesign. Open and approved PRs do not count. Manual incorporation credited in an upstream commit is documented separately when GitHub does not mark the PR merged.",
@@ -14,7 +14,7 @@
     "merged_upstream_repositories": 39,
     "ant_design_main_merged_prs": 24,
     "ant_design_ecosystem_merged_prs": 45,
-    "reviewed_upstream_prs": 168
+    "reviewed_upstream_prs": 169
   },
   "merged": [
     {
@@ -1271,7 +1271,7 @@
       "number": 58503,
       "url": "https://github.com/ant-design/ant-design/pull/58503",
       "mergedAt": null,
-      "headRefOid": "9317ba2caf13b11d8b0678b7274680fe07823c4a",
+      "headRefOid": "4bd5cffb92529d54b35c8c87d740dccab192f3ce",
       "author": {
         "login": "biubiukam"
       },
@@ -1774,7 +1774,7 @@
     {
       "number": 751,
       "url": "https://github.com/react-component/input-number/pull/751",
-      "mergedAt": null,
+      "mergedAt": "2026-09-08T07:32:05Z",
       "headRefOid": "09c2d9059cdb6107654846d172ea3bcff9e8ed81",
       "author": {
         "login": "nikzanda"
@@ -2840,6 +2840,18 @@
       }
     },
     {
+      "number": 2878,
+      "url": "https://github.com/validatorjs/validator.js/pull/2878",
+      "mergedAt": null,
+      "headRefOid": "f3355718020ef3addf989727617baa65105f03e2",
+      "author": {
+        "login": "yfwmaniish"
+      },
+      "repository": {
+        "nameWithOwner": "validatorjs/validator.js"
+      }
+    },
+    {
       "number": 2880,
       "url": "https://github.com/validatorjs/validator.js/pull/2880",
       "mergedAt": null,
@@ -2945,7 +2957,19 @@
     "candidate_mismatches_per_form": 0,
     "head_full_tests": 323,
     "candidate_full_tests": 324,
-    "candidate_adopted": false,
-    "counting": "Direct review receipt verified; not yet included in latest GitHub search, whose 168-PR count is retained."
+    "candidate_adopted": true,
+    "counting": "Now indexed in the 169 unique reviewed PR total; the follow-up is the same PR and does not increase authored merges.",
+    "follow_up": {
+      "url": "https://github.com/validatorjs/validator.js/pull/2878#pullrequestreview-5140086205",
+      "head": "f3355718020ef3addf989727617baa65105f03e2",
+      "state": "APPROVED",
+      "author_adoption_url": "https://github.com/validatorjs/validator.js/pull/2878#issuecomment-5581253540",
+      "full_tests": 323,
+      "mismatches_per_form": 0,
+      "known_locale_changes": 0,
+      "upstream_checks_passed": 13,
+      "pr_state": "OPEN",
+      "merged": false
+    }
   }
 }
