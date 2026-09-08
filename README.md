@@ -12,15 +12,15 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 
 ## Open-source work at a glance
 
-| Verified public record (2026-09-07)                     | Current total |
+| Verified public record (2026-09-08)                     | Current total |
 | ------------------------------------------------------- | ------------: |
-| Merged PRs in non-owned upstream repositories           |        **68** |
+| Merged PRs in non-owned upstream repositories           |        **69** |
 | Non-owned upstream repositories with merged work        |        **39** |
 | Merged PRs in the Ant Design main repository            |        **24** |
-| Merged PRs across the Ant Design ecosystem              |        **44** |
-| Public upstream PRs reviewed as an external contributor |       **167** |
+| Merged PRs across the Ant Design ecosystem              |        **45** |
+| Public upstream PRs reviewed as an external contributor |       **168** |
 
-These figures exclude repositories I own and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-07.json).
+These figures exclude repositories I own and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-08.json).
 
 ## What I maintain
 
@@ -43,6 +43,9 @@ These figures exclude repositories I own and count a PR only after GitHub report
 - **Neovim:** [complete and repair the Traditional Chinese message catalog](https://github.com/neovim/neovim/pull/41273) while preserving catalog structure.
 
 ## Latest contribution
+
+- [Picker #1007](https://github.com/react-component/picker/pull/1007): Taiwan week terminology, merged by yoyo837 on September 8 at `45fc86c2aca4566a292b41c03af44bffa16b6f5e`. The head is GitHub Verified; this round verifies merge state rather than rerunning historical component tests.
+- [validator.js MIME underscore review](https://github.com/validatorjs/validator.js/pull/2881#pullrequestreview-5137647145): approved exact head `85029bfc67e4a00c181c72606e168bc7edf7f399`. Both new tests fail on base; full 325 tests, build, lint and 13 upstream checks pass. Each of four forms passes 1,900 compatibility cases after fixing 1,260 false rejects per form. Four inherited RFC discrepancies are disclosed separately; this is a scoped underscore fix, not full MIME conformance.
 
 - [validator.js coordinate-pair review](https://github.com/validatorjs/validator.js/pull/2880#pullrequestreview-5133486518): approved exact head `fd05da79e532eb787809a0c71071b2fda8364906` after both new regressions fail on base and all 325 tests, build and lint pass on head. Independent 2,450-case checks on each of four source/distribution forms fix 1,310 false accepts per form with zero remaining corpus mismatches. All 13 reported upstream checks pass. This covers extra components and selected boundary controls, not exhaustive geographic-format conformance.
 

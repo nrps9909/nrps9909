@@ -8,9 +8,15 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Upstream contributions
 
-The public record below includes 68 merged PRs across 39 non-owned repositories, including 24 merged Ant Design PRs in a focused i18n/accessibility lane. The merged total excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
+The public record below includes 69 merged PRs across 39 non-owned repositories, including 24 merged Ant Design PRs in a focused i18n/accessibility lane. The merged total excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
-I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 167 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-07 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-07.json).
+I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 168 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-08 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-08.json).
+
+### September 8, 2026: locale merge and MIME review
+
+- [Picker #1007](https://github.com/react-component/picker/pull/1007): Taiwan week terminology, merged by yoyo837 on September 8 at `45fc86c2aca4566a292b41c03af44bffa16b6f5e`. The head is GitHub Verified; this round verifies merge state rather than rerunning historical component tests.
+- [validator.js MIME underscore review](https://github.com/validatorjs/validator.js/pull/2881#pullrequestreview-5137647145): approved exact head `85029bfc67e4a00c181c72606e168bc7edf7f399`. Both new tests fail on base; full 325 tests, build, lint and 13 upstream checks pass. Each of four forms passes 1,900 compatibility cases after fixing 1,260 false rejects per form. Four inherited RFC discrepancies are disclosed separately; this is a scoped underscore fix, not full MIME conformance.
+- Counts: 69 authored merges across 39 non-owned repositories, 24 Ant Design main / 45 ecosystem merges, and 168 other-authored reviewed PRs.
 
 ### September 7, 2026: coordinate-pair review
 
@@ -103,6 +109,7 @@ These are three newly authored open PRs and three reviews of other authors' PRs 
 
 ### Merged
 
+- [Picker: Taiwan week terminology](https://github.com/react-component/picker/pull/1007)
 - [Ant Design: use German DatePicker formats](https://github.com/ant-design/ant-design/pull/59151)
 - [React Component Picker: parse Day.js input with the picker locale](https://github.com/react-component/picker/pull/1013)
 - [Oh My Zsh: fix Poetry environment handling across project subdirectories](https://github.com/ohmyzsh/ohmyzsh/pull/13932)
