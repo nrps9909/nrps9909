@@ -12,6 +12,11 @@ The public record below includes 69 merged PRs across 39 non-owned repositories,
 
 I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 168 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-08 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-08.json).
 
+### September 8, 2026: float fallback boundary
+
+- [validator.js float-locale follow-up](https://github.com/validatorjs/validator.js/pull/2878#pullrequestreview-5137738704): identified inherited-property names bypassing the proposed unknown-locale fallback (`__proto__` still accepts `3[object Object]5`). This is an inherited boundary, not a new regression. A local own-property guard and regression pass full 324 tests; four forms each run 5,148 fallback-equivalence observations, reducing 75 head mismatches to zero while preserving all 68 known locales. Published as COMMENTED with the candidate code; not adopted or approved.
+- The latest GitHub search still returns 168 unique reviewed PRs and has not yet indexed this newly published review; its direct review receipt is recorded separately. No merged authorship was added.
+
 ### September 8, 2026: locale merge and MIME review
 
 - [Picker #1007](https://github.com/react-component/picker/pull/1007): Taiwan week terminology, merged by yoyo837 on September 8 at `45fc86c2aca4566a292b41c03af44bffa16b6f5e`. The head is GitHub Verified; this round verifies merge state rather than rerunning historical component tests.

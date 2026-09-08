@@ -44,6 +44,8 @@ These figures exclude repositories I own and count a PR only after GitHub report
 
 ## Latest contribution
 
+- [validator.js float-locale follow-up](https://github.com/validatorjs/validator.js/pull/2878#pullrequestreview-5137738704): identified inherited-property names bypassing the proposed unknown-locale fallback (`__proto__` still accepts `3[object Object]5`). This is an inherited boundary, not a new regression. A local own-property guard and regression pass full 324 tests; four forms each run 5,148 fallback-equivalence observations, reducing 75 head mismatches to zero while preserving all 68 known locales. Published as COMMENTED with the candidate code; not adopted or approved.
+
 - [Picker #1007](https://github.com/react-component/picker/pull/1007): Taiwan week terminology, merged by yoyo837 on September 8 at `45fc86c2aca4566a292b41c03af44bffa16b6f5e`. The head is GitHub Verified; this round verifies merge state rather than rerunning historical component tests.
 - [validator.js MIME underscore review](https://github.com/validatorjs/validator.js/pull/2881#pullrequestreview-5137647145): approved exact head `85029bfc67e4a00c181c72606e168bc7edf7f399`. Both new tests fail on base; full 325 tests, build, lint and 13 upstream checks pass. Each of four forms passes 1,900 compatibility cases after fixing 1,260 false rejects per form. Four inherited RFC discrepancies are disclosed separately; this is a scoped underscore fix, not full MIME conformance.
 

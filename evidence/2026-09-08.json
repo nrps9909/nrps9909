@@ -2925,5 +2925,27 @@
       "checked_at": "2026-09-06T07:43:23.597752+00:00",
       "counting": "Manual upstream incorporation; excluded from GitHub merged-PR total."
     }
-  ]
+  ],
+  "additional_review": {
+    "url": "https://github.com/validatorjs/validator.js/pull/2878#pullrequestreview-5137738704",
+    "head": "ab967e2a64cd3cd63aa863920b6e232a344d1a4e",
+    "state": "COMMENTED",
+    "base": "a79ff980ab14257e795332989e497bdff3218e87",
+    "issue": "Inherited-property names bypass unknown-locale fallback; also present on base",
+    "known_locales": 68,
+    "observations_per_form": 5148,
+    "forms": [
+      "source",
+      "node",
+      "browser",
+      "minified"
+    ],
+    "base_mismatches_per_form": 99,
+    "head_mismatches_per_form": 75,
+    "candidate_mismatches_per_form": 0,
+    "head_full_tests": 323,
+    "candidate_full_tests": 324,
+    "candidate_adopted": false,
+    "counting": "Direct review receipt verified; not yet included in latest GitHub search, whose 168-PR count is retained."
+  }
 }
