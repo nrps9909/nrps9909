@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-08T09:45:06.699533+00:00",
+  "checked_at": "2026-09-08T09:49:30.223573+00:00",
   "github_user": "nrps9909",
   "methodology": {
     "merged": "Public authored merged PRs; exclude nrps9909/* and Mes0903/NTNU-GameDesign. Open and approved PRs do not count. Manual incorporation credited in an upstream commit is documented separately when GitHub does not mark the PR merged.",
@@ -2971,5 +2971,29 @@
       "pr_state": "OPEN",
       "merged": false
     }
+  },
+  "container_id_review": {
+    "url": "https://github.com/validatorjs/validator.js/pull/2877#pullrequestreview-5140130392",
+    "head": "a972b6a85df21386f09f46fc054402d15f5c05e9",
+    "base": "a79ff980ab14257e795332989e497bdff3218e87",
+    "state": "APPROVED",
+    "full_tests": 323,
+    "base_regression_failed": true,
+    "observations_per_api_form": 14466,
+    "apis": [
+      "isISO6346",
+      "isFreightContainerID"
+    ],
+    "forms": [
+      "source",
+      "node",
+      "browser",
+      "minified"
+    ],
+    "base_false_accepts_per_api_form": 4349,
+    "head_mismatches_per_api_form": 0,
+    "upstream_checks_passed": 13,
+    "pr_state": "OPEN",
+    "counting": "Direct review receipt; not yet included in the 169 indexed reviewed PRs. Not an authored merge."
   }
 }

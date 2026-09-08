@@ -12,6 +12,11 @@ The public record below includes 69 merged PRs across 39 non-owned repositories,
 
 I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 169 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-08 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-08.json).
 
+### September 8, 2026: container-ID anchoring review
+
+- [validator.js container-ID review](https://github.com/validatorjs/validator.js/pull/2877#pullrequestreview-5140130392): approved exact head `a972b6a85df21386f09f46fc054402d15f5c05e9`. The added regression fails on base; head passes all 323 tests, build, lint, and 13 upstream checks. An independent positional/checksum oracle checks 14,466 unique inputs for each of two APIs across four forms: 4,349 baseline false accepts per API/form become zero mismatches. Existing lowercase and optional J/Z checksum behavior are preserved. PR remains open; no owner-registration or exhaustive ISO-conformance claim.
+- Latest indexed search remains 169 unique reviewed PRs and does not yet include #2877. Its direct review receipt is recorded separately; authored merges remain 69.
+
 ### September 8, 2026: float fallback boundary
 
 - [validator.js float-locale follow-up](https://github.com/validatorjs/validator.js/pull/2878#pullrequestreview-5140086205): the [author adopted my suggested own-property guard](https://github.com/validatorjs/validator.js/pull/2878#issuecomment-5581253540) and added inherited-name regressions. Approved exact head `f3355718020ef3addf989727617baa65105f03e2` after full 323 tests, build, lint, and 13 upstream checks pass. Four forms each pass 5,148 fallback-equivalence observations, resolving all 75 mismatches from the previously reviewed head while preserving all 68 known locales. PR remains open; this is an adopted review suggestion, not an authored merge.
