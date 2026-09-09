@@ -4,7 +4,7 @@
     "merged": "Public authored merged PRs; exclude nrps9909/* and Mes0903/NTNU-GameDesign. Open and approved PRs do not count. Manual incorporation credited in an upstream commit is documented separately when GitHub does not mark the PR merged.",
     "reviewed": "GitHub reviewed-by:nrps9909, public repositories only; one PR per repository/number; exclude own authored PRs, nrps9909/* and Mes0903/NTNU-GameDesign. This counts published review activity, not current-head approval or merged authorship."
   },
-  "checked_at": "2026-09-08T17:13:24.442040+00:00",
+  "checked_at": "2026-09-09T04:22:03.347827+00:00",
   "queries": {
     "merged": "is:pr is:public is:merged author:nrps9909 -user:nrps9909 -repo:Mes0903/NTNU-GameDesign sort:created-asc",
     "reviewed": "is:pr is:public reviewed-by:nrps9909 -author:nrps9909 -user:nrps9909 -repo:Mes0903/NTNU-GameDesign sort:created-asc"
@@ -2020,7 +2020,7 @@
       "number": 59056,
       "url": "https://github.com/ant-design/ant-design/pull/59056",
       "mergedAt": null,
-      "headRefOid": "b8e0eb5b8a13c54540f81084877613426a61c393",
+      "headRefOid": "68fc93a0b1107eafba79433a95f0f08b66c3997c",
       "author": {
         "login": "dependabot"
       },
@@ -2032,7 +2032,7 @@
       "number": 59057,
       "url": "https://github.com/ant-design/ant-design/pull/59057",
       "mergedAt": null,
-      "headRefOid": "12a71fba30ac5f3f6466ed34b275071c678b64a4",
+      "headRefOid": "b7d851f2d7ffdb032294115c77932143ef803649",
       "author": {
         "login": "dependabot"
       },
@@ -2879,6 +2879,18 @@
       "repository": {
         "nameWithOwner": "validatorjs/validator.js"
       }
+    },
+    {
+      "number": 2882,
+      "url": "https://github.com/validatorjs/validator.js/pull/2882",
+      "mergedAt": null,
+      "headRefOid": "797b78e858d6a156651e623eff15da73e4564b35",
+      "author": {
+        "login": "a3ylf"
+      },
+      "repository": {
+        "nameWithOwner": "validatorjs/validator.js"
+      }
     }
   ],
   "counts": {
@@ -2886,7 +2898,7 @@
     "merged_upstream_repositories": 39,
     "ant_design_main_merged_prs": 24,
     "ant_design_ecosystem_merged_prs": 45,
-    "reviewed_upstream_prs": 170
+    "reviewed_upstream_prs": 171
   },
   "isbn_review": {
     "url": "https://github.com/validatorjs/validator.js/pull/2882#pullrequestreview-5144834497",
@@ -2908,6 +2920,27 @@
     "head_mismatches_per_form": 0,
     "upstream_checks_passed": 13,
     "pr_state": "OPEN",
-    "counting": "Direct review receipt; #2882 not yet included in 170 indexed reviewed PRs. No authored merge."
+    "counting": "Included in latest 171 indexed reviewed PRs. No authored merge."
+  },
+  "end_of_day_review": {
+    "url": "https://github.com/validatorjs/validator.js/pull/2879#pullrequestreview-5149698069",
+    "head": "7254549ca296f5605eb226a7b7f816ac2086c9fa",
+    "state": "APPROVED",
+    "base": "a79ff980ab14257e795332989e497bdff3218e87",
+    "full_tests": 335,
+    "base_regressions_failed": 10,
+    "forms": [
+      "source",
+      "node",
+      "browser",
+      "minified"
+    ],
+    "observations_per_form": 78908,
+    "base_mismatches_per_form": 616,
+    "head_mismatches_per_form": 0,
+    "ordinary_time_controls_per_form": 20736,
+    "upstream_checks_passed": 13,
+    "pr_state": "OPEN",
+    "counting": "Direct receipt; not yet included in 171 indexed reviewed PRs. No authored merge."
   }
 }

@@ -10,7 +10,12 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 The public record below includes 69 merged PRs across 39 non-owned repositories, including 24 merged Ant Design PRs in a focused i18n/accessibility lane. The merged total excludes projects I maintain. Every authored contribution uses a cryptographically signed commit verified by GitHub.
 
-I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 170 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-09 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-09.json).
+I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 171 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-09 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-09.json).
+
+### September 9, 2026: end-of-day compatibility review
+
+- [validator.js end-of-day review](https://github.com/validatorjs/validator.js/pull/2879#pullrequestreview-5149698069): approved exact head `7254549ca296f5605eb226a7b7f816ac2086c9fa`. PR tests reproduce 10 failures on base; head passes 335 tests, builds, lint, and 13 upstream checks. Four forms each run 78,908 observations, reducing 616 baseline mismatches to zero, with 20,736 ordinary-time compatibility observations unchanged. Covers hour-24 minute/second combinations, mixed separators, selected fractions and timezone controls; not exhaustive ISO conformance. PR remains open.
+- Latest indexed search includes #2882 and returns 171 reviewed PRs. #2879 has a separate direct receipt pending indexing; authored merges remain 69.
 
 ### September 9, 2026: ISBN default-options review
 

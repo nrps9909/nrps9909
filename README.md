@@ -18,7 +18,7 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 | Non-owned upstream repositories with merged work        |        **39** |
 | Merged PRs in the Ant Design main repository            |        **24** |
 | Merged PRs across the Ant Design ecosystem              |        **45** |
-| Public upstream PRs reviewed as an external contributor |       **170** |
+| Public upstream PRs reviewed as an external contributor |       **171** |
 
 These figures exclude repositories I own and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-09.json).
 
@@ -44,6 +44,7 @@ These figures exclude repositories I own and count a PR only after GitHub report
 
 ## Latest contribution
 
+- [validator.js end-of-day review](https://github.com/validatorjs/validator.js/pull/2879#pullrequestreview-5149698069): approved exact head `7254549ca296f5605eb226a7b7f816ac2086c9fa`. PR tests reproduce 10 failures on base; head passes 335 tests, builds, lint, and 13 upstream checks. Four forms each run 78,908 observations, reducing 616 baseline mismatches to zero, with 20,736 ordinary-time compatibility observations unchanged. Covers hour-24 minute/second combinations, mixed separators, selected fractions and timezone controls; not exhaustive ISO conformance. PR remains open.
 - [validator.js ISBN options review](https://github.com/validatorjs/validator.js/pull/2882#pullrequestreview-5144834497): approved exact head `797b78e858d6a156651e623eff15da73e4564b35`. Three new regressions fail on base; head passes 327 tests, build, lint, and 13 upstream checks. Four forms each pass 22,496 option-dispatch observations, fixing 1,204 mismatches per form against unchanged explicit-version results. PR remains open; this validates option compatibility, not exhaustive ISBN conformance.
 - [validator.js container-ID review](https://github.com/validatorjs/validator.js/pull/2877#pullrequestreview-5140130392): approved exact head `a972b6a85df21386f09f46fc054402d15f5c05e9`. The added regression fails on base; head passes all 323 tests, build, lint, and 13 upstream checks. An independent positional/checksum oracle checks 14,466 unique inputs for each of two APIs across four forms: 4,349 baseline false accepts per API/form become zero mismatches. Existing lowercase and optional J/Z checksum behavior are preserved. PR remains open; no owner-registration or exhaustive ISO-conformance claim.
 - [validator.js float-locale follow-up](https://github.com/validatorjs/validator.js/pull/2878#pullrequestreview-5140086205): the [author adopted my suggested own-property guard](https://github.com/validatorjs/validator.js/pull/2878#issuecomment-5581253540) and added inherited-name regressions. Approved exact head `f3355718020ef3addf989727617baa65105f03e2` after full 323 tests, build, lint, and 13 upstream checks pass. Four forms each pass 5,148 fallback-equivalence observations, resolving all 75 mismatches from the previously reviewed head while preserving all 68 known locales. PR remains open; this is an adopted review suggestion, not an authored merge.
