@@ -1,0 +1,21 @@
+{
+  "head": "f29a7b7adee3597211a681cd16a61d0214d0d29e",
+  "base_merged": "58a1d980b69f15e1bb962b05e66f74f803a6b895",
+  "reply_url": "https://github.com/react-component/picker/pull/1006#issuecomment-5616199164",
+  "local_suites": 16,
+  "local_tests_passed": 490,
+  "skipped": 2,
+  "snapshots": 29,
+  "regressions_before": {
+    "failed": 2,
+    "passed": 1
+  },
+  "regressions_after": {
+    "passed": 3
+  },
+  "typescript": "passed",
+  "compile": "passed",
+  "lint": "zero errors",
+  "pr_state": "OPEN",
+  "merged": false
+}

@@ -12,6 +12,10 @@ The public record below includes 69 merged PRs across 39 non-owned repositories,
 
 I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 171 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-09 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-09.json).
 
+### September 10, 2026: maintainer-requested mask clearing
+
+- [Picker #1006 maintainer follow-up](https://github.com/react-component/picker/pull/1006#issuecomment-5616199164): fixed the requested invalid-mask clearing boundary in signed/GitHub-Verified head `f29a7b7adee3597211a681cd16a61d0214d0d29e`. Removed the valid-value prerequisite and reused upstream `isReactRenderable` for normalized clear capability. Two enabled-clear regressions fail before the fix; all three controls pass afterward, including disabled clearing and a numeric-zero icon. Full suite passes 16 suites / 490 tests / 29 snapshots, with 2 skips; TypeScript, compile, lint (zero errors), formatting and diff checks pass. PR remains open; remote CI is tracked separately.
+
 ### September 9, 2026: end-of-day compatibility review
 
 - [validator.js end-of-day review](https://github.com/validatorjs/validator.js/pull/2879#pullrequestreview-5149698069): approved exact head `7254549ca296f5605eb226a7b7f816ac2086c9fa`. PR tests reproduce 10 failures on base; head passes 335 tests, builds, lint, and 13 upstream checks. Four forms each run 78,908 observations, reducing 616 baseline mismatches to zero, with 20,736 ordinary-time compatibility observations unchanged. Covers hour-24 minute/second combinations, mixed separators, selected fractions and timezone controls; not exhaustive ISO conformance. PR remains open.
