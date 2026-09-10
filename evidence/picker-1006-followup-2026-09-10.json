@@ -17,5 +17,15 @@
   "compile": "passed",
   "lint": "zero errors",
   "pr_state": "OPEN",
-  "merged": false
+  "merged": false,
+  "remote_ci": {
+    "run_url": "https://github.com/react-component/picker/actions/runs/34459884080",
+    "head": "f29a7b7adee3597211a681cd16a61d0214d0d29e",
+    "conclusion": "success",
+    "tests_passed": 490,
+    "skipped": 2,
+    "snapshots": 29,
+    "vercel": "Authorization required to deploy.",
+    "coderabbit": "PENDING"
+  }
 }
