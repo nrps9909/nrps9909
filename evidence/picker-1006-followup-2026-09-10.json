@@ -26,6 +26,7 @@
     "skipped": 2,
     "snapshots": 29,
     "vercel": "Authorization required to deploy.",
-    "coderabbit": "PENDING"
-  }
+    "coderabbit": "SUCCESS"
+  },
+  "status_rechecked_on": "2026-09-11"
 }
