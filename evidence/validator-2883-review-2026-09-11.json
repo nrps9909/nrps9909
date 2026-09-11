@@ -1,0 +1,19 @@
+{
+  "url": "https://github.com/validatorjs/validator.js/pull/2883#pullrequestreview-5178140523",
+  "state": "COMMENTED",
+  "head": "308220e85502e52b4b3683fb5ac471d94a6fc4f8",
+  "base": "a79ff980ab14257e795332989e497bdff3218e87",
+  "full_tests": 327,
+  "known_locales": 68,
+  "options": 139,
+  "numeric_observations_per_form": 1529,
+  "numeric_differences_per_form": 0,
+  "forms": [
+    "source",
+    "node",
+    "browser",
+    "minified"
+  ],
+  "finding": "Empty-string numeric bug not reproduced; username contract needs documentation and boundary tests.",
+  "counting": "Direct COMMENTED receipt. Not approval or authored merge; no new indexed-count claim."
+}

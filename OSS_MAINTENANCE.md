@@ -12,6 +12,11 @@ The public record below includes 69 merged PRs across 39 non-owned repositories,
 
 I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 172 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-11 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-11.json).
 
+### September 11, 2026: username API scope review
+
+- [validator.js username/numeric review](https://github.com/validatorjs/validator.js/pull/2883#pullrequestreview-5178140523): COMMENTED on exact head `308220e85502e52b4b3683fb5ac471d94a6fc4f8`. Full 327 tests, build and lint pass. The claimed empty-string numeric bug does not reproduce across 139 option cases; four forms each show zero differences over 1,529 numeric observations. Requested a reproducing regression or removal of the unrelated guard, plus documentation/tests for the new username policy (whitespace, controls and UTF-16 length). No universal username rule or CI failure is asserted; not an approval or authored merge.
+- This direct review receipt is separate from the earlier 172-PR search snapshot; counts were not re-queried for this publication.
+
 ### September 11, 2026: review completion and reconciled counts
 
 - Picker #1006: CodeRabbit completed successfully without actionable comments on unchanged head `f29a7b7adee3597211a681cd16a61d0214d0d29e`. Exact-head CI remains successful; Vercel still requires upstream deployment authorization. PR remains open.
