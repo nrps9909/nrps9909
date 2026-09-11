@@ -1,0 +1,16 @@
+{
+  "head": "c2463e825130fe88e0f4b2be46a26e39a47b0c11",
+  "url": "https://github.com/ant-design/ant-design/pull/59125",
+  "reply_url": "https://github.com/ant-design/ant-design/pull/59125#issuecomment-5633881408",
+  "local_suites": 9,
+  "local_passed": 97,
+  "snapshots": 51,
+  "master_content_failures": 5,
+  "master_content_passes": 1,
+  "source_files_changed": 2,
+  "eslint": "pass",
+  "biome": "pass",
+  "prettier": "pass",
+  "pr_state": "OPEN",
+  "merged": false
+}
