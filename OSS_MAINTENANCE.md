@@ -14,7 +14,7 @@ I am an external Ant Design contributor with READ permission and no organization
 
 ### September 11, 2026: Ant Design shared-utility follow-up
 
-- [Ant Design Descriptions #59125 follow-up](https://github.com/ant-design/ant-design/pull/59125#issuecomment-5633881408): the maintainer-requested shared utility is now available. Signed/GitHub-Verified head `c2463e825130fe88e0f4b2be46a26e39a47b0c11` uses `@rc-component/util` renderability checks and adds empty-slot/true-value compatibility tests. Unchanged master fails 5 content cases; the updated complete Descriptions scope passes 9 suites / 97 tests / 51 snapshots, plus focused ESLint, Biome, Prettier and diff checks. Final PR changes only two Descriptions files. New-head remote CI and maintainer review remain separate gates; not merged.
+- [Ant Design Descriptions #59125 follow-up](https://github.com/ant-design/ant-design/pull/59125#discussion_r3994725271): signed/GitHub-Verified head `97d0a83e16d6a74e8cefb2bfa79b325a4f9fd8a3` follows the shared-utility fix with a content-preserving rename to `descriptions.test.tsx`, addressing review guidance. Complete Descriptions tests rerun: 9 suites / 97 tests / 51 snapshots pass; focused ESLint, Biome, Prettier and diff checks pass. Previous head `c2463e8` passed code tests, builds and visual CI; size failed at 453,648 B versus base 453,641 B and limit 453,632 B (base 9 B over; PR adds 7 B). Current-head CI awaits verification. PR remains open, not merged.
 - Audited review-thread pages on all 12 open authored Ant Design PRs; no last human inline comment awaiting my reply was found. This is an inline-thread audit, not a claim that all reviews are approved.
 
 ### September 11, 2026: username API scope review

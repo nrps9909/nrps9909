@@ -1,0 +1,24 @@
+{
+  "head": "97d0a83e16d6a74e8cefb2bfa79b325a4f9fd8a3",
+  "signature_verified": true,
+  "remote_files_match": true,
+  "local_suites": 9,
+  "local_passed": 97,
+  "snapshots": 51,
+  "eslint": "pass",
+  "biome": "pass",
+  "prettier": "pass",
+  "pr_state": "OPEN",
+  "merged": false,
+  "previous_head_size": {
+    "head": "c2463e825130fe88e0f4b2be46a26e39a47b0c11",
+    "limit_bytes": 453632,
+    "base_bytes": 453641,
+    "pr_bytes": 453648,
+    "increase_bytes": 7,
+    "run_url": "https://github.com/ant-design/ant-design/actions/runs/34595111167"
+  },
+  "current_head_ci": "pending verification",
+  "reply_url": "https://github.com/ant-design/ant-design/pull/59125#discussion_r3994725271",
+  "url": "https://github.com/ant-design/ant-design/pull/59125"
+}
