@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-09-14",
+  "head": "97d0a83e16d6a74e8cefb2bfa79b325a4f9fd8a3",
+  "url": "https://github.com/ant-design/ant-design/pull/59125",
+  "check_counts": {
+    "SUCCESS": 42,
+    "SKIPPED": 2,
+    "FAILURE": 1
+  },
+  "failure": "size",
+  "size": {
+    "limit_bytes": 453632,
+    "base_bytes": 453641,
+    "pr_bytes": 453648,
+    "increase_bytes": 7,
+    "run_url": "https://github.com/ant-design/ant-design/actions/runs/34666710380"
+  },
+  "state": "OPEN",
+  "merged": false
+}

@@ -1,0 +1,196 @@
+{
+  "checked_at": "2026-09-14",
+  "url": "https://github.com/ant-design/ant-design/pull/59116",
+  "head": "256c86264dbde7f7251e0f9d6702f91c52db511b",
+  "base": "240d2f84ed272598950ad52ec95c3dace068c308",
+  "base_branch": "feature",
+  "signed_verified_commits": [
+    "256c86264dbde7f7251e0f9d6702f91c52db511b",
+    "6f2f78a0ca08a2780aa0996ff251ff8f35eb68fe"
+  ],
+  "remote_files_match": true,
+  "changed_files": [
+    "components/input/Search.tsx",
+    "components/input/__tests__/Search.test.tsx",
+    "components/input/index.en-US.md",
+    "components/input/index.zh-CN.md"
+  ],
+  "local": {
+    "search_tests": 52,
+    "search_snapshots": 12,
+    "input_tooltip_suites": 31,
+    "input_tooltip_passed": 519,
+    "input_tooltip_skipped": 8,
+    "input_tooltip_snapshots": 243,
+    "base_regression_failed": 7,
+    "base_compatibility_passed": 3,
+    "tsc": "pass",
+    "eslint": "pass",
+    "biome": "pass",
+    "remark": "pass",
+    "prettier": "pass",
+    "diff_check": "pass"
+  },
+  "remote_ci": "in progress; not yet verified",
+  "state": "OPEN",
+  "merged": false,
+  "reply_url": "https://github.com/ant-design/ant-design/pull/59116#issuecomment-5654618696",
+  "checks": [
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769480917/job/103756323652",
+      "name": "check-changelog",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769480917/job/103756323590",
+      "name": "refuse",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424730/job/103756171613",
+      "name": "test-react-latest (dom, 2/2)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769480754/job/103756323841",
+      "name": "verify",
+      "state": "SKIPPED"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424730/job/103756171649",
+      "name": "test-react-legacy (18, 1/2)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424831/job/103756171455",
+      "name": "visual-diff snapshot (3/3)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://socket.dev",
+      "name": "Socket Security: Pull Request Alerts",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424831/job/103756171603",
+      "name": "visual-diff snapshot (1/3)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424730/job/103756171517",
+      "name": "test lib/es module (lib, 1/2)",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424730/job/103756171442",
+      "name": "build",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424730/job/103756171588",
+      "name": "test lib/es module (lib, 2/2)",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424730/job/103756171506",
+      "name": "test lib/es module (es, 2/2)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424831/job/103756171581",
+      "name": "visual-diff snapshot (2/3)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424693/job/103756171428",
+      "name": "size",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424730/job/103756171582",
+      "name": "test-vitest (non-blocking)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424730/job/103756171573",
+      "name": "test lib/es module (es, 1/2)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424741/job/103756171346",
+      "name": "build",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424730/job/103756171547",
+      "name": "lint",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424739/job/103756171154",
+      "name": "build preview",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424730/job/103756171611",
+      "name": "test-react-legacy (18, 2/2)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424730/job/103756171599",
+      "name": "test-node",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769424730/job/103756171560",
+      "name": "test-react-latest (dom, 1/2)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769423747/job/103756168276",
+      "name": "readme",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769423744/job/103756168316",
+      "name": "start visual-regression diff",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769423747/job/103756168537",
+      "name": "verify",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/34769423732/job/103756168303",
+      "name": "start preview info",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://socket.dev/dashboard/org/ant-design/sbom/38730455-73b1-40cb-88b6-d50f25946ec5",
+      "name": "Socket Security: Project Report",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/marketplace/wip",
+      "name": "WIP",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "",
+      "name": "Visual Regression Diff Wait Approve",
+      "state": "PENDING"
+    },
+    {
+      "link": "",
+      "name": "CodeRabbit",
+      "state": "SUCCESS"
+    }
+  ],
+  "check_counts": {
+    "SUCCESS": 13,
+    "IN_PROGRESS": 15,
+    "SKIPPED": 1,
+    "PENDING": 1
+  }
+}
