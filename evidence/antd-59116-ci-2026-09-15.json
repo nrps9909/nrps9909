@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-09-15",
+  "url": "https://github.com/ant-design/ant-design/pull/59116",
+  "head": "256c86264dbde7f7251e0f9d6702f91c52db511b",
+  "state": "OPEN",
+  "merged": false,
+  "checks": {
+    "success": 41,
+    "skipped": 2,
+    "failure": 1
+  },
+  "test_workflow": {
+    "url": "https://github.com/ant-design/ant-design/actions/runs/34769424730",
+    "passed_jobs": 17
+  },
+  "visual": {
+    "url": "https://github.com/ant-design/ant-design/actions/runs/34769424831/job/103757073506",
+    "base_requested": "240d2f84ed272598950ad52ec95c3dace068c308",
+    "fallback_snapshot": "8f818f7e7cedb54493a9f79083f32c7288756c54",
+    "stale_baseline_explicitly_reported": true,
+    "matching_images": 3047,
+    "search_demo_images": [
+      "input-search-input.compact.png",
+      "input-search-input.dark.png",
+      "input-search-input.default.png",
+      "input-search-variant-debug.compact.png",
+      "input-search-variant-debug.dark.png",
+      "input-search-variant-debug.default.png"
+    ],
+    "mismatches": {
+      "table-style-class.compact.png": "0.08",
+      "table-style-class.dark.png": "0.06",
+      "table-style-class.default.png": "0.06"
+    },
+    "table_demo_identical_between_head_and_base": true,
+    "pixel_level_visual_approval_performed": false,
+    "gate": "Visual Regression Diff Wait Approve",
+    "interpretation": "Evidence supports stale-baseline noise; upstream visual approval remains required."
+  },
+  "reply_url": "https://github.com/ant-design/ant-design/pull/59116#issuecomment-5654618696"
+}
