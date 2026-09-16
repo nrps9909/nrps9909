@@ -1,0 +1,189 @@
+{
+  "checked_at": "2026-09-16",
+  "head": "9585bad58ecea2711a50a6d3c790be9d6d9be868",
+  "previous_head": "4ced968cabd68a4fd23cb9432fc0b0f3f950cb18",
+  "signature_verified": true,
+  "remote_files_match": true,
+  "runtime_unchanged_from_previous_head": true,
+  "followup_changed_files": [
+    "components/input/__tests__/Search.test.tsx"
+  ],
+  "pr_total_changed_files": 4,
+  "local": {
+    "input_suites": 12,
+    "input_passed": 295,
+    "input_skipped": 2,
+    "input_snapshots": 127,
+    "search_passed": 53,
+    "isolation_cases_passed": 2,
+    "native_leak_mutation_failed": 1,
+    "mutation_antd_control_passed": 1,
+    "tsc": "pass after dumi setup",
+    "eslint": "pass",
+    "biome": "pass",
+    "prettier": "pass",
+    "diff_check": "pass"
+  },
+  "state": "OPEN",
+  "merged": false,
+  "new_head_ci": "pending verification",
+  "reply_url": "https://github.com/ant-design/ant-design/pull/59116#discussion_r4023663207",
+  "checks": [
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070290810/job/104709975091",
+      "name": "check-changelog",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070290810/job/104709974664",
+      "name": "refuse",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070290783/job/104709975954",
+      "name": "verify",
+      "state": "SKIPPED"
+    },
+    {
+      "link": "https://socket.dev",
+      "name": "Socket Security: Pull Request Alerts",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646436",
+      "name": "test-react-legacy (18, 2/2)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646519",
+      "name": "build",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188063/job/104709645741",
+      "name": "build",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188018/job/104709645834",
+      "name": "visual-diff snapshot (1/3)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070187932/job/104709645123",
+      "name": "build preview",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646485",
+      "name": "test lib/es module (es, 2/2)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646659",
+      "name": "test lib/es module (es, 1/2)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646691",
+      "name": "test lib/es module (lib, 2/2)",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188018/job/104709645702",
+      "name": "visual-diff snapshot (2/3)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188018/job/104709645923",
+      "name": "visual-diff snapshot (3/3)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646506",
+      "name": "test-vitest (non-blocking)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646340",
+      "name": "lint",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646483",
+      "name": "test-react-legacy (18, 1/2)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646544",
+      "name": "test lib/es module (lib, 1/2)",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646564",
+      "name": "test-react-latest (dom, 2/2)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188010/job/104709645568",
+      "name": "size",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646465",
+      "name": "test-node",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646597",
+      "name": "test-react-latest (dom, 1/2)",
+      "state": "IN_PROGRESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070184943/job/104709635739",
+      "name": "verify",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070184943/job/104709635454",
+      "name": "readme",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070184931/job/104709635216",
+      "name": "start preview info",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/ant-design/ant-design/actions/runs/35070184917/job/104709635164",
+      "name": "start visual-regression diff",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://socket.dev/dashboard/org/ant-design/sbom/21721bd4-fea6-4905-b8b9-c6fbca5b6602",
+      "name": "Socket Security: Project Report",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/marketplace/wip",
+      "name": "WIP",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "",
+      "name": "Visual Regression Diff Wait Approve",
+      "state": "PENDING"
+    },
+    {
+      "link": "",
+      "name": "CodeRabbit",
+      "state": "SUCCESS"
+    }
+  ],
+  "check_counts": {
+    "SUCCESS": 13,
+    "SKIPPED": 1,
+    "IN_PROGRESS": 15,
+    "PENDING": 1
+  }
+}

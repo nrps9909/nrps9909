@@ -12,15 +12,15 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 
 ## Open-source work at a glance
 
-| Verified public record (2026-09-08)                     | Current total |
+| Verified public record (2026-09-16)                     | Current total |
 | ------------------------------------------------------- | ------------: |
-| Merged PRs in non-owned upstream repositories           |        **69** |
+| Merged PRs in non-owned upstream repositories           |        **74** |
 | Non-owned upstream repositories with merged work        |        **39** |
-| Merged PRs in the Ant Design main repository            |        **24** |
-| Merged PRs across the Ant Design ecosystem              |        **45** |
-| Public upstream PRs reviewed as an external contributor |       **172** |
+| Merged PRs in the Ant Design main repository            |        **25** |
+| Merged PRs across the Ant Design ecosystem              |        **50** |
+| Public upstream PRs reviewed as an external contributor |       **173** |
 
-These figures exclude repositories I own and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-11.json).
+These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-16.json).
 
 ## What I maintain
 
@@ -31,6 +31,8 @@ These figures exclude repositories I own and count a PR only after GitHub report
 
 ## Selected merged contributions
 
+- **Ant Design:** [render numeric zero in Descriptions headers](https://github.com/ant-design/ant-design/pull/59125).
+- **React Component Slider:** [preserve decimal pushable gaps](https://github.com/react-component/slider/pull/1091) and [enforce gaps on track clicks](https://github.com/react-component/slider/pull/1092).
 - **Ant Design:** [use German DatePicker date and date-time formats](https://github.com/ant-design/ant-design/pull/59151).
 - **React Component Picker:** [parse localized month input with the picker locale](https://github.com/react-component/picker/pull/1013).
 - **Ant Design:** [correct Traditional Chinese picker terminology](https://github.com/ant-design/ant-design/pull/59129) while keeping public locale contracts synchronized with regression coverage.
@@ -44,8 +46,9 @@ These figures exclude repositories I own and count a PR only after GitHub report
 
 ## Latest contribution
 
-- [Ant Design Input.Search #59116 follow-up](https://github.com/ant-design/ant-design/pull/59116#issuecomment-5654618696): signed/GitHub-Verified head `256c86264dbde7f7251e0f9d6702f91c52db511b` incorporates current `feature` and expands generated-button tests for accessible names, input-prop isolation, focus, disabled/loading precedence and custom-element compatibility. Feature-base comparison: 7 regression failures and 3 passing controls. Updated full Input/Tooltip scope: 31 suites / 519 tests / 243 snapshots pass, with 8 skipped tests; Search alone passes 52 tests / 12 snapshots. Full TypeScript and focused ESLint, Biome, Remark, Prettier and diff checks pass. Final diff remains four files. Exact-head remote CI now passes all 17 test-workflow jobs (41 successful checks overall, 2 skips). The only failed gate awaits visual approval: 3,047 images match, including all six Search demo images; three Table style-demo images differ against an explicitly stale fallback baseline. Table demo source is identical between the PR and its feature base. No pixel-level visual approval is claimed; the PR remains open.
-- [Ant Design Descriptions #59125 CI follow-up](https://github.com/ant-design/ant-design/pull/59125): head `97d0a83e16d6a74e8cefb2bfa79b325a4f9fd8a3` completed 42 successful checks and 2 skips; code tests, builds and visual checks pass. The sole failure is size: PR 453,648 B, base 453,641 B, limit 453,632 B (base 9 B over; PR adds 7 B). The threshold remains unresolved; PR remains open.
+- React Component Slider: yoyo837 merged [missing-container guard #1087](https://github.com/react-component/slider/pull/1087), [drag completion #1089](https://github.com/react-component/slider/pull/1089), [decimal pushable gaps #1091](https://github.com/react-component/slider/pull/1091), and [track-click pushable gaps #1092](https://github.com/react-component/slider/pull/1092) on September 16. Author and merge commits were verified individually.
+- [Ant Design Input.Search #59116 follow-up](https://github.com/ant-design/ant-design/pull/59116#discussion_r4023663207): signed/GitHub-Verified head `9585bad58ecea2711a50a6d3c790be9d6d9be868` addresses review feedback by covering both Ant Design and native custom buttons. The complete Input scope passes 12 suites / 295 tests / 127 snapshots (2 skipped), including all 53 Search tests. Injecting a native-only prop leak fails the new native case while the Ant Design control passes; both pass after restoration. Full TypeScript and focused lint/format/diff checks pass. This follow-up changes only the test, preserving the maintainer-updated runtime. New-head CI is pending verification; the PR remains open.
+- [Ant Design Descriptions #59125](https://github.com/ant-design/ant-design/pull/59125): merged by yoyo837 on September 16, 2026, at `03ed8c3902378753cfcc2ebf596e2c897769b753`. Authored head `97d0a83e16d6a74e8cefb2bfa79b325a4f9fd8a3` fixes numeric-zero header content using the shared utility. This is a verified merge, with earlier size-check evidence retained in the dated history.
 - [validator.js username/numeric review](https://github.com/validatorjs/validator.js/pull/2883#pullrequestreview-5178140523): COMMENTED on exact head `308220e85502e52b4b3683fb5ac471d94a6fc4f8`. Full 327 tests, build and lint pass. The claimed empty-string numeric bug does not reproduce across 139 option cases; four forms each show zero differences over 1,529 numeric observations. Requested a reproducing regression or removal of the unrelated guard, plus documentation/tests for the new username policy (whitespace, controls and UTF-16 length). No universal username rule or CI failure is asserted; not an approval or authored merge.
 - [Picker #1006 maintainer follow-up](https://github.com/react-component/picker/pull/1006#issuecomment-5616199164): fixed the requested invalid-mask clearing boundary in signed/GitHub-Verified head `f29a7b7adee3597211a681cd16a61d0214d0d29e`. Removed the valid-value prerequisite and reused upstream `isReactRenderable` for normalized clear capability. Two enabled-clear regressions fail before the fix; all three controls pass afterward, including disabled clearing and a numeric-zero icon. Full suite passes 16 suites / 490 tests / 29 snapshots, with 2 skips; TypeScript, compile, lint (zero errors), formatting and diff checks pass. PR remains open. Exact-head GitHub Actions also passes lint, TypeScript, compile and coverage tests (490 passed / 2 skipped / 29 snapshots). Vercel requires upstream deployment authorization; CodeRabbit review passes with no actionable comments; maintainer review remains pending.
 - [validator.js end-of-day review](https://github.com/validatorjs/validator.js/pull/2879#pullrequestreview-5149698069): approved exact head `7254549ca296f5605eb226a7b7f816ac2086c9fa`. PR tests reproduce 10 failures on base; head passes 335 tests, builds, lint, and 13 upstream checks. Four forms each run 78,908 observations, reducing 616 baseline mismatches to zero, with 20,736 ordinary-time compatibility observations unchanged. Covers hour-24 minute/second combinations, mixed separators, selected fractions and timezone controls; not exhaustive ISO conformance. PR remains open.
