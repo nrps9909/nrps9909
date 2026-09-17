@@ -1,0 +1,446 @@
+{
+  "checked_at": "2026-09-17T08:21:12.342973+00:00",
+  "pr": "https://github.com/ant-design/ant-design/pull/59116",
+  "head": "9585bad58ecea2711a50a6d3c790be9d6d9be868",
+  "state": "OPEN",
+  "local_evidence": "antd-59116-native-button-2026-09-16.json",
+  "check_counts": {
+    "SKIPPED": 2,
+    "SUCCESS": 41,
+    "FAILURE": 1
+  },
+  "checks": [
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:45:45Z",
+      "conclusion": "SKIPPED",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188035/job/104709646522",
+      "name": "verify",
+      "startedAt": "2026-09-16T07:45:45Z",
+      "status": "COMPLETED",
+      "workflowName": "Verify Package Version"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:46:56Z",
+      "conclusion": "SKIPPED",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070290783/job/104709975954",
+      "name": "verify",
+      "startedAt": "2026-09-16T07:46:57Z",
+      "status": "COMPLETED",
+      "workflowName": "Verify Package Version"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:45:50Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070185161/job/104709637346",
+      "name": "refuse",
+      "startedAt": "2026-09-16T07:45:45Z",
+      "status": "COMPLETED",
+      "workflowName": "PR Open Check"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:47:02Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070290810/job/104709974664",
+      "name": "refuse",
+      "startedAt": "2026-09-16T07:46:58Z",
+      "status": "COMPLETED",
+      "workflowName": "PR Open Check"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:50:12Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070187932/job/104709645123",
+      "name": "build preview",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "Preview Build"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:45:49Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070184931/job/104709635216",
+      "name": "start preview info",
+      "startedAt": "2026-09-16T07:45:44Z",
+      "status": "COMPLETED",
+      "workflowName": "Preview Start"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:49:06Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188063/job/104709645741",
+      "name": "build",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "Publish Any Commit"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:45:48Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070184943/job/104709635739",
+      "name": "verify",
+      "startedAt": "2026-09-16T07:45:45Z",
+      "status": "COMPLETED",
+      "workflowName": "Verify Files modify"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:47:52Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646340",
+      "name": "lint",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:50:49Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188018/job/104709645834",
+      "name": "visual-diff snapshot (1/3)",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\ud83d\udc40 Visual Regression Diff Build"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:45:47Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070184917/job/104709635164",
+      "name": "start visual-regression diff",
+      "startedAt": "2026-09-16T07:45:44Z",
+      "status": "COMPLETED",
+      "workflowName": "\ud83d\udc40 Visual Regression Diff Start"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:48:38Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188010/job/104709645568",
+      "name": "size",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\ud83d\udce6 Size Limit"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:51:31Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188018/job/104709645702",
+      "name": "visual-diff snapshot (2/3)",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\ud83d\udc40 Visual Regression Diff Build"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:51:03Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188018/job/104709645923",
+      "name": "visual-diff snapshot (3/3)",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\ud83d\udc40 Visual Regression Diff Build"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:45:48Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070185161/job/104709637069",
+      "name": "check-changelog",
+      "startedAt": "2026-09-16T07:45:45Z",
+      "status": "COMPLETED",
+      "workflowName": "PR Open Check"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:47:03Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070290810/job/104709975091",
+      "name": "check-changelog",
+      "startedAt": "2026-09-16T07:46:59Z",
+      "status": "COMPLETED",
+      "workflowName": "PR Open Check"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:45:50Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070184943/job/104709635454",
+      "name": "readme",
+      "startedAt": "2026-09-16T07:45:45Z",
+      "status": "COMPLETED",
+      "workflowName": "Verify Files modify"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:48:44Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646506",
+      "name": "test-vitest (non-blocking)",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:53:12Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188018/job/104711207196",
+      "name": "visual-diff report",
+      "startedAt": "2026-09-16T07:51:34Z",
+      "status": "COMPLETED",
+      "workflowName": "\ud83d\udc40 Visual Regression Diff Build"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T08:00:23Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646483",
+      "name": "test-react-legacy (18, 1/2)",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:58:45Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646436",
+      "name": "test-react-legacy (18, 2/2)",
+      "startedAt": "2026-09-16T07:45:48Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:47:03Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646465",
+      "name": "test-node",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T08:01:19Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646597",
+      "name": "test-react-latest (dom, 1/2)",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:56:04Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646564",
+      "name": "test-react-latest (dom, 2/2)",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:49:28Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646519",
+      "name": "build",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:46:21Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646544",
+      "name": "test lib/es module (lib, 1/2)",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:46:21Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646691",
+      "name": "test lib/es module (lib, 2/2)",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:48:48Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646659",
+      "name": "test lib/es module (es, 1/2)",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:48:35Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104709646485",
+      "name": "test lib/es module (es, 2/2)",
+      "startedAt": "2026-09-16T07:45:47Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T08:02:06Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104713914518",
+      "name": "test-coverage",
+      "startedAt": "2026-09-16T08:01:22Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:50:52Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104710643731",
+      "name": "test-react-latest-dist (dist, 1/2)",
+      "startedAt": "2026-09-16T07:49:30Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:50:59Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104710643670",
+      "name": "test-react-latest-dist (dist, 2/2)",
+      "startedAt": "2026-09-16T07:49:30Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:51:02Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104710643703",
+      "name": "test-react-latest-dist (dist-min, 1/2)",
+      "startedAt": "2026-09-16T07:49:32Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:50:52Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35070188112/job/104710643622",
+      "name": "test-react-latest-dist (dist-min, 2/2)",
+      "startedAt": "2026-09-16T07:49:31Z",
+      "status": "COMPLETED",
+      "workflowName": "\u2705 test"
+    },
+    {
+      "__typename": "StatusContext",
+      "context": "Visual Regression Diff Wait Approve",
+      "startedAt": "2026-09-16T07:54:52Z",
+      "state": "FAILURE",
+      "targetUrl": ""
+    },
+    {
+      "__typename": "StatusContext",
+      "context": "CodeRabbit",
+      "startedAt": "2026-09-16T07:45:48Z",
+      "state": "SUCCESS",
+      "targetUrl": ""
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:49:00Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://pkg.pr.new",
+      "name": "Continuous Releases",
+      "startedAt": "2026-09-16T07:49:00Z",
+      "status": "COMPLETED",
+      "workflowName": ""
+    },
+    {
+      "__typename": "StatusContext",
+      "context": "Preview Deploy",
+      "startedAt": "2026-09-16T07:51:13Z",
+      "state": "SUCCESS",
+      "targetUrl": "https://github.com/ant-design/ant-design/actions/runs/35070570235"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:45:56Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://socket.dev/dashboard/org/ant-design/sbom/21721bd4-fea6-4905-b8b9-c6fbca5b6602",
+      "name": "Socket Security: Project Report",
+      "startedAt": "2026-09-16T07:45:44Z",
+      "status": "COMPLETED",
+      "workflowName": ""
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:45:59Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://socket.dev",
+      "name": "Socket Security: Pull Request Alerts",
+      "startedAt": "2026-09-16T07:45:56Z",
+      "status": "COMPLETED",
+      "workflowName": ""
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T07:45:42Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/marketplace/wip",
+      "name": "WIP",
+      "startedAt": "2026-09-16T07:45:41Z",
+      "status": "COMPLETED",
+      "workflowName": ""
+    },
+    {
+      "__typename": "StatusContext",
+      "context": "codecov/bundles",
+      "startedAt": "2026-09-16T07:49:45Z",
+      "state": "SUCCESS",
+      "targetUrl": "https://app.codecov.io/gh/ant-design/ant-design/pull/59116?dropdown=bundle"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T08:02:25Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://app.codecov.io/gh/ant-design/ant-design/pull/59116",
+      "name": "codecov/patch",
+      "startedAt": "2026-09-16T08:02:24Z",
+      "status": "COMPLETED",
+      "workflowName": ""
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-09-16T08:02:24Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://app.codecov.io/gh/ant-design/ant-design/pull/59116",
+      "name": "codecov/project",
+      "startedAt": "2026-09-16T08:02:23Z",
+      "status": "COMPLETED",
+      "workflowName": ""
+    }
+  ],
+  "visual_report_changed_images": 57,
+  "visual_report_base": "5ee89692",
+  "visual_approval": "pending",
+  "note": "This report supersedes the earlier 3-image report for the previous head; its 57 differences have not been classified or visually approved."
+}

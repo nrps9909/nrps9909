@@ -12,7 +12,7 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 
 ## Open-source work at a glance
 
-| Verified public record (2026-09-16)                     | Current total |
+| Verified public record (2026-09-17)                     | Current total |
 | ------------------------------------------------------- | ------------: |
 | Merged PRs in non-owned upstream repositories           |        **74** |
 | Non-owned upstream repositories with merged work        |        **39** |
@@ -20,7 +20,7 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 | Merged PRs across the Ant Design ecosystem              |        **50** |
 | Public upstream PRs reviewed as an external contributor |       **173** |
 
-These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-16.json).
+These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-17.json).
 
 ## What I maintain
 
