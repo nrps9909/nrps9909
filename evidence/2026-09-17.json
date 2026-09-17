@@ -1,6 +1,6 @@
 {
   "github_user": "nrps9909",
-  "checked_at": "2026-09-17T08:21:12.342973+00:00",
+  "checked_at": "2026-09-17T08:26:53.885455+00:00",
   "methodology": {
     "merged": "Public authored merged upstream PRs, excluding owned repositories and classroom/direct team projects. New exclusions are stated explicitly; open and approved-but-unmerged PRs do not count.",
     "reviewed": "Public reviewed-by:nrps9909 search on other authors PRs, excluding owned and direct team projects. Published review activity, not current-head approval.",
@@ -16,10 +16,10 @@
     "reviewed": "is:pr is:public reviewed-by:nrps9909 -author:nrps9909 -user:nrps9909 -repo:Mes0903/NTNU-GameDesign -repo:stantheman0128/the-ultimate-dd-agent sort:created-asc"
   },
   "counts": {
-    "merged_upstream_prs": 74,
-    "merged_upstream_repositories": 39,
+    "merged_upstream_prs": 75,
+    "merged_upstream_repositories": 40,
     "ant_design_main_merged_prs": 25,
-    "ant_design_ecosystem_merged_prs": 50,
+    "ant_design_ecosystem_merged_prs": 51,
     "reviewed_upstream_prs": 173
   },
   "merged": [
@@ -513,6 +513,18 @@
       },
       "repository": {
         "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
+      "number": 806,
+      "url": "https://github.com/react-component/util/pull/806",
+      "mergedAt": "2026-09-17T08:25:39Z",
+      "headRefOid": "c3e4e08f2fb6b69da4e1caa84c65c22765d97f8f",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "react-component/util"
       }
     },
     {
@@ -2988,6 +3000,18 @@
       "repository": {
         "nameWithOwner": "validatorjs/validator.js"
       }
+    }
+  ],
+  "verified_new_merges": [
+    {
+      "number": 806,
+      "html_url": "https://github.com/react-component/util/pull/806",
+      "merged_at": "2026-09-17T08:25:39Z",
+      "merge_commit_sha": "335e3cf8a7ae05d2f6ad99517569a1e00f1a927e",
+      "author": "nrps9909",
+      "merged_by": "yoyo837",
+      "authored_head": "c3e4e08f2fb6b69da4e1caa84c65c22765d97f8f",
+      "merge_commit_verification": "valid"
     }
   ]
 }

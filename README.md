@@ -14,10 +14,10 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 
 | Verified public record (2026-09-17)                     | Current total |
 | ------------------------------------------------------- | ------------: |
-| Merged PRs in non-owned upstream repositories           |        **74** |
-| Non-owned upstream repositories with merged work        |        **39** |
+| Merged PRs in non-owned upstream repositories           |        **75** |
+| Non-owned upstream repositories with merged work        |        **40** |
 | Merged PRs in the Ant Design main repository            |        **25** |
-| Merged PRs across the Ant Design ecosystem              |        **50** |
+| Merged PRs across the Ant Design ecosystem              |        **51** |
 | Public upstream PRs reviewed as an external contributor |       **173** |
 
 These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-17.json).
@@ -31,6 +31,7 @@ These figures exclude repositories I own and direct team projects, and count a P
 
 ## Selected merged contributions
 
+- **React Component Util:** [cancel delayed state updates on unmount](https://github.com/react-component/util/pull/806), covering animation-frame and timeout cleanup.
 - **Ant Design:** [render numeric zero in Descriptions headers](https://github.com/ant-design/ant-design/pull/59125).
 - **React Component Slider:** [preserve decimal pushable gaps](https://github.com/react-component/slider/pull/1091) and [enforce gaps on track clicks](https://github.com/react-component/slider/pull/1092).
 - **Ant Design:** [use German DatePicker date and date-time formats](https://github.com/ant-design/ant-design/pull/59151).
