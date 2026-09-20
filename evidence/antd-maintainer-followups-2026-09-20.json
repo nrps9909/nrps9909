@@ -1,0 +1,960 @@
+{
+  "checked_at": "2026-09-20T07:04:28.620225+00:00",
+  "pull_requests": [
+    {
+      "repository": "react-component/dropdown",
+      "number": 267,
+      "url": "https://github.com/react-component/dropdown/pull/267",
+      "head": "139540a125e5e6e62020d744bf6da8d3cd8b93d4",
+      "signature_verified": true,
+      "remote_files_match": true,
+      "reply_url": "https://github.com/react-component/dropdown/pull/267#discussion_r4056352441",
+      "local": {
+        "suites": 5,
+        "tests_passed": 28,
+        "tests_skipped": 0,
+        "snapshots_passed": 1,
+        "tsc": "pass",
+        "eslint": "0 errors",
+        "prettier": "pass",
+        "diff": "pass"
+      },
+      "state": "OPEN",
+      "mergeable": "MERGEABLE",
+      "checks": [
+        {
+          "__typename": "StatusContext",
+          "context": "CodeRabbit",
+          "startedAt": "2026-09-20T06:50:35Z",
+          "state": "SUCCESS",
+          "targetUrl": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:50:00Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://socket.dev/dashboard/org/react-component/sbom/c842a737-3cfa-4a80-985d-8ca53abcfd4d",
+          "name": "Socket Security: Project Report",
+          "startedAt": "2026-09-20T06:49:49Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:50:04Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://socket.dev",
+          "name": "Socket Security: Pull Request Alerts",
+          "startedAt": "2026-09-20T06:50:01Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:49:33Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/marketplace/wip",
+          "name": "WIP",
+          "startedAt": "2026-09-20T06:49:32Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        }
+      ],
+      "workflows": [
+        {
+          "name": "React Doctor",
+          "status": "completed",
+          "conclusion": "action_required",
+          "html_url": "https://github.com/react-component/dropdown/actions/runs/35495235325"
+        },
+        {
+          "name": "Surge Preview",
+          "status": "completed",
+          "conclusion": "action_required",
+          "html_url": "https://github.com/react-component/dropdown/actions/runs/35495235320"
+        },
+        {
+          "name": "CI",
+          "status": "completed",
+          "conclusion": "action_required",
+          "html_url": "https://github.com/react-component/dropdown/actions/runs/35495235587"
+        }
+      ]
+    },
+    {
+      "repository": "react-component/dropdown",
+      "number": 268,
+      "url": "https://github.com/react-component/dropdown/pull/268",
+      "head": "ed76a23a174be437a57d093d2228a7aa070661f1",
+      "signature_verified": true,
+      "remote_files_match": true,
+      "reply_url": "https://github.com/react-component/dropdown/pull/268#discussion_r4056352575",
+      "local": {
+        "suites": 6,
+        "tests_passed": 31,
+        "tests_skipped": 0,
+        "snapshots_passed": 1,
+        "tsc": "pass",
+        "eslint": "0 errors",
+        "prettier": "pass",
+        "diff": "pass",
+        "accessibility_hook_line_coverage": 100
+      },
+      "state": "OPEN",
+      "mergeable": "MERGEABLE",
+      "checks": [
+        {
+          "__typename": "StatusContext",
+          "context": "CodeRabbit",
+          "startedAt": "2026-09-20T06:54:07Z",
+          "state": "SUCCESS",
+          "targetUrl": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:53:04Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://socket.dev/dashboard/org/react-component/sbom/459b7714-abb1-49e1-acaf-021e274047d0",
+          "name": "Socket Security: Project Report",
+          "startedAt": "2026-09-20T06:52:55Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:53:07Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://socket.dev",
+          "name": "Socket Security: Pull Request Alerts",
+          "startedAt": "2026-09-20T06:53:05Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:52:54Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/marketplace/wip",
+          "name": "WIP",
+          "startedAt": "2026-09-20T06:52:54Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        }
+      ],
+      "workflows": [
+        {
+          "name": "Surge Preview",
+          "status": "completed",
+          "conclusion": "action_required",
+          "html_url": "https://github.com/react-component/dropdown/actions/runs/35495382273"
+        },
+        {
+          "name": "React Doctor",
+          "status": "completed",
+          "conclusion": "action_required",
+          "html_url": "https://github.com/react-component/dropdown/actions/runs/35495382312"
+        },
+        {
+          "name": "CI",
+          "status": "completed",
+          "conclusion": "action_required",
+          "html_url": "https://github.com/react-component/dropdown/actions/runs/35495382810"
+        }
+      ]
+    },
+    {
+      "repository": "react-component/util",
+      "number": 811,
+      "url": "https://github.com/react-component/util/pull/811",
+      "head": "0a7b162f207c9f67ba3f90172af861497437f28e",
+      "signature_verified": true,
+      "remote_files_match": true,
+      "reply_url": "https://github.com/react-component/util/pull/811#issuecomment-5748255496",
+      "local": {
+        "suites": 30,
+        "tests_passed": 201,
+        "tests_skipped": 1,
+        "snapshots_passed": 0,
+        "tsc": "pass",
+        "eslint": "0 errors",
+        "prettier": "pass",
+        "diff": "pass",
+        "new_guard_return_lines_covered": 3
+      },
+      "state": "OPEN",
+      "mergeable": "MERGEABLE",
+      "checks": [
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:53:58Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/react-component/util/actions/runs/35495374933/job/106037263795",
+          "name": "Analyze (javascript)",
+          "startedAt": "2026-09-20T06:52:51Z",
+          "status": "COMPLETED",
+          "workflowName": "CodeQL"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:53:07Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/react-component/util/actions/runs/35495374922/job/106037263912",
+          "name": "react-doctor",
+          "startedAt": "2026-09-20T06:52:51Z",
+          "status": "COMPLETED",
+          "workflowName": "React Doctor"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:52:56Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/react-component/util/actions/runs/35495374923/job/106037264054",
+          "name": "preview",
+          "startedAt": "2026-09-20T06:52:51Z",
+          "status": "COMPLETED",
+          "workflowName": "Surge Preview"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:53:42Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/react-component/util/actions/runs/35495375145/job/106037264577",
+          "name": "test / react component workflow",
+          "startedAt": "2026-09-20T06:52:51Z",
+          "status": "COMPLETED",
+          "workflowName": "\u2705 test"
+        },
+        {
+          "__typename": "StatusContext",
+          "context": "Vercel \u2013 util",
+          "startedAt": "2026-09-20T06:52:47Z",
+          "state": "FAILURE",
+          "targetUrl": "https://vercel.com/git/authorize?team=React%20Component&slug=react-component&teamId=team_hfNrf5tyLZGnlwyZ4dwrw3Di&type=github&job=%7B%22headInfo%22%3A%7B%22sha%22%3A%220a7b162f207c9f67ba3f90172af861497437f28e%22%7D%2C%22id%22%3A%22QmSqtj6E7M2k9GiTMsvWS9nnSMBTLW77yRectL6Cko2ygE%22%2C%22org%22%3A%22react-component%22%2C%22prId%22%3A811%2C%22repo%22%3A%22util%22%7D"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:53:52Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/react-component/util/runs/106037378169",
+          "name": "CodeQL",
+          "startedAt": "2026-09-20T06:53:50Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "StatusContext",
+          "context": "CodeRabbit",
+          "startedAt": "2026-09-20T06:54:12Z",
+          "state": "SUCCESS",
+          "targetUrl": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:52:57Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://socket.dev/dashboard/org/react-component/sbom/f70c30da-1960-4d95-a905-d24601921712",
+          "name": "Socket Security: Project Report",
+          "startedAt": "2026-09-20T06:52:47Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:52:59Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://socket.dev",
+          "name": "Socket Security: Pull Request Alerts",
+          "startedAt": "2026-09-20T06:52:58Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:52:46Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/marketplace/wip",
+          "name": "WIP",
+          "startedAt": "2026-09-20T06:52:45Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:54:14Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://app.codecov.io/gh/react-component/util/pull/811",
+          "name": "codecov/patch",
+          "startedAt": "2026-09-20T06:54:14Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:54:13Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://app.codecov.io/gh/react-component/util/pull/811",
+          "name": "codecov/project",
+          "startedAt": "2026-09-20T06:54:13Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        }
+      ],
+      "workflows": [
+        {
+          "name": "Surge Preview",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react-component/util/actions/runs/35495374923"
+        },
+        {
+          "name": "React Doctor",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react-component/util/actions/runs/35495374922"
+        },
+        {
+          "name": "\u2705 test",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react-component/util/actions/runs/35495375145"
+        },
+        {
+          "name": "CodeQL",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react-component/util/actions/runs/35495374933"
+        }
+      ]
+    },
+    {
+      "repository": "react-component/util",
+      "number": 807,
+      "url": "https://github.com/react-component/util/pull/807",
+      "head": "1b00e46db84c0861738904f935c2bdee845ffee0",
+      "signature_verified": true,
+      "remote_files_match": true,
+      "reply_url": "https://github.com/react-component/util/pull/807#issuecomment-5748255883",
+      "local": {
+        "suites": 30,
+        "tests_passed": 202,
+        "tests_skipped": 1,
+        "snapshots_passed": 0,
+        "tsc": "pass",
+        "eslint": "0 errors",
+        "prettier": "pass",
+        "diff": "pass"
+      },
+      "state": "OPEN",
+      "mergeable": "MERGEABLE",
+      "checks": [
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:55:45Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/react-component/util/actions/runs/35495455646/job/106037470966",
+          "name": "Analyze (javascript)",
+          "startedAt": "2026-09-20T06:54:42Z",
+          "status": "COMPLETED",
+          "workflowName": "CodeQL"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:55:04Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/react-component/util/actions/runs/35495455655/job/106037471135",
+          "name": "react-doctor",
+          "startedAt": "2026-09-20T06:54:41Z",
+          "status": "COMPLETED",
+          "workflowName": "React Doctor"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:54:47Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/react-component/util/actions/runs/35495455603/job/106037470939",
+          "name": "preview",
+          "startedAt": "2026-09-20T06:54:42Z",
+          "status": "COMPLETED",
+          "workflowName": "Surge Preview"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:55:35Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/react-component/util/actions/runs/35495455901/job/106037471586",
+          "name": "test / react component workflow",
+          "startedAt": "2026-09-20T06:54:42Z",
+          "status": "COMPLETED",
+          "workflowName": "\u2705 test"
+        },
+        {
+          "__typename": "StatusContext",
+          "context": "Vercel \u2013 util",
+          "startedAt": "2026-09-20T06:54:36Z",
+          "state": "FAILURE",
+          "targetUrl": "https://vercel.com/git/authorize?team=React%20Component&slug=react-component&teamId=team_hfNrf5tyLZGnlwyZ4dwrw3Di&type=github&job=%7B%22headInfo%22%3A%7B%22sha%22%3A%221b00e46db84c0861738904f935c2bdee845ffee0%22%7D%2C%22id%22%3A%22QmT9RZKXDnDShPkVS9ozHd5ZZppFVmJMB6CpcDMs4KL4bb%22%2C%22org%22%3A%22react-component%22%2C%22prId%22%3A807%2C%22repo%22%3A%22util%22%7D"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:55:38Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/react-component/util/runs/106037581459",
+          "name": "CodeQL",
+          "startedAt": "2026-09-20T06:55:35Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "StatusContext",
+          "context": "CodeRabbit",
+          "startedAt": "2026-09-20T06:55:44Z",
+          "state": "SUCCESS",
+          "targetUrl": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:54:55Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://socket.dev/dashboard/org/react-component/sbom/c830dff4-c70b-49f8-bb43-8dd49cd42c1e",
+          "name": "Socket Security: Project Report",
+          "startedAt": "2026-09-20T06:54:43Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:55:02Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://socket.dev",
+          "name": "Socket Security: Pull Request Alerts",
+          "startedAt": "2026-09-20T06:54:55Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:54:36Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/marketplace/wip",
+          "name": "WIP",
+          "startedAt": "2026-09-20T06:54:35Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:55:42Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://app.codecov.io/gh/react-component/util/pull/807",
+          "name": "codecov/patch",
+          "startedAt": "2026-09-20T06:55:41Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T06:55:41Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://app.codecov.io/gh/react-component/util/pull/807",
+          "name": "codecov/project",
+          "startedAt": "2026-09-20T06:55:41Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        }
+      ],
+      "workflows": [
+        {
+          "name": "\u2705 test",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react-component/util/actions/runs/35495455901"
+        },
+        {
+          "name": "Surge Preview",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react-component/util/actions/runs/35495455603"
+        },
+        {
+          "name": "React Doctor",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react-component/util/actions/runs/35495455655"
+        },
+        {
+          "name": "CodeQL",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react-component/util/actions/runs/35495455646"
+        }
+      ]
+    },
+    {
+      "repository": "ant-design/ant-design",
+      "number": 59130,
+      "url": "https://github.com/ant-design/ant-design/pull/59130",
+      "head": "2400bb68354d87092d984c590d0c37a1abbbfb92",
+      "base": "4a39f54842eade4e565ab336ef6097cd7e723cdd",
+      "signature_verified": true,
+      "remote_files_match": true,
+      "changed_files": [
+        "components/color-picker/ColorPicker.tsx",
+        "components/color-picker/__tests__/__snapshots__/demo-extend.test.ts.snap",
+        "components/color-picker/__tests__/__snapshots__/demo-semantic.test.tsx.snap",
+        "components/color-picker/__tests__/__snapshots__/demo.test.tsx.snap",
+        "components/color-picker/__tests__/__snapshots__/index.test.tsx.snap",
+        "components/color-picker/__tests__/index.test.tsx",
+        "components/color-picker/components/ColorClear.tsx",
+        "components/color-picker/components/ColorTrigger.tsx",
+        "components/config-provider/__tests__/__snapshots__/components.test.tsx.snap",
+        "components/form/__tests__/__snapshots__/demo-extend.test.ts.snap",
+        "components/form/__tests__/__snapshots__/demo.test.tsx.snap",
+        "components/form/__tests__/__snapshots__/index.test.tsx.snap",
+        "components/space/__tests__/__snapshots__/demo-extend.test.ts.snap",
+        "components/space/__tests__/__snapshots__/demo.test.tsx.snap",
+        "components/watermark/__tests__/__snapshots__/demo-extend.test.ts.snap",
+        "components/watermark/__tests__/__snapshots__/demo.test.ts.snap"
+      ],
+      "state": "OPEN",
+      "mergeable": "MERGEABLE",
+      "reply_url": "https://github.com/ant-design/ant-design/pull/59130#issuecomment-5748286870",
+      "local": {
+        "passing_distinct_suites": 51,
+        "skipped_suites": 1,
+        "broad_run_passing_suites": 38,
+        "broad_run_initial_failed_suites": 1,
+        "broad_run_initial_failures": 2,
+        "corrected_rerun_suites": 13,
+        "corrected_rerun_tests": 206,
+        "corrected_rerun_snapshots": 84,
+        "tsc": "pass",
+        "eslint": "pass",
+        "biome": "pass",
+        "prettier": "pass",
+        "diff": "pass",
+        "node_tests_passed": 1022,
+        "node_tests_skipped": 40
+      },
+      "checks": [
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826239/job/106038451158",
+          "name": "build preview",
+          "startedAt": "2026-09-20T07:03:00Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "Preview Build"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826248/job/106038451048",
+          "name": "build",
+          "startedAt": "2026-09-20T07:03:01Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "Publish Any Commit"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826381/job/106038452078",
+          "name": "lint",
+          "startedAt": "2026-09-20T07:03:01Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "\u2705 test"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826238/job/106038451191",
+          "name": "visual-diff snapshot (1/3)",
+          "startedAt": "2026-09-20T07:03:00Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "\ud83d\udc40 Visual Regression Diff Build"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826256/job/106038454124",
+          "name": "size",
+          "startedAt": "2026-09-20T07:03:02Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "\ud83d\udce6 Size Limit"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:02:58Z",
+          "conclusion": "SKIPPED",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826235/job/106038469164",
+          "name": "verify",
+          "startedAt": "2026-09-20T07:03:07Z",
+          "status": "COMPLETED",
+          "workflowName": "Verify Package Version"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:03:55Z",
+          "conclusion": "SKIPPED",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495868017/job/106038565767",
+          "name": "verify",
+          "startedAt": "2026-09-20T07:03:55Z",
+          "status": "COMPLETED",
+          "workflowName": "Verify Package Version"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:03:01Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495823865/job/106038445371",
+          "name": "refuse",
+          "startedAt": "2026-09-20T07:02:58Z",
+          "status": "COMPLETED",
+          "workflowName": "PR Open Check"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:04:03Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495868271/job/106038566494",
+          "name": "refuse",
+          "startedAt": "2026-09-20T07:03:58Z",
+          "status": "COMPLETED",
+          "workflowName": "PR Open Check"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:03:01Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495823928/job/106038445744",
+          "name": "start preview info",
+          "startedAt": "2026-09-20T07:02:58Z",
+          "status": "COMPLETED",
+          "workflowName": "Preview Start"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:03:00Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495823927/job/106038445331",
+          "name": "verify",
+          "startedAt": "2026-09-20T07:02:57Z",
+          "status": "COMPLETED",
+          "workflowName": "Verify Files modify"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:03:02Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495823966/job/106038445678",
+          "name": "start visual-regression diff",
+          "startedAt": "2026-09-20T07:02:58Z",
+          "status": "COMPLETED",
+          "workflowName": "\ud83d\udc40 Visual Regression Diff Start"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826238/job/106038451193",
+          "name": "visual-diff snapshot (2/3)",
+          "startedAt": "2026-09-20T07:03:01Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "\ud83d\udc40 Visual Regression Diff Build"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826238/job/106038451064",
+          "name": "visual-diff snapshot (3/3)",
+          "startedAt": "2026-09-20T07:03:01Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "\ud83d\udc40 Visual Regression Diff Build"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826381/job/106038451794",
+          "name": "test-vitest (non-blocking)",
+          "startedAt": "2026-09-20T07:03:01Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "\u2705 test"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:03:02Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495823865/job/106038445567",
+          "name": "check-changelog",
+          "startedAt": "2026-09-20T07:02:58Z",
+          "status": "COMPLETED",
+          "workflowName": "PR Open Check"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:04:01Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495868271/job/106038566365",
+          "name": "check-changelog",
+          "startedAt": "2026-09-20T07:03:57Z",
+          "status": "COMPLETED",
+          "workflowName": "PR Open Check"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:03:05Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495823927/job/106038445402",
+          "name": "readme",
+          "startedAt": "2026-09-20T07:02:59Z",
+          "status": "COMPLETED",
+          "workflowName": "Verify Files modify"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826381/job/106038451765",
+          "name": "test-react-legacy (18, 1/2)",
+          "startedAt": "2026-09-20T07:03:00Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "\u2705 test"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826381/job/106038451825",
+          "name": "test-react-legacy (18, 2/2)",
+          "startedAt": "2026-09-20T07:03:01Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "\u2705 test"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:04:21Z",
+          "conclusion": "FAILURE",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826381/job/106038451784",
+          "name": "test-node",
+          "startedAt": "2026-09-20T07:04:09Z",
+          "status": "COMPLETED",
+          "workflowName": "\u2705 test"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826381/job/106038451805",
+          "name": "test-react-latest (dom, 1/2)",
+          "startedAt": "2026-09-20T07:03:01Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "\u2705 test"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826381/job/106038451783",
+          "name": "test-react-latest (dom, 2/2)",
+          "startedAt": "2026-09-20T07:03:01Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "\u2705 test"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826381/job/106038451689",
+          "name": "build",
+          "startedAt": "2026-09-20T07:03:00Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "\u2705 test"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:03:33Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826381/job/106038451814",
+          "name": "test lib/es module (lib, 1/2)",
+          "startedAt": "2026-09-20T07:03:01Z",
+          "status": "COMPLETED",
+          "workflowName": "\u2705 test"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:03:34Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826381/job/106038451847",
+          "name": "test lib/es module (lib, 2/2)",
+          "startedAt": "2026-09-20T07:03:01Z",
+          "status": "COMPLETED",
+          "workflowName": "\u2705 test"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826381/job/106038451761",
+          "name": "test lib/es module (es, 1/2)",
+          "startedAt": "2026-09-20T07:03:01Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "\u2705 test"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "0001-01-01T00:00:00Z",
+          "conclusion": "",
+          "detailsUrl": "https://github.com/ant-design/ant-design/actions/runs/35495826381/job/106038451909",
+          "name": "test lib/es module (es, 2/2)",
+          "startedAt": "2026-09-20T07:03:01Z",
+          "status": "IN_PROGRESS",
+          "workflowName": "\u2705 test"
+        },
+        {
+          "__typename": "StatusContext",
+          "context": "CodeRabbit",
+          "startedAt": "2026-09-20T07:02:57Z",
+          "state": "PENDING",
+          "targetUrl": ""
+        },
+        {
+          "__typename": "StatusContext",
+          "context": "Visual Regression Diff Wait Approve",
+          "startedAt": "2026-09-20T07:03:51Z",
+          "state": "PENDING",
+          "targetUrl": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:03:06Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://www.codefactor.io/repository/github/ant-design/ant-design/pull/59130",
+          "name": "CodeFactor",
+          "startedAt": "2026-09-20T07:03:05Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:03:13Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://socket.dev/dashboard/org/ant-design/sbom/5b87899a-5799-4547-a30f-b26669bcf72c",
+          "name": "Socket Security: Project Report",
+          "startedAt": "2026-09-20T07:02:57Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:03:15Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://socket.dev",
+          "name": "Socket Security: Pull Request Alerts",
+          "startedAt": "2026-09-20T07:03:13Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-20T07:02:55Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/marketplace/wip",
+          "name": "WIP",
+          "startedAt": "2026-09-20T07:02:54Z",
+          "status": "COMPLETED",
+          "workflowName": ""
+        }
+      ],
+      "workflows": [
+        {
+          "name": "PR Open Check",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ant-design/ant-design/actions/runs/35495868271"
+        },
+        {
+          "name": "Verify Package Version",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/ant-design/ant-design/actions/runs/35495868017"
+        },
+        {
+          "name": "Verify Package Version",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/ant-design/ant-design/actions/runs/35495826235"
+        },
+        {
+          "name": "Publish Any Commit",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/ant-design/ant-design/actions/runs/35495826248"
+        },
+        {
+          "name": "Preview Build",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/ant-design/ant-design/actions/runs/35495826239"
+        },
+        {
+          "name": "\ud83d\udc40 Visual Regression Diff Build",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/ant-design/ant-design/actions/runs/35495826238"
+        },
+        {
+          "name": "\ud83d\udce6 Size Limit",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/ant-design/ant-design/actions/runs/35495826256"
+        },
+        {
+          "name": "\u2705 test",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/ant-design/ant-design/actions/runs/35495826381"
+        },
+        {
+          "name": "Preview Start",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ant-design/ant-design/actions/runs/35495823928"
+        },
+        {
+          "name": "\ud83d\udc40 Visual Regression Diff Start",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ant-design/ant-design/actions/runs/35495823966"
+        },
+        {
+          "name": "PR Open Check",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ant-design/ant-design/actions/runs/35495823865"
+        },
+        {
+          "name": "Verify Files modify",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ant-design/ant-design/actions/runs/35495823927"
+        }
+      ],
+      "ci_diagnosis": {
+        "failed_job": "test-node",
+        "stage": "dependency installation",
+        "test_execution": "skipped",
+        "missing_dependency": "eslint-plugin-react-jsx@5.20.1",
+        "package_json_matches_base": true,
+        "registry_version_now_available": true,
+        "rerun_attempt": "GitHub CLI reported job cannot be rerun",
+        "job_url": "https://github.com/ant-design/ant-design/actions/runs/35495826381/job/106038451784"
+      }
+    }
+  ]
+}
