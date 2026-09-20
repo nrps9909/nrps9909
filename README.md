@@ -12,15 +12,15 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 
 ## Open-source work at a glance
 
-| Verified public record (2026-09-20)                     | Current total |
+| Verified public record (2026-09-21)                     | Current total |
 | ------------------------------------------------------- | ------------: |
-| Merged PRs in non-owned upstream repositories           |        **76** |
-| Non-owned upstream repositories with merged work        |        **40** |
+| Merged PRs in non-owned upstream repositories           |        **79** |
+| Non-owned upstream repositories with merged work        |        **41** |
 | Merged PRs in the Ant Design main repository            |        **25** |
-| Merged PRs across the Ant Design ecosystem              |        **52** |
-| Public upstream PRs reviewed as an external contributor |       **173** |
+| Merged PRs across the Ant Design ecosystem              |        **55** |
+| Public upstream PRs reviewed as an external contributor |       **174** |
 
-These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-20.json).
+These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-21.json).
 
 ## What I maintain
 
@@ -31,6 +31,8 @@ These figures exclude repositories I own and direct team projects, and count a P
 
 ## Selected merged contributions
 
+- **React Component Dropdown:** [focus a fallback tab target when a wrapped menu cannot receive focus](https://github.com/react-component/dropdown/pull/268), preserving focus options.
+- **React Component Util:** [preserve primitive parents when removing missing nested values](https://github.com/react-component/util/pull/807) and [recover when a style container disappears transiently](https://github.com/react-component/util/pull/811).
 - **React Component Util:** [cancel delayed state updates on unmount](https://github.com/react-component/util/pull/806), covering animation-frame and timeout cleanup.
 - **Ant Design:** [render numeric zero in Descriptions headers](https://github.com/ant-design/ant-design/pull/59125).
 - **React Component Slider:** [preserve decimal pushable gaps](https://github.com/react-component/slider/pull/1091) and [enforce gaps on track clicks](https://github.com/react-component/slider/pull/1092).
@@ -47,6 +49,8 @@ These figures exclude repositories I own and direct team projects, and count a P
 
 ## Latest contribution
 
+- yoyo837 merged [Dropdown #268](https://github.com/react-component/dropdown/pull/268), [Util #807](https://github.com/react-component/util/pull/807), and [Util #811](https://github.com/react-component/util/pull/811) on September 20. All eight authored commits across the three PRs are GitHub Verified; the merge receipts raise the verified public record to 79 upstream merges across 41 repositories, including 55 Ant Design ecosystem merges.
+- [Ant Design #59223](https://github.com/ant-design/ant-design/pull/59223) now separates nested style structure from the legacy class-name `_default` compatibility schema at signed/GitHub-Verified head `abfae0eb4511365cccd0a0a296b65cff0a6ff84c`. The maintainer thread is answered and resolved; the PR remains open. I also [approved TreeSelect #59343](https://github.com/ant-design/ant-design/pull/59343#pullrequestreview-5261189268) on its exact head after full component tests and an independent four-layer style-priority probe. The approval is review work, not a merge.
 - React Component Slider: yoyo837 merged [missing-container guard #1087](https://github.com/react-component/slider/pull/1087), [drag completion #1089](https://github.com/react-component/slider/pull/1089), [decimal pushable gaps #1091](https://github.com/react-component/slider/pull/1091), and [track-click pushable gaps #1092](https://github.com/react-component/slider/pull/1092) on September 16. Author and merge commits were verified individually.
 - [Ant Design Input.Search #59116 follow-up](https://github.com/ant-design/ant-design/pull/59116#discussion_r4023663207): signed/GitHub-Verified head `9585bad58ecea2711a50a6d3c790be9d6d9be868` addresses review feedback by covering both Ant Design and native custom buttons. The complete Input scope passes 12 suites / 295 tests / 127 snapshots (2 skipped), including all 53 Search tests. Injecting a native-only prop leak fails the new native case while the Ant Design control passes; both pass after restoration. Full TypeScript and focused lint/format/diff checks pass. This follow-up changes only the test, preserving the maintainer-updated runtime. New-head CI is pending verification; the PR remains open.
 - [Ant Design Descriptions #59125](https://github.com/ant-design/ant-design/pull/59125): merged by yoyo837 on September 16, 2026, at `03ed8c3902378753cfcc2ebf596e2c897769b753`. Authored head `97d0a83e16d6a74e8cefb2bfa79b325a4f9fd8a3` fixes numeric-zero header content using the shared utility. This is a verified merge, with earlier size-check evidence retained in the dated history.
