@@ -14,11 +14,11 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 
 | Verified public record (2026-09-21)                     | Current total |
 | ------------------------------------------------------- | ------------: |
-| Merged PRs in non-owned upstream repositories           |        **79** |
-| Non-owned upstream repositories with merged work        |        **41** |
+| Merged PRs in non-owned upstream repositories           |        **80** |
+| Non-owned upstream repositories with merged work        |        **42** |
 | Merged PRs in the Ant Design main repository            |        **25** |
 | Merged PRs across the Ant Design ecosystem              |        **55** |
-| Public upstream PRs reviewed as an external contributor |       **174** |
+| Public upstream PRs reviewed as an external contributor |       **175** |
 
 These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md) and the [dated public snapshot](./evidence/2026-09-21.json).
 
@@ -31,6 +31,7 @@ These figures exclude repositories I own and direct team projects, and count a P
 
 ## Selected merged contributions
 
+- **Marked:** [preserve internal tabs in list item content](https://github.com/markedjs/marked/pull/4086) across CommonMark and GFM list, code-span, and fenced-code paths.
 - **React Component Dropdown:** [focus a fallback tab target when a wrapped menu cannot receive focus](https://github.com/react-component/dropdown/pull/268), preserving focus options.
 - **React Component Util:** [preserve primitive parents when removing missing nested values](https://github.com/react-component/util/pull/807) and [recover when a style container disappears transiently](https://github.com/react-component/util/pull/811).
 - **React Component Util:** [cancel delayed state updates on unmount](https://github.com/react-component/util/pull/806), covering animation-frame and timeout cleanup.

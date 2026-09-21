@@ -1,7 +1,7 @@
 {
   "github_user": "nrps9909",
-  "checked_at": "2026-09-20T17:18:30.330698+00:00",
-  "evidence_completed_at": "2026-09-20T17:21:16.428535+00:00",
+  "checked_at": "2026-09-21T15:14:23.460468+00:00",
+  "evidence_completed_at": "2026-09-21T15:18:11.099941+00:00",
   "methodology": {
     "merged": "Public authored merged upstream PRs, excluding owned repositories and classroom/direct team projects. New exclusions are stated explicitly; open and approved-but-unmerged PRs do not count.",
     "reviewed": "Public reviewed-by:nrps9909 search on other authors PRs, excluding owned and direct team projects. Published review activity, not current-head approval.",
@@ -17,11 +17,11 @@
     "reviewed": "is:pr is:public reviewed-by:nrps9909 -author:nrps9909 -user:nrps9909 -repo:Mes0903/NTNU-GameDesign -repo:stantheman0128/the-ultimate-dd-agent sort:created-asc"
   },
   "counts": {
-    "merged_upstream_prs": 79,
-    "merged_upstream_repositories": 41,
+    "merged_upstream_prs": 80,
+    "merged_upstream_repositories": 42,
     "ant_design_main_merged_prs": 25,
     "ant_design_ecosystem_merged_prs": 55,
-    "reviewed_upstream_prs": 174
+    "reviewed_upstream_prs": 175
   },
   "merged": [
     {
@@ -971,6 +971,18 @@
       "repository": {
         "nameWithOwner": "react-component/picker"
       }
+    },
+    {
+      "number": 4086,
+      "url": "https://github.com/markedjs/marked/pull/4086",
+      "mergedAt": "2026-09-21T02:46:27Z",
+      "headRefOid": "3f63979ca70df7600986ec7c7da53032fe7b8af9",
+      "author": {
+        "login": "nrps9909"
+      },
+      "repository": {
+        "nameWithOwner": "markedjs/marked"
+      }
     }
   ],
   "reviewed": [
@@ -1566,7 +1578,7 @@
       "number": 1084,
       "url": "https://github.com/react-component/slider/pull/1084",
       "mergedAt": null,
-      "headRefOid": "4e50564d6c58b7db1579c91a6940923560e8813d",
+      "headRefOid": "8f1bd6130e2832e2489faed7311f0c74055920e6",
       "author": {
         "login": "dependabot"
       },
@@ -2118,7 +2130,7 @@
       "number": 59036,
       "url": "https://github.com/ant-design/ant-design/pull/59036",
       "mergedAt": null,
-      "headRefOid": "6ed96f1f35ccc14f7d1c277f7b219f93e526279e",
+      "headRefOid": "492e8dc0a33a74a107909307afc3f18cd428d34d",
       "author": {
         "login": "nikzanda"
       },
@@ -3051,6 +3063,18 @@
       }
     },
     {
+      "number": 59314,
+      "url": "https://github.com/ant-design/ant-design/pull/59314",
+      "mergedAt": null,
+      "headRefOid": "8b6497a2bd1c9d82edd9e0530568a55d543621f2",
+      "author": {
+        "login": "QDyanbing"
+      },
+      "repository": {
+        "nameWithOwner": "ant-design/ant-design"
+      }
+    },
+    {
       "number": 59343,
       "url": "https://github.com/ant-design/ant-design/pull/59343",
       "mergedAt": null,
@@ -3064,6 +3088,74 @@
     }
   ],
   "verified_new_merges": [
+    {
+      "repository": "markedjs/marked",
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "name": "Ting-An Chen"
+      },
+      "baseRefOid": "4417582f35d69926f0778ee133c3af75b7f3f966",
+      "headRefOid": "3f63979ca70df7600986ec7c7da53032fe7b8af9",
+      "mergeCommit": {
+        "oid": "e136da7c7dedcb58af046086005f89350020c416"
+      },
+      "merge_commit_verification": {
+        "verified": true,
+        "reason": "valid",
+        "verified_at": "2026-09-21T02:46:27Z"
+      },
+      "mergedAt": "2026-09-21T02:46:27Z",
+      "mergedBy": {
+        "id": "MDQ6VXNlcjk3OTk0",
+        "is_bot": false,
+        "login": "UziTech",
+        "name": "Tony Brix"
+      },
+      "number": 4086,
+      "state": "MERGED",
+      "title": "fix: preserve internal tabs in list item content",
+      "url": "https://github.com/markedjs/marked/pull/4086",
+      "authored_commits": [
+        {
+          "sha": "2348276b11d4767ee0cfaee6cfa11e4b75b64502",
+          "verified": true,
+          "reason": "valid",
+          "verified_at": "2026-09-05T20:36:09Z"
+        },
+        {
+          "sha": "7c2267d0804f881676cd3673f3b1488c359cd5fb",
+          "verified": true,
+          "reason": "valid",
+          "verified_at": "2026-09-05T21:05:30Z"
+        },
+        {
+          "sha": "c57d725398db8f55d4aea225a5da11e4c9299bbe",
+          "verified": true,
+          "reason": "valid",
+          "verified_at": "2026-09-06T04:51:16Z"
+        },
+        {
+          "sha": "3f63979ca70df7600986ec7c7da53032fe7b8af9",
+          "verified": true,
+          "reason": "valid",
+          "verified_at": "2026-09-06T04:51:32Z"
+        }
+      ],
+      "checks": {
+        "success": 7,
+        "skipped": 1,
+        "skipped_name": "Release"
+      },
+      "maintainer_review": {
+        "state": "APPROVED",
+        "reviewer": "UziTech",
+        "commit_id": "3f63979ca70df7600986ec7c7da53032fe7b8af9",
+        "submitted_at": "2026-09-06T05:07:03Z",
+        "url": "https://github.com/markedjs/marked/pull/4086#pullrequestreview-5124240665"
+      }
+    },
     {
       "repository": "react-component/util",
       "author": {
@@ -3197,18 +3289,35 @@
   "ant_design_followup": {
     "authored_pr": {
       "url": "https://github.com/ant-design/ant-design/pull/59223",
-      "head": "abfae0eb4511365cccd0a0a296b65cff0a6ff84c",
-      "commit_verified": true,
-      "maintainer_reply": "https://github.com/ant-design/ant-design/pull/59223#discussion_r4057512170",
+      "head": "1684c651ae1010099219c1bcff6b8441f0ac3877",
+      "head_commit_verified": true,
+      "feature_head": "abfae0eb4511365cccd0a0a296b65cff0a6ff84c",
+      "feature_commit_verified": true,
+      "exact_head_receipt": "https://github.com/ant-design/ant-design/pull/59223#issuecomment-5762720582",
       "thread_resolved": true,
+      "remote_checks": {
+        "success": 41,
+        "skipped": 1
+      },
       "state": "OPEN"
     },
-    "external_review": {
+    "tree_select_review": {
       "url": "https://github.com/ant-design/ant-design/pull/59343#pullrequestreview-5261189268",
       "review_id": 5261189268,
       "state": "APPROVED",
       "commit_id": "2ae8917a9e729dbf97a81654eb776063a4a44663",
       "submitted_at": "2026-09-20T17:16:42Z"
+    },
+    "badge_review": {
+      "url": "https://github.com/ant-design/ant-design/pull/59314#pullrequestreview-5268336023",
+      "review_id": 5268336023,
+      "state": "APPROVED",
+      "commit_id": "8b6497a2bd1c9d82edd9e0530568a55d543621f2",
+      "submitted_at": "2026-09-21T15:13:52Z",
+      "remote_checks": {
+        "success": 46,
+        "skipped": 1
+      }
     }
   }
 }
