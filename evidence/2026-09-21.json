@@ -3296,8 +3296,8 @@
       "exact_head_receipt": "https://github.com/ant-design/ant-design/pull/59223#issuecomment-5762720582",
       "thread_resolved": true,
       "remote_checks": {
-        "success": 41,
-        "skipped": 1
+        "success": 43,
+        "skipped": 2
       },
       "state": "OPEN"
     },
