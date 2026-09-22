@@ -1,0 +1,84 @@
+{
+  "checked_at": "2026-09-22T08:12:14.890849+00:00",
+  "pull_request": {
+    "url": "https://github.com/ant-design/ant-design/pull/59223",
+    "state": "OPEN",
+    "review_decision": "REVIEW_REQUIRED",
+    "head": "7988e8a063990b5b9607d15e37439c661d20035f",
+    "head_signature": {
+      "verified": true,
+      "reason": "valid"
+    },
+    "maintainer_request": "https://github.com/ant-design/ant-design/pull/59223#discussion_r4068977098",
+    "reply_receipt": "https://github.com/ant-design/ant-design/pull/59223#discussion_r4069516923",
+    "review_threads": {
+      "unresolved": 0,
+      "addressed_thread_id": "PRRT_kwDOAg7WpM6knrid",
+      "addressed_thread_resolved": true
+    }
+  },
+  "implementation": {
+    "summary": "Reuse one semantic schema for class names and styles, ignore _default when deciding style recursion, and use explicit semantic child keys without runtime CSS-shape inference.",
+    "signed_commit": "7988e8a063990b5b9607d15e37439c661d20035f",
+    "changed_from_previous_head": {
+      "insertions": 27,
+      "deletions": 33,
+      "files": 3
+    }
+  },
+  "local_validation": {
+    "expanded_scope": "components/_util and components/select",
+    "test_suites_passed": 28,
+    "tests_passed": 365,
+    "tests_skipped": 5,
+    "snapshots_passed": 105,
+    "typescript": "PASS",
+    "eslint": "PASS",
+    "biome_focused_files": "PASS",
+    "diff_check": "PASS"
+  },
+  "remote_checks": {
+    "success": 39,
+    "skipped": 1,
+    "pending": 0,
+    "failing": 0,
+    "expected_skip": "Verify Package Version"
+  },
+  "remote_blob_matches": [
+    {
+      "path": "components/_util/hooks/useMergeSemantic/index.ts",
+      "sha": "7336b9a232c5a00be163bd57670e8043889e807c"
+    },
+    {
+      "path": "components/_util/__tests__/useMergeSemanticNew.test.tsx",
+      "sha": "16c683a1746f864c5fce07b7f9caf732fa4b35bb"
+    },
+    {
+      "path": "components/select/index.tsx",
+      "sha": "8454c723d65f2b196f769d5c3262b20df84c2ad1"
+    },
+    {
+      "path": "components/select/__tests__/semantic.test.tsx",
+      "sha": "a1ea3dcfe85392038766758b42eba625fae3d2d5"
+    }
+  ],
+  "public_counts_refresh": {
+    "queries": {
+      "merged": "is:pr is:public is:merged author:nrps9909 -user:nrps9909 -repo:Mes0903/NTNU-GameDesign -repo:stantheman0128/the-ultimate-dd-agent sort:created-asc",
+      "reviewed": "is:pr is:public reviewed-by:nrps9909 -author:nrps9909 -user:nrps9909 -repo:Mes0903/NTNU-GameDesign -repo:stantheman0128/the-ultimate-dd-agent sort:created-asc"
+    },
+    "counts": {
+      "merged_upstream_prs": 80,
+      "merged_upstream_repositories": 42,
+      "ant_design_main_merged_prs": 25,
+      "ant_design_ecosystem_merged_prs": 55,
+      "reviewed_upstream_prs": 175
+    },
+    "changes_since_2026_09_21": {
+      "new_merged_urls": [],
+      "missing_merged_urls": [],
+      "new_reviewed_urls": [],
+      "missing_reviewed_urls": []
+    }
+  }
+}
