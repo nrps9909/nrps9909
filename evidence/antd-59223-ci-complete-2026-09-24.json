@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-09-24T11:34:48.469977+00:00",
+  "pull_request": {
+    "headRefOid": "cebdc5aebbd8208228ed8d0ffe9939a600ac2995",
+    "mergeStateStatus": "BLOCKED",
+    "reviewDecision": "REVIEW_REQUIRED",
+    "state": "OPEN",
+    "url": "https://github.com/ant-design/ant-design/pull/59223"
+  },
+  "head_signature": {
+    "verified": true,
+    "reason": "valid"
+  },
+  "remote_checks": {
+    "total": 48,
+    "success": 45,
+    "skipped": 3,
+    "failure": 0,
+    "pending": 0,
+    "other": 0,
+    "key_jobs": [
+      "test-vitest (non-blocking)",
+      "test-react-legacy (18, 1/2)",
+      "test-react-legacy (18, 2/2)",
+      "test-react-latest (dom, 1/2)",
+      "test-react-latest (dom, 2/2)",
+      "test-coverage",
+      "visual-diff report"
+    ]
+  },
+  "review_threads": {
+    "unresolved": 0,
+    "paginated_completely": true
+  },
+  "local_validation": {
+    "jest_component_scope": "Select, AutoComplete, Cascader, TreeSelect, DatePicker, TimePicker",
+    "suites_passed": 46,
+    "tests_passed": 719,
+    "tests_skipped": 10,
+    "snapshots_passed": 457,
+    "vitest_tree_select_semantic": {
+      "suites_passed": 1,
+      "tests_passed": 2
+    },
+    "typescript": "PASS",
+    "focused_eslint": "PASS",
+    "focused_biome": "PASS",
+    "diff_check": "PASS"
+  },
+  "remote_blob_matches": [
+    {
+      "path": "components/cascader/index.tsx",
+      "sha": "403673565513a9057bc00ba9cf2a2e4300c94099"
+    },
+    {
+      "path": "components/cascader/__tests__/semantic.test.tsx",
+      "sha": "7887e689ca7dcdac256d80d34384b9b9c351532e"
+    },
+    {
+      "path": "components/tree-select/index.tsx",
+      "sha": "3fb737e3d419f8a07a2ebb0565711997cbe80a13"
+    },
+    {
+      "path": "components/tree-select/__tests__/semantic.test.tsx",
+      "sha": "7a625c156192f3c5c2fb2c5e6f3d0e13f3fe9e1b"
+    },
+    {
+      "path": "components/date-picker/hooks/useMergedPickerSemantic.ts",
+      "sha": "1b385deba6033908cec350b65e3fedd43885132f"
+    },
+    {
+      "path": "components/date-picker/__tests__/semantic.test.tsx",
+      "sha": "a63f865a20a9de54d7b1c3cbd59313fafd914825"
+    }
+  ],
+  "counting_note": "The PR is open and excluded from merged contribution totals; passing checks are not maintainer approval or merge."
+}
