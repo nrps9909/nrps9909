@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-09-24T03:36:25.535830+00:00",
+  "pull_request": {
+    "headRefOid": "fee816ad3f06697fbad31b2755372c47c499c7e4",
+    "mergeStateStatus": "BLOCKED",
+    "reviewDecision": "REVIEW_REQUIRED",
+    "state": "OPEN",
+    "url": "https://github.com/ant-design/ant-design/pull/59223"
+  },
+  "head_signature": {
+    "verified": true,
+    "reason": "valid"
+  },
+  "change": "List explicit popup child nodes for Cascader, TreeSelect, and the shared DatePicker/TimePicker semantic hook.",
+  "local_validation": {
+    "base_failure": "Each of the three new rendered-popup regressions fails without its respective schema change.",
+    "test_scope": "Select, AutoComplete, Cascader, TreeSelect, DatePicker, TimePicker",
+    "suites_passed": 46,
+    "tests_passed": 719,
+    "tests_skipped": 10,
+    "snapshots_passed": 457,
+    "typescript": "PASS",
+    "focused_eslint": "PASS",
+    "focused_biome": "PASS",
+    "diff_check": "PASS"
+  },
+  "remote_checks": {
+    "total": 34,
+    "success": 18,
+    "skipped": 2,
+    "failure": 0,
+    "pending": 14,
+    "other": 0
+  },
+  "counts_note": "Merged/reviewed contribution totals have not been refreshed in this record. PR #59223 remains excluded from merged counts."
+}
