@@ -1,0 +1,87 @@
+{
+  "checked_at": "2026-09-24T12:06:08.704540+00:00",
+  "pull_request": {
+    "baseRefOid": "fc4c654854e2e4c8ccedf803b68f0b99961b64b1",
+    "headRefOid": "9ce6ddbd1362f897a8160a7fce1a83cdddcc7b5c",
+    "mergeStateStatus": "BLOCKED",
+    "reviewDecision": "REVIEW_REQUIRED",
+    "state": "OPEN",
+    "url": "https://github.com/ant-design/ant-design/pull/59138"
+  },
+  "head_signature": {
+    "verified": true,
+    "reason": "valid"
+  },
+  "maintainer_feedback_addressed": [
+    "default FilterFilled is decorative; custom filterIcon unchanged",
+    "keyboard activation uses existing filter dropdown open handler instead of synthetic click",
+    "aria-expanded mirrors merged open state",
+    "branch rebased onto current master"
+  ],
+  "local_validation": {
+    "table_filter_jest": {
+      "tests_passed": 100,
+      "snapshots_passed": 10
+    },
+    "adjacent_jest": {
+      "suites_passed": 4,
+      "tests_passed": 546,
+      "tests_skipped": 17,
+      "snapshots_total_passed_after_update": 584,
+      "snapshots_updated": 99
+    },
+    "locale_vitest": {
+      "tests_passed": 77,
+      "snapshots_updated": 73
+    },
+    "typescript": "PASS",
+    "focused_eslint": "PASS",
+    "focused_biome": "PASS",
+    "diff_check": "PASS"
+  },
+  "remote_changed_file_blobs": [
+    {
+      "path": "components/config-provider/__tests__/__snapshots__/components.test.tsx.snap",
+      "sha": "15c2431eccc5cc893953f560f0d22d69f1b534b6"
+    },
+    {
+      "path": "components/locale/__tests__/__snapshots__/index.test.tsx.snap",
+      "sha": "2e24727d54404c68218bcdb5081225bb317422de"
+    },
+    {
+      "path": "components/locale/__tests__/__snapshots__/vitest/index.test.tsx.snap",
+      "sha": "a98b9b10996fa1b817d85f62d489cc8b6a101b73"
+    },
+    {
+      "path": "components/table/__tests__/Table.filter.test.tsx",
+      "sha": "0c5c4bb3a5d3d258b9ad9a2d163ab4d9f1d042bf"
+    },
+    {
+      "path": "components/table/__tests__/__snapshots__/Table.filter.test.tsx.snap",
+      "sha": "77cedae5f8bf348617ad5749e7172df4953c7a2a"
+    },
+    {
+      "path": "components/table/__tests__/__snapshots__/demo-extend.test.ts.snap",
+      "sha": "d4faa10a225dc4c4f3f655eb5ffdff7a0037eeaa"
+    },
+    {
+      "path": "components/table/__tests__/__snapshots__/demo.test.ts.snap",
+      "sha": "5ce1a24221a071bd2847b0da93c13dc460542695"
+    },
+    {
+      "path": "components/table/hooks/useFilter/FilterDropdown.tsx",
+      "sha": "e6ddf9c29e65a830ac72e3abdda660cc89a4a62b"
+    }
+  ],
+  "remote_check_snapshot": {
+    "total": 31,
+    "states": {
+      "IN_PROGRESS": 13,
+      "PENDING": 1,
+      "SKIPPED": 1,
+      "SUCCESS": 16
+    },
+    "note": "This is a point-in-time snapshot; queued and in-progress jobs are not passing checks."
+  },
+  "counting_note": "The PR is open and excluded from merged contribution totals; local tests and passing checks are not maintainer acceptance or a Codex for OSS award."
+}
