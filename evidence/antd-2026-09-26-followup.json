@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-09-25T19:13:49.048694+00:00",
+  "checked_at_utc": "2026-09-25T19:31:35.236079+00:00",
   "color_picker_59130": {
     "pull_request": {
       "headRefOid": "f1d502ae57022d1dd63d06d44a47b00df0bc2b46",
@@ -9,12 +9,10 @@
       "url": "https://github.com/ant-design/ant-design/pull/59130",
       "check_snapshot": {
         "states": {
-          "IN_PROGRESS": 12,
-          "PENDING": 2,
-          "SKIPPED": 2,
-          "SUCCESS": 24
+          "SKIPPED": 4,
+          "SUCCESS": 47
         },
-        "note": "Point-in-time GitHub rollup; pending and in-progress entries are not passing checks."
+        "note": "Exact-head, point-in-time GitHub rollup; skipped checks are not successes."
       }
     },
     "head_signature": {
@@ -43,10 +41,16 @@
           "SKIPPED": 1,
           "SUCCESS": 40
         },
-        "note": "Point-in-time GitHub rollup; pending and in-progress entries are not passing checks."
+        "note": "Exact-head, point-in-time GitHub rollup; skipped checks are not successes."
       }
     },
-    "note": "The approved but unmerged locale PR overlaps ColorClear.tsx; merge that PR first, then rebase #59130. Current changes-requested status remains visible."
+    "note": "All available exact-head checks have completed successfully or were skipped, but the PR remains OPEN / CHANGES_REQUESTED. The approved but unmerged locale PR overlaps ColorClear.tsx; merge it first, then rebase #59130.",
+    "visual_regression": {
+      "workflow_job": "https://github.com/ant-design/ant-design/actions/runs/36177866544/job/108214906837",
+      "artifact": "https://github.com/ant-design/ant-design/actions/runs/36177866544/artifacts/10883700156",
+      "report": "https://antd-visual-diff.oss-accelerate.aliyuncs.com/pr-59130/visualRegressionReport/report.html",
+      "result": "PASS; report.md in downloaded artifact says no visual-regression diff found"
+    }
   },
   "table_filter_59138": {
     "pull_request": {
@@ -61,7 +65,7 @@
           "SKIPPED": 2,
           "SUCCESS": 42
         },
-        "note": "Point-in-time GitHub rollup; pending and in-progress entries are not passing checks."
+        "note": "Exact-head, point-in-time GitHub rollup; skipped checks are not successes."
       }
     },
     "failing_job": "https://github.com/ant-design/ant-design/actions/runs/35996675021/job/107623138057",
