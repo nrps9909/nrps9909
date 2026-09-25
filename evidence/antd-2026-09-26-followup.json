@@ -1,0 +1,74 @@
+{
+  "checked_at_utc": "2026-09-25T19:13:49.048694+00:00",
+  "color_picker_59130": {
+    "pull_request": {
+      "headRefOid": "f1d502ae57022d1dd63d06d44a47b00df0bc2b46",
+      "mergeStateStatus": "BLOCKED",
+      "reviewDecision": "CHANGES_REQUESTED",
+      "state": "OPEN",
+      "url": "https://github.com/ant-design/ant-design/pull/59130",
+      "check_snapshot": {
+        "states": {
+          "IN_PROGRESS": 12,
+          "PENDING": 2,
+          "SKIPPED": 2,
+          "SUCCESS": 24
+        },
+        "note": "Point-in-time GitHub rollup; pending and in-progress entries are not passing checks."
+      }
+    },
+    "head_signature": {
+      "reason": "valid",
+      "verified": true
+    },
+    "review_reply": "https://github.com/ant-design/ant-design/pull/59130#issuecomment-5838106505",
+    "local_validation": {
+      "jest_suites_passed": 12,
+      "jest_tests_passed": 713,
+      "jest_tests_skipped": 7,
+      "snapshots_passed": 625,
+      "typescript": "PASS",
+      "focused_eslint": "PASS",
+      "focused_biome": "PASS",
+      "diff_check": "PASS"
+    },
+    "related_locale_pr_59206": {
+      "headRefOid": "16a861f2a7d9c38acd1fb2ea4698ca804ed18fb1",
+      "mergeStateStatus": "CLEAN",
+      "reviewDecision": "APPROVED",
+      "state": "OPEN",
+      "url": "https://github.com/ant-design/ant-design/pull/59206",
+      "check_snapshot": {
+        "states": {
+          "SKIPPED": 1,
+          "SUCCESS": 40
+        },
+        "note": "Point-in-time GitHub rollup; pending and in-progress entries are not passing checks."
+      }
+    },
+    "note": "The approved but unmerged locale PR overlaps ColorClear.tsx; merge that PR first, then rebase #59130. Current changes-requested status remains visible."
+  },
+  "table_filter_59138": {
+    "pull_request": {
+      "headRefOid": "9ce6ddbd1362f897a8160a7fce1a83cdddcc7b5c",
+      "mergeStateStatus": "BLOCKED",
+      "reviewDecision": "REVIEW_REQUIRED",
+      "state": "OPEN",
+      "url": "https://github.com/ant-design/ant-design/pull/59138",
+      "check_snapshot": {
+        "states": {
+          "FAILURE": 1,
+          "SKIPPED": 2,
+          "SUCCESS": 42
+        },
+        "note": "Point-in-time GitHub rollup; pending and in-progress entries are not passing checks."
+      }
+    },
+    "failing_job": "https://github.com/ant-design/ant-design/actions/runs/35996675021/job/107623138057",
+    "failure": "React 18 shard 2: unchanged useZIndex Tour test exceeded its 20-second timeout (20.279 s). Cause not independently reproduced on React 18.",
+    "rerun": "External contributor rerun was denied with HTTP 403; maintainer rerun requested.",
+    "maintainer_rerun_request": "https://github.com/ant-design/ant-design/pull/59138#issuecomment-5837943625",
+    "local_reproduction_limit": "Focused useZIndex file passed 64/64 with React 19 dependencies; this does not replace React 18 CI."
+  },
+  "counting_note": "Open PRs and reviews are not merged contributions. Local validation and remote green checks are not maintainer acceptance or a Codex for Open Source award."
+}
