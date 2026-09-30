@@ -12,13 +12,13 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 
 ## Open-source work at a glance
 
-| Verified public record (2026-09-22)                     | Current total |
+| Verified public record (2026-09-30)                     | Current total |
 | ------------------------------------------------------- | ------------: |
 | Merged PRs in non-owned upstream repositories           |        **80** |
 | Non-owned upstream repositories with merged work        |        **42** |
 | Merged PRs in the Ant Design main repository            |        **25** |
 | Merged PRs across the Ant Design ecosystem              |        **55** |
-| Public upstream PRs reviewed as an external contributor |       **175** |
+| Public upstream PRs reviewed as an external contributor |       **178** |
 
 These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [complete contribution and review evidence](./OSS_MAINTENANCE.md), the [full September 21 snapshot](./evidence/2026-09-21.json), the [September 22 count refresh](./evidence/antd-59223-followup-2026-09-22.json), the [completed #59223 check snapshot](./evidence/antd-59223-ci-complete-2026-09-24.json), and the [September 26 ColorPicker/Table CI follow-up](./evidence/antd-2026-09-26-followup.json).
 
@@ -50,6 +50,7 @@ These figures exclude repositories I own and direct team projects, and count a P
 
 ## Latest contribution
 
+- Published three independently tested reviews: [Util #817](https://github.com/react-component/util/pull/817#pullrequestreview-5363809098) (4,840 reference/cycle comparisons), [Util #818](https://github.com/react-component/util/pull/818#pullrequestreview-5363809754) (three detached-ShadowRoot GC rounds), and [Day.js #3240](https://github.com/iamkun/dayjs/pull/3240#pullrequestreview-5363810328) (12,480 UTC plus 12,480 local comparisons across four timezones). Exact-head and merge-preview results, inherited failures, and external CI authorization gates are preserved in the [September 30 evidence](./evidence/oss-2026-09-30.json), with [reproducible probes](./evidence/oss-2026-09-30). All three PRs remain open; these reviews leave the authored-merged total at 80.
 - [Ant Design ColorPicker #59130](https://github.com/ant-design/ant-design/pull/59130) now gives its trigger a localized color-kind accessible name rather than a raw CSS value. A Traditional Chinese regression covers solid, gradient, and transparent colors and confirms that the decorative clear marker is outside the tab order. Signed/GitHub-Verified head `f1d502ae57022d1dd63d06d44a47b00df0bc2b46` passes 12 local suites, 713 tests, 625 snapshots, TypeScript, ESLint, and Biome. [The dated exact-head CI snapshot](./evidence/antd-2026-09-26-followup.json) records 47 successful checks, 4 skips, no failures or pending checks, and no visual differences. The PR remains open with changes requested, and the overlapping approved [clear-button locale #59206](https://github.com/ant-design/ant-design/pull/59206) should merge before another rebase. Neither open PR is in the merged total.
 - [Ant Design Table #59138](https://github.com/ant-design/ant-design/pull/59138) lets a Tab-focused filter trigger open and close through the existing dropdown state path on Enter/Space, including a custom hover trigger. It exposes `aria-expanded`, keeps the localized accessible name, and hides only the default icon from assistive technology. Local Table and adjacent checks pass at signed/GitHub-Verified head `9ce6ddbd1362f897a8160a7fce1a83cdddcc7b5c`. Remote React 18 CI still has an unrelated-file `useZIndex` Tour timeout; [I requested a maintainer rerun](https://github.com/ant-design/ant-design/pull/59138#issuecomment-5837943625) because external contributors cannot rerun that job. The PR remains open and review-required, so it is excluded from merged totals.
 - yoyo837 merged [Dropdown #268](https://github.com/react-component/dropdown/pull/268), [Util #807](https://github.com/react-component/util/pull/807), and [Util #811](https://github.com/react-component/util/pull/811) on September 20. All eight authored commits across the three PRs are GitHub Verified; the merge receipts raise the verified public record to 79 upstream merges across 41 repositories, including 55 Ant Design ecosystem merges.

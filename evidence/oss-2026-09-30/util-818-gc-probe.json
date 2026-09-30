@@ -1,0 +1,45 @@
+{
+  "runtime": "v26.10.0",
+  "environment": "Node/V8 with JSDOM, not a Chromium heap measurement",
+  "rounds": [
+    {
+      "round": 1,
+      "base": {
+        "containers": 30,
+        "retained_after_gc": 30,
+        "retained_after_cache_reset": 0
+      },
+      "head": {
+        "containers": 30,
+        "retained_after_gc": 0,
+        "retained_after_cache_reset": 0
+      }
+    },
+    {
+      "round": 2,
+      "base": {
+        "containers": 30,
+        "retained_after_gc": 30,
+        "retained_after_cache_reset": 0
+      },
+      "head": {
+        "containers": 30,
+        "retained_after_gc": 0,
+        "retained_after_cache_reset": 0
+      }
+    },
+    {
+      "round": 3,
+      "base": {
+        "containers": 30,
+        "retained_after_gc": 30,
+        "retained_after_cache_reset": 0
+      },
+      "head": {
+        "containers": 30,
+        "retained_after_gc": 0,
+        "retained_after_cache_reset": 0
+      }
+    }
+  ]
+}

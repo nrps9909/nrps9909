@@ -1,0 +1,41 @@
+{
+  "base": "9f2ff96640a6ab760919a5b5b00fa5d4178c08f4",
+  "head": "d78c21d59e46ba44288561bb78b46fdec226d81d",
+  "comparisons_per_version": 4840,
+  "versions": {
+    "base": {
+      "passed": 3240,
+      "failed": 1600
+    },
+    "head": {
+      "passed": 4840,
+      "failed": 0
+    }
+  },
+  "failing_base_examples": [
+    {
+      "label": "equal-0-2-object",
+      "version": "base",
+      "expected": true,
+      "result": false,
+      "warnings": 1,
+      "pass": false
+    },
+    {
+      "label": "different-0-2-object",
+      "version": "base",
+      "expected": false,
+      "result": false,
+      "warnings": 1,
+      "pass": false
+    },
+    {
+      "label": "equal-0-2-array",
+      "version": "base",
+      "expected": true,
+      "result": false,
+      "warnings": 1,
+      "pass": false
+    }
+  ]
+}
