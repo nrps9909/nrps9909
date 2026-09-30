@@ -3621,5 +3621,308 @@
         }
       }
     ]
+  },
+  "new_authored_prs": [
+    {
+      "checked_at_utc": "2026-09-30T12:15:51.902217+00:00",
+      "repository": "ant-design/pro-components",
+      "number": 9711,
+      "url": "https://github.com/ant-design/pro-components/pull/9711",
+      "state": "open",
+      "merged": false,
+      "head": "e2aecd9510cb75e4710be7d9ccb3a0ef641696d3",
+      "base": "67ed7d4c37595bd1cd5c0709aff95d1531b7b486",
+      "mergeable": true,
+      "merge_state": "unstable",
+      "author": "nrps9909",
+      "signature_verified": true,
+      "signature_reason": "valid",
+      "body_readback_verified": true,
+      "files": [
+        "src/field/components/Select/SearchSelect/index.tsx",
+        "tests/form/searchSelectObject.test.tsx"
+      ],
+      "validation": {
+        "node": "26.10.0",
+        "pnpm": "9.15.9",
+        "vitest": "4.1.11",
+        "base_tests": {
+          "failed_regressions": 2,
+          "passed_controls": 3
+        },
+        "fixed_focused_tests_passed": 5,
+        "full_files_passed": 122,
+        "full_tests_passed": 1386,
+        "tsc": "pass",
+        "eslint": "pass",
+        "prettier": "pass",
+        "diff": "pass",
+        "build": "pass (UMD, ES, CJS, declarations)"
+      },
+      "ci": "New-head upstream CI not yet verified; local results are separate."
+    }
+  ],
+  "authored_pr_followup_continuations": [
+    {
+      "checked_at_utc": "2026-09-30T12:08:39.206887+00:00",
+      "url": "https://github.com/payloadcms/payload/pull/17744",
+      "head": "1b01c5969a3b6dbd2f0da80c9083660b9eee7b10",
+      "base": "d2b5206968c4f759d37bfb147081e30e55ef17f2",
+      "mergeable": true,
+      "merge_state": "blocked",
+      "description_readback_verified": true,
+      "comment_url": "https://github.com/payloadcms/payload/pull/17744#issuecomment-5910968287",
+      "comment_readback_verified": true,
+      "validation": {
+        "node": "24.15.0",
+        "pnpm": "11.9.0",
+        "declarations": "pass",
+        "swc_files": 57,
+        "lint_errors": 0,
+        "lint_warnings": 13,
+        "prettier": "pass",
+        "diff": "pass",
+        "contract": {
+          "base": "d2b5206968c4f759d37bfb147081e30e55ef17f2",
+          "oldHead": "4eb48f981d876e5130eb6295bc58e2e71ed86b10",
+          "localeKeys": 659,
+          "changedValues": 23,
+          "originalChangedValuesPreserved": true,
+          "keySetPreserved": true,
+          "allPlaceholdersAndMarkupPreserved": true,
+          "newUpstreamKeysPreserved": [
+            "authentication.resend",
+            "dashboard.resizeWidget",
+            "general.createdBy",
+            "general.updatedBy"
+          ]
+        },
+        "unit": "startup blocked: missing locked Rolldown native binding; no unit/full CI pass claimed",
+        "accessibility": "translation-content assessment only, browser/AT not run; no WCAG conformance claimed"
+      }
+    }
+  ],
+  "continuation_new_head_ci": {
+    "checked_at_utc": "2026-09-30T12:16:46.646756+00:00",
+    "pull_requests": [
+      {
+        "baseRefOid": "67ed7d4c37595bd1cd5c0709aff95d1531b7b486",
+        "headRefOid": "e2aecd9510cb75e4710be7d9ccb3a0ef641696d3",
+        "mergeStateStatus": "UNSTABLE",
+        "mergeable": "MERGEABLE",
+        "number": 9711,
+        "reviewDecision": "",
+        "state": "OPEN",
+        "statusCheckRollup": [
+          {
+            "__typename": "CheckRun",
+            "completedAt": "0001-01-01T00:00:00Z",
+            "conclusion": "",
+            "detailsUrl": "https://github.com/ant-design/pro-components/actions/runs/36713555228/job/109880863360",
+            "name": "build (22.x, ubuntu-latest)",
+            "startedAt": "2026-09-30T12:14:52Z",
+            "status": "IN_PROGRESS",
+            "workflowName": "Build CI"
+          },
+          {
+            "__typename": "CheckRun",
+            "completedAt": "0001-01-01T00:00:00Z",
+            "conclusion": "",
+            "detailsUrl": "https://github.com/ant-design/pro-components/actions/runs/36713555525/job/109880864938",
+            "name": "Analyze (javascript)",
+            "startedAt": "2026-09-30T12:14:52Z",
+            "status": "IN_PROGRESS",
+            "workflowName": "CodeQL"
+          },
+          {
+            "__typename": "CheckRun",
+            "completedAt": "0001-01-01T00:00:00Z",
+            "conclusion": "",
+            "detailsUrl": "https://github.com/ant-design/pro-components/actions/runs/36713555232/job/109880863515",
+            "name": "build",
+            "startedAt": "2026-09-30T12:14:52Z",
+            "status": "IN_PROGRESS",
+            "workflowName": "coverage CI"
+          },
+          {
+            "__typename": "StatusContext",
+            "context": "Vercel",
+            "startedAt": "2026-09-30T12:15:34Z",
+            "state": "FAILURE",
+            "targetUrl": "https://vercel.com/git/authorize?team=pro-components&slug=pro-components&teamId=team_Lt4xi8V7jEIywr20HXyyAK0F&type=github&job=%7B%22headInfo%22%3A%7B%22sha%22%3A%22e2aecd9510cb75e4710be7d9ccb3a0ef641696d3%22%7D%2C%22id%22%3A%22QmdSmzYobfM3f2SnALc3DCsb5LAfn4ijWzfY4Qzt7tLi4V%22%2C%22org%22%3A%22ant-design%22%2C%22prId%22%3A9711%2C%22repo%22%3A%22pro-components%22%7D"
+          },
+          {
+            "__typename": "StatusContext",
+            "context": "CodeRabbit",
+            "startedAt": "2026-09-30T12:14:55Z",
+            "state": "PENDING",
+            "targetUrl": ""
+          },
+          {
+            "__typename": "CheckRun",
+            "completedAt": "2026-09-30T12:16:40Z",
+            "conclusion": "SUCCESS",
+            "detailsUrl": "https://github.com/ant-design/pro-components/runs/109881478851",
+            "name": "CodeQL",
+            "startedAt": "2026-09-30T12:16:37Z",
+            "status": "COMPLETED",
+            "workflowName": ""
+          },
+          {
+            "__typename": "CheckRun",
+            "completedAt": "2026-09-30T12:15:04Z",
+            "conclusion": "SUCCESS",
+            "detailsUrl": "https://socket.dev/dashboard/org/ant-design/sbom/cabf1d68-7a70-4d7c-81b5-b9a1beb2f987",
+            "name": "Socket Security: Project Report",
+            "startedAt": "2026-09-30T12:14:52Z",
+            "status": "COMPLETED",
+            "workflowName": ""
+          },
+          {
+            "__typename": "CheckRun",
+            "completedAt": "2026-09-30T12:15:06Z",
+            "conclusion": "SUCCESS",
+            "detailsUrl": "https://socket.dev",
+            "name": "Socket Security: Pull Request Alerts",
+            "startedAt": "2026-09-30T12:15:04Z",
+            "status": "COMPLETED",
+            "workflowName": ""
+          }
+        ],
+        "url": "https://github.com/ant-design/pro-components/pull/9711",
+        "repository": "ant-design/pro-components",
+        "runs": [
+          {
+            "id": 36713555228,
+            "name": "Build CI",
+            "head_sha": "e2aecd9510cb75e4710be7d9ccb3a0ef641696d3",
+            "status": "in_progress",
+            "conclusion": null,
+            "html_url": "https://github.com/ant-design/pro-components/actions/runs/36713555228",
+            "created_at": "2026-09-30T12:14:49Z"
+          },
+          {
+            "id": 36713555525,
+            "name": "CodeQL",
+            "head_sha": "e2aecd9510cb75e4710be7d9ccb3a0ef641696d3",
+            "status": "in_progress",
+            "conclusion": null,
+            "html_url": "https://github.com/ant-design/pro-components/actions/runs/36713555525",
+            "created_at": "2026-09-30T12:14:49Z"
+          },
+          {
+            "id": 36713555232,
+            "name": "coverage CI",
+            "head_sha": "e2aecd9510cb75e4710be7d9ccb3a0ef641696d3",
+            "status": "in_progress",
+            "conclusion": null,
+            "html_url": "https://github.com/ant-design/pro-components/actions/runs/36713555232",
+            "created_at": "2026-09-30T12:14:49Z"
+          }
+        ]
+      },
+      {
+        "baseRefOid": "d2b5206968c4f759d37bfb147081e30e55ef17f2",
+        "headRefOid": "1b01c5969a3b6dbd2f0da80c9083660b9eee7b10",
+        "mergeStateStatus": "BLOCKED",
+        "mergeable": "MERGEABLE",
+        "number": 17744,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "state": "OPEN",
+        "statusCheckRollup": [
+          {
+            "__typename": "CheckRun",
+            "completedAt": "2026-09-30T12:03:08Z",
+            "conclusion": "SUCCESS",
+            "detailsUrl": "https://github.com/payloadcms/payload/actions/runs/36712304375/job/109876761033",
+            "name": "probe",
+            "startedAt": "2026-09-30T12:03:04Z",
+            "status": "COMPLETED",
+            "workflowName": "notify-next-canary"
+          },
+          {
+            "__typename": "CheckRun",
+            "completedAt": "2026-09-30T12:06:59Z",
+            "conclusion": "SUCCESS",
+            "detailsUrl": "https://github.com/payloadcms/payload/actions/runs/36712711766/job/109878086575",
+            "name": "lint-pr-title",
+            "startedAt": "2026-09-30T12:06:52Z",
+            "status": "COMPLETED",
+            "workflowName": "pr-title"
+          },
+          {
+            "__typename": "CheckRun",
+            "completedAt": "2026-09-30T12:06:50Z",
+            "conclusion": "SKIPPED",
+            "detailsUrl": "https://github.com/payloadcms/payload/actions/runs/36712711766/job/109878088373",
+            "name": "label-pr-on-open",
+            "startedAt": "2026-09-30T12:06:51Z",
+            "status": "COMPLETED",
+            "workflowName": "pr-title"
+          },
+          {
+            "__typename": "CheckRun",
+            "completedAt": "2026-09-30T12:03:15Z",
+            "conclusion": "SUCCESS",
+            "detailsUrl": "https://github.com/payloadcms/payload/actions/runs/36712304375/job/109876798011",
+            "name": "notify",
+            "startedAt": "2026-09-30T12:03:11Z",
+            "status": "COMPLETED",
+            "workflowName": "notify-next-canary"
+          },
+          {
+            "__typename": "CheckRun",
+            "completedAt": "2026-09-30T12:03:18Z",
+            "conclusion": "SUCCESS",
+            "detailsUrl": "https://socket.dev/dashboard/org/payload/sbom/d335e63b-ccee-443c-b35d-0e05f6ab5944",
+            "name": "Socket Security: Project Report",
+            "startedAt": "2026-09-30T12:03:03Z",
+            "status": "COMPLETED",
+            "workflowName": ""
+          },
+          {
+            "__typename": "CheckRun",
+            "completedAt": "2026-09-30T12:03:21Z",
+            "conclusion": "SUCCESS",
+            "detailsUrl": "https://socket.dev",
+            "name": "Socket Security: Pull Request Alerts",
+            "startedAt": "2026-09-30T12:03:18Z",
+            "status": "COMPLETED",
+            "workflowName": ""
+          }
+        ],
+        "url": "https://github.com/payloadcms/payload/pull/17744",
+        "repository": "payloadcms/payload",
+        "runs": [
+          {
+            "id": 36712711766,
+            "name": "pr-title",
+            "head_sha": "1b01c5969a3b6dbd2f0da80c9083660b9eee7b10",
+            "status": "completed",
+            "conclusion": "success",
+            "html_url": "https://github.com/payloadcms/payload/actions/runs/36712711766",
+            "created_at": "2026-09-30T12:06:50Z"
+          },
+          {
+            "id": 36712306345,
+            "name": "ci",
+            "head_sha": "1b01c5969a3b6dbd2f0da80c9083660b9eee7b10",
+            "status": "completed",
+            "conclusion": "action_required",
+            "html_url": "https://github.com/payloadcms/payload/actions/runs/36712306345",
+            "created_at": "2026-09-30T12:03:02Z"
+          },
+          {
+            "id": 36712304375,
+            "name": "notify-next-canary",
+            "head_sha": "1b01c5969a3b6dbd2f0da80c9083660b9eee7b10",
+            "status": "completed",
+            "conclusion": "success",
+            "html_url": "https://github.com/payloadcms/payload/actions/runs/36712304375",
+            "created_at": "2026-09-30T12:03:01Z"
+          }
+        ]
+      }
+    ]
   }
 }
