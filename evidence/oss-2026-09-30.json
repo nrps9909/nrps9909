@@ -3570,5 +3570,56 @@
     "comment_readback_verified": true,
     "status": "OPEN / APPROVED; two actual CI test failures and one aggregate failure remain visible; maintainer rerun requested",
     "scope": "Only packages/translations/src/languages/zhTw.ts is changed. No base/head reproduction of the two CI failures is claimed."
+  },
+  "superseded_pr_followups": {
+    "checked_at_utc": "2026-09-30T09:18:22.308072+00:00",
+    "pull_requests": [
+      {
+        "number": 9689,
+        "url": "https://github.com/ant-design/pro-components/pull/9689",
+        "state": "closed",
+        "merged": false,
+        "closed_at": "2026-09-30T09:18:13Z",
+        "head": "1a09fece83e93a013d441cf10aba2ca56ec1b266",
+        "superseding_commit": "f9b4b3ea87d8c9aff7899a6d3c00567d87394119",
+        "superseding_pr": "#9680",
+        "verified_master": "67ed7d4c37595bd1cd5c0709aff95d1531b7b486",
+        "maintainer_review": "https://github.com/ant-design/pro-components/pull/9689#pullrequestreview-5317661295",
+        "comment_url": "https://github.com/ant-design/pro-components/pull/9689#issuecomment-5908123648",
+        "comment_readback_verified": true,
+        "validation": {
+          "command": "pnpm test tests/form/base.test.tsx tests/table/columnSetting.test.tsx",
+          "runtime": "v26.10.0",
+          "pnpm": "9.15.9",
+          "vitest": "4.1.11",
+          "test_files_passed": 2,
+          "tests_passed": 119,
+          "exit_code": 0
+        }
+      },
+      {
+        "number": 9690,
+        "url": "https://github.com/ant-design/pro-components/pull/9690",
+        "state": "closed",
+        "merged": false,
+        "closed_at": "2026-09-30T09:18:19Z",
+        "head": "209aa141f7bdd83e17abb0bc4cd33c46b3f7e73f",
+        "superseding_commit": "982cb7ad545e87c316a23a71383c55d1db063787",
+        "superseding_pr": "#9687",
+        "verified_master": "67ed7d4c37595bd1cd5c0709aff95d1531b7b486",
+        "maintainer_review": "https://github.com/ant-design/pro-components/pull/9690#pullrequestreview-5317660877",
+        "comment_url": "https://github.com/ant-design/pro-components/pull/9690#issuecomment-5908125359",
+        "comment_readback_verified": true,
+        "validation": {
+          "command": "pnpm test tests/form/base.test.tsx tests/table/columnSetting.test.tsx",
+          "runtime": "v26.10.0",
+          "pnpm": "9.15.9",
+          "vitest": "4.1.11",
+          "test_files_passed": 2,
+          "tests_passed": 119,
+          "exit_code": 0
+        }
+      }
+    ]
   }
 }
