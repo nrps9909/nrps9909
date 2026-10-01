@@ -8,9 +8,19 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Upstream contributions
 
-The public record below includes 80 merged PRs across 42 non-owned repositories, including 25 merged Ant Design PRs in a focused i18n/accessibility lane. The merged total excludes owned, classroom and direct team projects. Every authored contribution uses a cryptographically signed commit verified by GitHub.
+The public record below includes 81 merged PRs across 43 non-owned repositories, including 25 merged Ant Design PRs in a focused i18n/accessibility lane. The merged total excludes owned, classroom and direct team projects. Recent authored maintenance commits are cryptographically signed and verified by GitHub; each receipt records signature status separately from merge status.
 
-I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 178 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried on 2026-09-30 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-21.json) and the [September 22 Ant Design follow-up](./evidence/antd-59223-followup-2026-09-22.json).
+I am an external Ant Design contributor with READ permission and no organization membership or write access. My maintenance evidence is public: scoped runtime, accessibility, and dependency-security fixes; regression tests; reproducible issue triage; and published reviews on 178 currently retrievable public upstream PRs by other authors, concentrated in Ant Design and its canonical react-component dependencies. This count was re-queried with public-only search on 2026-10-01 and measures review activity; each detailed review below is scoped to its recorded commit and decision. It is not a claim that all current PR heads are approved. See the [dated public snapshot and counting rules](./evidence/2026-09-21.json) and the [September 22 Ant Design follow-up](./evidence/antd-59223-followup-2026-09-22.json).
+
+### October 1, 2026: merged localization and conflict maintenance
+
+- [Logseq #13012](https://github.com/logseq/logseq/pull/13012) merged at `2026-09-30T15:21:58Z`, authored head `3785bec4b542cad2cfbde66dfdb56d8fab295546`, merge commit `6a06a875083979205d0489a071308c00dcaea943`. The maintainer rebased the final authored commit, which GitHub reports as unsigned; that merge receipt is distinct from this round's four signed maintenance heads. A complete public-only query confirms 81 authored upstream merges across 43 repositories, 25 Ant Design main merges, 55 ecosystem merges and 178 other-authored reviewed PRs.
+- [Util #809](https://github.com/react-component/util/pull/809#issuecomment-5923343569), signed/GitHub-Verified head `fd34914bed881cfc51f54d8b10f1c03aa3ca0c0a`: preserves the merged missing-container fix; all 31 suites / 210 tests pass with one skip. The new regression fails on base while 209 controls pass. A real Chromium 151 CSP probe blocks base injection/update and accepts both after the fix, checking CSS text/computed color, nonce, node reuse and no duplicates. TypeScript, ESM/CJS/declarations, focused lint (0 errors, 1 existing warning), formatting and diff checks pass.
+- [Listy #64](https://github.com/react-component/listy/pull/64#issuecomment-5923390324), signed/GitHub-Verified head `d0adf88009bb67b66972545f8bd26727b8c74bd0`: preserves the upstream `(item, index)` rowKey API while fixing stale virtual keys. Base fails the original regression with 55 controls passing; fixed head passes all 4 suites / 56 tests / 1 snapshot. Full lint, TypeScript, ESM/CJS/declaration and Less builds pass. The previous approval refers to the old commit.
+- [Tabs #1019](https://github.com/react-component/tabs/pull/1019#issuecomment-5923468950), signed/GitHub-Verified head `8d552e0503adf33651e352a8873a04a94def1071`: retains the current open API and scroll-position changes. Base selects `cute` instead of the last enabled tab `miu`; fixed head passes all 6 suites / 112 tests / 3 snapshots. TypeScript, full lint (0 errors, 16 existing warnings), ESM/CJS/declaration/Less builds and formatting pass.
+- [Ant Design #59127](https://github.com/ant-design/ant-design/pull/59127), signed/GitHub-Verified head `b9884cca04719ab7a1bf0d841d5deef47e0e739c`: retains the upstream numeric-key range-selection regression while resolving the file-drop test conflict. Base fails all 3 file-drop regressions with 28 controls passing. DirectoryTree passes 31 tests / 12 snapshots; the complete Tree scope passes 11 suites / 123 tests / 75 snapshots, with 10 skips. Full TypeScript and compile plus focused ESLint/Biome pass. An initial cached-transform startup error ran zero tests; successful runs use the repository's `--no-cache` setting. This validates DOM-event regressions, not physical OS drag-and-drop.
+- Closed Tabs #1017, Dialog #586 and Input #201 after applying their original tests to current master without runtime changes: 113, 61 and 128 tests pass, respectively. Their replacements are merged #1021, #587 and #203. Closed Picker #1004 after merged #1016 passes 13 native ESM/CJS entry points, strict NodeNext root/Moment/locale type checks and all 505 tests. Closure/comment readbacks are verified; none of these four original PRs is counted as merged.
+- [Payload #17744](https://github.com/payloadcms/payload/pull/17744) at unchanged signed head `1b01c5969a3b6dbd2f0da80c9083660b9eee7b10` is now APPROVED / CLEAN with 280 successful and 5 skipped checks, but remains open. The previously reported local Rolldown startup limitation remains historical local evidence. [Pro Components #9711](https://github.com/ant-design/pro-components/pull/9711) has 9 successful checks; Vercel still needs upstream team authorization. New signed maintenance heads, CI workflow authorization, visual gates and human review are recorded separately in the [dated receipt](./evidence/oss-2026-10-01.json), with a [portable Chromium probe](./evidence/oss-2026-10-01).
 
 ### September 30, 2026: tested reviews and signed maintenance follow-ups
 
@@ -226,6 +236,7 @@ These are three newly authored open PRs and three reviews of other authors' PRs 
 
 ### Merged
 
+- [Logseq: translate account and authentication messages](https://github.com/logseq/logseq/pull/13012)
 - [fix(Descriptions): render numeric zero header content](https://github.com/ant-design/ant-design/pull/59125)
 - [fix: guard drag movement without container](https://github.com/react-component/slider/pull/1087)
 - [fix: finish drag when mouseup propagation stops](https://github.com/react-component/slider/pull/1089)
@@ -301,6 +312,13 @@ These are three newly authored open PRs and three reviews of other authors' PRs 
 - [Mailspring: add missing Traditional Chinese localizations](https://github.com/Foundry376/Mailspring/pull/2790)
 - [Apache Superset: correct and confirm Traditional Chinese dynamic UI messages](https://github.com/apache/superset/pull/43063)
 
+### Closed after equivalent fixes landed
+
+- [React Component Tabs #1017](https://github.com/react-component/tabs/pull/1017): closed after verifying merged [#1021](https://github.com/react-component/tabs/pull/1021); see the October 1 receipts.
+- [React Component Dialog #586](https://github.com/react-component/dialog/pull/586): closed after verifying merged [#587](https://github.com/react-component/dialog/pull/587); see the October 1 receipts.
+- [React Component Input #201](https://github.com/react-component/input/pull/201): closed after verifying merged [#203](https://github.com/react-component/input/pull/203); see the October 1 receipts.
+- [React Component Picker #1004](https://github.com/react-component/picker/pull/1004): closed after verifying merged [#1016](https://github.com/react-component/picker/pull/1016); see the October 1 receipts.
+
 ### Under review
 
 - [Ant Design Icons: isolate custom icon-provider prefix styles](https://github.com/ant-design/ant-design-icons/pull/763)
@@ -335,16 +353,12 @@ These are three newly authored open PRs and three reviews of other authors' PRs 
 - [React Component Virtual List: ignore secondary scrollbar mouse buttons](https://github.com/react-component/virtual-list/pull/381)
 - [React Component Virtual List: synchronize controlled scrollbar visibility](https://github.com/react-component/virtual-list/pull/382)
 - [React Component Input: keep the autosize measurement textarea out of keyboard focus](https://github.com/react-component/input/pull/200)
-- [React Component Input: render numeric zero affixes and addons](https://github.com/react-component/input/pull/201)
 - [React Component Input: export helpers used by sibling input packages](https://github.com/react-component/input/pull/202)
-- [React Component Dialog: render numeric zero titles and footers](https://github.com/react-component/dialog/pull/586)
 - [React Component Dropdown: preserve reverse focus navigation on Shift+Tab](https://github.com/react-component/dropdown/pull/267)
 - [React Component Dropdown: restore keyboard focus through custom popup wrappers](https://github.com/react-component/dropdown/pull/268)
 - [React Component Resize Observer: switch observation when a stable getter changes targets](https://github.com/react-component/resize-observer/pull/243)
-- [React Component Tabs: preserve numeric zero tab content](https://github.com/react-component/tabs/pull/1017)
 - [React Component Tabs: wrap initial overflow ArrowUp navigation to the last enabled tab](https://github.com/react-component/tabs/pull/1019)
 - [React Component Picker: correct the Belgian French date-selection prompt](https://github.com/react-component/picker/pull/1003)
-- [React Component Picker: make package exports loadable in Node](https://github.com/react-component/picker/pull/1004)
 - [React Component Picker: support Android virtual keyboards in masked inputs](https://github.com/react-component/picker/pull/1005)
 - [React Component Picker: support manual input clearing](https://github.com/react-component/picker/pull/1006)
 - [React Component Picker: use Taiwan week terminology consistently](https://github.com/react-component/picker/pull/1007)
@@ -372,7 +386,6 @@ These are three newly authored open PRs and three reviews of other authors' PRs 
 - [PLANKA: add Traditional Chinese 2FA and security strings](https://github.com/plankanban/planka/pull/1757)
 - [NextChat: translate recent chat, TTS, realtime, artifact, and MCP UI](https://github.com/ChatGPTNextWeb/NextChat/pull/6872)
 - [Jan: complete Traditional Chinese chat and assistant UI](https://github.com/janhq/jan/pull/8631)
-- [Logseq: translate account and authentication messages](https://github.com/logseq/logseq/pull/13012)
 - [Tiny RDM: improve 54 Traditional Chinese UI strings](https://github.com/tiny-craft/tiny-rdm/pull/580)
 - [tldr-pages: add the Traditional Chinese OpenCode page](https://github.com/tldr-pages/tldr/pull/23548)
 - [tldr-pages: add the Traditional Chinese aider page](https://github.com/tldr-pages/tldr/pull/23694)
@@ -735,7 +748,7 @@ In [Ant Design #58775](https://github.com/ant-design/ant-design/pull/58775#pullr
 
 In [Ant Design Sider #58083](https://github.com/ant-design/ant-design/pull/58083#pullrequestreview-5046651113), I requested changes on exact head `9a47b4c79bd22ec1407ddf76203573b93d27d398` after verifying that the updated localization work introduced a custom-trigger activation regression. The new keyboard and button semantics are attached to the wrapper even when a consumer supplies a native `<button>` trigger, creating nested interactive controls. A focused regression modeled the browser Enter sequence with a keydown followed by the native click: `onCollapse` fired first with `true` and then with `false`, so one activation toggled twice and returned the Sider to its original state. The characterization passed together with all 34 Layout tests and 6 snapshots; the intended single-call assertion failed with two calls. I requested consumer-owned activation semantics for custom interactive triggers and a committed regression while retaining the localized keyboard fallback for the built-in trigger. The PR is also currently conflicting; this review is exact-head maintenance evidence, not an authored or merged PR.
 
-In [Logseq #13012](https://github.com/logseq/logseq/pull/13012#issuecomment-5446989411), I synchronized the Traditional Chinese account and authentication translation branch with current master and revalidated exact head `9a3429f`. The merge diff remains limited to 30 additions in `src/resources/dicts/zh-hant.edn`. The canonical dictionary formatter reports every locale already formatted; the translation validator passes referenced-key coverage, locale key validity, unused-key checks, rich rendering contracts, and English placeholder contracts. Hardcoded-string lint and diff validation also pass. The PR is open, mergeable, review-required, and is not counted as merged.
+In [Logseq #13012](https://github.com/logseq/logseq/pull/13012#issuecomment-5446989411), I synchronized the Traditional Chinese account and authentication translation branch with current master and revalidated exact head `9a3429f`. The merge diff remains limited to 30 additions in `src/resources/dicts/zh-hant.edn`. The canonical dictionary formatter reports every locale already formatted; the translation validator passes referenced-key coverage, locale key validity, unused-key checks, rich rendering contracts, and English placeholder contracts. Hardcoded-string lint and diff validation also pass. That validation describes the historical head. GitHub now confirms the PR merged on September 30 at final authored head `3785bec4b542cad2cfbde66dfdb56d8fab295546`, merge commit `6a06a875083979205d0489a071308c00dcaea943`; the October 1 receipt includes it in the merged total.
 
 In [Ant Design TypeScript update #59057](https://github.com/ant-design/ant-design/pull/59057#pullrequestreview-5046933165), I requested changes on exact head `842ede629a57c8e9b848563bd1b973cc644bfc99` after isolating the proposed TypeScript 7.0.2 upgrade against the current toolchain. With the resolved TypeDoc 0.28.20, `npm run token:meta` reproducibly crashes while loading `SyntaxKind.PropertyDeclaration`; reinstalling only TypeScript 6.0.3 makes the same command complete. TypeDoc's own peer range stops at TypeScript 6.0.x, and the remote build, preview, ES-module, and lint failures independently confirm that the one-line bump is premature. I recommended retaining TypeScript 6 or updating the documentation and lint/parser toolchain atomically once TypeScript 7 is supported. This is review evidence, not an authored or merged PR.
 

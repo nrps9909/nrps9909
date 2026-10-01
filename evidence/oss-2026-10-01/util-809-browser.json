@@ -1,0 +1,50 @@
+{
+  "checked_at_utc": "2026-10-01T02:10:38.185Z",
+  "base": "993255ed15595875a7004033c3e8f7b892586dea",
+  "node": "v26.10.0",
+  "typescript": "6.0.3",
+  "playwright": "1.63.0",
+  "browser": "151.0.7922.34",
+  "policy": "require-trusted-types-for 'script'; trusted-types 'none'",
+  "results": {
+    "base": {
+      "policyControl": {
+        "success": false,
+        "error": "TypeError: Failed to set the 'innerHTML' property on 'Element': This document requires 'TrustedHTML' assignment."
+      },
+      "inject": {
+        "success": false,
+        "error": "TypeError: Failed to set the 'innerHTML' property on 'Element': This document requires 'TrustedHTML' assignment."
+      },
+      "update": {
+        "success": false,
+        "error": "TypeError: Failed to set the 'innerHTML' property on 'Element': This document requires 'TrustedHTML' assignment."
+      }
+    },
+    "head": {
+      "policyControl": {
+        "success": false,
+        "error": "TypeError: Failed to set the 'innerHTML' property on 'Element': This document requires 'TrustedHTML' assignment."
+      },
+      "inject": {
+        "success": true,
+        "result": {
+          "textMatches": true,
+          "nonce": "probe",
+          "color": "rgb(1, 2, 3)"
+        }
+      },
+      "update": {
+        "success": true,
+        "result": {
+          "sameNode": true,
+          "textMatches": true,
+          "nonce": "new",
+          "count": 1,
+          "color": "rgb(7, 8, 9)"
+        }
+      }
+    }
+  },
+  "assertions": "pass"
+}
