@@ -1,0 +1,157 @@
+{
+  "startedAt": "2026-10-02T02:14:25.613Z",
+  "completedAt": "2026-10-02T02:14:48.860Z",
+  "node": "v26.10.0",
+  "seed": "0x4121",
+  "documentDigestSha256": "98575a13821645c6babd277154cc848498cb9b50b42027ed1228a445656267f2",
+  "documentConfigurations": 2048,
+  "denseResultComparisons": 8192,
+  "visitedTokenComparisons": 317080,
+  "combinedExtensionOrderMatches": true,
+  "largeArrayResults": {
+    "base": {
+      "length": 200000,
+      "completed": true
+    },
+    "head": {
+      "length": 200000,
+      "completed": true
+    }
+  },
+  "asyncResults": {
+    "base": {
+      "completed": 19,
+      "html": "<table>\n<thead>\n<tr>\n<th>A</th>\n<th>B</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>C</td>\n<td>D</td>\n</tr>\n</tbody></table>\n<ul>\n<li>E<ul>\n<li><em>F</em></li>\n</ul>\n</li>\n</ul>\n<blockquote>\n<p>G</p>\n</blockquote>\n"
+    },
+    "head": {
+      "completed": 19,
+      "html": "<table>\n<thead>\n<tr>\n<th>A</th>\n<th>B</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>C</td>\n<td>D</td>\n</tr>\n</tbody></table>\n<ul>\n<li>E<ul>\n<li><em>F</em></li>\n</ul>\n</li>\n</ul>\n<blockquote>\n<p>G</p>\n</blockquote>\n"
+    }
+  },
+  "arrayEdges": {
+    "base": {
+      "sparse": {
+        "length": 2,
+        "ownIndices": []
+      },
+      "customIterator": {
+        "length": 1,
+        "includesPromise": true,
+        "htmlAfterAwaitingWalkTokens": "<p>after</p>\n"
+      }
+    },
+    "head": {
+      "sparse": {
+        "length": 2,
+        "ownIndices": [
+          "0",
+          "1"
+        ]
+      },
+      "customIterator": {
+        "length": 0,
+        "includesPromise": false,
+        "htmlAfterAwaitingWalkTokens": "<p>before</p>\n"
+      }
+    }
+  },
+  "benchmarkMethod": "walkTokens only; lexer outside timed section; 1 warmup and 5 alternating base/head samples per size; median; no absolute timing threshold",
+  "benchmark": [
+    {
+      "blocks": 500,
+      "markdownBytes": 32779,
+      "visitedTokens": 9499,
+      "baseMedianMs": 36.87704199999996,
+      "headMedianMs": 0.3041249999999991,
+      "speedup": 121.25620057542152,
+      "samples": {
+        "base": [
+          37.417416,
+          36.87704199999996,
+          36.870542,
+          36.862708,
+          36.90016700000001
+        ],
+        "head": [
+          0.4324999999999477,
+          0.35187499999995,
+          0.29966699999999946,
+          0.22929199999998673,
+          0.3041249999999991
+        ]
+      }
+    },
+    {
+      "blocks": 1000,
+      "markdownBytes": 65779,
+      "visitedTokens": 18999,
+      "baseMedianMs": 151.733792,
+      "headMedianMs": 0.5287910000000693,
+      "speedup": 286.9447324178742,
+      "samples": {
+        "base": [
+          151.77433299999996,
+          151.702,
+          151.733792,
+          151.5257919999999,
+          152.37033399999996
+        ],
+        "head": [
+          0.5287910000000693,
+          0.4846670000000586,
+          0.53125,
+          0.47612500000013824,
+          0.5567499999999654
+        ]
+      }
+    },
+    {
+      "blocks": 2000,
+      "markdownBytes": 133779,
+      "visitedTokens": 37999,
+      "baseMedianMs": 702.5793330000001,
+      "headMedianMs": 1.121874999999818,
+      "speedup": 626.2545586630544,
+      "samples": {
+        "base": [
+          702.5793330000001,
+          714.118375,
+          701.6353749999998,
+          698.6334590000006,
+          703.7725409999994
+        ],
+        "head": [
+          1.1059589999999844,
+          1.1164999999996326,
+          1.2065000000002328,
+          1.1749579999996058,
+          1.121874999999818
+        ]
+      }
+    },
+    {
+      "blocks": 4000,
+      "markdownBytes": 269779,
+      "visitedTokens": 75999,
+      "baseMedianMs": 2897.4607080000023,
+      "headMedianMs": 2.324749999999767,
+      "speedup": 1246.3536758792527,
+      "samples": {
+        "base": [
+          2907.2359579999993,
+          2916.0762079999986,
+          2880.492916000001,
+          2897.4607080000023,
+          2895.1173750000016
+        ],
+        "head": [
+          2.2695829999993293,
+          2.7529169999997976,
+          2.1920830000017304,
+          2.827832999999373,
+          2.324749999999767
+        ]
+      }
+    }
+  ]
+}

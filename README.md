@@ -12,15 +12,15 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 
 ## Open-source work at a glance
 
-| Verified public record (2026-10-01)                     | Current total |
+| Verified public record (2026-10-02)                     | Current total |
 | ------------------------------------------------------- | ------------: |
 | Merged PRs in non-owned upstream repositories           |        **81** |
 | Non-owned upstream repositories with merged work        |        **43** |
 | Merged PRs in the Ant Design main repository            |        **25** |
 | Merged PRs across the Ant Design ecosystem              |        **55** |
-| Public upstream PRs reviewed as an external contributor |       **178** |
+| Public upstream PRs reviewed as an external contributor |       **179** |
 
-These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [October 1 merge and maintenance receipts](./evidence/oss-2026-10-01.json), the [complete contribution and review evidence](./OSS_MAINTENANCE.md), the [full September 21 snapshot](./evidence/2026-09-21.json), the [September 22 count refresh](./evidence/antd-59223-followup-2026-09-22.json), the [completed #59223 check snapshot](./evidence/antd-59223-ci-complete-2026-09-24.json), and the [September 26 ColorPicker/Table CI follow-up](./evidence/antd-2026-09-26-followup.json).
+These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [October 2 tested review and current-head snapshot](./evidence/oss-2026-10-02.json), the [October 1 merge and maintenance receipts](./evidence/oss-2026-10-01.json), the [complete contribution and review evidence](./OSS_MAINTENANCE.md), the [full September 21 snapshot](./evidence/2026-09-21.json), the [September 22 count refresh](./evidence/antd-59223-followup-2026-09-22.json), the [completed #59223 check snapshot](./evidence/antd-59223-ci-complete-2026-09-24.json), and the [September 26 ColorPicker/Table CI follow-up](./evidence/antd-2026-09-26-followup.json).
 
 ## What I maintain
 
@@ -51,6 +51,7 @@ These figures exclude repositories I own and direct team projects, and count a P
 
 ## Latest contribution
 
+- [Marked #4121](https://github.com/markedjs/marked/pull/4121#pullrequestreview-5387675763): independently verified the `walkTokens` optimization at head `920d86d` with full tests and 8,192 result comparisons, and reported custom-iterator promise loss and sparse-array compatibility edges. The published review is COMMENTED, not approval; the PR remains open. [Portable probe and recorded results](./evidence/oss-2026-10-02). All 85 existing authored open PRs retain their previous heads; DirectoryTree #59127's code CI has completed, with visual approval still required. Authored merges remain 81.
 - [Logseq #13012](https://github.com/logseq/logseq/pull/13012) is merged, bringing the verified authored record to 81 upstream merges across 43 repositories. [Payload #17744](https://github.com/payloadcms/payload/pull/17744) now has maintainer approval and 280 successful / 5 skipped checks; it remains open.
 - Repaired upstream conflicts in [Util #809](https://github.com/react-component/util/pull/809), [Listy #64](https://github.com/react-component/listy/pull/64), [Tabs #1019](https://github.com/react-component/tabs/pull/1019), and [Ant Design #59127](https://github.com/ant-design/ant-design/pull/59127). Their signed/GitHub-Verified heads pass scoped local validation (210, 56, 112, and 123 tests respectively); Util also passes a real Chromium Trusted Types CSP probe. CI, deployment authorization, visual approval and human review remain separately recorded in the [October 1 evidence](./evidence/oss-2026-10-01.json). All four remain open.
 - Closed [Tabs #1017](https://github.com/react-component/tabs/pull/1017), [Dialog #586](https://github.com/react-component/dialog/pull/586), [Input #201](https://github.com/react-component/input/pull/201), and [Picker #1004](https://github.com/react-component/picker/pull/1004) after proving that merged upstream replacements pass the original regressions. These superseded PRs were not merged and do not raise the authored-merge count.
