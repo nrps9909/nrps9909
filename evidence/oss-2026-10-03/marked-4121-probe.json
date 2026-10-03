@@ -1,0 +1,270 @@
+{
+  "startedAt": "2026-10-03T02:13:10.770Z",
+  "completedAt": "2026-10-03T02:13:32.751Z",
+  "node": "v26.10.0",
+  "seed": "0x4121",
+  "documentDigestSha256": "98575a13821645c6babd277154cc848498cb9b50b42027ed1228a445656267f2",
+  "documentConfigurations": 2048,
+  "denseResultComparisons": 8192,
+  "visitedTokenComparisons": 317080,
+  "combinedExtensionOrderMatches": true,
+  "largeArrayResults": {
+    "base": {
+      "length": 200000,
+      "completed": true
+    },
+    "head": {
+      "length": 200000,
+      "completed": true
+    }
+  },
+  "asyncResults": {
+    "base": {
+      "completed": 19,
+      "html": "<table>\n<thead>\n<tr>\n<th>A</th>\n<th>B</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>C</td>\n<td>D</td>\n</tr>\n</tbody></table>\n<ul>\n<li>E<ul>\n<li><em>F</em></li>\n</ul>\n</li>\n</ul>\n<blockquote>\n<p>G</p>\n</blockquote>\n"
+    },
+    "head": {
+      "completed": 19,
+      "html": "<table>\n<thead>\n<tr>\n<th>A</th>\n<th>B</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>C</td>\n<td>D</td>\n</tr>\n</tbody></table>\n<ul>\n<li>E<ul>\n<li><em>F</em></li>\n</ul>\n</li>\n</ul>\n<blockquote>\n<p>G</p>\n</blockquote>\n"
+    }
+  },
+  "arrayEdges": {
+    "base": {
+      "sparse": {
+        "length": 2,
+        "ownIndices": []
+      },
+      "customIterator": {
+        "length": 1,
+        "includesPromise": true,
+        "htmlAfterAwaitingWalkTokens": "<p>after</p>\n"
+      }
+    },
+    "head": {
+      "sparse": {
+        "length": 2,
+        "ownIndices": [
+          "0",
+          "1"
+        ]
+      },
+      "customIterator": {
+        "length": 1,
+        "includesPromise": true,
+        "htmlAfterAwaitingWalkTokens": "<p>after</p>\n"
+      }
+    }
+  },
+  "iteratorComparisons": [
+    {
+      "variant": "empty",
+      "base": {
+        "length": 3,
+        "indexedValuesMatch": true
+      },
+      "previous": {
+        "length": 0,
+        "indexedValuesMatch": false
+      },
+      "head": {
+        "length": 3,
+        "indexedValuesMatch": true
+      }
+    },
+    {
+      "variant": "reversed",
+      "base": {
+        "length": 3,
+        "indexedValuesMatch": true
+      },
+      "previous": {
+        "length": 3,
+        "indexedValuesMatch": false
+      },
+      "head": {
+        "length": 3,
+        "indexedValuesMatch": true
+      }
+    },
+    {
+      "variant": "filtered",
+      "base": {
+        "length": 3,
+        "indexedValuesMatch": true
+      },
+      "previous": {
+        "length": 1,
+        "indexedValuesMatch": false
+      },
+      "head": {
+        "length": 3,
+        "indexedValuesMatch": true
+      }
+    },
+    {
+      "variant": "throws",
+      "base": {
+        "length": 3,
+        "indexedValuesMatch": true
+      },
+      "previous": {
+        "error": "iterator must not be used",
+        "indexedValuesMatch": false
+      },
+      "head": {
+        "length": 3,
+        "indexedValuesMatch": true
+      }
+    },
+    {
+      "variant": "non-callable",
+      "base": {
+        "length": 3,
+        "indexedValuesMatch": true
+      },
+      "previous": {
+        "error": "e is not iterable",
+        "indexedValuesMatch": false
+      },
+      "head": {
+        "length": 3,
+        "indexedValuesMatch": true
+      }
+    }
+  ],
+  "sparsePromiseAll": {
+    "base": {
+      "ownIndices": [
+        "1"
+      ],
+      "awaitedResults": [
+        null,
+        null,
+        null
+      ]
+    },
+    "previous": {
+      "ownIndices": [
+        "0",
+        "1",
+        "2"
+      ],
+      "awaitedResults": [
+        null,
+        null,
+        null
+      ]
+    },
+    "head": {
+      "ownIndices": [
+        "0",
+        "1",
+        "2"
+      ],
+      "awaitedResults": [
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  "benchmarkMethod": "walkTokens only; lexer outside timed section; 1 warmup and 5 alternating base/head samples per size; median; no absolute timing threshold",
+  "benchmark": [
+    {
+      "blocks": 500,
+      "markdownBytes": 32779,
+      "visitedTokens": 9499,
+      "baseMedianMs": 34.600333999999975,
+      "headMedianMs": 0.23649999999997817,
+      "speedup": 146.30162367866032,
+      "samples": {
+        "base": [
+          34.618416999999965,
+          34.56141599999995,
+          34.67091700000003,
+          34.43029200000001,
+          34.600333999999975
+        ],
+        "head": [
+          0.3647919999999658,
+          0.319958999999983,
+          0.23649999999997817,
+          0.19283299999995052,
+          0.23262499999998454
+        ]
+      }
+    },
+    {
+      "blocks": 1000,
+      "markdownBytes": 65779,
+      "visitedTokens": 18999,
+      "baseMedianMs": 143.9085419999999,
+      "headMedianMs": 0.44762500000001637,
+      "speedup": 321.49353141579365,
+      "samples": {
+        "base": [
+          151.22875,
+          142.17333299999996,
+          144.47787500000004,
+          142.80204099999992,
+          143.9085419999999
+        ],
+        "head": [
+          0.49500000000000455,
+          0.40949999999998,
+          0.44762500000001637,
+          0.4002500000001419,
+          0.5252499999999145
+        ]
+      }
+    },
+    {
+      "blocks": 2000,
+      "markdownBytes": 133779,
+      "visitedTokens": 37999,
+      "baseMedianMs": 675.1928749999997,
+      "headMedianMs": 0.9262909999997646,
+      "speedup": 728.9209060653416,
+      "samples": {
+        "base": [
+          675.3062909999999,
+          675.7903329999999,
+          671.0421249999999,
+          675.1928749999997,
+          661.3813749999999
+        ],
+        "head": [
+          1.0904170000003433,
+          0.8699999999998909,
+          1.0102500000002692,
+          0.9262909999997646,
+          0.9239159999997355
+        ]
+      }
+    },
+    {
+      "blocks": 4000,
+      "markdownBytes": 269779,
+      "visitedTokens": 75999,
+      "baseMedianMs": 2681.4448749999974,
+      "headMedianMs": 1.8628329999992275,
+      "speedup": 1439.4445852103272,
+      "samples": {
+        "base": [
+          2775.8199999999997,
+          2779.661209,
+          2676.7478330000013,
+          2681.4448749999974,
+          2669.719333000001
+        ],
+        "head": [
+          1.9024170000011509,
+          1.814875000000029,
+          2.074832999998762,
+          1.7788330000003043,
+          1.8628329999992275
+        ]
+      }
+    }
+  ]
+}

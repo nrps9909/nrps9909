@@ -1,0 +1,23 @@
+{
+  "base": "15d051b5613d79293f607eab4b1a7e535b75b138",
+  "oldHead": "1b01c5969a3b6dbd2f0da80c9083660b9eee7b10",
+  "localeKeys": 671,
+  "changedValues": 23,
+  "originalChangedValuesPreserved": true,
+  "keySetPreserved": true,
+  "allPlaceholdersAndMarkupPreserved": true,
+  "newUpstreamKeysPreserved": [
+    "dashboard.widgetDropFilesToUpload",
+    "dashboard.widgetUploadDropzoneDescription",
+    "dashboard.widgetUploadFiles",
+    "general.goToPage",
+    "general.nextPage",
+    "general.pageNumberRange",
+    "general.previousPage",
+    "general.requiredFields",
+    "general.searchAutomatically",
+    "general.searchCleared",
+    "general.searchGroups",
+    "general.searchResults"
+  ]
+}
