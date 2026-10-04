@@ -1,0 +1,386 @@
+{
+  "startedAt": "2026-10-04T02:16:57.912Z",
+  "completedAt": "2026-10-04T02:16:58.373Z",
+  "node": "v24.15.0",
+  "markdownConfigurations": 3456,
+  "uniqueMarkdownDocuments": 3456,
+  "documentDigestSha256": "52a36d8f4503e394f7e631005dc841935f748a1dd2b7938c499e33aa4f50e5ce",
+  "observations": {
+    "base": {
+      "observations": 6912,
+      "violations": 2304,
+      "nestedAnchorCases": 2304,
+      "gfm": {
+        "true": {
+          "observations": 3456,
+          "violations": 2304
+        },
+        "false": {
+          "observations": 3456,
+          "violations": 0
+        }
+      },
+      "firstViolations": [
+        {
+          "markdown": "[![logo](logo.png) www.example.com](https://target.example)\n\n[image]: logo.png\n[logo]: logo.png\n[target]: https://target.example\n",
+          "html": "<p><a href=\"https://target.example\"><img src=\"logo.png\" alt=\"logo\"> <a href=\"http://www.example.com\">www.example.com</a></a></p>\n",
+          "expected": [
+            "https://target.example"
+          ],
+          "actual": {
+            "hrefs": [
+              "https://target.example",
+              "http://www.example.com"
+            ],
+            "maximumDepth": 2
+          }
+        },
+        {
+          "markdown": "[![logo](logo.png) www.example.com ![logo](logo.png)](https://target.example)\n\n[image]: logo.png\n[logo]: logo.png\n[target]: https://target.example\n",
+          "html": "<p><a href=\"https://target.example\"><img src=\"logo.png\" alt=\"logo\"> <a href=\"http://www.example.com\">www.example.com</a> <img src=\"logo.png\" alt=\"logo\"></a></p>\n",
+          "expected": [
+            "https://target.example"
+          ],
+          "actual": {
+            "hrefs": [
+              "https://target.example",
+              "http://www.example.com"
+            ],
+            "maximumDepth": 2
+          }
+        },
+        {
+          "markdown": "[![logo](logo.png) www.example.com](https://target.example) www.outside.example\n\n[image]: logo.png\n[logo]: logo.png\n[target]: https://target.example\n",
+          "html": "<p><a href=\"https://target.example\"><img src=\"logo.png\" alt=\"logo\"> <a href=\"http://www.example.com\">www.example.com</a></a> <a href=\"http://www.outside.example\">www.outside.example</a></p>\n",
+          "expected": [
+            "https://target.example",
+            "http://www.outside.example"
+          ],
+          "actual": {
+            "hrefs": [
+              "https://target.example",
+              "http://www.example.com",
+              "http://www.outside.example"
+            ],
+            "maximumDepth": 2
+          }
+        }
+      ]
+    },
+    "head": {
+      "observations": 6912,
+      "violations": 0,
+      "nestedAnchorCases": 0,
+      "gfm": {
+        "true": {
+          "observations": 3456,
+          "violations": 0
+        },
+        "false": {
+          "observations": 3456,
+          "violations": 0
+        }
+      },
+      "firstViolations": []
+    },
+    "preview": {
+      "observations": 6912,
+      "violations": 0,
+      "nestedAnchorCases": 0,
+      "gfm": {
+        "true": {
+          "observations": 3456,
+          "violations": 0
+        },
+        "false": {
+          "observations": 3456,
+          "violations": 0
+        }
+      },
+      "firstViolations": []
+    }
+  },
+  "comparedControlTokenStreams": 9216,
+  "directImageStateChecks": {
+    "base": [
+      {
+        "inLink": false,
+        "linkEmitted": false,
+        "image": "![logo](logo.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": false,
+        "tokens": 1
+      },
+      {
+        "inLink": false,
+        "linkEmitted": false,
+        "image": "![![logo](inner.png)](outer.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": false,
+        "tokens": 1
+      },
+      {
+        "inLink": false,
+        "linkEmitted": true,
+        "image": "![logo](logo.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": true,
+        "tokens": 1
+      },
+      {
+        "inLink": false,
+        "linkEmitted": true,
+        "image": "![![logo](inner.png)](outer.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": true,
+        "tokens": 1
+      },
+      {
+        "inLink": true,
+        "linkEmitted": false,
+        "image": "![logo](logo.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": false,
+        "tokens": 1
+      },
+      {
+        "inLink": true,
+        "linkEmitted": false,
+        "image": "![![logo](inner.png)](outer.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": false,
+        "tokens": 1
+      },
+      {
+        "inLink": true,
+        "linkEmitted": true,
+        "image": "![logo](logo.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": true,
+        "tokens": 1
+      },
+      {
+        "inLink": true,
+        "linkEmitted": true,
+        "image": "![![logo](inner.png)](outer.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": true,
+        "tokens": 1
+      }
+    ],
+    "head": [
+      {
+        "inLink": false,
+        "linkEmitted": false,
+        "image": "![logo](logo.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": false,
+        "tokens": 1
+      },
+      {
+        "inLink": false,
+        "linkEmitted": false,
+        "image": "![![logo](inner.png)](outer.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": false,
+        "tokens": 1
+      },
+      {
+        "inLink": false,
+        "linkEmitted": true,
+        "image": "![logo](logo.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": true,
+        "tokens": 1
+      },
+      {
+        "inLink": false,
+        "linkEmitted": true,
+        "image": "![![logo](inner.png)](outer.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": true,
+        "tokens": 1
+      },
+      {
+        "inLink": true,
+        "linkEmitted": false,
+        "image": "![logo](logo.png)",
+        "afterInLink": true,
+        "afterLinkEmitted": false,
+        "tokens": 1
+      },
+      {
+        "inLink": true,
+        "linkEmitted": false,
+        "image": "![![logo](inner.png)](outer.png)",
+        "afterInLink": true,
+        "afterLinkEmitted": false,
+        "tokens": 1
+      },
+      {
+        "inLink": true,
+        "linkEmitted": true,
+        "image": "![logo](logo.png)",
+        "afterInLink": true,
+        "afterLinkEmitted": true,
+        "tokens": 1
+      },
+      {
+        "inLink": true,
+        "linkEmitted": true,
+        "image": "![![logo](inner.png)](outer.png)",
+        "afterInLink": true,
+        "afterLinkEmitted": true,
+        "tokens": 1
+      }
+    ],
+    "preview": [
+      {
+        "inLink": false,
+        "linkEmitted": false,
+        "image": "![logo](logo.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": false,
+        "tokens": 1
+      },
+      {
+        "inLink": false,
+        "linkEmitted": false,
+        "image": "![![logo](inner.png)](outer.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": false,
+        "tokens": 1
+      },
+      {
+        "inLink": false,
+        "linkEmitted": true,
+        "image": "![logo](logo.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": true,
+        "tokens": 1
+      },
+      {
+        "inLink": false,
+        "linkEmitted": true,
+        "image": "![![logo](inner.png)](outer.png)",
+        "afterInLink": false,
+        "afterLinkEmitted": true,
+        "tokens": 1
+      },
+      {
+        "inLink": true,
+        "linkEmitted": false,
+        "image": "![logo](logo.png)",
+        "afterInLink": true,
+        "afterLinkEmitted": false,
+        "tokens": 1
+      },
+      {
+        "inLink": true,
+        "linkEmitted": false,
+        "image": "![![logo](inner.png)](outer.png)",
+        "afterInLink": true,
+        "afterLinkEmitted": false,
+        "tokens": 1
+      },
+      {
+        "inLink": true,
+        "linkEmitted": true,
+        "image": "![logo](logo.png)",
+        "afterInLink": true,
+        "afterLinkEmitted": true,
+        "tokens": 1
+      },
+      {
+        "inLink": true,
+        "linkEmitted": true,
+        "image": "![![logo](inner.png)](outer.png)",
+        "afterInLink": true,
+        "afterLinkEmitted": true,
+        "tokens": 1
+      }
+    ]
+  },
+  "originalFixtureParagraphs": {
+    "base": [
+      {
+        "paragraph": 1,
+        "passed": false
+      },
+      {
+        "paragraph": 2,
+        "passed": false
+      },
+      {
+        "paragraph": 3,
+        "passed": false
+      },
+      {
+        "paragraph": 4,
+        "passed": false
+      },
+      {
+        "paragraph": 5,
+        "passed": false
+      },
+      {
+        "paragraph": 6,
+        "passed": true
+      }
+    ],
+    "head": [
+      {
+        "paragraph": 1,
+        "passed": true
+      },
+      {
+        "paragraph": 2,
+        "passed": true
+      },
+      {
+        "paragraph": 3,
+        "passed": true
+      },
+      {
+        "paragraph": 4,
+        "passed": true
+      },
+      {
+        "paragraph": 5,
+        "passed": true
+      },
+      {
+        "paragraph": 6,
+        "passed": true
+      }
+    ],
+    "preview": [
+      {
+        "paragraph": 1,
+        "passed": true
+      },
+      {
+        "paragraph": 2,
+        "passed": true
+      },
+      {
+        "paragraph": 3,
+        "passed": true
+      },
+      {
+        "paragraph": 4,
+        "passed": true
+      },
+      {
+        "paragraph": 5,
+        "passed": true
+      },
+      {
+        "paragraph": 6,
+        "passed": true
+      }
+    ]
+  },
+  "browserDOMNotTested": true,
+  "exhaustiveSpecificationConformanceClaimed": false
+}
