@@ -1,18 +1,26 @@
-# Ting-An Chen
+# Ting-An (Jesse) Chen
 
-Open-source maintenance · AI workflow integration · accessibility · i18n
+AI applications · Enterprise systems integration · Workflow automation
 
-Open-source contributor from Taiwan, focused on the Ant Design ecosystem, accessible React components, reproducible bug fixes, and Traditional Chinese localization. I also build practical AI workflows through [AgentJE](https://github.com/nrps9909/agentje).
+I co-founded [AgentJE](https://agentje.com/), a two-person studio building practical AI applications and connecting business systems, data and everyday workflows. I am responsible for technical development; my partner supports client requirements and project management.
+
+I use AI-assisted development and focus on permissions, data validation, testing and clear documentation. My project work includes ERP/CRM integration, procurement document workflows, LINE and Excel workflows, and event-management systems.
+
+I also contribute to open source, including accessibility, reproducible bug fixes and Traditional Chinese localization. The public contribution record and validation evidence are preserved below.
+
+[AgentJE](https://agentje.com/) · [LinkedIn](https://www.linkedin.com/in/jessechen-ai/)
 
 ## Experience
 
-- **[AgentJE](https://github.com/nrps9909/agentje):** AI tool integration, workflow automation, system delivery, and practical adoption for Taiwan SMEs.
-- **CommScope Communications Systems Taiwan:** Intern, June 2025 - June 2026, reporting to QA Engineering.
-- **National Taiwan Normal University:** Department of Technology Application and Human Resource Development (Technology).
+- **AgentJE:** Co-founder responsible for technical development, February 2026–present. AI applications, enterprise systems integration and workflow automation.
+- **CommScope RUCKUS:** Part-time QA intern, June 2025–June 2026. Contributed to AI-assisted testing tools connecting test documentation, RAG retrieval and Robot Framework script generation.
+- **National Taiwan Normal University:** Department of Technology Application and Human Resource Development (Technology), with Computer Science as a second major.
 
 ## Open-source work at a glance
 
-| Verified public record (2026-10-05)                     | Current total |
+The figures below are the recorded snapshot from October 5, 2026 at 02:15 UTC. They are historical counts; later merges are described separately.
+
+| Verified public record (2026-10-05)                     | Snapshot total |
 | ------------------------------------------------------- | ------------: |
 | Merged PRs in non-owned upstream repositories           |        **82** |
 | Non-owned upstream repositories with merged work        |        **43** |
@@ -57,7 +65,7 @@ These figures exclude repositories I own and direct team projects, and count a P
 - [Marked #4123 review](https://github.com/markedjs/marked/pull/4123#pullrequestreview-5403896691): verified image tokenization restores the enclosing link state. Full exact-head and current-base merge-preview tests pass; an independent 6,912-observation corpus fixes 2,304 baseline nested-anchor violations with zero on head/preview. The exact-head review is APPROVED; the PR remains open. [Portable probe and results](./evidence/oss-2026-10-04). All 84 existing authored open PRs retain their heads; authored merges remain 82.
 - [Pro Components #9711](https://github.com/ant-design/pro-components/pull/9711) merged at `2026-10-02T02:29:33Z`, bringing the verified total to **82 upstream merges across 43 repositories**. The tested signed head is retained; Vercel authorization is separate from this confirmed merge.
 - [Marked #4121 follow-up](https://github.com/markedjs/marked/pull/4121#pullrequestreview-5398543739): the author adopted the iterator correction. At new head `05a9875`, full tests pass (1,863 specification / 198 unit), as do 8,192 result comparisons and five independent iterator regressions that fail on the previous head. The exact-head review is APPROVED; the PR remains open. [Probe and results](./evidence/oss-2026-10-03).
-- [Payload #17744](https://github.com/payloadcms/payload/pull/17744#issuecomment-5964585504) is mergeable again at signed/GitHub-Verified head `86d62f8`, preserving 671 keys and the original 23 corrected values. Declarations, 57-file build, lint, formatting and 15 scoped unit tests pass. Its new CI workflow needs maintainer authorization and review is required again; earlier green checks and approval refer to the old head. All 84 authored open PRs were checked in this run.
+- [Payload #17744](https://github.com/payloadcms/payload/pull/17744) merged on October 5, 2026 at 16:22 UTC, correcting 23 Traditional Chinese UI strings. The final head preserves all 671 locale keys and interpolation/markup tokens; the PR documents scoped validation and AI assistance.
 - [Logseq #13012](https://github.com/logseq/logseq/pull/13012) merged September 30. Its maintainer-rebased final head is unsigned; signature and merge state remain separately recorded in the [October 1 evidence](./evidence/oss-2026-10-01.json).
 - Repaired upstream conflicts in [Util #809](https://github.com/react-component/util/pull/809), [Listy #64](https://github.com/react-component/listy/pull/64), [Tabs #1019](https://github.com/react-component/tabs/pull/1019), and [Ant Design #59127](https://github.com/ant-design/ant-design/pull/59127). Their signed/GitHub-Verified heads pass scoped local validation (210, 56, 112, and 123 tests respectively); Util also passes a real Chromium Trusted Types CSP probe. CI, deployment authorization, visual approval and human review remain separately recorded in the [October 1 evidence](./evidence/oss-2026-10-01.json). All four remain open.
 - Closed [Tabs #1017](https://github.com/react-component/tabs/pull/1017), [Dialog #586](https://github.com/react-component/dialog/pull/586), [Input #201](https://github.com/react-component/input/pull/201), and [Picker #1004](https://github.com/react-component/picker/pull/1004) after proving that merged upstream replacements pass the original regressions. These superseded PRs were not merged and do not raise the authored-merge count.
