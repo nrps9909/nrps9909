@@ -1,0 +1,77 @@
+{
+  "checked_at_utc": "2026-10-05T02:14:25.807626+00:00",
+  "pr": "https://github.com/iamkun/dayjs/pull/3244",
+  "head": "ab5bfebed72aad6ed2e5f7b41cb7848e545bbccc",
+  "base": "436bde0bcded312781cbe45dc2b0ef079a36d8e3",
+  "merge_preview": "0c0e315947bad37e388a549f7f247e7a5ba4c2ba",
+  "merge_preview_parents": [
+    "436bde0bcded312781cbe45dc2b0ef079a36d8e3",
+    "ab5bfebed72aad6ed2e5f7b41cb7848e545bbccc"
+  ],
+  "runtime": {
+    "node": "v24.15.0",
+    "npm": "12.0.2"
+  },
+  "pr_tests_on_base": {
+    "failed": 2,
+    "passed": 6
+  },
+  "full_tests": {
+    "base": {
+      "suites": 93,
+      "tests": 794
+    },
+    "head": {
+      "suites": 94,
+      "tests": 802
+    },
+    "preview": {
+      "suites": 94,
+      "tests": 802
+    },
+    "timezone_legs_per_implementation": 8,
+    "line_coverage_percent": 100
+  },
+  "head_full_lint": "passed",
+  "head_changed_file_lint": "passed",
+  "independent_probe": {
+    "timezones": [
+      "America/New_York",
+      "Pacific/Auckland",
+      "Asia/Taipei"
+    ],
+    "duration_observations_per_implementation": 4320,
+    "base_mismatches": 540,
+    "head_mismatches": 0,
+    "preview_mismatches": 0,
+    "numeric_control_comparisons": 50688,
+    "non_quarter_forwarding_checks_per_implementation": 15,
+    "base_forwarding_failures": 15,
+    "head_preview_forwarding_failures": 0,
+    "date_and_duration_inputs_unchanged": true
+  },
+  "build": {
+    "default_node24_head": "ERR_OSSL_EVP_UNSUPPORTED in inherited webpack size step",
+    "default_node24_base_with_dependencies": "same ERR_OSSL_EVP_UNSUPPORTED",
+    "head_command_only_NODE_OPTIONS": "--openssl-legacy-provider",
+    "head_compat_build_exit_code": 0,
+    "size_limit_kb": 2.99,
+    "measured_size_limit_kb": 2.79
+  },
+  "packaged_UMD_CommonJS": {
+    "duration_checks": 24,
+    "numeric_string_quarter_checks": 12,
+    "passed": true
+  },
+  "source_checkouts_clean": {
+    "head": true,
+    "base": true,
+    "preview": true
+  },
+  "temporary_regression_file_removed": true,
+  "dependency_symlinks_removed": true,
+  "author_head_signature": "unsigned; this reviewer did not author or push that commit",
+  "remote_ci": "Lint & Unit Test action_required; no successful code CI asserted",
+  "scope_limits": "No browser runtime or general plugin interoperability claim",
+  "ai_assisted": true
+}

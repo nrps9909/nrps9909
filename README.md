@@ -12,15 +12,15 @@ Open-source contributor from Taiwan, focused on the Ant Design ecosystem, access
 
 ## Open-source work at a glance
 
-| Verified public record (2026-10-04)                     | Current total |
+| Verified public record (2026-10-05)                     | Current total |
 | ------------------------------------------------------- | ------------: |
 | Merged PRs in non-owned upstream repositories           |        **82** |
 | Non-owned upstream repositories with merged work        |        **43** |
 | Merged PRs in the Ant Design main repository            |        **25** |
 | Merged PRs across the Ant Design ecosystem              |        **56** |
-| Public upstream PRs reviewed as an external contributor |       **180** |
+| Public upstream PRs reviewed as an external contributor |       **181** |
 
-These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [October 4 tested link-state review](./evidence/oss-2026-10-04.json), the [October 3 merge and tested follow-ups](./evidence/oss-2026-10-03.json), the [October 2 tested review and current-head snapshot](./evidence/oss-2026-10-02.json), the [October 1 merge and maintenance receipts](./evidence/oss-2026-10-01.json), the [complete contribution and review evidence](./OSS_MAINTENANCE.md), the [full September 21 snapshot](./evidence/2026-09-21.json), the [September 22 count refresh](./evidence/antd-59223-followup-2026-09-22.json), the [completed #59223 check snapshot](./evidence/antd-59223-ci-complete-2026-09-24.json), and the [September 26 ColorPicker/Table CI follow-up](./evidence/antd-2026-09-26-followup.json).
+These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [October 5 tested duration review and maintainer approval](./evidence/oss-2026-10-05.json), the [October 4 tested link-state review](./evidence/oss-2026-10-04.json), the [October 3 merge and tested follow-ups](./evidence/oss-2026-10-03.json), the [October 2 tested review and current-head snapshot](./evidence/oss-2026-10-02.json), the [October 1 merge and maintenance receipts](./evidence/oss-2026-10-01.json), the [complete contribution and review evidence](./OSS_MAINTENANCE.md), the [full September 21 snapshot](./evidence/2026-09-21.json), the [September 22 count refresh](./evidence/antd-59223-followup-2026-09-22.json), the [completed #59223 check snapshot](./evidence/antd-59223-ci-complete-2026-09-24.json), and the [September 26 ColorPicker/Table CI follow-up](./evidence/antd-2026-09-26-followup.json).
 
 ## What I maintain
 
@@ -52,6 +52,8 @@ These figures exclude repositories I own and direct team projects, and count a P
 
 ## Latest contribution
 
+- [Day.js #3244 review](https://github.com/iamkun/dayjs/pull/3244#pullrequestreview-5409407415): independently verified duration/quarter plugin order at `ab5bfeb`. Head and merge preview pass 94 suites / 802 tests, eight timezone legs and lint. In a three-zone probe, the patch reduces 540 baseline mismatches to zero across 4,320 duration observations per implementation; 50,688 numeric-control comparisons match. Packaged checks pass; the inherited Node 24 webpack hashing limitation and command-only build compatibility option are recorded. The AI-disclosed review is APPROVED and the PR remains open, with CI authorization pending. [Probe and receipts](./evidence/oss-2026-10-05).
+- [Marked #4121 maintainer approval](https://github.com/markedjs/marked/pull/4121#pullrequestreview-5404745358): UziTech approved unchanged tested head `05a9875` on October 4. It remains open. All 84 authored open PRs retain their heads and existing gates; verified authored merges remain 82.
 - [Marked #4123 review](https://github.com/markedjs/marked/pull/4123#pullrequestreview-5403896691): verified image tokenization restores the enclosing link state. Full exact-head and current-base merge-preview tests pass; an independent 6,912-observation corpus fixes 2,304 baseline nested-anchor violations with zero on head/preview. The exact-head review is APPROVED; the PR remains open. [Portable probe and results](./evidence/oss-2026-10-04). All 84 existing authored open PRs retain their heads; authored merges remain 82.
 - [Pro Components #9711](https://github.com/ant-design/pro-components/pull/9711) merged at `2026-10-02T02:29:33Z`, bringing the verified total to **82 upstream merges across 43 repositories**. The tested signed head is retained; Vercel authorization is separate from this confirmed merge.
 - [Marked #4121 follow-up](https://github.com/markedjs/marked/pull/4121#pullrequestreview-5398543739): the author adopted the iterator correction. At new head `05a9875`, full tests pass (1,863 specification / 198 unit), as do 8,192 result comparisons and five independent iterator regressions that fail on the previous head. The exact-head review is APPROVED; the PR remains open. [Probe and results](./evidence/oss-2026-10-03).
