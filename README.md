@@ -18,17 +18,17 @@ I also contribute to open source, including accessibility, reproducible bug fixe
 
 ## Open-source work at a glance
 
-The figures below are the recorded snapshot from October 5, 2026 at 02:15 UTC. They are historical counts; later merges are described separately.
+The figures below are the recorded snapshot from October 6, 2026 at 02:01 UTC. They are historical counts; later merges are described separately.
 
-| Verified public record (2026-10-05)                     | Snapshot total |
+| Verified public record (2026-10-06)                     | Snapshot total |
 | ------------------------------------------------------- | ------------: |
-| Merged PRs in non-owned upstream repositories           |        **82** |
-| Non-owned upstream repositories with merged work        |        **43** |
+| Merged PRs in non-owned upstream repositories           |        **83** |
+| Non-owned upstream repositories with merged work        |        **44** |
 | Merged PRs in the Ant Design main repository            |        **25** |
 | Merged PRs across the Ant Design ecosystem              |        **56** |
 | Public upstream PRs reviewed as an external contributor |       **181** |
 
-These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [October 5 tested duration review and maintainer approval](./evidence/oss-2026-10-05.json), the [October 4 tested link-state review](./evidence/oss-2026-10-04.json), the [October 3 merge and tested follow-ups](./evidence/oss-2026-10-03.json), the [October 2 tested review and current-head snapshot](./evidence/oss-2026-10-02.json), the [October 1 merge and maintenance receipts](./evidence/oss-2026-10-01.json), the [complete contribution and review evidence](./OSS_MAINTENANCE.md), the [full September 21 snapshot](./evidence/2026-09-21.json), the [September 22 count refresh](./evidence/antd-59223-followup-2026-09-22.json), the [completed #59223 check snapshot](./evidence/antd-59223-ci-complete-2026-09-24.json), and the [September 26 ColorPicker/Table CI follow-up](./evidence/antd-2026-09-26-followup.json).
+These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [October 6 verified Payload merge](./evidence/oss-2026-10-06.json), the [October 5 tested duration review and maintainer approval](./evidence/oss-2026-10-05.json), the [October 4 tested link-state review](./evidence/oss-2026-10-04.json), the [October 3 merge and tested follow-ups](./evidence/oss-2026-10-03.json), the [October 2 tested review and current-head snapshot](./evidence/oss-2026-10-02.json), the [October 1 merge and maintenance receipts](./evidence/oss-2026-10-01.json), the [complete contribution and review evidence](./OSS_MAINTENANCE.md), the [full September 21 snapshot](./evidence/2026-09-21.json), the [September 22 count refresh](./evidence/antd-59223-followup-2026-09-22.json), the [completed #59223 check snapshot](./evidence/antd-59223-ci-complete-2026-09-24.json), and the [September 26 ColorPicker/Table CI follow-up](./evidence/antd-2026-09-26-followup.json).
 
 ## What I maintain
 
@@ -39,6 +39,7 @@ These figures exclude repositories I own and direct team projects, and count a P
 
 ## Selected merged contributions
 
+- **Payload:** [improve Traditional Chinese interface wording](https://github.com/payloadcms/payload/pull/17744), merged October 5, 2026, preserving locale keys and interpolation tokens.
 - **Pro Components:** [preserve the object-form Select search callback pipeline](https://github.com/ant-design/pro-components/pull/9711), merged October 2, 2026.
 - **Logseq:** [translate Traditional Chinese account and authentication messages](https://github.com/logseq/logseq/pull/13012), merged September 30, 2026.
 - **Marked:** [preserve internal tabs in list item content](https://github.com/markedjs/marked/pull/4086) across CommonMark and GFM list, code-span, and fenced-code paths.
@@ -60,9 +61,10 @@ These figures exclude repositories I own and direct team projects, and count a P
 
 ## Latest contribution
 
+- [Payload #17744](https://github.com/payloadcms/payload/pull/17744) merged at `2026-10-05T16:22:40Z`, bringing the fully checked public total to **83 upstream merges across 44 repositories**. Final authored head `86d62f8` and squash commit `282140b` are GitHub Verified. Authored-head CI passes 280 checks with 5 skipped. A new audit verifies the merged 673-key locale preserves all 23 corrections, interpolation/markup tokens, and two newer upstream additions. [Merge receipt and audit](./evidence/oss-2026-10-06.json). The remaining 83 authored open PRs retain their prior heads and gates.
 - [Day.js #3244 review](https://github.com/iamkun/dayjs/pull/3244#pullrequestreview-5409407415): independently verified duration/quarter plugin order at `ab5bfeb`. Head and merge preview pass 94 suites / 802 tests, eight timezone legs and lint. In a three-zone probe, the patch reduces 540 baseline mismatches to zero across 4,320 duration observations per implementation; 50,688 numeric-control comparisons match. Packaged checks pass; the inherited Node 24 webpack hashing limitation and command-only build compatibility option are recorded. The AI-disclosed review is APPROVED and the PR remains open, with CI authorization pending. [Probe and receipts](./evidence/oss-2026-10-05).
-- [Marked #4121 maintainer approval](https://github.com/markedjs/marked/pull/4121#pullrequestreview-5404745358): UziTech approved unchanged tested head `05a9875` on October 4. It remains open. All 84 authored open PRs retain their heads and existing gates; verified authored merges remain 82.
-- [Marked #4123 review](https://github.com/markedjs/marked/pull/4123#pullrequestreview-5403896691): verified image tokenization restores the enclosing link state. Full exact-head and current-base merge-preview tests pass; an independent 6,912-observation corpus fixes 2,304 baseline nested-anchor violations with zero on head/preview. The exact-head review is APPROVED; the PR remains open. [Portable probe and results](./evidence/oss-2026-10-04). All 84 existing authored open PRs retain their heads; authored merges remain 82.
+- [Marked #4121 maintainer approval](https://github.com/markedjs/marked/pull/4121#pullrequestreview-5404745358): UziTech approved unchanged tested head `05a9875` on October 4. It remains open. At the October 5 snapshot, all 84 authored open PRs retained their heads and existing gates; authored merges were 82.
+- [Marked #4123 review](https://github.com/markedjs/marked/pull/4123#pullrequestreview-5403896691): verified image tokenization restores the enclosing link state. Full exact-head and current-base merge-preview tests pass; an independent 6,912-observation corpus fixes 2,304 baseline nested-anchor violations with zero on head/preview. The exact-head review is APPROVED; the PR remains open. [Portable probe and results](./evidence/oss-2026-10-04). At the October 4 snapshot, all 84 authored open PRs retained their heads; authored merges were 82.
 - [Pro Components #9711](https://github.com/ant-design/pro-components/pull/9711) merged at `2026-10-02T02:29:33Z`, bringing the verified total to **82 upstream merges across 43 repositories**. The tested signed head is retained; Vercel authorization is separate from this confirmed merge.
 - [Marked #4121 follow-up](https://github.com/markedjs/marked/pull/4121#pullrequestreview-5398543739): the author adopted the iterator correction. At new head `05a9875`, full tests pass (1,863 specification / 198 unit), as do 8,192 result comparisons and five independent iterator regressions that fail on the previous head. The exact-head review is APPROVED; the PR remains open. [Probe and results](./evidence/oss-2026-10-03).
 - [Payload #17744](https://github.com/payloadcms/payload/pull/17744) merged on October 5, 2026 at 16:22 UTC, correcting 23 Traditional Chinese UI strings. The final head preserves all 671 locale keys and interpolation/markup tokens; the PR documents scoped validation and AI assistance.

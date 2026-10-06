@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-10-06T02:04:15.856Z",
+  "runtime": "v24.15.0",
+  "tested_head_keys": 671,
+  "merged_keys": 673,
+  "original_changed_values": 23,
+  "original_values_preserved": true,
+  "merge_parent_key_set_preserved": true,
+  "all_placeholders_and_markup_preserved": true,
+  "new_upstream_keys_preserved": [
+    "general.skipToContent",
+    "hierarchy.searchResults"
+  ],
+  "new_upstream_values": {
+    "general.skipToContent": "跳至內容",
+    "hierarchy.searchResults": "找到 {{count}} 項"
+  },
+  "existing_tested_head_values_preserved": true,
+  "merged_blob_identical_to_tested_head": false,
+  "sha256": {
+    "tested_base": "46f3023158229b34edbfb3bd62452e2469cc2bc08dd1891bb1d282d40e83ed33",
+    "tested_head": "490ba07daeaa153ffb5efa9fa9438749915bbe3fc39ac5e049ec099b5b95cd99",
+    "merge_parent": "69f55fa6931646e83c93badee34d176d80b8f39997814c62c7e336f19695cdfc",
+    "merged": "04045a3f46f8d2e73262bf3c710dc33864ff59437d2450175d59d0807bed4a95"
+  },
+  "scope": "Serialized locale contract only; prior 15 utility tests remain evidence for the unchanged authored head, not a rerun on the squash commit."
+}
