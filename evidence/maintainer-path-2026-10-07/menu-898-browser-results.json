@@ -1,0 +1,612 @@
+{
+  "started_at_utc": "2026-10-07T08:21:09.950Z",
+  "browser": "154.0.8037.98",
+  "scope": "Chromium native DOM focus, scroll preservation, keyboard Enter and arrow controls; no screen-reader or complete WCAG claim",
+  "results": {
+    "base": {
+      "refFocus": {
+        "active": "LI",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 0,
+        "hash": "",
+        "events": [
+          {
+            "type": "focus",
+            "target": "LI"
+          }
+        ]
+      },
+      "refEnter": {
+        "active": "LI",
+        "activeClass": "rc-menu-item rc-menu-item-active rc-menu-item-selected",
+        "scrollY": 0,
+        "hash": "",
+        "events": [
+          {
+            "type": "focus",
+            "target": "LI"
+          },
+          {
+            "type": "item-click",
+            "event": "keydown"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "first"
+          }
+        ]
+      },
+      "multipleEnter": {
+        "active": "LI",
+        "activeClass": "rc-menu-item rc-menu-item-active rc-menu-item-selected",
+        "scrollY": 1270,
+        "hash": "",
+        "events": [
+          {
+            "type": "focus",
+            "target": "LI"
+          },
+          {
+            "type": "item-click",
+            "event": "keydown"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "first"
+          }
+        ],
+        "selected": 1
+      },
+      "itemPreventScroll": {
+        "active": "LI",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 0,
+        "hash": "",
+        "events": [
+          {
+            "type": "focus",
+            "target": "LI"
+          }
+        ]
+      },
+      "menuPreventScroll": {
+        "active": "LI",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 0,
+        "hash": "",
+        "events": [
+          {
+            "type": "focus",
+            "target": "LI"
+          }
+        ]
+      },
+      "arrowDown": {
+        "active": "second-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "",
+        "events": [
+          {
+            "type": "focus",
+            "target": "LI"
+          }
+        ]
+      },
+      "arrowEnter": {
+        "active": "BODY",
+        "scrollY": 1736,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "LI"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "second"
+          },
+          {
+            "type": "menu-click",
+            "event": "click",
+            "key": "second"
+          }
+        ]
+      },
+      "end": {
+        "active": "LI",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "LI"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "second"
+          },
+          {
+            "type": "menu-click",
+            "event": "click",
+            "key": "second"
+          }
+        ]
+      },
+      "home": {
+        "active": "first-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "LI"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "second"
+          },
+          {
+            "type": "menu-click",
+            "event": "click",
+            "key": "second"
+          },
+          {
+            "type": "focus",
+            "target": "first-link"
+          }
+        ]
+      },
+      "disabledSkip": {
+        "active": "LI",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "LI"
+          }
+        ]
+      },
+      "activeKey": {
+        "active": "LI",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": []
+      },
+      "plainFallback": {
+        "active": "LI",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": []
+      }
+    },
+    "head": {
+      "refFocus": {
+        "active": "first-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 0,
+        "hash": "",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          }
+        ]
+      },
+      "refEnter": {
+        "active": "BODY",
+        "scrollY": 1736,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          },
+          {
+            "type": "item-click",
+            "event": "keydown"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "first"
+          },
+          {
+            "type": "item-click",
+            "event": "click"
+          },
+          {
+            "type": "menu-click",
+            "event": "click",
+            "key": "first"
+          }
+        ]
+      },
+      "multipleEnter": {
+        "active": "BODY",
+        "scrollY": 1736,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          },
+          {
+            "type": "item-click",
+            "event": "keydown"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "first"
+          },
+          {
+            "type": "item-click",
+            "event": "click"
+          },
+          {
+            "type": "menu-click",
+            "event": "click",
+            "key": "first"
+          }
+        ],
+        "selected": 0
+      },
+      "itemPreventScroll": {
+        "active": "first-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1267,
+        "hash": "",
+        "events": [
+          {
+            "type": "focus",
+            "target": "LI"
+          },
+          {
+            "type": "focus",
+            "target": "first-link"
+          }
+        ]
+      },
+      "menuPreventScroll": {
+        "active": "first-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 0,
+        "hash": "",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          }
+        ]
+      },
+      "arrowDown": {
+        "active": "second-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          }
+        ]
+      },
+      "arrowEnter": {
+        "active": "BODY",
+        "scrollY": 1736,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "second"
+          },
+          {
+            "type": "menu-click",
+            "event": "click",
+            "key": "second"
+          }
+        ]
+      },
+      "end": {
+        "active": "LI",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "second"
+          },
+          {
+            "type": "menu-click",
+            "event": "click",
+            "key": "second"
+          }
+        ]
+      },
+      "home": {
+        "active": "first-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "second"
+          },
+          {
+            "type": "menu-click",
+            "event": "click",
+            "key": "second"
+          },
+          {
+            "type": "focus",
+            "target": "first-link"
+          }
+        ]
+      },
+      "disabledSkip": {
+        "active": "first-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          }
+        ]
+      },
+      "activeKey": {
+        "active": "second-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": []
+      },
+      "plainFallback": {
+        "active": "LI",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": []
+      }
+    },
+    "preview": {
+      "refFocus": {
+        "active": "first-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 0,
+        "hash": "",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          }
+        ]
+      },
+      "refEnter": {
+        "active": "BODY",
+        "scrollY": 1736,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          },
+          {
+            "type": "item-click",
+            "event": "keydown"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "first"
+          },
+          {
+            "type": "item-click",
+            "event": "click"
+          },
+          {
+            "type": "menu-click",
+            "event": "click",
+            "key": "first"
+          }
+        ]
+      },
+      "multipleEnter": {
+        "active": "BODY",
+        "scrollY": 1736,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          },
+          {
+            "type": "item-click",
+            "event": "keydown"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "first"
+          },
+          {
+            "type": "item-click",
+            "event": "click"
+          },
+          {
+            "type": "menu-click",
+            "event": "click",
+            "key": "first"
+          }
+        ],
+        "selected": 0
+      },
+      "itemPreventScroll": {
+        "active": "first-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1267,
+        "hash": "",
+        "events": [
+          {
+            "type": "focus",
+            "target": "LI"
+          },
+          {
+            "type": "focus",
+            "target": "first-link"
+          }
+        ]
+      },
+      "menuPreventScroll": {
+        "active": "first-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 0,
+        "hash": "",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          }
+        ]
+      },
+      "arrowDown": {
+        "active": "second-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          }
+        ]
+      },
+      "arrowEnter": {
+        "active": "BODY",
+        "scrollY": 1736,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "second"
+          },
+          {
+            "type": "menu-click",
+            "event": "click",
+            "key": "second"
+          }
+        ]
+      },
+      "end": {
+        "active": "LI",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "second"
+          },
+          {
+            "type": "menu-click",
+            "event": "click",
+            "key": "second"
+          }
+        ]
+      },
+      "home": {
+        "active": "first-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          },
+          {
+            "type": "menu-click",
+            "event": "keydown",
+            "key": "second"
+          },
+          {
+            "type": "menu-click",
+            "event": "click",
+            "key": "second"
+          },
+          {
+            "type": "focus",
+            "target": "first-link"
+          }
+        ]
+      },
+      "disabledSkip": {
+        "active": "first-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": [
+          {
+            "type": "focus",
+            "target": "first-link"
+          }
+        ]
+      },
+      "activeKey": {
+        "active": "second-link",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": []
+      },
+      "plainFallback": {
+        "active": "LI",
+        "activeClass": "rc-menu-item rc-menu-item-active",
+        "scrollY": 1307,
+        "hash": "#destination",
+        "events": []
+      }
+    }
+  },
+  "completed_at_utc": "2026-10-07T08:21:10.499Z"
+}

@@ -1,0 +1,251 @@
+/*
+Original Focus suite: react-component/menu, commit 6fc01b8.
+MIT License
+
+Copyright (c) 2019-present react-component
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+/* eslint-disable no-undef */
+import { act, fireEvent, render } from '@testing-library/react';
+import { spyElementPrototypes } from '@rc-component/util';
+import React from 'react';
+import Menu, { MenuItem, MenuItemGroup, MenuRef, SubMenu } from '../src';
+
+describe('Focus', () => {
+  beforeAll(() => {
+    // Mock to force make menu item visible
+    spyElementPrototypes(HTMLElement, {
+      offsetParent: {
+        get() {
+          return this.parentElement;
+        },
+      },
+    });
+  });
+
+  beforeEach(() => {
+    global.triggerProps = null;
+    global.popupTriggerProps = null;
+    jest.useFakeTimers();
+  });
+
+  afterEach(() => {
+    jest.useRealTimers();
+  });
+
+  it('Get focus', async () => {
+    const { container } = await act(async () =>
+      render(
+        <Menu mode="inline" openKeys={['s']}>
+          <SubMenu key="s" title="submenu">
+            <MenuItem key="1">1</MenuItem>
+          </SubMenu>
+        </Menu>,
+      ),
+    );
+
+    // Item focus
+    fireEvent.focus(container.querySelector('.rc-menu-item'));
+    expect(container.querySelector('.rc-menu-item')).toHaveClass('rc-menu-item-active');
+
+    // Submenu focus
+    fireEvent.focus(container.querySelector('.rc-menu-submenu-title'));
+    expect(container.querySelector('.rc-menu-submenu-active')).toBeTruthy();
+  });
+
+  it('should support focus through ref', async () => {
+    const menuRef = React.createRef<MenuRef>();
+    const { getByTestId } = await act(async () =>
+      render(
+        <Menu ref={menuRef}>
+          <SubMenu key="bamboo" title="Disabled" disabled>
+            <MenuItem key="bamboo-child">Disabled child</MenuItem>
+          </SubMenu>
+          <MenuItem key="light" data-testid="first-focusable">
+            Light
+          </MenuItem>
+        </Menu>,
+      ),
+    );
+
+    act(() => menuRef.current.focus());
+
+    const firstFocusableItem = getByTestId('first-focusable');
+    expect(document.activeElement).toBe(firstFocusableItem);
+    expect(firstFocusableItem).toHaveClass('rc-menu-item-active');
+  });
+
+  it('should focus active item through ref', async () => {
+    const menuRef = React.createRef<MenuRef>();
+    const { getByTestId } = await act(async () =>
+      render(
+        <Menu ref={menuRef} activeKey="cat">
+          <MenuItem key="light">Light</MenuItem>
+          <MenuItem key="cat" data-testid="active-key">
+            Cat
+          </MenuItem>
+        </Menu>,
+      ),
+    );
+    act(() => menuRef.current.focus());
+
+    const activeKey = getByTestId('active-key');
+    expect(document.activeElement).toBe(activeKey);
+    expect(activeKey).toHaveClass('rc-menu-item-active');
+  });
+
+  it('focus moves to the next accessible menu item if the first child is empty group', async () => {
+    const menuRef = React.createRef<MenuRef>();
+    const { getByTestId } = await act(async () =>
+      render(
+        <Menu ref={menuRef}>
+          <MenuItemGroup title="group" key="group" />
+          <SubMenu key="bamboo" title="Disabled" disabled>
+            <MenuItem key="bamboo-child">Disabled child</MenuItem>
+          </SubMenu>
+          <MenuItem key="light" data-testid="first-focusable">
+            Light
+          </MenuItem>
+        </Menu>,
+      ),
+    );
+
+    act(() => menuRef.current.focus());
+
+    const firstFocusableItem = getByTestId('first-focusable');
+    expect(document.activeElement).toBe(firstFocusableItem);
+    expect(firstFocusableItem).toHaveClass('rc-menu-item-active');
+  });
+
+  it('focus moves to the next accessible group item if the first child is non-empty group', async () => {
+    const menuRef = React.createRef<MenuRef>();
+    const { getByTestId } = await act(async () =>
+      render(
+        <Menu ref={menuRef}>
+          <MenuItemGroup title="group" key="group">
+            <MenuItem key="group-child-1" disabled>
+              group-child-1
+            </MenuItem>
+            <MenuItem key="group-child-2" data-testid="first-focusable">
+              group-child-2
+            </MenuItem>
+          </MenuItemGroup>
+          <MenuItem key="light">Light</MenuItem>
+        </Menu>,
+      ),
+    );
+
+    act(() => menuRef.current.focus());
+
+    const firstFocusableItem = getByTestId('first-focusable');
+    expect(document.activeElement).toBe(firstFocusableItem);
+    expect(firstFocusableItem).toHaveClass('rc-menu-item-active');
+  });
+
+  it('focus moves to nested group item correctly', async () => {
+    const menuRef = React.createRef<MenuRef>();
+    const { getByTestId } = await act(async () =>
+      render(
+        <Menu ref={menuRef}>
+          <MenuItemGroup title="group" key="group">
+            <MenuItem key="group-child-1" disabled>
+              group-child-1
+            </MenuItem>
+            <MenuItemGroup title="nested group" key="nested-group">
+              <MenuItem key="nested-group-child-1" disabled>
+                nested-group-child-1
+              </MenuItem>
+              <MenuItem key="nested-group-child-2" data-testid="first-focusable">
+                nested-group-child-2
+              </MenuItem>
+            </MenuItemGroup>
+            <MenuItem key="group-child-3">group-child-3</MenuItem>
+          </MenuItemGroup>
+        </Menu>,
+      ),
+    );
+
+    act(() => menuRef.current.focus());
+
+    const firstFocusableItem = getByTestId('first-focusable');
+    expect(document.activeElement).toBe(firstFocusableItem);
+    expect(firstFocusableItem).toHaveClass('rc-menu-item-active');
+  });
+
+  it('focus moves to submenu correctly', async () => {
+    const menuRef = React.createRef<MenuRef>();
+    const { getByTestId, getByTitle } = await act(async () =>
+      render(
+        <Menu ref={menuRef}>
+          <SubMenu key="sub-menu-disabled" title="Disabled" disabled>
+            <MenuItem key="sub-menu-disabled-child">Disabled child</MenuItem>
+          </SubMenu>
+          <SubMenu key="sub-menu" data-testid="sub-menu" title="Submenu">
+            <MenuItem key="sub-menu-child-1">Submenu child</MenuItem>
+          </SubMenu>
+          <MenuItem key="light">Light</MenuItem>
+        </Menu>,
+      ),
+    );
+
+    act(() => menuRef.current.focus());
+
+    expect(document.activeElement).toBe(getByTitle('Submenu'));
+    expect(getByTestId('sub-menu')).toHaveClass('rc-menu-submenu-active');
+  });
+
+  it('should focus anchor link inside menu item through ref', async () => {
+    const menuRef = React.createRef<MenuRef>();
+    const { container } = await act(async () =>
+      render(
+        <Menu ref={menuRef}>
+          <MenuItem key="light">
+            <a href="https://ant.design">Light</a>
+          </MenuItem>
+        </Menu>,
+      ),
+    );
+
+    act(() => menuRef.current.focus());
+
+    const anchor = container.querySelector('a');
+    expect(document.activeElement).toBe(anchor);
+    expect(container.querySelector('.rc-menu-item')).toHaveClass('rc-menu-item-active');
+  });
+
+  it('should delegate focus to anchor link when menu item li is focused', async () => {
+    const { container } = await act(async () =>
+      render(
+        <Menu>
+          <MenuItem key="light">
+            <a href="https://ant.design">Light</a>
+          </MenuItem>
+        </Menu>,
+      ),
+    );
+
+    fireEvent.focus(container.querySelector('.rc-menu-item'));
+
+    const anchor = container.querySelector('a');
+    expect(document.activeElement).toBe(anchor);
+  });
+});
+/* eslint-enable */

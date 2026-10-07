@@ -1,0 +1,116 @@
+{
+  "checked_at_utc": "2026-10-07T08:15:32.987703+00:00",
+  "pr_url": "https://github.com/react-component/menu/pull/898",
+  "head": "6fc01b8b9a62446e38664c0b982b7957de9d5b6b",
+  "base": "8dfdef453a24cee1bda115e3249b17289356829d",
+  "merge_preview": "4df8100043f66cb2fd3901419355063822274004",
+  "merge_preview_parents": [
+    "8dfdef453a24cee1bda115e3249b17289356829d",
+    "6fc01b8b9a62446e38664c0b982b7957de9d5b6b"
+  ],
+  "local": {
+    "node": "24.15.0",
+    "npm": "12.0.2",
+    "react": "19.3.0",
+    "base": {
+      "suites": 13,
+      "tests": 144,
+      "snapshots": 20,
+      "exit_code": 0
+    },
+    "head": {
+      "suites": 13,
+      "tests": 146,
+      "snapshots": 20,
+      "exit_code": 0
+    },
+    "merge_preview": {
+      "suites": 13,
+      "tests": 146,
+      "snapshots": 20,
+      "exit_code": 0
+    },
+    "author_tests_on_base": {
+      "total_suites": 14,
+      "passed_suites": 13,
+      "failed_suites": 1,
+      "passed_tests": 151,
+      "failed_tests": 2,
+      "fixture_passed": 7,
+      "fixture_failed": 2,
+      "exit_code": 1,
+      "note": "rc-test did not restrict --runTestsByPath; original 144 tests plus temporary 9-test Focus suite ran"
+    },
+    "head_tsc_exit": 0,
+    "head_lint": {
+      "errors": 0,
+      "warnings": 11,
+      "exit_code": 0
+    },
+    "head_compile_exit": 0,
+    "browser_results": "menu-898-browser-results.json",
+    "scope": "real Chrome DOM focus/scroll, keyboard/native link activation, multiple-selection controls; no screen reader or exhaustive WCAG conformance"
+  },
+  "setup": {
+    "initial_install": "ERESOLVE eslint10/react-plugin peer conflict",
+    "retry": "command-only --legacy-peer-deps, matching repository preview workflow; ignore-scripts and package-lock=false",
+    "dependency_versions": "menu-898-dependencies.json",
+    "source_or_global_config_changed": false
+  },
+  "remote_before_review": {
+    "baseRefOid": "8dfdef453a24cee1bda115e3249b17289356829d",
+    "headRefOid": "6fc01b8b9a62446e38664c0b982b7957de9d5b6b",
+    "mergeable": "MERGEABLE",
+    "reviewDecision": "",
+    "state": "OPEN",
+    "statusCheckRollup": [
+      {
+        "__typename": "StatusContext",
+        "context": "Vercel",
+        "startedAt": "2026-10-03T19:15:17Z",
+        "state": "FAILURE",
+        "targetUrl": "https://vercel.com/git/authorize?team=afc163's%20projects&slug=afc163s-projects&teamId=team_3RFWHwV8gpvjPb4mdlwWcNSM&type=github&job=%7B%22headInfo%22%3A%7B%22sha%22%3A%226fc01b8b9a62446e38664c0b982b7957de9d5b6b%22%7D%2C%22id%22%3A%22QmXMu9zcW7n8eN2v7XYKKq4UGRBx11M7FvN8cCvynBmV6T%22%2C%22org%22%3A%22react-component%22%2C%22prId%22%3A898%2C%22repo%22%3A%22menu%22%7D"
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "CodeRabbit",
+        "startedAt": "2026-10-03T19:21:49Z",
+        "state": "SUCCESS",
+        "targetUrl": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-03T19:15:28Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://socket.dev/dashboard/org/react-component/sbom/f80f9d36-b30a-454c-8e03-22f42ed3111f",
+        "name": "Socket Security: Project Report",
+        "startedAt": "2026-10-03T19:15:17Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-03T19:15:30Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://socket.dev",
+        "name": "Socket Security: Pull Request Alerts",
+        "startedAt": "2026-10-03T19:15:28Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-03T19:15:16Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/marketplace/wip",
+        "name": "WIP",
+        "startedAt": "2026-10-03T19:15:15Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      }
+    ],
+    "url": "https://github.com/react-component/menu/pull/898"
+  },
+  "source_patch_authorship": "other author; no authored source patch or new PR",
+  "status": "OPEN, not merged"
+}

@@ -1,0 +1,35 @@
+{
+  "created_at_utc": "2026-10-07T08:28:49.316222+00:00",
+  "week_start": "2026-10-07",
+  "next_weekly_refresh_date": "2026-10-14",
+  "scope": "Menu/Dropdown keyboard and focus",
+  "role": "external reviewer; no scope assignment verified",
+  "rows": [
+    {
+      "issue": "https://github.com/ant-design/ant-design/issues/57766",
+      "status": "OPEN",
+      "canonical_pr": "https://github.com/react-component/menu/pull/898",
+      "head": "6fc01b8b9a62446e38664c0b982b7957de9d5b6b",
+      "ownership": "existing author; external reviewer nrps9909",
+      "confirmed_boundaries": [
+        "initial link focus works on head",
+        "duplicate native Enter and lost preventScroll remain"
+      ],
+      "next_action": "review author change when new head arrives; do not open duplicate source PR"
+    },
+    {
+      "issue": "https://github.com/ant-design/ant-design/issues/58980",
+      "status": "OPEN",
+      "canonical_pr": "https://github.com/ant-design/ant-design/pull/58984",
+      "head": "9c90ee03a06bea9c46650879cb5f58e0586a61f2",
+      "ownership": "existing author; prior external review unchanged",
+      "confirmed_boundaries": [
+        "existing review reports hover opening steals unrelated focus"
+      ],
+      "next_action": "follow existing authors and maintainers; new implementation scope requires upstream direction; no repeat review at same head"
+    }
+  ],
+  "release_integration_gate": "neither canonical PR merged; no release / Ant integration claim",
+  "proposal_gate": "awaiting maintainer response to #3222 proposal",
+  "upstream_communication": "one new tested PR review plus one official scoped maintenance proposal; no routine pings"
+}

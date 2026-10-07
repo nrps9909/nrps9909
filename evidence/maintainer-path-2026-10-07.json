@@ -1,0 +1,4619 @@
+{
+  "checked_at_utc": "2026-10-07T08:27:16.222707+00:00",
+  "counting_rules": {
+    "query_limit": 1000,
+    "visibility": "public",
+    "merged_search_items": 89,
+    "review_search_items": 221,
+    "excluded_owned_prefix": "nrps9909/",
+    "excluded_team_repositories": [
+      "Mes0903/NTNU-GameDesign",
+      "stantheman0128/the-ultimate-dd-agent"
+    ]
+  },
+  "counts": {
+    "merged_upstream_prs": 83,
+    "merged_upstream_repositories": 44,
+    "ant_design_main_merged_prs": 25,
+    "ant_design_ecosystem_merged_prs": 56,
+    "reviewed_upstream_prs": 182
+  },
+  "merged_prs": [
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 9711,
+      "repository": {
+        "name": "pro-components",
+        "nameWithOwner": "ant-design/pro-components"
+      },
+      "title": "fix(select): preserve object search callback pipeline",
+      "updatedAt": "2026-10-02T02:29:34Z",
+      "url": "https://github.com/ant-design/pro-components/pull/9711"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 4086,
+      "repository": {
+        "name": "marked",
+        "nameWithOwner": "markedjs/marked"
+      },
+      "title": "fix: preserve internal tabs in list item content",
+      "updatedAt": "2026-09-21T02:46:27Z",
+      "url": "https://github.com/markedjs/marked/pull/4086"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1013,
+      "repository": {
+        "name": "picker",
+        "nameWithOwner": "react-component/picker"
+      },
+      "title": "fix: parse Day.js input with the picker locale",
+      "updatedAt": "2026-09-07T02:30:51Z",
+      "url": "https://github.com/react-component/picker/pull/1013"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 268,
+      "repository": {
+        "name": "dropdown",
+        "nameWithOwner": "react-component/dropdown"
+      },
+      "title": "fix: focus wrapped dropdown menus",
+      "updatedAt": "2026-09-20T07:46:43Z",
+      "url": "https://github.com/react-component/dropdown/pull/268"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59151,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(DatePicker): use German date formats",
+      "updatedAt": "2026-09-07T06:01:49Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59151"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 811,
+      "repository": {
+        "name": "util",
+        "nameWithOwner": "react-component/util"
+      },
+      "title": "fix: handle missing style container",
+      "updatedAt": "2026-09-20T07:28:59Z",
+      "url": "https://github.com/react-component/util/pull/811"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 810,
+      "repository": {
+        "name": "util",
+        "nameWithOwner": "react-component/util"
+      },
+      "title": "fix: guard missing React version export",
+      "updatedAt": "2026-09-17T08:30:29Z",
+      "url": "https://github.com/react-component/util/pull/810"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 384,
+      "repository": {
+        "name": "virtual-list",
+        "nameWithOwner": "react-component/virtual-list"
+      },
+      "title": "fix: default missing horizontal offset",
+      "updatedAt": "2026-08-28T10:59:10Z",
+      "url": "https://github.com/react-component/virtual-list/pull/384"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 10,
+      "repository": {
+        "name": "badgeboard",
+        "nameWithOwner": "react-component/badgeboard"
+      },
+      "title": "fix: remove duplicate resize observer project",
+      "updatedAt": "2026-08-28T08:48:37Z",
+      "url": "https://github.com/react-component/badgeboard/pull/10"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 628,
+      "repository": {
+        "name": "drawer",
+        "nameWithOwner": "react-component/drawer"
+      },
+      "title": "fix: type resize callback sizes",
+      "updatedAt": "2026-08-28T10:02:26Z",
+      "url": "https://github.com/react-component/drawer/pull/628"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1072,
+      "repository": {
+        "name": "tree",
+        "nameWithOwner": "react-component/tree"
+      },
+      "title": "fix: cancel drag expansion on unmount",
+      "updatedAt": "2026-08-28T08:34:32Z",
+      "url": "https://github.com/react-component/tree/pull/1072"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 326,
+      "repository": {
+        "name": "progress",
+        "nameWithOwner": "react-component/progress"
+      },
+      "title": "fix: honor zero rail width",
+      "updatedAt": "2026-08-28T07:58:57Z",
+      "url": "https://github.com/react-component/progress/pull/326"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 762,
+      "repository": {
+        "name": "ant-design-icons",
+        "nameWithOwner": "ant-design/ant-design-icons"
+      },
+      "title": "fix(react): guard invalid icon definitions",
+      "updatedAt": "2026-08-28T07:14:22Z",
+      "url": "https://github.com/ant-design/ant-design-icons/pull/762"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 30,
+      "repository": {
+        "name": "async-validator",
+        "nameWithOwner": "react-component/async-validator"
+      },
+      "title": "fix: support single-label URL hosts",
+      "updatedAt": "2026-08-28T07:40:30Z",
+      "url": "https://github.com/react-component/async-validator/pull/30"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 383,
+      "repository": {
+        "name": "virtual-list",
+        "nameWithOwner": "react-component/virtual-list"
+      },
+      "title": "docs: remove legacy disabled prop references",
+      "updatedAt": "2026-08-28T06:41:04Z",
+      "url": "https://github.com/react-component/virtual-list/pull/383"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 23698,
+      "repository": {
+        "name": "tldr",
+        "nameWithOwner": "tldr-pages/tldr"
+      },
+      "title": "govulncheck: fix extract mode description",
+      "updatedAt": "2026-08-29T15:53:51Z",
+      "url": "https://github.com/tldr-pages/tldr/pull/23698"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 6241,
+      "repository": {
+        "name": "memos",
+        "nameWithOwner": "usememos/memos"
+      },
+      "title": "fix(i18n): complete Traditional Chinese space translations",
+      "updatedAt": "2026-08-28T13:47:32Z",
+      "url": "https://github.com/usememos/memos/pull/6241"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1007,
+      "repository": {
+        "name": "picker",
+        "nameWithOwner": "react-component/picker"
+      },
+      "title": "fix(locale): use Taiwan week terminology",
+      "updatedAt": "2026-09-08T01:37:52Z",
+      "url": "https://github.com/react-component/picker/pull/1007"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1092,
+      "repository": {
+        "name": "slider",
+        "nameWithOwner": "react-component/slider"
+      },
+      "title": "fix: preserve pushable gaps on track clicks",
+      "updatedAt": "2026-09-16T04:03:33Z",
+      "url": "https://github.com/react-component/slider/pull/1092"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1091,
+      "repository": {
+        "name": "slider",
+        "nameWithOwner": "react-component/slider"
+      },
+      "title": "fix: preserve decimal pushable gaps",
+      "updatedAt": "2026-09-16T03:47:59Z",
+      "url": "https://github.com/react-component/slider/pull/1091"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59135,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Input.Password): ignore repeated key activation",
+      "updatedAt": "2026-09-01T03:39:33Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59135"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59134,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Tag): ignore repeated key activation",
+      "updatedAt": "2026-09-01T05:40:04Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59134"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59129,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(locale): correct Traditional Chinese picker terms",
+      "updatedAt": "2026-08-30T05:20:11Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59129"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59126,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Notification): upgrade non-submitting close controls",
+      "updatedAt": "2026-08-27T11:45:17Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59126"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59125,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Descriptions): render numeric zero header content",
+      "updatedAt": "2026-09-16T04:09:15Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59125"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1250,
+      "repository": {
+        "name": "select",
+        "nameWithOwner": "react-component/select"
+      },
+      "title": "feat: support search input autocomplete overrides",
+      "updatedAt": "2026-08-28T12:17:32Z",
+      "url": "https://github.com/react-component/select/pull/1250"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59113,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(List): preserve numeric zero row keys",
+      "updatedAt": "2026-08-27T06:14:04Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59113"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 395,
+      "repository": {
+        "name": "steps",
+        "nameWithOwner": "react-component/steps"
+      },
+      "title": "fix: preserve item click on keyboard activation",
+      "updatedAt": "2026-08-27T05:30:11Z",
+      "url": "https://github.com/react-component/steps/pull/395"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 542,
+      "repository": {
+        "name": "tooltip",
+        "nameWithOwner": "react-component/tooltip"
+      },
+      "title": "fix: preserve child aria-describedby",
+      "updatedAt": "2026-08-27T05:09:53Z",
+      "url": "https://github.com/react-component/tooltip/pull/542"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 408,
+      "repository": {
+        "name": "notification",
+        "nameWithOwner": "react-component/notification"
+      },
+      "title": "fix: prevent notification close buttons from submitting forms",
+      "updatedAt": "2026-08-27T04:25:28Z",
+      "url": "https://github.com/react-component/notification/pull/408"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 9691,
+      "repository": {
+        "name": "pro-components",
+        "nameWithOwner": "ant-design/pro-components"
+      },
+      "title": "fix(locale): correct zh-TW line item glyphs",
+      "updatedAt": "2026-08-27T06:09:33Z",
+      "url": "https://github.com/ant-design/pro-components/pull/9691"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59107,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Skeleton): hide decorative image placeholder",
+      "updatedAt": "2026-08-27T00:19:19Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59107"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 541,
+      "repository": {
+        "name": "tooltip",
+        "nameWithOwner": "react-component/tooltip"
+      },
+      "title": "fix: show default tooltips on focus",
+      "updatedAt": "2026-08-27T02:46:22Z",
+      "url": "https://github.com/react-component/tooltip/pull/541"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 325,
+      "repository": {
+        "name": "progress",
+        "nameWithOwner": "react-component/progress"
+      },
+      "title": "fix: expose accessible SVG semantics",
+      "updatedAt": "2026-08-27T03:00:49Z",
+      "url": "https://github.com/react-component/progress/pull/325"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 807,
+      "repository": {
+        "name": "util",
+        "nameWithOwner": "react-component/util"
+      },
+      "title": "fix: preserve source when removing nested values",
+      "updatedAt": "2026-09-20T07:29:54Z",
+      "url": "https://github.com/react-component/util/pull/807"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1071,
+      "repository": {
+        "name": "tree",
+        "nameWithOwner": "react-component/tree"
+      },
+      "title": "fix: preserve drag text set by consumers",
+      "updatedAt": "2026-08-27T02:02:27Z",
+      "url": "https://github.com/react-component/tree/pull/1071"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1089,
+      "repository": {
+        "name": "slider",
+        "nameWithOwner": "react-component/slider"
+      },
+      "title": "fix: finish drag when mouseup propagation stops",
+      "updatedAt": "2026-09-16T03:29:25Z",
+      "url": "https://github.com/react-component/slider/pull/1089"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1088,
+      "repository": {
+        "name": "slider",
+        "nameWithOwner": "react-component/slider"
+      },
+      "title": "feat: support aria-describedby on handles",
+      "updatedAt": "2026-08-27T01:50:27Z",
+      "url": "https://github.com/react-component/slider/pull/1088"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59105,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Steps): hide decorative panel arrows",
+      "updatedAt": "2026-08-27T01:46:57Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59105"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 806,
+      "repository": {
+        "name": "util",
+        "nameWithOwner": "react-component/util"
+      },
+      "title": "fix(useDelayState): cancel pending updates on unmount",
+      "updatedAt": "2026-09-17T08:25:39Z",
+      "url": "https://github.com/react-component/util/pull/806"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59103,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "docs(Tree): clarify useTree memo dependencies",
+      "updatedAt": "2026-08-27T00:38:13Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59103"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1070,
+      "repository": {
+        "name": "tree",
+        "nameWithOwner": "react-component/tree"
+      },
+      "title": "fix: preserve nested first-child drop target",
+      "updatedAt": "2026-08-27T01:51:35Z",
+      "url": "https://github.com/react-component/tree/pull/1070"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1087,
+      "repository": {
+        "name": "slider",
+        "nameWithOwner": "react-component/slider"
+      },
+      "title": "fix: guard drag movement without container",
+      "updatedAt": "2026-09-16T04:12:59Z",
+      "url": "https://github.com/react-component/slider/pull/1087"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59032,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "test(Card): enable button-name accessibility checks",
+      "updatedAt": "2026-08-18T03:27:15Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59032"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59024,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "test(Badge): enable button-name accessibility checks",
+      "updatedAt": "2026-08-17T07:59:07Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59024"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59020,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "test(Tree): restore line demo accessibility coverage",
+      "updatedAt": "2026-08-17T07:27:27Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59020"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59007,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "docs(Alert): label visibility switch for accessibility",
+      "updatedAt": "2026-08-16T01:09:47Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59007"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59006,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "test: enable Rate listitem accessibility checks",
+      "updatedAt": "2026-08-16T01:11:04Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59006"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59002,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Upload): forward focus events",
+      "updatedAt": "2026-08-18T06:02:50Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59002"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59001,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "docs: improve complex Form label association",
+      "updatedAt": "2026-08-16T01:21:05Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59001"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 719,
+      "repository": {
+        "name": "pagination",
+        "nameWithOwner": "react-component/pagination"
+      },
+      "title": "fix(locale): refine Traditional Chinese page-size terms",
+      "updatedAt": "2026-08-15T08:24:50Z",
+      "url": "https://github.com/react-component/pagination/pull/719"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 59000,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Collapse): hide decorative expand icon",
+      "updatedAt": "2026-08-17T02:12:59Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59000"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 58999,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(DatePicker): hide decorative range separator",
+      "updatedAt": "2026-08-17T02:11:31Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58999"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 58965,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(locale): correct Form min placeholders",
+      "updatedAt": "2026-08-15T06:44:15Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58965"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 58957,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix: localize Modal and Notification close button names",
+      "updatedAt": "2026-08-12T03:10:43Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58957"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 58955,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Transfer): respect locale.remove in one-way mode",
+      "updatedAt": "2026-08-12T03:10:22Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58955"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 58953,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix: use localized names for Upload actions",
+      "updatedAt": "2026-08-12T03:12:50Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58953"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 58951,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix: use Taiwan week terminology in DatePicker",
+      "updatedAt": "2026-08-11T16:35:49Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58951"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 43063,
+      "repository": {
+        "name": "superset",
+        "nameWithOwner": "apache/superset"
+      },
+      "title": "fix(i18n): review Traditional Chinese count labels",
+      "updatedAt": "2026-08-25T17:28:13Z",
+      "url": "https://github.com/apache/superset/pull/43063"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 13932,
+      "repository": {
+        "name": "ohmyzsh",
+        "nameWithOwner": "ohmyzsh/ohmyzsh"
+      },
+      "title": "fix(poetry-env): preserve venv in project subdirectories",
+      "updatedAt": "2026-09-05T19:50:30Z",
+      "url": "https://github.com/ohmyzsh/ohmyzsh/pull/13932"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 48946,
+      "repository": {
+        "name": "material-ui",
+        "nameWithOwner": "mui/material-ui"
+      },
+      "title": "[l10n] Complete Traditional Chinese localization",
+      "updatedAt": "2026-08-11T17:09:51Z",
+      "url": "https://github.com/mui/material-ui/pull/48946"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 58947,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(locale): refine Traditional Chinese (Taiwan) terminology",
+      "updatedAt": "2026-08-11T12:00:39Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58947"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 13536,
+      "repository": {
+        "name": "1Panel",
+        "nameWithOwner": "1Panel-dev/1Panel"
+      },
+      "title": "fix(i18n): polish Traditional Chinese AI agent copy",
+      "updatedAt": "2026-08-12T07:32:40Z",
+      "url": "https://github.com/1Panel-dev/1Panel/pull/13536"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 41273,
+      "repository": {
+        "name": "neovim",
+        "nameWithOwner": "neovim/neovim"
+      },
+      "title": "fix(l10n): refresh Traditional Chinese message catalog",
+      "updatedAt": "2026-08-18T20:27:15Z",
+      "url": "https://github.com/neovim/neovim/pull/41273"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 18650,
+      "repository": {
+        "name": "siyuan",
+        "nameWithOwner": "siyuan-note/siyuan"
+      },
+      "title": ":art: Improve Traditional Chinese document and file terminology",
+      "updatedAt": "2026-09-11T00:19:03Z",
+      "url": "https://github.com/siyuan-note/siyuan/pull/18650"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 17744,
+      "repository": {
+        "name": "payload",
+        "nameWithOwner": "payloadcms/payload"
+      },
+      "title": "fix(translations): correct zh-TW UI wording",
+      "updatedAt": "2026-10-05T16:22:40Z",
+      "url": "https://github.com/payloadcms/payload/pull/17744"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 4437,
+      "repository": {
+        "name": "umami",
+        "nameWithOwner": "umami-software/umami"
+      },
+      "title": "fix(i18n): polish Traditional Chinese 2FA copy",
+      "updatedAt": "2026-08-12T03:55:08Z",
+      "url": "https://github.com/umami-software/umami/pull/4437"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 3541,
+      "repository": {
+        "name": "puter",
+        "nameWithOwner": "HeyPuter/puter"
+      },
+      "title": "fix(i18n): add Traditional Chinese app management strings",
+      "updatedAt": "2026-08-12T04:18:49Z",
+      "url": "https://github.com/HeyPuter/puter/pull/3541"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 9947,
+      "repository": {
+        "name": "v2rayN",
+        "nameWithOwner": "2dust/v2rayN"
+      },
+      "title": "fix(i18n): polish Traditional Chinese DNS settings",
+      "updatedAt": "2026-08-14T02:20:17Z",
+      "url": "https://github.com/2dust/v2rayN/pull/9947"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 6112,
+      "repository": {
+        "name": "anything-llm",
+        "nameWithOwner": "Mintplex-Labs/anything-llm"
+      },
+      "title": "fix(i18n): correct zh-TW scheduled job labels",
+      "updatedAt": "2026-08-11T17:50:25Z",
+      "url": "https://github.com/Mintplex-Labs/anything-llm/pull/6112"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 6202,
+      "repository": {
+        "name": "3x-ui",
+        "nameWithOwner": "MHSanaei/3x-ui"
+      },
+      "title": "fix(i18n): localize Chinese Xray labels",
+      "updatedAt": "2026-08-12T14:56:12Z",
+      "url": "https://github.com/MHSanaei/3x-ui/pull/6202"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1099,
+      "repository": {
+        "name": "drawdb",
+        "nameWithOwner": "drawdb-io/drawdb"
+      },
+      "title": "fix(i18n): complete Traditional Chinese UI strings",
+      "updatedAt": "2026-08-12T19:01:54Z",
+      "url": "https://github.com/drawdb-io/drawdb/pull/1099"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 13012,
+      "repository": {
+        "name": "logseq",
+        "nameWithOwner": "logseq/logseq"
+      },
+      "title": "i18n(zh-Hant): translate account authentication messages",
+      "updatedAt": "2026-09-30T15:22:34Z",
+      "url": "https://github.com/logseq/logseq/pull/13012"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1036,
+      "repository": {
+        "name": "SwitchHosts",
+        "nameWithOwner": "oldj/SwitchHosts"
+      },
+      "title": "fix(i18n): polish Traditional Chinese UI copy",
+      "updatedAt": "2026-08-22T06:26:22Z",
+      "url": "https://github.com/oldj/SwitchHosts/pull/1036"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1431,
+      "repository": {
+        "name": "gopeed",
+        "nameWithOwner": "GopeedLab/gopeed"
+      },
+      "title": "feat(i18n): complete Traditional Chinese locale",
+      "updatedAt": "2026-08-13T11:38:36Z",
+      "url": "https://github.com/GopeedLab/gopeed/pull/1431"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 1240,
+      "repository": {
+        "name": "python-docs-zh-tw",
+        "nameWithOwner": "python/python-docs-zh-tw"
+      },
+      "title": "Translate `library/asyncio-runner.po`",
+      "updatedAt": "2026-08-14T02:35:36Z",
+      "url": "https://github.com/python/python-docs-zh-tw/pull/1240"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 7726,
+      "repository": {
+        "name": "clash-verge-rev",
+        "nameWithOwner": "clash-verge-rev/clash-verge-rev"
+      },
+      "title": "fix(i18n): complete Traditional Chinese backend strings",
+      "updatedAt": "2026-08-11T17:34:12Z",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev/pull/7726"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 2292,
+      "repository": {
+        "name": "dashy",
+        "nameWithOwner": "lissy93/dashy"
+      },
+      "title": "🌐 Complete missing Traditional Chinese UI translations",
+      "updatedAt": "2026-08-11T06:49:53Z",
+      "url": "https://github.com/lissy93/dashy/pull/2292"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 6177,
+      "repository": {
+        "name": "memos",
+        "nameWithOwner": "usememos/memos"
+      },
+      "title": "chore(i18n): complete Traditional Chinese translations",
+      "updatedAt": "2026-08-11T10:33:15Z",
+      "url": "https://github.com/usememos/memos/pull/6177"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 2586,
+      "repository": {
+        "name": "krita-ai-diffusion",
+        "nameWithOwner": "Acly/krita-ai-diffusion"
+      },
+      "title": "Improve Traditional Chinese setup translations",
+      "updatedAt": "2026-08-19T08:21:29Z",
+      "url": "https://github.com/Acly/krita-ai-diffusion/pull/2586"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 2790,
+      "repository": {
+        "name": "Mailspring",
+        "nameWithOwner": "Foundry376/Mailspring"
+      },
+      "title": "i18n: complete missing Traditional Chinese strings",
+      "updatedAt": "2026-08-23T18:41:49Z",
+      "url": "https://github.com/Foundry376/Mailspring/pull/2790"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 15829,
+      "repository": {
+        "name": "rustdesk",
+        "nameWithOwner": "rustdesk/rustdesk"
+      },
+      "title": "fix(i18n): complete Traditional Chinese sign-in strings",
+      "updatedAt": "2026-08-11T06:00:06Z",
+      "url": "https://github.com/rustdesk/rustdesk/pull/15829"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczOTUzMDI5",
+        "is_bot": false,
+        "login": "nrps9909",
+        "type": "User",
+        "url": "https://github.com/nrps9909"
+      },
+      "number": 3272,
+      "repository": {
+        "name": "localsend",
+        "nameWithOwner": "localsend/localsend"
+      },
+      "title": "fix(i18n): improve Traditional Chinese wording",
+      "updatedAt": "2026-08-11T13:54:29Z",
+      "url": "https://github.com/localsend/localsend/pull/3272"
+    }
+  ],
+  "reviewed_other_authors_prs": [
+    {
+      "author": {
+        "id": "MDQ6VXNlcjM3NzM5MTA=",
+        "is_bot": false,
+        "login": "Companion",
+        "type": "User",
+        "url": "https://github.com/Companion"
+      },
+      "number": 3244,
+      "repository": {
+        "name": "dayjs",
+        "nameWithOwner": "iamkun/dayjs"
+      },
+      "title": "fix(quarterOfYear): preserve duration arguments when adding",
+      "updatedAt": "2026-10-05T02:14:54Z",
+      "url": "https://github.com/iamkun/dayjs/pull/3244"
+    },
+    {
+      "author": {
+        "id": "U_kgDOEONwSQ",
+        "is_bot": false,
+        "login": "kanaseprathamesh568-a11y",
+        "type": "User",
+        "url": "https://github.com/kanaseprathamesh568-a11y"
+      },
+      "number": 898,
+      "repository": {
+        "name": "menu",
+        "nameWithOwner": "react-component/menu"
+      },
+      "title": "fix: delegate DOM focus directly to anchor link inside menu item",
+      "updatedAt": "2026-10-07T08:16:27Z",
+      "url": "https://github.com/react-component/menu/pull/898"
+    },
+    {
+      "author": {
+        "id": "U_kgDODByqrw",
+        "is_bot": false,
+        "login": "snooze26h",
+        "type": "User",
+        "url": "https://github.com/snooze26h"
+      },
+      "number": 4123,
+      "repository": {
+        "name": "marked",
+        "nameWithOwner": "markedjs/marked"
+      },
+      "title": "fix: preserve enclosing link state after parsing images",
+      "updatedAt": "2026-10-06T15:00:27Z",
+      "url": "https://github.com/markedjs/marked/pull/4123"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwMTMwNA==",
+        "is_bot": false,
+        "login": "ikhattab",
+        "type": "User",
+        "url": "https://github.com/ikhattab"
+      },
+      "number": 4121,
+      "repository": {
+        "name": "marked",
+        "nameWithOwner": "markedjs/marked"
+      },
+      "title": "fix: make walkTokens linear by appending values in place",
+      "updatedAt": "2026-10-06T14:59:30Z",
+      "url": "https://github.com/markedjs/marked/pull/4121"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY3NTk0NjM=",
+        "is_bot": false,
+        "login": "hungateJoseph",
+        "type": "User",
+        "url": "https://github.com/hungateJoseph"
+      },
+      "number": 3240,
+      "repository": {
+        "name": "dayjs",
+        "nameWithOwner": "iamkun/dayjs"
+      },
+      "title": "fix(customParseFormat): apply the week token when parsing in UTC mode",
+      "updatedAt": "2026-09-30T08:47:02Z",
+      "url": "https://github.com/iamkun/dayjs/pull/3240"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 59343,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(TreeSelect): apply ConfigProvider className/style and prevent popup style leak",
+      "updatedAt": "2026-09-23T02:23:15Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59343"
+    },
+    {
+      "author": {
+        "id": "U_kgDOC0A99w",
+        "is_bot": false,
+        "login": "justonemorenight",
+        "type": "User",
+        "url": "https://github.com/justonemorenight"
+      },
+      "number": 818,
+      "repository": {
+        "name": "util",
+        "nameWithOwner": "react-component/util"
+      },
+      "title": "fix: avoid retaining detached style containers",
+      "updatedAt": "2026-09-30T08:46:59Z",
+      "url": "https://github.com/react-component/util/pull/818"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59314,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Badge): preserve fractional offset values",
+      "updatedAt": "2026-09-22T07:50:26Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59314"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjg4MDgwODY=",
+        "is_bot": false,
+        "login": "savkaoleg",
+        "type": "User",
+        "url": "https://github.com/savkaoleg"
+      },
+      "number": 817,
+      "repository": {
+        "name": "util",
+        "nameWithOwner": "react-component/util"
+      },
+      "title": "fix(isEqual): track ancestors, not every value the walk has seen",
+      "updatedAt": "2026-09-30T08:46:56Z",
+      "url": "https://github.com/react-component/util/pull/817"
+    },
+    {
+      "author": {
+        "id": "U_kgDOCAWDcQ",
+        "is_bot": false,
+        "login": "Rughena",
+        "type": "User",
+        "url": "https://github.com/Rughena"
+      },
+      "number": 2883,
+      "repository": {
+        "name": "validator.js",
+        "nameWithOwner": "validatorjs/validator.js"
+      },
+      "title": "feat: add isUsername validator and fix empty string bug in isNumeric",
+      "updatedAt": "2026-09-12T07:57:47Z",
+      "url": "https://github.com/validatorjs/validator.js/pull/2883"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBzGpEg",
+        "is_bot": false,
+        "login": "a3ylf",
+        "type": "User",
+        "url": "https://github.com/a3ylf"
+      },
+      "number": 2882,
+      "repository": {
+        "name": "validator.js",
+        "nameWithOwner": "validatorjs/validator.js"
+      },
+      "title": "fix(isISBN): accept empty options when checking both versions",
+      "updatedAt": "2026-09-14T03:59:26Z",
+      "url": "https://github.com/validatorjs/validator.js/pull/2882"
+    },
+    {
+      "author": {
+        "id": "U_kgDOC2JsKg",
+        "is_bot": false,
+        "login": "Jerry-val",
+        "type": "User",
+        "url": "https://github.com/Jerry-val"
+      },
+      "number": 2881,
+      "repository": {
+        "name": "validator.js",
+        "nameWithOwner": "validatorjs/validator.js"
+      },
+      "title": "fix(isMimeType): allow underscores in parameterized MIME types",
+      "updatedAt": "2026-09-08T05:25:59Z",
+      "url": "https://github.com/validatorjs/validator.js/pull/2881"
+    },
+    {
+      "author": {
+        "id": "U_kgDOC2JsKg",
+        "is_bot": false,
+        "login": "Jerry-val",
+        "type": "User",
+        "url": "https://github.com/Jerry-val"
+      },
+      "number": 2880,
+      "repository": {
+        "name": "validator.js",
+        "nameWithOwner": "validatorjs/validator.js"
+      },
+      "title": "fix(isLatLong): reject extra coordinate components",
+      "updatedAt": "2026-09-07T15:13:28Z",
+      "url": "https://github.com/validatorjs/validator.js/pull/2880"
+    },
+    {
+      "author": {
+        "id": "U_kgDOC2JsKg",
+        "is_bot": false,
+        "login": "Jerry-val",
+        "type": "User",
+        "url": "https://github.com/Jerry-val"
+      },
+      "number": 2879,
+      "repository": {
+        "name": "validator.js",
+        "nameWithOwner": "validatorjs/validator.js"
+      },
+      "title": "fix(isISO8601): validate end-of-day times consistently",
+      "updatedAt": "2026-09-09T04:21:59Z",
+      "url": "https://github.com/validatorjs/validator.js/pull/2879"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBviHRg",
+        "is_bot": false,
+        "login": "yfwmaniish",
+        "type": "User",
+        "url": "https://github.com/yfwmaniish"
+      },
+      "number": 2878,
+      "repository": {
+        "name": "validator.js",
+        "nameWithOwner": "validatorjs/validator.js"
+      },
+      "title": "fix(isFloat): fall back to '.' separator for an unknown locale",
+      "updatedAt": "2026-09-08T09:45:27Z",
+      "url": "https://github.com/validatorjs/validator.js/pull/2878"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBviHRg",
+        "is_bot": false,
+        "login": "yfwmaniish",
+        "type": "User",
+        "url": "https://github.com/yfwmaniish"
+      },
+      "number": 2877,
+      "repository": {
+        "name": "validator.js",
+        "nameWithOwner": "validatorjs/validator.js"
+      },
+      "title": "fix(isISO6346): anchor the pattern and reject a literal comma",
+      "updatedAt": "2026-09-12T23:50:16Z",
+      "url": "https://github.com/validatorjs/validator.js/pull/2877"
+    },
+    {
+      "author": {
+        "id": "U_kgDODlI8qA",
+        "is_bot": false,
+        "login": "deshrajvermay9517-png",
+        "type": "User",
+        "url": "https://github.com/deshrajvermay9517-png"
+      },
+      "number": 1516,
+      "repository": {
+        "name": "type-fest",
+        "nameWithOwner": "sindresorhus/type-fest"
+      },
+      "title": "`Writable`: Fix support for polymorphic `this` and generics",
+      "updatedAt": "2026-09-07T06:44:40Z",
+      "url": "https://github.com/sindresorhus/type-fest/pull/1516"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQzMDM=",
+        "is_bot": false,
+        "login": "jdalton",
+        "type": "User",
+        "url": "https://github.com/jdalton"
+      },
+      "number": 201,
+      "repository": {
+        "name": "nwsapi",
+        "nameWithOwner": "dperini/nwsapi"
+      },
+      "title": "Anchor relative :has() arguments to their subject",
+      "updatedAt": "2026-09-07T09:59:59Z",
+      "url": "https://github.com/dperini/nwsapi/pull/201"
+    },
+    {
+      "author": {
+        "id": "U_kgDOEO68_Q",
+        "is_bot": false,
+        "login": "dualfroz",
+        "type": "User",
+        "url": "https://github.com/dualfroz"
+      },
+      "number": 2607,
+      "repository": {
+        "name": "commander.js",
+        "nameWithOwner": "tj/commander.js"
+      },
+      "title": "Fix passThroughOptions validation for commands nested more than one level deep",
+      "updatedAt": "2026-10-07T05:36:05Z",
+      "url": "https://github.com/tj/commander.js/pull/2607"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBoljDA",
+        "is_bot": false,
+        "login": "nirmal-shaji",
+        "type": "User",
+        "url": "https://github.com/nirmal-shaji"
+      },
+      "number": 2604,
+      "repository": {
+        "name": "commander.js",
+        "nameWithOwner": "tj/commander.js"
+      },
+      "title": "fix: do not use electron argv parsing with ELECTRON_RUN_AS_NODE",
+      "updatedAt": "2026-10-07T05:36:33Z",
+      "url": "https://github.com/tj/commander.js/pull/2604"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjM5NTQ1MTI1",
+        "is_bot": false,
+        "login": "giaBaoJS",
+        "type": "User",
+        "url": "https://github.com/giaBaoJS"
+      },
+      "number": 59221,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Tabs): apply styles.popup.root to the more dropdown",
+      "updatedAt": "2026-09-10T02:52:05Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59221"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 59217,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Checkbox): treat undefined group value as uncontrolled",
+      "updatedAt": "2026-09-06T02:59:15Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59217"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 59211,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Anchor): render children when items is undefined",
+      "updatedAt": "2026-09-12T14:37:34Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59211"
+    },
+    {
+      "author": {
+        "id": "U_kgDODklhIQ",
+        "is_bot": false,
+        "login": "spokodev",
+        "type": "User",
+        "url": "https://github.com/spokodev"
+      },
+      "number": 2875,
+      "repository": {
+        "name": "validator.js",
+        "nameWithOwner": "validatorjs/validator.js"
+      },
+      "title": "fix(isJWT): reject tokens with an empty header or payload segment",
+      "updatedAt": "2026-09-12T23:50:18Z",
+      "url": "https://github.com/validatorjs/validator.js/pull/2875"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjEyOTcxMjc=",
+        "is_bot": false,
+        "login": "unshorn",
+        "type": "User",
+        "url": "https://github.com/unshorn"
+      },
+      "number": 4082,
+      "repository": {
+        "name": "marked",
+        "nameWithOwner": "markedjs/marked"
+      },
+      "title": "perf: avoid repeated raw string copies in nested lists",
+      "updatedAt": "2026-10-06T22:35:49Z",
+      "url": "https://github.com/markedjs/marked/pull/4082"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjM1NTQxMTk4",
+        "is_bot": false,
+        "login": "dylanpulver",
+        "type": "User",
+        "url": "https://github.com/dylanpulver"
+      },
+      "number": 3201,
+      "repository": {
+        "name": "dayjs",
+        "nameWithOwner": "iamkun/dayjs"
+      },
+      "title": "fix(isoWeek): correct week number when the year starts at a UTC offset change",
+      "updatedAt": "2026-09-05T19:13:15Z",
+      "url": "https://github.com/iamkun/dayjs/pull/3201"
+    },
+    {
+      "author": {
+        "id": "MDM6Qm90NDk2OTkzMzM=",
+        "is_bot": false,
+        "login": "dependabot[bot]",
+        "type": "Bot",
+        "url": "https://github.com/apps/dependabot"
+      },
+      "number": 11941,
+      "repository": {
+        "name": "ant-design-pro",
+        "nameWithOwner": "ant-design/ant-design-pro"
+      },
+      "title": "chore(deps): bump the dependencies group across 1 directory with 5 updates",
+      "updatedAt": "2026-09-07T17:24:32Z",
+      "url": "https://github.com/ant-design/ant-design-pro/pull/11941"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBgP78w",
+        "is_bot": false,
+        "login": "EmilyyyLiu",
+        "type": "User",
+        "url": "https://github.com/EmilyyyLiu"
+      },
+      "number": 59189,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Menu): add subItem and subItemTitle semantic for SubMenu",
+      "updatedAt": "2026-09-04T09:05:36Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59189"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59168,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Input.Password): respect controlled visibility state",
+      "updatedAt": "2026-09-02T08:09:19Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59168"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59166,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix: clear stale Transfer selection when key type changes",
+      "updatedAt": "2026-09-11T03:10:00Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59166"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 59164,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(ColorPicker): disable interactions when disabled",
+      "updatedAt": "2026-09-12T10:07:44Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59164"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59157,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(ColorPicker): support custom gradient angles",
+      "updatedAt": "2026-09-22T07:51:39Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59157"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 59150,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix: restore jest-puppeteer global types",
+      "updatedAt": "2026-08-30T05:24:26Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59150"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQ5MjE3NDE4",
+        "is_bot": false,
+        "login": "li-jia-nan",
+        "type": "User",
+        "url": "https://github.com/li-jia-nan"
+      },
+      "number": 59147,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "chore: merge master into feature",
+      "updatedAt": "2026-08-28T15:21:34Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59147"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59142,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Select): exclude unsupported onPopupVisibleChange prop",
+      "updatedAt": "2026-08-28T02:44:35Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59142"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59141,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Table): allow empty string values in single-select tree filters",
+      "updatedAt": "2026-09-02T08:35:59Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59141"
+    },
+    {
+      "author": {
+        "id": "MDM6Qm90NDE4OTgyODI=",
+        "is_bot": false,
+        "login": "github-actions[bot]",
+        "type": "Bot",
+        "url": "https://github.com/apps/github-actions"
+      },
+      "number": 59139,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "chore: upgrade deps",
+      "updatedAt": "2026-08-28T02:30:25Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59139"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 59137,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Upload): avoid leaving canvas after GIF preview",
+      "updatedAt": "2026-08-28T01:43:14Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59137"
+    },
+    {
+      "author": {
+        "id": "U_kgDOCE4FEA",
+        "is_bot": false,
+        "login": "bhumin18",
+        "type": "User",
+        "url": "https://github.com/bhumin18"
+      },
+      "number": 59136,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Timeline, Steps, Input, Tour, Watermark): render numeric zero for content nodes",
+      "updatedAt": "2026-09-21T06:11:10Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59136"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 808,
+      "repository": {
+        "name": "util",
+        "nameWithOwner": "react-component/util"
+      },
+      "title": "feat: add common value guard utilities",
+      "updatedAt": "2026-09-01T02:43:41Z",
+      "url": "https://github.com/react-component/util/pull/808"
+    },
+    {
+      "author": {
+        "id": "U_kgDODJhbEA",
+        "is_bot": false,
+        "login": "1328837476-hug",
+        "type": "User",
+        "url": "https://github.com/1328837476-hug"
+      },
+      "number": 646,
+      "repository": {
+        "name": "trigger",
+        "nameWithOwner": "react-component/trigger"
+      },
+      "title": "fix: keep vertically shifted popups within the visible area",
+      "updatedAt": "2026-08-27T11:26:15Z",
+      "url": "https://github.com/react-component/trigger/pull/646"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 59122,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "docs(react): capitalize JavaScript in introduce.en-US.md",
+      "updatedAt": "2026-08-27T11:58:05Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59122"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjgyNDI3MjE=",
+        "is_bot": false,
+        "login": "sunven",
+        "type": "User",
+        "url": "https://github.com/sunven"
+      },
+      "number": 9693,
+      "repository": {
+        "name": "pro-components",
+        "nameWithOwner": "ant-design/pro-components"
+      },
+      "title": "fix(card): apply semantic classNames/styles to actions area",
+      "updatedAt": "2026-08-28T02:37:34Z",
+      "url": "https://github.com/ant-design/pro-components/pull/9693"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59121,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Transfer): disable select all for disabled search results",
+      "updatedAt": "2026-08-28T02:45:48Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59121"
+    },
+    {
+      "author": {
+        "id": "U_kgDOCE4FEA",
+        "is_bot": false,
+        "login": "bhumin18",
+        "type": "User",
+        "url": "https://github.com/bhumin18"
+      },
+      "number": 59117,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Card, Tag, Breadcrumb, Segmented, FloatButton): render numeric zero for content nodes",
+      "updatedAt": "2026-08-27T07:41:26Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59117"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjYxMzQ1NDc=",
+        "is_bot": false,
+        "login": "yoyo837",
+        "type": "User",
+        "url": "https://github.com/yoyo837"
+      },
+      "number": 59110,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat: support aria-describedby on handles",
+      "updatedAt": "2026-08-27T06:53:35Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59110"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjUwOTQzMDA0",
+        "is_bot": false,
+        "login": "cactuser-Lu",
+        "type": "User",
+        "url": "https://github.com/cactuser-Lu"
+      },
+      "number": 2039,
+      "repository": {
+        "name": "x",
+        "nameWithOwner": "ant-design/x"
+      },
+      "title": "fix(x-markdown): fix CJK bold `**…**` not rendering when adjacent to …",
+      "updatedAt": "2026-08-28T03:22:51Z",
+      "url": "https://github.com/ant-design/x/pull/2039"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59109,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Checkbox): allow group to override global disabled state",
+      "updatedAt": "2026-08-27T07:08:09Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59109"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 59101,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Statistic): preserve semantic nodes for zero values",
+      "updatedAt": "2026-08-27T04:12:26Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59101"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59100,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Alert): restrict global closable configuration type",
+      "updatedAt": "2026-09-04T02:04:21Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59100"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59095,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(BorderBeam): support individual beam configuration",
+      "updatedAt": "2026-09-03T18:04:45Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59095"
+    },
+    {
+      "author": {
+        "id": "U_kgDOCE4FEA",
+        "is_bot": false,
+        "login": "bhumin18",
+        "type": "User",
+        "url": "https://github.com/bhumin18"
+      },
+      "number": 59094,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Alert, Empty): render numeric zero for content nodes",
+      "updatedAt": "2026-08-26T17:31:15Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59094"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjU3Nzk5ODk3",
+        "is_bot": false,
+        "login": "koding88",
+        "type": "User",
+        "url": "https://github.com/koding88"
+      },
+      "number": 3187,
+      "repository": {
+        "name": "dayjs",
+        "nameWithOwner": "iamkun/dayjs"
+      },
+      "title": "fix: diff(year/month/quarter) returns NaN instead of 0 for Invalid Date",
+      "updatedAt": "2026-09-05T21:08:21Z",
+      "url": "https://github.com/iamkun/dayjs/pull/3187"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjE4NzQ5OTY=",
+        "is_bot": false,
+        "login": "divinity76",
+        "type": "User",
+        "url": "https://github.com/divinity76"
+      },
+      "number": 5791,
+      "repository": {
+        "name": "doc-en",
+        "nameWithOwner": "php/doc-en"
+      },
+      "title": "How to flush cookies as of PHP8",
+      "updatedAt": "2026-09-01T01:27:11Z",
+      "url": "https://github.com/php/doc-en/pull/5791"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 59093,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Breadcrumb): handle route parameter replacement precisely",
+      "updatedAt": "2026-09-26T05:29:19Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59093"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjIwNTAxNzI1",
+        "is_bot": false,
+        "login": "lazerg",
+        "type": "User",
+        "url": "https://github.com/lazerg"
+      },
+      "number": 59092,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Select): keep single mode height independent of global lineHeight",
+      "updatedAt": "2026-09-17T02:15:21Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59092"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBvhGTw",
+        "is_bot": false,
+        "login": "advance-hub",
+        "type": "User",
+        "url": "https://github.com/advance-hub"
+      },
+      "number": 2036,
+      "repository": {
+        "name": "x",
+        "nameWithOwner": "ant-design/x"
+      },
+      "title": "fix(conversations): avoid rerendering all items on selection",
+      "updatedAt": "2026-08-31T08:59:48Z",
+      "url": "https://github.com/ant-design/x/pull/2036"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBvhGTw",
+        "is_bot": false,
+        "login": "advance-hub",
+        "type": "User",
+        "url": "https://github.com/advance-hub"
+      },
+      "number": 2035,
+      "repository": {
+        "name": "x",
+        "nameWithOwner": "ant-design/x"
+      },
+      "title": "fix(mermaid): remove zoom cap and export full diagrams",
+      "updatedAt": "2026-08-31T08:49:33Z",
+      "url": "https://github.com/ant-design/x/pull/2035"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBvhGTw",
+        "is_bot": false,
+        "login": "advance-hub",
+        "type": "User",
+        "url": "https://github.com/advance-hub"
+      },
+      "number": 2034,
+      "repository": {
+        "name": "x",
+        "nameWithOwner": "ant-design/x"
+      },
+      "title": "fix(sender): delete newlines before slots",
+      "updatedAt": "2026-08-27T14:17:09Z",
+      "url": "https://github.com/ant-design/x/pull/2034"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBvhGTw",
+        "is_bot": false,
+        "login": "advance-hub",
+        "type": "User",
+        "url": "https://github.com/advance-hub"
+      },
+      "number": 2033,
+      "repository": {
+        "name": "x",
+        "nameWithOwner": "ant-design/x"
+      },
+      "title": "fix(sender): preserve slots for text selection deletion",
+      "updatedAt": "2026-08-27T14:09:10Z",
+      "url": "https://github.com/ant-design/x/pull/2033"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBvhGTw",
+        "is_bot": false,
+        "login": "advance-hub",
+        "type": "User",
+        "url": "https://github.com/advance-hub"
+      },
+      "number": 2032,
+      "repository": {
+        "name": "x",
+        "nameWithOwner": "ant-design/x"
+      },
+      "title": "fix(sender): keep inline custom inputs editable",
+      "updatedAt": "2026-08-28T02:44:42Z",
+      "url": "https://github.com/ant-design/x/pull/2032"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBvhGTw",
+        "is_bot": false,
+        "login": "advance-hub",
+        "type": "User",
+        "url": "https://github.com/advance-hub"
+      },
+      "number": 2031,
+      "repository": {
+        "name": "x",
+        "nameWithOwner": "ant-design/x"
+      },
+      "title": "fix(sender): preserve multiline paste in slot mode",
+      "updatedAt": "2026-08-27T14:13:03Z",
+      "url": "https://github.com/ant-design/x/pull/2031"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBvhGTw",
+        "is_bot": false,
+        "login": "advance-hub",
+        "type": "User",
+        "url": "https://github.com/advance-hub"
+      },
+      "number": 2030,
+      "repository": {
+        "name": "x",
+        "nameWithOwner": "ant-design/x"
+      },
+      "title": "fix(theme): restore Popover shadow with XProvider",
+      "updatedAt": "2026-08-31T08:50:46Z",
+      "url": "https://github.com/ant-design/x/pull/2030"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59087,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Tag): prioritize local CheckableTag styles",
+      "updatedAt": "2026-09-04T02:03:59Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59087"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjU0NDk3NDYy",
+        "is_bot": false,
+        "login": "Div627",
+        "type": "User",
+        "url": "https://github.com/Div627"
+      },
+      "number": 2028,
+      "repository": {
+        "name": "x",
+        "nameWithOwner": "ant-design/x"
+      },
+      "title": "fix(CodeHighlighter): load Prism grammars through a bundler-analyzable loader",
+      "updatedAt": "2026-08-28T02:45:51Z",
+      "url": "https://github.com/ant-design/x/pull/2028"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 218,
+      "repository": {
+        "name": "rate",
+        "nameWithOwner": "react-component/rate"
+      },
+      "title": "feat: support show exact value",
+      "updatedAt": "2026-08-27T16:16:19Z",
+      "url": "https://github.com/react-component/rate/pull/218"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59084,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Splitter): respect size limits when container resizes",
+      "updatedAt": "2026-09-11T07:26:27Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59084"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBgP78w",
+        "is_bot": false,
+        "login": "EmilyyyLiu",
+        "type": "User",
+        "url": "https://github.com/EmilyyyLiu"
+      },
+      "number": 1016,
+      "repository": {
+        "name": "tabs",
+        "nameWithOwner": "react-component/tabs"
+      },
+      "title": "feat: support `scrollPosition` to align active tab on switch",
+      "updatedAt": "2026-09-11T09:34:08Z",
+      "url": "https://github.com/react-component/tabs/pull/1016"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59078,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Table): invoke custom header onKeyDown for all keys",
+      "updatedAt": "2026-09-04T02:03:32Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59078"
+    },
+    {
+      "author": {
+        "id": "U_kgDODGUsJw",
+        "is_bot": false,
+        "login": "pttydou",
+        "type": "User",
+        "url": "https://github.com/pttydou"
+      },
+      "number": 2026,
+      "repository": {
+        "name": "x",
+        "nameWithOwner": "ant-design/x"
+      },
+      "title": "fix(think): hide retained content when collapsed",
+      "updatedAt": "2026-08-27T14:23:44Z",
+      "url": "https://github.com/ant-design/x/pull/2026"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjgyNzY1MzUz",
+        "is_bot": false,
+        "login": "aojunhao123",
+        "type": "User",
+        "url": "https://github.com/aojunhao123"
+      },
+      "number": 1069,
+      "repository": {
+        "name": "tree",
+        "nameWithOwner": "react-component/tree"
+      },
+      "title": "fix: treat `undefined` props as uncontrolled",
+      "updatedAt": "2026-09-10T07:20:24Z",
+      "url": "https://github.com/react-component/tree/pull/1069"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjM5NTQ1MTI1",
+        "is_bot": false,
+        "login": "giaBaoJS",
+        "type": "User",
+        "url": "https://github.com/giaBaoJS"
+      },
+      "number": 59075,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(QRCode): give the rendered code a default accessible name",
+      "updatedAt": "2026-08-26T19:10:31Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59075"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjIzMTg1ODUy",
+        "is_bot": false,
+        "login": "biubiukam",
+        "type": "User",
+        "url": "https://github.com/biubiukam"
+      },
+      "number": 59074,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix: keep transfer pagination on a valid page",
+      "updatedAt": "2026-09-04T12:36:25Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59074"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjM5NTQ1MTI1",
+        "is_bot": false,
+        "login": "giaBaoJS",
+        "type": "User",
+        "url": "https://github.com/giaBaoJS"
+      },
+      "number": 59073,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Steps): mark the progress icon as a progressbar role",
+      "updatedAt": "2026-09-06T01:46:06Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59073"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjM5NTQ1MTI1",
+        "is_bot": false,
+        "login": "giaBaoJS",
+        "type": "User",
+        "url": "https://github.com/giaBaoJS"
+      },
+      "number": 59072,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Skeleton): hide decorative title placeholder from assistive technology",
+      "updatedAt": "2026-08-26T19:11:56Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59072"
+    },
+    {
+      "author": {
+        "id": "U_kgDODKTOrg",
+        "is_bot": false,
+        "login": "RounakKumarAgarwal",
+        "type": "User",
+        "url": "https://github.com/RounakKumarAgarwal"
+      },
+      "number": 380,
+      "repository": {
+        "name": "virtual-list",
+        "nameWithOwner": "react-component/virtual-list"
+      },
+      "title": "fix: normalize wheel deltaMode to pixels for smoother virtual scroll",
+      "updatedAt": "2026-09-07T02:30:00Z",
+      "url": "https://github.com/react-component/virtual-list/pull/380"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 1248,
+      "repository": {
+        "name": "select",
+        "nameWithOwner": "react-component/select"
+      },
+      "title": "fix: clear enter lock when select is disabled",
+      "updatedAt": "2026-09-10T05:27:10Z",
+      "url": "https://github.com/react-component/select/pull/1248"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBgP78w",
+        "is_bot": false,
+        "login": "EmilyyyLiu",
+        "type": "User",
+        "url": "https://github.com/EmilyyyLiu"
+      },
+      "number": 59068,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Cascader): support `multiple.checkStrictly` for independent parent/child checking",
+      "updatedAt": "2026-09-03T19:15:32Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59068"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBgP78w",
+        "is_bot": false,
+        "login": "EmilyyyLiu",
+        "type": "User",
+        "url": "https://github.com/EmilyyyLiu"
+      },
+      "number": 890,
+      "repository": {
+        "name": "menu",
+        "nameWithOwner": "react-component/menu"
+      },
+      "title": "feat: support subItem and subItemTitle semantic for SubMenu",
+      "updatedAt": "2026-09-01T07:51:02Z",
+      "url": "https://github.com/react-component/menu/pull/890"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59066,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Grid): remove stale Row alignment classes after prop updates",
+      "updatedAt": "2026-08-27T07:45:13Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59066"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59059,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Checkbox): support classNames and styles in Checkbox.Group",
+      "updatedAt": "2026-08-21T08:45:39Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59059"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59058,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Radio): support classNames and styles in Radio.Group",
+      "updatedAt": "2026-08-21T08:46:00Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59058"
+    },
+    {
+      "author": {
+        "id": "MDM6Qm90NDk2OTkzMzM=",
+        "is_bot": false,
+        "login": "dependabot[bot]",
+        "type": "Bot",
+        "url": "https://github.com/apps/dependabot"
+      },
+      "number": 59057,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "chore(deps-dev): bump typescript from 6.0.3 to 7.0.2 in the dev-dependencies group across 1 directory",
+      "updatedAt": "2026-09-10T21:18:59Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59057"
+    },
+    {
+      "author": {
+        "id": "MDM6Qm90NDk2OTkzMzM=",
+        "is_bot": false,
+        "login": "dependabot[bot]",
+        "type": "Bot",
+        "url": "https://github.com/apps/dependabot"
+      },
+      "number": 59056,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "chore(deps): bump @babel/runtime from 7.29.7 to 8.0.0 in the dependencies group across 1 directory",
+      "updatedAt": "2026-10-02T05:43:37Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59056"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBgP78w",
+        "is_bot": false,
+        "login": "EmilyyyLiu",
+        "type": "User",
+        "url": "https://github.com/EmilyyyLiu"
+      },
+      "number": 59046,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Segmented): avoid selected item text color lagging behind thumb motion",
+      "updatedAt": "2026-09-11T02:32:59Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59046"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 59038,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Progress): support custom circle start position",
+      "updatedAt": "2026-09-10T05:41:19Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59038"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjcxMTgwNDQ2",
+        "is_bot": false,
+        "login": "nikzanda",
+        "type": "User",
+        "url": "https://github.com/nikzanda"
+      },
+      "number": 59036,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Table): support expanding all rows",
+      "updatedAt": "2026-10-05T14:00:44Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59036"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjg5MjM0MDM2",
+        "is_bot": false,
+        "login": "ZQDesigned",
+        "type": "User",
+        "url": "https://github.com/ZQDesigned"
+      },
+      "number": 59033,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "style(Notification): improve notification stack motion",
+      "updatedAt": "2026-08-26T19:16:50Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59033"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBgP78w",
+        "is_bot": false,
+        "login": "EmilyyyLiu",
+        "type": "User",
+        "url": "https://github.com/EmilyyyLiu"
+      },
+      "number": 662,
+      "repository": {
+        "name": "cascader",
+        "nameWithOwner": "react-component/cascader"
+      },
+      "title": "feat: support checkStrictly for independent parent/child checking",
+      "updatedAt": "2026-08-21T03:00:04Z",
+      "url": "https://github.com/react-component/cascader/pull/662"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59029,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Tree): handle zero key in DirectoryTree range selection",
+      "updatedAt": "2026-08-19T08:22:37Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59029"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 59028,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Cascader): respect null notFoundContent",
+      "updatedAt": "2026-08-19T08:21:36Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59028"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 758,
+      "repository": {
+        "name": "ant-design-icons",
+        "nameWithOwner": "ant-design/ant-design-icons"
+      },
+      "title": "fix: correct XFilled icon rendering",
+      "updatedAt": "2026-08-31T03:12:57Z",
+      "url": "https://github.com/ant-design/ant-design-icons/pull/758"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 59022,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Affix): support stacking multiple Affix components",
+      "updatedAt": "2026-09-10T05:42:07Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59022"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBgP78w",
+        "is_bot": false,
+        "login": "EmilyyyLiu",
+        "type": "User",
+        "url": "https://github.com/EmilyyyLiu"
+      },
+      "number": 59021,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "docs(Typography): clarify editable onChange trigger description",
+      "updatedAt": "2026-08-17T07:25:53Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59021"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjUwNzYxNQ==",
+        "is_bot": false,
+        "login": "afc163",
+        "type": "User",
+        "url": "https://github.com/afc163"
+      },
+      "number": 11933,
+      "repository": {
+        "name": "ant-design-pro",
+        "nameWithOwner": "ant-design/ant-design-pro"
+      },
+      "title": "fix(deps): resolve actionable security alerts",
+      "updatedAt": "2026-09-14T03:27:32Z",
+      "url": "https://github.com/ant-design/ant-design-pro/pull/11933"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 59009,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Splitter): support keyboard resizing",
+      "updatedAt": "2026-09-12T15:14:46Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59009"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 59005,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Space): support stretch alignment",
+      "updatedAt": "2026-08-17T07:37:54Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59005"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjEzNjE3MjE3",
+        "is_bot": false,
+        "login": "shenzhepei",
+        "type": "User",
+        "url": "https://github.com/shenzhepei"
+      },
+      "number": 59004,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(InputNumber): support allowClear",
+      "updatedAt": "2026-08-26T19:19:07Z",
+      "url": "https://github.com/ant-design/ant-design/pull/59004"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjIwNTAxNzI1",
+        "is_bot": false,
+        "login": "lazerg",
+        "type": "User",
+        "url": "https://github.com/lazerg"
+      },
+      "number": 19848,
+      "repository": {
+        "name": "prettier",
+        "nameWithOwner": "prettier/prettier"
+      },
+      "title": "Escape indented pseudo table delimiter rows",
+      "updatedAt": "2026-09-24T11:14:54Z",
+      "url": "https://github.com/prettier/prettier/pull/19848"
+    },
+    {
+      "author": {
+        "id": "U_kgDOC457Dw",
+        "is_bot": false,
+        "login": "Cherry7593",
+        "type": "User",
+        "url": "https://github.com/Cherry7593"
+      },
+      "number": 529,
+      "repository": {
+        "name": "image",
+        "nameWithOwner": "react-component/image"
+      },
+      "title": "fix: preserve PreviewGroup imageRender contract",
+      "updatedAt": "2026-08-27T22:33:00Z",
+      "url": "https://github.com/react-component/image/pull/529"
+    },
+    {
+      "author": {
+        "id": "U_kgDOC457Dw",
+        "is_bot": false,
+        "login": "Cherry7593",
+        "type": "User",
+        "url": "https://github.com/Cherry7593"
+      },
+      "number": 528,
+      "repository": {
+        "name": "image",
+        "nameWithOwner": "react-component/image"
+      },
+      "title": "fix: remove obsolete ESLint 10 --ext option",
+      "updatedAt": "2026-08-27T22:36:04Z",
+      "url": "https://github.com/react-component/image/pull/528"
+    },
+    {
+      "author": {
+        "id": "U_kgDOC457Dw",
+        "is_bot": false,
+        "login": "Cherry7593",
+        "type": "User",
+        "url": "https://github.com/Cherry7593"
+      },
+      "number": 25,
+      "repository": {
+        "name": "father-plugin",
+        "nameWithOwner": "react-component/father-plugin"
+      },
+      "title": "fix: support ESLint 10 flat config in build hook",
+      "updatedAt": "2026-08-27T22:34:05Z",
+      "url": "https://github.com/react-component/father-plugin/pull/25"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjYwODI5MjU=",
+        "is_bot": false,
+        "login": "waterWang",
+        "type": "User",
+        "url": "https://github.com/waterWang"
+      },
+      "number": 58984,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Dropdown): auto-focus menu when opened to enable keyboard navigation (Fixes #58980)",
+      "updatedAt": "2026-08-26T19:19:41Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58984"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjcxMTgwNDQ2",
+        "is_bot": false,
+        "login": "nikzanda",
+        "type": "User",
+        "url": "https://github.com/nikzanda"
+      },
+      "number": 58981,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix: preserve Form labelCol offset in vertical layout",
+      "updatedAt": "2026-08-17T07:06:38Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58981"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjcxMTgwNDQ2",
+        "is_bot": false,
+        "login": "nikzanda",
+        "type": "User",
+        "url": "https://github.com/nikzanda"
+      },
+      "number": 751,
+      "repository": {
+        "name": "input-number",
+        "nameWithOwner": "react-component/input-number"
+      },
+      "title": "feat: support allowClear",
+      "updatedAt": "2026-09-08T09:19:33Z",
+      "url": "https://github.com/react-component/input-number/pull/751"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2MjM0NzQ5",
+        "is_bot": false,
+        "login": "QDyanbing",
+        "type": "User",
+        "url": "https://github.com/QDyanbing"
+      },
+      "number": 58979,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Dropdown): add menu Semantic DOM",
+      "updatedAt": "2026-08-16T08:59:00Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58979"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjg2MzM2ODI3",
+        "is_bot": false,
+        "login": "thlovey",
+        "type": "User",
+        "url": "https://github.com/thlovey"
+      },
+      "number": 58978,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Splitter): localize collapse control labels",
+      "updatedAt": "2026-08-17T02:12:43Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58978"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjg2MzM2ODI3",
+        "is_bot": false,
+        "login": "thlovey",
+        "type": "User",
+        "url": "https://github.com/thlovey"
+      },
+      "number": 58969,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Table): improve row selection accessibility",
+      "updatedAt": "2026-08-17T09:06:40Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58969"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjYwODI5MjU=",
+        "is_bot": false,
+        "login": "waterWang",
+        "type": "User",
+        "url": "https://github.com/waterWang"
+      },
+      "number": 58956,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(table): localize row-selection accessible labels and make selection menu trigger keyboard accessible",
+      "updatedAt": "2026-08-26T19:20:08Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58956"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjYwODI5MjU=",
+        "is_bot": false,
+        "login": "waterWang",
+        "type": "User",
+        "url": "https://github.com/waterWang"
+      },
+      "number": 2023,
+      "repository": {
+        "name": "x",
+        "nameWithOwner": "ant-design/x"
+      },
+      "title": "fix(x-markdown): update marked to v18 to fix strikethrough parsing",
+      "updatedAt": "2026-08-28T02:50:46Z",
+      "url": "https://github.com/ant-design/x/pull/2023"
+    },
+    {
+      "author": {
+        "id": "U_kgDODz8gSQ",
+        "is_bot": false,
+        "login": "yxl-lab",
+        "type": "User",
+        "url": "https://github.com/yxl-lab"
+      },
+      "number": 58948,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix: keep popup elevation compatible with backdrop-filter",
+      "updatedAt": "2026-08-27T16:12:47Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58948"
+    },
+    {
+      "author": {
+        "id": "U_kgDOEb8hJg",
+        "is_bot": false,
+        "login": "zick666",
+        "type": "User",
+        "url": "https://github.com/zick666"
+      },
+      "number": 58934,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Badge): adjust processing dot initial opacity under dark theme",
+      "updatedAt": "2026-09-03T07:27:16Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58934"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBXm0pQ",
+        "is_bot": false,
+        "login": "trudbot",
+        "type": "User",
+        "url": "https://github.com/trudbot"
+      },
+      "number": 527,
+      "repository": {
+        "name": "image",
+        "nameWithOwner": "react-component/image"
+      },
+      "title": "fix: prevent browser zoom in image preview",
+      "updatedAt": "2026-08-17T06:24:49Z",
+      "url": "https://github.com/react-component/image/pull/527"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQzMzY5Mg==",
+        "is_bot": false,
+        "login": "hippee-lee",
+        "type": "User",
+        "url": "https://github.com/hippee-lee"
+      },
+      "number": 1067,
+      "repository": {
+        "name": "tree",
+        "nameWithOwner": "react-component/tree"
+      },
+      "title": "fix: guard scrollTo against a detached list ref",
+      "updatedAt": "2026-09-02T02:53:59Z",
+      "url": "https://github.com/react-component/tree/pull/1067"
+    },
+    {
+      "author": {
+        "id": "U_kgDODklhIQ",
+        "is_bot": false,
+        "login": "spokodev",
+        "type": "User",
+        "url": "https://github.com/spokodev"
+      },
+      "number": 2841,
+      "repository": {
+        "name": "validator.js",
+        "nameWithOwner": "validatorjs/validator.js"
+      },
+      "title": "fix(isRFC3339): reject impossible calendar dates",
+      "updatedAt": "2026-09-18T07:12:58Z",
+      "url": "https://github.com/validatorjs/validator.js/pull/2841"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBgP78w",
+        "is_bot": false,
+        "login": "EmilyyyLiu",
+        "type": "User",
+        "url": "https://github.com/EmilyyyLiu"
+      },
+      "number": 58899,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Progress): add vertical mode support",
+      "updatedAt": "2026-10-02T23:19:21Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58899"
+    },
+    {
+      "author": {
+        "id": "U_kgDOCp5nmQ",
+        "is_bot": false,
+        "login": "atharv-sys32",
+        "type": "User",
+        "url": "https://github.com/atharv-sys32"
+      },
+      "number": 888,
+      "repository": {
+        "name": "menu",
+        "nameWithOwner": "react-component/menu"
+      },
+      "title": "fix: ensure distinct popup ids across menu instances",
+      "updatedAt": "2026-08-19T06:59:41Z",
+      "url": "https://github.com/react-component/menu/pull/888"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBgP78w",
+        "is_bot": false,
+        "login": "EmilyyyLiu",
+        "type": "User",
+        "url": "https://github.com/EmilyyyLiu"
+      },
+      "number": 58886,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Layout): make Sider `breakpoint` follow ConfigProvider breakpoint tokens",
+      "updatedAt": "2026-09-03T19:16:12Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58886"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjYwODI5MjU=",
+        "is_bot": false,
+        "login": "waterWang",
+        "type": "User",
+        "url": "https://github.com/waterWang"
+      },
+      "number": 526,
+      "repository": {
+        "name": "image",
+        "nameWithOwner": "react-component/image"
+      },
+      "title": "fix: prevent parent scroll on keyboard navigation in preview",
+      "updatedAt": "2026-08-17T07:33:48Z",
+      "url": "https://github.com/react-component/image/pull/526"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY5ODgzNTUy",
+        "is_bot": false,
+        "login": "QdabuliuQ",
+        "type": "User",
+        "url": "https://github.com/QdabuliuQ"
+      },
+      "number": 58866,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Pagination): support variant and shape props",
+      "updatedAt": "2026-09-04T01:59:49Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58866"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY5ODgzNTUy",
+        "is_bot": false,
+        "login": "QdabuliuQ",
+        "type": "User",
+        "url": "https://github.com/QdabuliuQ"
+      },
+      "number": 58865,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Menu): prevent tooltip flash when collapsing while hovered",
+      "updatedAt": "2026-08-17T02:57:10Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58865"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY5ODgzNTUy",
+        "is_bot": false,
+        "login": "QdabuliuQ",
+        "type": "User",
+        "url": "https://github.com/QdabuliuQ"
+      },
+      "number": 58861,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Breadcrumb): support collapsed items with hover expand",
+      "updatedAt": "2026-09-15T14:22:35Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58861"
+    },
+    {
+      "author": {
+        "id": "MDM6Qm90NDk2OTkzMzM=",
+        "is_bot": false,
+        "login": "dependabot[bot]",
+        "type": "Bot",
+        "url": "https://github.com/apps/dependabot"
+      },
+      "number": 1012,
+      "repository": {
+        "name": "tabs",
+        "nameWithOwner": "react-component/tabs"
+      },
+      "title": "chore(deps): bump the github-actions group across 1 directory with 3 updates",
+      "updatedAt": "2026-09-07T13:18:08Z",
+      "url": "https://github.com/react-component/tabs/pull/1012"
+    },
+    {
+      "author": {
+        "id": "MDM6Qm90NDk2OTkzMzM=",
+        "is_bot": false,
+        "login": "dependabot[bot]",
+        "type": "Bot",
+        "url": "https://github.com/apps/dependabot"
+      },
+      "number": 804,
+      "repository": {
+        "name": "util",
+        "nameWithOwner": "react-component/util"
+      },
+      "title": "chore(deps): bump the github-actions group across 1 directory with 3 updates",
+      "updatedAt": "2026-09-01T00:56:14Z",
+      "url": "https://github.com/react-component/util/pull/804"
+    },
+    {
+      "author": {
+        "id": "U_kgDOCyQHdw",
+        "is_bot": false,
+        "login": "Y-MuYi",
+        "type": "User",
+        "url": "https://github.com/Y-MuYi"
+      },
+      "number": 2001,
+      "repository": {
+        "name": "x",
+        "nameWithOwner": "ant-design/x"
+      },
+      "title": "feat(sender): support pasteFilter prop for custom paste text cleaning",
+      "updatedAt": "2026-08-28T02:47:59Z",
+      "url": "https://github.com/ant-design/x/pull/2001"
+    },
+    {
+      "author": {
+        "id": "U_kgDOCtSAQw",
+        "is_bot": false,
+        "login": "lkxdsb",
+        "type": "User",
+        "url": "https://github.com/lkxdsb"
+      },
+      "number": 1999,
+      "repository": {
+        "name": "x",
+        "nameWithOwner": "ant-design/x"
+      },
+      "title": "fix(suggestion): preserve space input in editable triggers",
+      "updatedAt": "2026-09-02T02:14:39Z",
+      "url": "https://github.com/ant-design/x/pull/1999"
+    },
+    {
+      "author": {
+        "id": "U_kgDOEQqdeQ",
+        "is_bot": false,
+        "login": "chenyu1ov3",
+        "type": "User",
+        "url": "https://github.com/chenyu1ov3"
+      },
+      "number": 1063,
+      "repository": {
+        "name": "tree",
+        "nameWithOwner": "react-component/tree"
+      },
+      "title": "fix: prevent scroll on tree title descendant focus",
+      "updatedAt": "2026-08-24T06:22:14Z",
+      "url": "https://github.com/react-component/tree/pull/1063"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjcxMTgwNDQ2",
+        "is_bot": false,
+        "login": "nikzanda",
+        "type": "User",
+        "url": "https://github.com/nikzanda"
+      },
+      "number": 1505,
+      "repository": {
+        "name": "table",
+        "nameWithOwner": "react-component/table"
+      },
+      "title": "feat: support expand all control in expandable column header",
+      "updatedAt": "2026-08-18T06:18:55Z",
+      "url": "https://github.com/react-component/table/pull/1505"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjcxMTgwNDQ2",
+        "is_bot": false,
+        "login": "nikzanda",
+        "type": "User",
+        "url": "https://github.com/nikzanda"
+      },
+      "number": 58834,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Anchor): avoid duplicate onChange with getCurrentAnchor",
+      "updatedAt": "2026-08-17T07:27:20Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58834"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjIzMTg1ODUy",
+        "is_bot": false,
+        "login": "biubiukam",
+        "type": "User",
+        "url": "https://github.com/biubiukam"
+      },
+      "number": 1504,
+      "repository": {
+        "name": "table",
+        "nameWithOwner": "react-component/table"
+      },
+      "title": "fix: 修复纵向滚动表格切换数据时表头宽度跳动",
+      "updatedAt": "2026-08-18T17:35:50Z",
+      "url": "https://github.com/react-component/table/pull/1504"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjUwNzYxNQ==",
+        "is_bot": false,
+        "login": "afc163",
+        "type": "User",
+        "url": "https://github.com/afc163"
+      },
+      "number": 58814,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Upload): preserve new files during async removal",
+      "updatedAt": "2026-08-17T07:28:55Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58814"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjg5MjM0MDM2",
+        "is_bot": false,
+        "login": "ZQDesigned",
+        "type": "User",
+        "url": "https://github.com/ZQDesigned"
+      },
+      "number": 998,
+      "repository": {
+        "name": "picker",
+        "nameWithOwner": "react-component/picker"
+      },
+      "title": "feat: support Temporal generateConfig",
+      "updatedAt": "2026-08-27T23:05:03Z",
+      "url": "https://github.com/react-component/picker/pull/998"
+    },
+    {
+      "author": {
+        "id": "MDM6Qm90NDk2OTkzMzM=",
+        "is_bot": false,
+        "login": "dependabot[bot]",
+        "type": "Bot",
+        "url": "https://github.com/apps/dependabot"
+      },
+      "number": 1084,
+      "repository": {
+        "name": "slider",
+        "nameWithOwner": "react-component/slider"
+      },
+      "title": "chore(deps-dev): bump the npm-dependencies group across 1 directory with 2 updates",
+      "updatedAt": "2026-10-05T13:07:13Z",
+      "url": "https://github.com/react-component/slider/pull/1084"
+    },
+    {
+      "author": {
+        "id": "MDM6Qm90NDk2OTkzMzM=",
+        "is_bot": false,
+        "login": "dependabot[bot]",
+        "type": "Bot",
+        "url": "https://github.com/apps/dependabot"
+      },
+      "number": 393,
+      "repository": {
+        "name": "steps",
+        "nameWithOwner": "react-component/steps"
+      },
+      "title": "chore(deps-dev): bump the npm-dependencies group across 1 directory with 2 updates",
+      "updatedAt": "2026-10-05T13:05:20Z",
+      "url": "https://github.com/react-component/steps/pull/393"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBgP78w",
+        "is_bot": false,
+        "login": "EmilyyyLiu",
+        "type": "User",
+        "url": "https://github.com/EmilyyyLiu"
+      },
+      "number": 723,
+      "repository": {
+        "name": "upload",
+        "nameWithOwner": "react-component/upload"
+      },
+      "title": "feat: add retry method for upload",
+      "updatedAt": "2026-09-15T01:33:18Z",
+      "url": "https://github.com/react-component/upload/pull/723"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczNTAyNzQ4",
+        "is_bot": false,
+        "login": "drewmt",
+        "type": "User",
+        "url": "https://github.com/drewmt"
+      },
+      "number": 58775,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix: support Yarn PnP subpath imports",
+      "updatedAt": "2026-09-04T01:56:19Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58775"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjIwNzYxNDA4",
+        "is_bot": false,
+        "login": "wanxiankai",
+        "type": "User",
+        "url": "https://github.com/wanxiankai"
+      },
+      "number": 58762,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix: handle Input.OTP IME composition",
+      "updatedAt": "2026-09-03T19:11:47Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58762"
+    },
+    {
+      "author": {
+        "id": "MDM6Qm90NDk2OTkzMzM=",
+        "is_bot": false,
+        "login": "dependabot[bot]",
+        "type": "Bot",
+        "url": "https://github.com/apps/dependabot"
+      },
+      "number": 1618,
+      "repository": {
+        "name": "ant-design-web3",
+        "nameWithOwner": "ant-design/ant-design-web3"
+      },
+      "title": "chore(deps): bump ws from 6.2.3 to 6.2.6",
+      "updatedAt": "2026-09-02T12:41:55Z",
+      "url": "https://github.com/ant-design/ant-design-web3/pull/1618"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 58759,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Spin): support minDuration for minimum spinning duration",
+      "updatedAt": "2026-09-26T05:29:19Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58759"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQwOTY4OTI4",
+        "is_bot": false,
+        "login": "dogledogle",
+        "type": "User",
+        "url": "https://github.com/dogledogle"
+      },
+      "number": 214,
+      "repository": {
+        "name": "rate",
+        "nameWithOwner": "react-component/rate"
+      },
+      "title": "fix: wrap generic event types in inline code",
+      "updatedAt": "2026-09-10T05:23:22Z",
+      "url": "https://github.com/react-component/rate/pull/214"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQ1MTg5ODEz",
+        "is_bot": false,
+        "login": "baofuen",
+        "type": "User",
+        "url": "https://github.com/baofuen"
+      },
+      "number": 639,
+      "repository": {
+        "name": "trigger",
+        "nameWithOwner": "react-component/trigger"
+      },
+      "title": "fix: popup invisible due to CSSTransition interfering with measurement",
+      "updatedAt": "2026-08-27T09:22:16Z",
+      "url": "https://github.com/react-component/trigger/pull/639"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjg5MjM0MDM2",
+        "is_bot": false,
+        "login": "ZQDesigned",
+        "type": "User",
+        "url": "https://github.com/ZQDesigned"
+      },
+      "number": 713,
+      "repository": {
+        "name": "pagination",
+        "nameWithOwner": "react-component/pagination"
+      },
+      "title": "fix: correct pagination semantics on default render path",
+      "updatedAt": "2026-09-03T11:54:53Z",
+      "url": "https://github.com/react-component/pagination/pull/713"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjMwMzk3NjU1",
+        "is_bot": false,
+        "login": "leshalv",
+        "type": "User",
+        "url": "https://github.com/leshalv"
+      },
+      "number": 58609,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Table): selection column z-index not working with fixed columns",
+      "updatedAt": "2026-09-26T05:41:28Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58609"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjI4OTMwNTUz",
+        "is_bot": false,
+        "login": "Pareder",
+        "type": "User",
+        "url": "https://github.com/Pareder"
+      },
+      "number": 990,
+      "repository": {
+        "name": "picker",
+        "nameWithOwner": "react-component/picker"
+      },
+      "title": "feat: refactor Footer component to be accessible",
+      "updatedAt": "2026-09-22T11:17:06Z",
+      "url": "https://github.com/react-component/picker/pull/990"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjI4OTMwNTUz",
+        "is_bot": false,
+        "login": "Pareder",
+        "type": "User",
+        "url": "https://github.com/Pareder"
+      },
+      "number": 987,
+      "repository": {
+        "name": "picker",
+        "nameWithOwner": "react-component/picker"
+      },
+      "title": "feat: Improve Time panel keyboard navigation and semantics",
+      "updatedAt": "2026-09-22T11:12:38Z",
+      "url": "https://github.com/react-component/picker/pull/987"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjI4OTMwNTUz",
+        "is_bot": false,
+        "login": "Pareder",
+        "type": "User",
+        "url": "https://github.com/Pareder"
+      },
+      "number": 986,
+      "repository": {
+        "name": "picker",
+        "nameWithOwner": "react-component/picker"
+      },
+      "title": "feat: Improve Date panel keyboard navigation and semantics",
+      "updatedAt": "2026-09-30T14:20:00Z",
+      "url": "https://github.com/react-component/picker/pull/986"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjIzMTg1ODUy",
+        "is_bot": false,
+        "login": "biubiukam",
+        "type": "User",
+        "url": "https://github.com/biubiukam"
+      },
+      "number": 58503,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat: add scroll fade hints to popup lists",
+      "updatedAt": "2026-09-08T08:41:46Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58503"
+    },
+    {
+      "author": {
+        "id": "U_kgDOESHJ6A",
+        "is_bot": false,
+        "login": "protivon",
+        "type": "User",
+        "url": "https://github.com/protivon"
+      },
+      "number": 83,
+      "repository": {
+        "name": "textarea",
+        "nameWithOwner": "react-component/textarea"
+      },
+      "title": "fix(package.json): use HTTPS repository URL instead of SSH",
+      "updatedAt": "2026-08-27T23:13:59Z",
+      "url": "https://github.com/react-component/textarea/pull/83"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjMwMjYwMjIx",
+        "is_bot": false,
+        "login": "FatahChan",
+        "type": "User",
+        "url": "https://github.com/FatahChan"
+      },
+      "number": 3138,
+      "repository": {
+        "name": "dayjs",
+        "nameWithOwner": "iamkun/dayjs"
+      },
+      "title": "fix: add meridiem to Turkish locale",
+      "updatedAt": "2026-08-28T02:20:54Z",
+      "url": "https://github.com/iamkun/dayjs/pull/3138"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjI4OTMwNTUz",
+        "is_bot": false,
+        "login": "Pareder",
+        "type": "User",
+        "url": "https://github.com/Pareder"
+      },
+      "number": 58267,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "feat(Cascader, Select, TreeSelect): improve clear button accessibility",
+      "updatedAt": "2026-08-21T01:44:48Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58267"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQ5MjE3NDE4",
+        "is_bot": false,
+        "login": "li-jia-nan",
+        "type": "User",
+        "url": "https://github.com/li-jia-nan"
+      },
+      "number": 625,
+      "repository": {
+        "name": "trigger",
+        "nameWithOwner": "react-component/trigger"
+      },
+      "title": "feat: add safe hover polygon handling",
+      "updatedAt": "2026-08-19T03:50:10Z",
+      "url": "https://github.com/react-component/trigger/pull/625"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjI4OTMwNTUz",
+        "is_bot": false,
+        "login": "Pareder",
+        "type": "User",
+        "url": "https://github.com/Pareder"
+      },
+      "number": 286,
+      "repository": {
+        "name": "color-picker",
+        "nameWithOwner": "react-component/color-picker"
+      },
+      "title": "feat: Improve keyboard & screen-reader accessibility",
+      "updatedAt": "2026-09-28T08:29:58Z",
+      "url": "https://github.com/react-component/color-picker/pull/286"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjkwNTYyMDE1",
+        "is_bot": false,
+        "login": "RykerFeng",
+        "type": "User",
+        "url": "https://github.com/RykerFeng"
+      },
+      "number": 58211,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix: Typography ellipsis tooltip false positive with small line-height",
+      "updatedAt": "2026-09-04T01:53:32Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58211"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQ1OTMwMTA3",
+        "is_bot": false,
+        "login": "PinkChampagne17",
+        "type": "User",
+        "url": "https://github.com/PinkChampagne17"
+      },
+      "number": 624,
+      "repository": {
+        "name": "trigger",
+        "nameWithOwner": "react-component/trigger"
+      },
+      "title": "fix: skip iframe html and body in visible area",
+      "updatedAt": "2026-08-27T09:10:44Z",
+      "url": "https://github.com/react-component/trigger/pull/624"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjYxNTg3MDY4",
+        "is_bot": false,
+        "login": "yezhonghu0503",
+        "type": "User",
+        "url": "https://github.com/yezhonghu0503"
+      },
+      "number": 96,
+      "repository": {
+        "name": "fast-color",
+        "nameWithOwner": "ant-design/fast-color"
+      },
+      "title": "fix(getHue): normalise to [0, 360) to avoid magenta-cast at the red boundary",
+      "updatedAt": "2026-08-28T08:51:49Z",
+      "url": "https://github.com/ant-design/fast-color/pull/96"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjQ1OTMwMTA3",
+        "is_bot": false,
+        "login": "PinkChampagne17",
+        "type": "User",
+        "url": "https://github.com/PinkChampagne17"
+      },
+      "number": 768,
+      "repository": {
+        "name": "util",
+        "nameWithOwner": "react-component/util"
+      },
+      "title": "fix: detect iframe DOM nodes",
+      "updatedAt": "2026-09-10T12:10:06Z",
+      "url": "https://github.com/react-component/util/pull/768"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjYxNTg3MDY4",
+        "is_bot": false,
+        "login": "yezhonghu0503",
+        "type": "User",
+        "url": "https://github.com/yezhonghu0503"
+      },
+      "number": 622,
+      "repository": {
+        "name": "trigger",
+        "nameWithOwner": "react-component/trigger"
+      },
+      "title": "fix(trigger): avoid flushSync for synchronous-call dedup",
+      "updatedAt": "2026-08-31T04:03:45Z",
+      "url": "https://github.com/react-component/trigger/pull/622"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjYyMDg2MTQ3",
+        "is_bot": false,
+        "login": "ug-one",
+        "type": "User",
+        "url": "https://github.com/ug-one"
+      },
+      "number": 58083,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Layout): improve Sider trigger accessibility",
+      "updatedAt": "2026-09-04T01:55:41Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58083"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjg0MjcyMTEx",
+        "is_bot": false,
+        "login": "yogeshwaran-c",
+        "type": "User",
+        "url": "https://github.com/yogeshwaran-c"
+      },
+      "number": 58022,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Modal): default focusable.autoFocusButton to null in confirm dialog",
+      "updatedAt": "2026-09-04T01:53:57Z",
+      "url": "https://github.com/ant-design/ant-design/pull/58022"
+    },
+    {
+      "author": {
+        "id": "U_kgDOCjDsoQ",
+        "is_bot": false,
+        "login": "ai-mountain",
+        "type": "User",
+        "url": "https://github.com/ai-mountain"
+      },
+      "number": 57980,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Input): align large input height with control height",
+      "updatedAt": "2026-09-04T01:54:23Z",
+      "url": "https://github.com/ant-design/ant-design/pull/57980"
+    },
+    {
+      "author": {
+        "id": "U_kgDOEFosAg",
+        "is_bot": false,
+        "login": "nickmopen",
+        "type": "User",
+        "url": "https://github.com/nickmopen"
+      },
+      "number": 57883,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(Menu): navigate anchor links when Enter is pressed on menu item",
+      "updatedAt": "2026-10-02T02:41:04Z",
+      "url": "https://github.com/ant-design/ant-design/pull/57883"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBdh7bw",
+        "is_bot": false,
+        "login": "whatfontisthis",
+        "type": "User",
+        "url": "https://github.com/whatfontisthis"
+      },
+      "number": 3244,
+      "repository": {
+        "name": "eslint-plugin-import",
+        "nameWithOwner": "import-js/eslint-plugin-import"
+      },
+      "title": "fix: no-unused-modules correctly handles `export { X as default }` syntax",
+      "updatedAt": "2026-09-05T20:42:22Z",
+      "url": "https://github.com/import-js/eslint-plugin-import/pull/3244"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjc0MzQ1MDg=",
+        "is_bot": false,
+        "login": "danielthegray",
+        "type": "User",
+        "url": "https://github.com/danielthegray"
+      },
+      "number": 744,
+      "repository": {
+        "name": "util",
+        "nameWithOwner": "react-component/util"
+      },
+      "title": "fix: scrollbar measurement missing CSP nonce when creating <style>",
+      "updatedAt": "2026-09-07T09:33:23Z",
+      "url": "https://github.com/react-component/util/pull/744"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjI5MDQyNTg=",
+        "is_bot": false,
+        "login": "Damon4",
+        "type": "User",
+        "url": "https://github.com/Damon4"
+      },
+      "number": 57345,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "type: autoAdjustOverflow supports object config",
+      "updatedAt": "2026-09-04T01:57:58Z",
+      "url": "https://github.com/ant-design/ant-design/pull/57345"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBwt4Yw",
+        "is_bot": false,
+        "login": "claytonlin1110",
+        "type": "User",
+        "url": "https://github.com/claytonlin1110"
+      },
+      "number": 57343,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix: improve Popover and Popconfirm keyboard focus",
+      "updatedAt": "2026-09-04T01:54:57Z",
+      "url": "https://github.com/ant-design/ant-design/pull/57343"
+    },
+    {
+      "author": {
+        "id": "BOT_kgDOC9w8XQ",
+        "is_bot": false,
+        "login": "Copilot",
+        "type": "Bot",
+        "url": "https://github.com/apps/copilot-swe-agent"
+      },
+      "number": 131,
+      "repository": {
+        "name": "util",
+        "nameWithOwner": "antvis/util"
+      },
+      "title": "fix: patch prototype pollution vulnerability in deepMix and mix",
+      "updatedAt": "2026-09-04T05:06:53Z",
+      "url": "https://github.com/antvis/util/pull/131"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjEzNDQ3NjUz",
+        "is_bot": false,
+        "login": "AutumnChen",
+        "type": "User",
+        "url": "https://github.com/AutumnChen"
+      },
+      "number": 495,
+      "repository": {
+        "name": "image",
+        "nameWithOwner": "react-component/image"
+      },
+      "title": "fix: 释放事件同样需要 movable 为 true",
+      "updatedAt": "2026-08-28T01:27:54Z",
+      "url": "https://github.com/react-component/image/pull/495"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjIwMjkzODc2",
+        "is_bot": false,
+        "login": "tyreer",
+        "type": "User",
+        "url": "https://github.com/tyreer"
+      },
+      "number": 81,
+      "repository": {
+        "name": "textarea",
+        "nameWithOwner": "react-component/textarea"
+      },
+      "title": "fix(hiddenTextarea): use correct tabindex attribute to prevent keyboard focus",
+      "updatedAt": "2026-08-27T11:36:07Z",
+      "url": "https://github.com/react-component/textarea/pull/81"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjUwMjk4NDA2",
+        "is_bot": false,
+        "login": "jynxio",
+        "type": "User",
+        "url": "https://github.com/jynxio"
+      },
+      "number": 381,
+      "repository": {
+        "name": "notification",
+        "nameWithOwner": "react-component/notification"
+      },
+      "title": "fix: Clamp duration to setTimeout max value",
+      "updatedAt": "2026-08-27T23:10:23Z",
+      "url": "https://github.com/react-component/notification/pull/381"
+    },
+    {
+      "author": {
+        "id": "U_kgDOBfixhg",
+        "is_bot": false,
+        "login": "juno-the-programmer",
+        "type": "User",
+        "url": "https://github.com/juno-the-programmer"
+      },
+      "number": 35,
+      "repository": {
+        "name": "portal",
+        "nameWithOwner": "react-component/portal"
+      },
+      "title": "feat: add CSP nonce support to Portal",
+      "updatedAt": "2026-08-27T08:39:05Z",
+      "url": "https://github.com/react-component/portal/pull/35"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjYyMDg2MTQ3",
+        "is_bot": false,
+        "login": "ug-one",
+        "type": "User",
+        "url": "https://github.com/ug-one"
+      },
+      "number": 307,
+      "repository": {
+        "name": "mentions",
+        "nameWithOwner": "react-component/mentions"
+      },
+      "title": "fix: Prevent auto-scrolling when input is not focused",
+      "updatedAt": "2026-09-15T14:24:22Z",
+      "url": "https://github.com/react-component/mentions/pull/307"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjM2OTE2ODE0",
+        "is_bot": false,
+        "login": "SocietyNiu",
+        "type": "User",
+        "url": "https://github.com/SocietyNiu"
+      },
+      "number": 78,
+      "repository": {
+        "name": "textarea",
+        "nameWithOwner": "react-component/textarea"
+      },
+      "title": "fix: trigger onChange twice when using IME input",
+      "updatedAt": "2026-08-27T10:10:23Z",
+      "url": "https://github.com/react-component/textarea/pull/78"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjUzNTY1Mjc0",
+        "is_bot": false,
+        "login": "Linkodt",
+        "type": "User",
+        "url": "https://github.com/Linkodt"
+      },
+      "number": 55029,
+      "repository": {
+        "name": "ant-design",
+        "nameWithOwner": "ant-design/ant-design"
+      },
+      "title": "fix(menu): Fix the display issue of block-level elements in the menu title content.",
+      "updatedAt": "2026-09-04T01:56:54Z",
+      "url": "https://github.com/ant-design/ant-design/pull/55029"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjE2NzAwMDUz",
+        "is_bot": false,
+        "login": "mleister97",
+        "type": "User",
+        "url": "https://github.com/mleister97"
+      },
+      "number": 26,
+      "repository": {
+        "name": "portal",
+        "nameWithOwner": "react-component/portal"
+      },
+      "title": "fix: consider overflow-y: scroll as overflowing in isBodyOverflowing",
+      "updatedAt": "2026-08-27T08:33:54Z",
+      "url": "https://github.com/react-component/portal/pull/26"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjEwMjg2OTYx",
+        "is_bot": false,
+        "login": "kiner-tang",
+        "type": "User",
+        "url": "https://github.com/kiner-tang"
+      },
+      "number": 596,
+      "repository": {
+        "name": "cascader",
+        "nameWithOwner": "react-component/cascader"
+      },
+      "title": "feat: support data-* & aria-*",
+      "updatedAt": "2026-08-26T17:05:03Z",
+      "url": "https://github.com/react-component/cascader/pull/596"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjI2NTg5MTE5",
+        "is_bot": false,
+        "login": "hanclang",
+        "type": "User",
+        "url": "https://github.com/hanclang"
+      },
+      "number": 6813,
+      "repository": {
+        "name": "ant-design-mobile",
+        "nameWithOwner": "ant-design/ant-design-mobile"
+      },
+      "title": "fix: dropdown 关闭没有动画效果",
+      "updatedAt": "2026-08-28T04:18:07Z",
+      "url": "https://github.com/ant-design/ant-design-mobile/pull/6813"
+    },
+    {
+      "author": {
+        "id": "U_kgDOCxRUgg",
+        "is_bot": false,
+        "login": "octojedi",
+        "type": "User",
+        "url": "https://github.com/octojedi"
+      },
+      "number": 1047,
+      "repository": {
+        "name": "slider",
+        "nameWithOwner": "react-component/slider"
+      },
+      "title": "Create SECURITY.md",
+      "updatedAt": "2026-09-02T16:21:05Z",
+      "url": "https://github.com/react-component/slider/pull/1047"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjc3MzEyNzE2",
+        "is_bot": false,
+        "login": "xueqianz",
+        "type": "User",
+        "url": "https://github.com/xueqianz"
+      },
+      "number": 547,
+      "repository": {
+        "name": "util",
+        "nameWithOwner": "react-component/util"
+      },
+      "title": "allow some attribute of dom be modified.",
+      "updatedAt": "2026-08-28T12:29:22Z",
+      "url": "https://github.com/react-component/util/pull/547"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY0MjQ3ODU2",
+        "is_bot": false,
+        "login": "rykercheung",
+        "type": "User",
+        "url": "https://github.com/rykercheung"
+      },
+      "number": 692,
+      "repository": {
+        "name": "menu",
+        "nameWithOwner": "react-component/menu"
+      },
+      "title": "feat: improve key type to support React.Key",
+      "updatedAt": "2026-08-28T01:33:59Z",
+      "url": "https://github.com/react-component/menu/pull/692"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjczMjE4ODE1",
+        "is_bot": false,
+        "login": "CooperHash",
+        "type": "User",
+        "url": "https://github.com/CooperHash"
+      },
+      "number": 690,
+      "repository": {
+        "name": "menu",
+        "nameWithOwner": "react-component/menu"
+      },
+      "title": "fix:submenu overflow popupoffset",
+      "updatedAt": "2026-08-27T16:31:39Z",
+      "url": "https://github.com/react-component/menu/pull/690"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjY2NDMzMTAw",
+        "is_bot": false,
+        "login": "Asanio06",
+        "type": "User",
+        "url": "https://github.com/Asanio06"
+      },
+      "number": 335,
+      "repository": {
+        "name": "collapse",
+        "nameWithOwner": "react-component/collapse"
+      },
+      "title": "feat: can use a wrapper on panel when using items props of collapse",
+      "updatedAt": "2026-08-27T16:23:37Z",
+      "url": "https://github.com/react-component/collapse/pull/335"
+    },
+    {
+      "author": {
+        "id": "MDQ6VXNlcjgxNzk5ODc=",
+        "is_bot": false,
+        "login": "zerosrat",
+        "type": "User",
+        "url": "https://github.com/zerosrat"
+      },
+      "number": 455,
+      "repository": {
+        "name": "util",
+        "nameWithOwner": "react-component/util"
+      },
+      "title": "fix: add nullish in dynamicCSS.ts",
+      "updatedAt": "2026-08-28T12:19:27Z",
+      "url": "https://github.com/react-component/util/pull/455"
+    }
+  ],
+  "role_readback": {
+    "query_started_at_utc": "2026-10-07T08:22:15.613263+00:00",
+    "checked_at_utc": "2026-10-07T08:22:16.275903+00:00",
+    "data": {
+      "data": {
+        "viewer": {
+          "login": "nrps9909"
+        },
+        "ant": {
+          "viewerPermission": "READ",
+          "viewerCanAdminister": false,
+          "owner": {
+            "login": "ant-design",
+            "viewerIsAMember": false
+          }
+        },
+        "marked": {
+          "viewerPermission": "READ",
+          "viewerCanAdminister": false,
+          "owner": {
+            "login": "markedjs",
+            "viewerIsAMember": false
+          }
+        }
+      }
+    }
+  },
+  "chosen_project": "ant-design/ant-design",
+  "scope": "Menu/Dropdown keyboard activation and focus, canonical dependencies and integration",
+  "formal_role_status": "external contributor, READ; proposal submitted; no scope agreement, assignment, vote, invitation, or core appointment verified",
+  "proposal_url": "https://github.com/ant-design/ant-design/issues/3222#issuecomment-6033907706",
+  "new_review_url": "https://github.com/react-component/menu/pull/898#pullrequestreview-5439489565",
+  "review_decision": "CHANGES_REQUESTED",
+  "review_source_signatures": {
+    "head": {
+      "checked_at_utc": "2026-10-07T08:22:16.841438+00:00",
+      "sha": "6fc01b8b9a62446e38664c0b982b7957de9d5b6b",
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "verified_at": null
+      }
+    },
+    "base": {
+      "checked_at_utc": "2026-10-07T08:22:17.363266+00:00",
+      "sha": "8dfdef453a24cee1bda115e3249b17289356829d",
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "verified_at": "2026-09-07T01:42:11Z"
+      }
+    },
+    "preview": {
+      "checked_at_utc": "2026-10-07T08:22:18.042461+00:00",
+      "sha": "4df8100043f66cb2fd3901419355063822274004",
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "verified_at": "2026-10-03T19:15:17Z"
+      }
+    }
+  },
+  "source_authorship": "Other author; no authored source patch / PR",
+  "new_authored_merge_count": 0,
+  "new_other_authored_reviewed_pr_count": 1,
+  "local_evidence": "maintainer-path-2026-10-07/",
+  "workflow": "existing daily follow-up at 10:00 Asia/Taipei, now prioritizes this scope with quiet notification rules and existing PR obligations",
+  "primary_sources": [
+    {
+      "url": "https://github.com/ant-design/ant-design/wiki/Collaborators",
+      "purpose": "current criteria and published invitation route"
+    },
+    {
+      "url": "https://ant.design/docs/blog/contributor-development-maintenance-guide/",
+      "purpose": "collaborator responsibilities and process"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/issues/3222#issuecomment-5239305233",
+      "purpose": "August 2026 upstream invitation"
+    },
+    {
+      "url": "https://github.com/markedjs/marked/blob/master/docs/AUTHORS.md",
+      "purpose": "alternative contributor/committer/admin/publisher route"
+    },
+    {
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/menubar/",
+      "purpose": "native-key navigation and activation expectations"
+    }
+  ]
+}

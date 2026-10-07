@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-10-07T08:19:55.273193+00:00",
+  "review": {
+    "html_url": "https://github.com/react-component/menu/pull/898#pullrequestreview-5439489565",
+    "state": "CHANGES_REQUESTED",
+    "commit_id": "6fc01b8b9a62446e38664c0b982b7957de9d5b6b",
+    "submitted_at": "2026-10-07T08:16:27Z",
+    "body": "I reviewed exact head `6fc01b8b9a62446e38664c0b982b7957de9d5b6b`, base `8dfdef453a24cee1bda115e3249b17289356829d`, and GitHub merge preview `4df8100043f66cb2fd3901419355063822274004` (both parents verified).\n\nThe original first-focus/link activation problem is fixed: native Chrome Enter follows the focused link on head/preview, while base stays on the `li` and does not navigate. ArrowDown, Home/End, disabled-first-item skipping, controlled active-key focus, and plain-item fallback also work in the tested cases.\n\nTwo behavior regressions need attention before merging: native Enter now dispatches item/menu callbacks twice from ref focus (and cancels selection in `multiple` mode), and direct item focus loses `preventScroll`. The inline comments contain exact steps and base/head results.\n\nLocal validation on Node 24.15 / React 19.3: complete base 13 suites / 144 tests / 20 snapshots; head and preview each 13 / 146 / 20. Both added focus tests fail when copied to base; existing controls pass. Head TypeScript, compile, and lint pass (0 errors / 11 warnings). Browser evidence uses real Chrome 154.0.8037.98 and native key events. These local results do not establish remote CI success, screen-reader behavior, or complete WCAG conformance.\n\nAI assistance disclosure: Codex helped inspect the source, prepare/run the isolated tests and Chrome probe, and draft this review. No upstream source patch or duplicate PR was created."
+  },
+  "author": "nrps9909",
+  "comments": [
+    {
+      "html_url": "https://github.com/react-component/menu/pull/898#discussion_r4204598760",
+      "path": "src/Menu.tsx",
+      "commit_id": "6fc01b8b9a62446e38664c0b982b7957de9d5b6b",
+      "position": 13,
+      "original_position": 13,
+      "diff_hunk": "@@ -406,7 +407,8 @@ const Menu = React.forwardRef<MenuRef, MenuProps>((props, ref) => {\n         const elementToFocus = key2element.get(shouldFocusKey);\n \n         if (shouldFocusKey && elementToFocus) {\n-          elementToFocus?.focus?.(options);\n+          const focusTargetElement = getFocusTarget(elementToFocus);",
+      "body": "[P2] Handle native anchor Enter without also invoking legacy keyboard activation\n\nChanging initial/ref focus from the `li` to its anchor exposes the native Enter click to `MenuItem.onInternalKeyDown`, which already calls both `onClick` and `onItemClick`. Chrome then dispatches the anchor's native `click`, invoking both callbacks again. With `multiple`, one Enter selects and immediately deselects the same item.\n\nReproduction on this exact head and merge preview: render `<Menu multiple ref={ref} items={[{ key: 'first', label: <a href=\"#destination\">Link</a> }]} onClick={spy} />`, call `ref.current.focus()`, and press Enter with a real keyboard driver. The spy records `keydown`, then `click`, and no item remains selected. Base records one `keydown` and leaves one selected item (but has the original missing navigation bug).\n\nThe same double-activation already exists on base after arrow navigation focuses an anchor; this PR additionally exposes it on first/ref focus. Please let native anchor activation happen once while retaining legacy Enter activation for non-link items, and cover both paths plus multiple selection with native-key tests."
+    },
+    {
+      "html_url": "https://github.com/react-component/menu/pull/898#discussion_r4204598770",
+      "path": "src/MenuItem.tsx",
+      "commit_id": "6fc01b8b9a62446e38664c0b982b7957de9d5b6b",
+      "position": 8,
+      "original_position": 8,
+      "diff_hunk": "@@ -201,6 +201,13 @@ const InternalMenuItem = React.forwardRef((props: MenuItemProps, ref: React.Ref<\n   const onInternalFocus: React.FocusEventHandler<HTMLLIElement> = e => {\n     onActive(eventKey);\n     onFocus?.(e);\n+\n+    if (e.target === elementRef.current) {\n+      const link = elementRef.current?.querySelector<HTMLAnchorElement>('a[href]');\n+      if (link) {\n+        link.focus();",
+      "body": "[P2] Preserve the caller's scroll decision when redirecting item focus\n\nThe extra `link.focus()` starts a second focus operation with default scrolling. A caller using the public `ref.current.findItem({ key: 'first' }).focus({ preventScroll: true })` can therefore no longer keep the viewport in place when that item contains a link.\n\nIn a real Chrome page with the menu below the viewport (top 1600px), starting at `scrollY=0`, base keeps `scrollY=0`; this head and the merge preview jump to `scrollY=1267`. Direct focus also invokes the item's `onFocus` twice (`li`, then anchor), rather than once on base. `MenuRef.focus({ preventScroll: true })` still preserves scrolling because it passes the option directly to the anchor.\n\nPlease preserve the initial focus operation's scroll decision during this redirection (for example, prevent scrolling on the secondary focus) and add coverage for direct item focus with `preventScroll`, alongside the existing MenuRef focus test."
+    }
+  ],
+  "note": "GET review-comments endpoint returned legacy diff position fields, not line; original POST line and returned path/diff hunk retained for verification",
+  "body_commit_readback_verified": true
+}
