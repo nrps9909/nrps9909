@@ -1,0 +1,124 @@
+{
+  "checked_at_utc": "2026-10-07T03:20:16.594131+00:00",
+  "repository": "markedjs/marked",
+  "tested_merged_head": "cc07bb9cb62bfd41a724d0a426f194188d7b35c1",
+  "includes_merges": [
+    4121,
+    4123
+  ],
+  "runtime": "Node v24.15.0 / npm 12.0.2",
+  "local_full_test": {
+    "command": "npm test",
+    "exit_code": 0,
+    "specification_tests": 1907,
+    "unit_tests": 199,
+    "failures": 0,
+    "build_docs_umd_cjs_types_package_lint": "passed",
+    "command_receipt": {
+      "label": "full-test",
+      "args": [
+        "npm",
+        "test"
+      ],
+      "query_started_at_utc": "2026-10-07T03:12:12.459492+00:00",
+      "checked_at_utc": "2026-10-07T03:12:29.440963+00:00",
+      "exit_code": 0
+    }
+  },
+  "dependency_install": {
+    "checked_at_utc": "2026-10-07T03:12:10.315007+00:00",
+    "head": "cc07bb9cb62bfd41a724d0a426f194188d7b35c1",
+    "non_registry_dependencies": [
+      {
+        "package": "node_modules/marked-repo",
+        "resolved": "https://github.com/markedjs/marked/tarball/v18.0.11",
+        "integrity": "sha512-DhdNsx+iaxsXK360dQFdXs6vg/fXxrb25GA6K9UKy0kdLW3u2dDZI54LOlQ5W91JSbRdMKfxQKbHz/1vufQj5w=="
+      }
+    ],
+    "per_command_remote_opt_in_only": true,
+    "lifecycle_scripts_disabled": true,
+    "command": "npm ci --ignore-scripts --no-audit --no-fund --allow-remote=all",
+    "exit_code": 0,
+    "npm_12_global_allow_remote_after_validation": "none",
+    "source_and_lock_unchanged": true
+  },
+  "walk_tokens_probe": {
+    "started_at_utc": "2026-10-07T03:13:51.912Z",
+    "completed_at_utc": "2026-10-07T03:14:16.512Z",
+    "script": "../oss-2026-10-03/marked-4121-probe.mjs",
+    "base": "4ee44f7f2167bec4079255e32b520dd47f16486c",
+    "previous_authored_head": "920d86db9d65d87e39851c84364ed71488cb667a",
+    "result_label_head_is_merged_commit": "cc07bb9cb62bfd41a724d0a426f194188d7b35c1",
+    "build_options": {
+      "bundle": true,
+      "format": "esm",
+      "platform": "node",
+      "target": "node24",
+      "minify": false
+    },
+    "document_configurations": 2048,
+    "dense_result_comparisons": 8192,
+    "visited_token_comparisons": 317080,
+    "custom_iterator_regressions": {
+      "cases": 5,
+      "previous_fails": 5,
+      "base_and_merged_pass": 5
+    },
+    "sparse_array_own_undefined_difference_preserved": true,
+    "sparse_promise_all_results_match": true,
+    "benchmark_scope": "walkTokens only; lexer outside timed section; 1 warmup and 5 alternating samples; median; no timing gate",
+    "benchmark_4000_blocks_ms": {
+      "base": 3046.2937920000004,
+      "merged": 2.2770830000008573
+    },
+    "production_build_run_also_passed_but_not_used_for_comparable_timings": true
+  },
+  "image_link_probe": {
+    "started_at_utc": "2026-10-07T03:12:56.518Z",
+    "completed_at_utc": "2026-10-07T03:12:57.002Z",
+    "script": "../oss-2026-10-04/marked-4123-probe.mjs",
+    "base": "c18a64fa5e8c97cb92a8ea709a4542ea94b1c740",
+    "exact_reviewed_head": "00073f9e91ebab73a67949cc9e9cf02de2dc8a84",
+    "result_label_preview_is_merged_commit": "cc07bb9cb62bfd41a724d0a426f194188d7b35c1",
+    "markdown_documents": 3456,
+    "observations_per_implementation": 6912,
+    "base_nested_anchor_destination_violations": 2304,
+    "reviewed_and_merged_violations": 0,
+    "control_token_and_html_comparisons": 9216,
+    "seeded_state_cases_per_implementation": 8,
+    "merged_preserves_inLink_and_linkEmitted": true
+  },
+  "source_checkouts": [
+    {
+      "purpose": "marked-merged-20261007",
+      "head": "cc07bb9cb62bfd41a724d0a426f194188d7b35c1",
+      "clean": true
+    },
+    {
+      "purpose": "marked-review-4121-base",
+      "head": "4ee44f7f2167bec4079255e32b520dd47f16486c",
+      "clean": true
+    },
+    {
+      "purpose": "marked-review-4121",
+      "head": "920d86db9d65d87e39851c84364ed71488cb667a",
+      "clean": true
+    },
+    {
+      "purpose": "marked-review-4123-base-20261004",
+      "head": "c18a64fa5e8c97cb92a8ea709a4542ea94b1c740",
+      "clean": true
+    },
+    {
+      "purpose": "marked-review-4123-20261004",
+      "head": "00073f9e91ebab73a67949cc9e9cf02de2dc8a84",
+      "clean": true
+    }
+  ],
+  "remote_authored_head_ci_is_separate_from_local_merged_validation": true,
+  "browser_dom_tested": false,
+  "whole_parse_or_browser_performance_claimed": false,
+  "exhaustive_specification_conformance_claimed": false,
+  "ai_assistance_disclosed": true,
+  "new_source_patch_or_public_comment_or_review": false
+}

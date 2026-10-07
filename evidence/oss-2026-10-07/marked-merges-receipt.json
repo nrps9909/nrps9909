@@ -1,0 +1,144 @@
+{
+  "checked_at_utc": "2026-10-07T03:14:19.826339+00:00",
+  "merges": [
+    {
+      "query_started_at_utc": "2026-10-07T03:11:02.516412+00:00",
+      "checked_at_utc": "2026-10-07T03:14:19.825073+00:00",
+      "url": "https://github.com/markedjs/marked/pull/4121",
+      "author": "ikhattab",
+      "state": "MERGED",
+      "merged_at_utc": "2026-10-06T14:59:30Z",
+      "merged_by": "UziTech",
+      "final_authored_head": "05a9875c0590ed9fae184448d81edf982212cbf5",
+      "merge_commit": "627d9ae4e5ea403580782a8f6e21fbc8bf56f4c1",
+      "merge_parents": [
+        "4bd252811fb24ca6b7e22f60c39b89efc2b265d2"
+      ],
+      "author_head_signature": "unsigned",
+      "merge_signature_verified": true,
+      "merge_signature_reason": "valid",
+      "counted_as_nrps9909_authored_merge": false,
+      "prior_review": {
+        "url": "https://github.com/markedjs/marked/pull/4121#pullrequestreview-5398543739",
+        "state": "APPROVED",
+        "commit": "05a9875c0590ed9fae184448d81edf982212cbf5",
+        "body_ai_disclosed": true
+      },
+      "checks": {
+        "SUCCESS": 7,
+        "SKIPPED": 1
+      },
+      "merged_file_receipts": [
+        {
+          "pr": 4121,
+          "file": "src/Instance.ts",
+          "git_blob_sha": "4cd21e2913c184261efc8ff98a7bc9fd015a1a63",
+          "sha256": "447d98bdd4c9c52ad2b528dd1e4f18cdc447d919b0c17c0b28530c003e43032e",
+          "bytes": 15669,
+          "identical_to_exact_reviewed_head": true,
+          "query_started_at_utc": "2026-10-07T03:11:37.870386+00:00",
+          "checked_at_utc": "2026-10-07T03:11:39.420229+00:00"
+        },
+        {
+          "pr": 4121,
+          "file": "test/unit/marked.test.js",
+          "git_blob_sha": "52d001fa280bfa5bc1a39eacb80574f943e6babf",
+          "sha256": "6d9a1c4d035e1fdc1996248899d1be5fa824c735a756dc407338cb8b0f8986a1",
+          "bytes": 39098,
+          "identical_to_exact_reviewed_head": true,
+          "query_started_at_utc": "2026-10-07T03:11:37.871440+00:00",
+          "checked_at_utc": "2026-10-07T03:11:39.421532+00:00"
+        }
+      ],
+      "merged_diff": {
+        "changed_files": 2,
+        "additions": 123,
+        "deletions": 9
+      },
+      "new_public_comment_or_review": false
+    },
+    {
+      "query_started_at_utc": "2026-10-07T03:11:03.134285+00:00",
+      "checked_at_utc": "2026-10-07T03:14:19.826074+00:00",
+      "url": "https://github.com/markedjs/marked/pull/4123",
+      "author": "snooze26h",
+      "state": "MERGED",
+      "merged_at_utc": "2026-10-06T15:00:27Z",
+      "merged_by": "UziTech",
+      "final_authored_head": "00073f9e91ebab73a67949cc9e9cf02de2dc8a84",
+      "merge_commit": "cc07bb9cb62bfd41a724d0a426f194188d7b35c1",
+      "merge_parents": [
+        "627d9ae4e5ea403580782a8f6e21fbc8bf56f4c1"
+      ],
+      "author_head_signature": "unsigned",
+      "merge_signature_verified": true,
+      "merge_signature_reason": "valid",
+      "counted_as_nrps9909_authored_merge": false,
+      "prior_review": {
+        "url": "https://github.com/markedjs/marked/pull/4123#pullrequestreview-5403896691",
+        "state": "APPROVED",
+        "commit": "00073f9e91ebab73a67949cc9e9cf02de2dc8a84",
+        "body_ai_disclosed": true
+      },
+      "checks": {
+        "SUCCESS": 11,
+        "SKIPPED": 2
+      },
+      "merged_file_receipts": [
+        {
+          "pr": 4123,
+          "file": "src/Tokenizer.ts",
+          "git_blob_sha": "50a7879d281e8c6d2b63a10ee26d31d474bc14d9",
+          "sha256": "aa73292730917f525aec5b85af7aac4ad5fc7e41d587563ac67f184177af7127",
+          "bytes": 35216,
+          "identical_to_exact_reviewed_head": false,
+          "query_started_at_utc": "2026-10-07T03:11:37.872464+00:00",
+          "checked_at_utc": "2026-10-07T03:11:39.421444+00:00"
+        },
+        {
+          "pr": 4123,
+          "file": "test/specs/new/autolink_after_image_in_link.html",
+          "git_blob_sha": "d1888542be2e83b39e13d12ce1da80acf0200dc0",
+          "sha256": "ef47ba330dcacbad21245338e843a97662c0e214277858c3e28106fb48480c18",
+          "bytes": 595,
+          "identical_to_exact_reviewed_head": true,
+          "query_started_at_utc": "2026-10-07T03:11:37.873435+00:00",
+          "checked_at_utc": "2026-10-07T03:11:39.966799+00:00"
+        },
+        {
+          "pr": 4123,
+          "file": "test/specs/new/autolink_after_image_in_link.md",
+          "git_blob_sha": "bb0430900e58536737fd1c7d0f1664f26ca2b99d",
+          "sha256": "a04437c8f4ef90d8797d34ae1750430f7b3bb36155a492b6b4c3f967c816bb2e",
+          "bytes": 436,
+          "identical_to_exact_reviewed_head": true,
+          "query_started_at_utc": "2026-10-07T03:11:39.420303+00:00",
+          "checked_at_utc": "2026-10-07T03:11:40.238915+00:00"
+        }
+      ],
+      "merged_diff": {
+        "changed_files": 3,
+        "additions": 26,
+        "deletions": 2
+      },
+      "new_public_comment_or_review": false,
+      "runtime_patch_receipt": {
+        "checked_at_utc": "2026-10-07T03:12:41.586631+00:00",
+        "authored_common_ancestor": "c61543ed0f16121ace9255626abcafe9514cb1b0",
+        "authored_head": "00073f9e91ebab73a67949cc9e9cf02de2dc8a84",
+        "merge_parent": "627d9ae4e5ea403580782a8f6e21fbc8bf56f4c1",
+        "merge_commit": "cc07bb9cb62bfd41a724d0a426f194188d7b35c1",
+        "added_deleted_lines_identical": true,
+        "runtime_file_differs_due_to_prior_upstream_changes": true,
+        "merged_runtime_patch": [
+          "-  lexer.state.inLink = true;",
+          "+  const outerInLink = lexer.state.inLink;",
+          "+  lexer.state.inLink = true;",
+          "-  lexer.state.inLink = false;",
+          "+  lexer.state.inLink = outerInLink;"
+        ]
+      }
+    }
+  ],
+  "authored_merged_count_unchanged": true
+}
