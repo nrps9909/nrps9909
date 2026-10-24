@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-10-24T06:39:08.077666+00:00",
+  "method": "Chrome native CUA click/key input, production bundles, one React instance",
+  "heads": {
+    "dropdown273": "b22af69306b82d60e64c6f513956564d019fe781",
+    "menu899": "e00e0c2a5b87dd2b7408156bf68eb808cf672b6f",
+    "dropdown275_guard": "a7c05d2ee40971ecc0002d43ca2ffe3e04e2b93b"
+  },
+  "results": {
+    "base_Tab": "Next inside panel",
+    "head273_Tab": "Panel wrapper",
+    "combined_Tab": "Next inside panel",
+    "combined_panel_Escape": "Panel actions",
+    "combined_menu_Escape": "Child\u2192Submenu\u2192Menu actions, one Escape per level"
+  },
+  "candidate_status": "temporary local, not adopted by upstream",
+  "no_screen_reader_claim": true,
+  "screenshots_public": false,
+  "source_sha256": {
+    "LICENSE": "4973f756e858531bdae451f98054278dabd2ef50fc4d3dbccc084ee35964ad3d",
+    "harness.tsx": "de4b64d5f709f735b14f443dbe145efd6ba26b604e985a25fab559ea2f60b4dd",
+    "README.md": "d2fa377fed1983e00834c8225099d29a66a949a08552834e5f09bd8ff7d08a4c",
+    "escape-only-with275-candidate.ts": "f5dfe29d68d33d8eb77c43bbbab8d7f4e526aa82e02ff7dde2b42335d118af12",
+    "build.cjs": "c90218b319f5e023aa527ff5ba8de9990a2b44ae76cefc16e1061ed783357dd5"
+  },
+  "portable_bundle_rebuilt_and_native_Tab_verified": true
+}

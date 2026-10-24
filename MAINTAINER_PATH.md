@@ -30,3 +30,7 @@ Complete head / preview tests pass 146/146, base 144/144; copied new author test
 - Pursue the published Collaborator process with delivered significant work and sustained responsibility. Record proposal, scope agreement, assignment, nomination, community assessment, invitation, accepted permissions, and formal role separately. Upstream decides the appointment; there is no guaranteed promotion deadline.
 
 AI assistance: Codex helped research the process, run isolated validation, and prepare these records. Upstream commit, message, and permission readbacks are preserved. [Dated snapshot](./evidence/maintainer-path-2026-10-07.json).
+
+## 2026-10-24 native Tab / Escape follow-up
+
+Published a [source-only native comparison](evidence/dropdown-native-2026-10-24/README.md) for Dropdown#273 and the Menu#899 / Dropdown#275 integration. Real Tab advances from Search to the next control on base and the temporary Escape-only combined candidate; the current #273 head instead focuses the panel wrapper. The combined candidate retains nested Escape unwind and root-trigger focus. This extends the earlier jsdom evidence and does not imply the author adopted the candidate, a merge/release, or screen-reader conformance. #275 checks pass; Menu#899 still requires upstream workflow/Vercel authorization. The collaborator proposal remains pending; current role remains external/READ.
