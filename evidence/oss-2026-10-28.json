@@ -384,7 +384,45 @@
     },
     "dependency_note": "Declared ranges installed with legacy-peer-deps and lifecycle scripts disabled; no manifest/lockfile changes",
     "overlap": "Preserves merged #732 inactive button semantics; remaining diff covers wrapper Enter/Space and child activation",
-    "remote_note": "Current-head CI is evaluated separately; Vercel team authorization is an external gate"
+    "remote_note": "Current-head CI is evaluated separately; Vercel team authorization is an external gate",
+    "remote_checked_at_utc": "2026-10-28T09:55:41.664382+00:00",
+    "remote_workflows": [
+      {
+        "name": "✅ test",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "3dc77c19d225067c2e8517c029602f7aa494f927",
+        "url": "https://github.com/react-component/upload/actions/runs/40667505222"
+      },
+      {
+        "name": "Surge Preview",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "3dc77c19d225067c2e8517c029602f7aa494f927",
+        "url": "https://github.com/react-component/upload/actions/runs/40667504678"
+      },
+      {
+        "name": "CodeQL",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "3dc77c19d225067c2e8517c029602f7aa494f927",
+        "url": "https://github.com/react-component/upload/actions/runs/40667504737"
+      },
+      {
+        "name": "React Doctor",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "3dc77c19d225067c2e8517c029602f7aa494f927",
+        "url": "https://github.com/react-component/upload/actions/runs/40667504824"
+      }
+    ],
+    "remote_statuses": [
+      {
+        "name": "Vercel – upload",
+        "state": "failure",
+        "description": "Authorization required to deploy."
+      }
+    ]
   },
   "dropdown_273": {
     "url": "https://github.com/react-component/dropdown/pull/273",
@@ -405,7 +443,38 @@
       "previous_head": "Tab from Search focuses the panel wrapper",
       "current_head": "Tab from Search focuses the next button and keeps the panel open; Escape returns to trigger"
     },
-    "limits": "No new screen-reader validation; no whole-WCAG claim; prior-head CI is not inherited"
+    "limits": "No new screen-reader validation; no whole-WCAG claim; prior-head CI is not inherited",
+    "remote_checked_at_utc": "2026-10-28T09:55:41.664685+00:00",
+    "remote_workflows": [
+      {
+        "name": "Surge Preview",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "2c82c0cd805092660a78a769b3f3d3484794d9c1",
+        "url": "https://github.com/react-component/dropdown/actions/runs/40471826000"
+      },
+      {
+        "name": "CI",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "2c82c0cd805092660a78a769b3f3d3484794d9c1",
+        "url": "https://github.com/react-component/dropdown/actions/runs/40471826518"
+      },
+      {
+        "name": "React Doctor",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "2c82c0cd805092660a78a769b3f3d3484794d9c1",
+        "url": "https://github.com/react-component/dropdown/actions/runs/40471826248"
+      }
+    ],
+    "remote_statuses": [
+      {
+        "name": "CodeRabbit",
+        "state": "success",
+        "description": "Review completed"
+      }
+    ]
   },
   "appflowy_8939": {
     "url": "https://github.com/AppFlowy-IO/AppFlowy/pull/8939#issuecomment-6456529277",
