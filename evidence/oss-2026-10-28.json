@@ -1,0 +1,418 @@
+{
+  "checked_at_utc": "2026-10-28T09:43:52.599021+00:00",
+  "scope": "Public, non-owned upstream contributions; excludes direct classroom/team repositories",
+  "counts": {
+    "merged_upstream_prs": 85,
+    "merged_upstream_repositories": 44,
+    "ant_design_main_merged_prs": 27,
+    "ant_design_ecosystem_merged_prs": 58,
+    "reviewed_upstream_prs": 185
+  },
+  "merged_prs": [
+    {
+      "url": "https://github.com/ant-design/pro-components/pull/9711",
+      "repository": "ant-design/pro-components"
+    },
+    {
+      "url": "https://github.com/markedjs/marked/pull/4086",
+      "repository": "markedjs/marked"
+    },
+    {
+      "url": "https://github.com/react-component/picker/pull/1013",
+      "repository": "react-component/picker"
+    },
+    {
+      "url": "https://github.com/react-component/dropdown/pull/268",
+      "repository": "react-component/dropdown"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59151",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/react-component/util/pull/811",
+      "repository": "react-component/util"
+    },
+    {
+      "url": "https://github.com/react-component/util/pull/810",
+      "repository": "react-component/util"
+    },
+    {
+      "url": "https://github.com/react-component/virtual-list/pull/384",
+      "repository": "react-component/virtual-list"
+    },
+    {
+      "url": "https://github.com/react-component/badgeboard/pull/10",
+      "repository": "react-component/badgeboard"
+    },
+    {
+      "url": "https://github.com/react-component/drawer/pull/628",
+      "repository": "react-component/drawer"
+    },
+    {
+      "url": "https://github.com/react-component/tree/pull/1072",
+      "repository": "react-component/tree"
+    },
+    {
+      "url": "https://github.com/react-component/progress/pull/326",
+      "repository": "react-component/progress"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design-icons/pull/762",
+      "repository": "ant-design/ant-design-icons"
+    },
+    {
+      "url": "https://github.com/react-component/async-validator/pull/30",
+      "repository": "react-component/async-validator"
+    },
+    {
+      "url": "https://github.com/react-component/virtual-list/pull/383",
+      "repository": "react-component/virtual-list"
+    },
+    {
+      "url": "https://github.com/tldr-pages/tldr/pull/23698",
+      "repository": "tldr-pages/tldr"
+    },
+    {
+      "url": "https://github.com/usememos/memos/pull/6241",
+      "repository": "usememos/memos"
+    },
+    {
+      "url": "https://github.com/react-component/picker/pull/1007",
+      "repository": "react-component/picker"
+    },
+    {
+      "url": "https://github.com/react-component/slider/pull/1092",
+      "repository": "react-component/slider"
+    },
+    {
+      "url": "https://github.com/react-component/slider/pull/1091",
+      "repository": "react-component/slider"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59135",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59134",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59129",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59126",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59125",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/react-component/select/pull/1250",
+      "repository": "react-component/select"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59118",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59113",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/react-component/steps/pull/395",
+      "repository": "react-component/steps"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59112",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/react-component/tooltip/pull/542",
+      "repository": "react-component/tooltip"
+    },
+    {
+      "url": "https://github.com/react-component/notification/pull/408",
+      "repository": "react-component/notification"
+    },
+    {
+      "url": "https://github.com/ant-design/pro-components/pull/9691",
+      "repository": "ant-design/pro-components"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59107",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/react-component/tooltip/pull/541",
+      "repository": "react-component/tooltip"
+    },
+    {
+      "url": "https://github.com/react-component/progress/pull/325",
+      "repository": "react-component/progress"
+    },
+    {
+      "url": "https://github.com/react-component/util/pull/807",
+      "repository": "react-component/util"
+    },
+    {
+      "url": "https://github.com/react-component/tree/pull/1071",
+      "repository": "react-component/tree"
+    },
+    {
+      "url": "https://github.com/react-component/slider/pull/1089",
+      "repository": "react-component/slider"
+    },
+    {
+      "url": "https://github.com/react-component/slider/pull/1088",
+      "repository": "react-component/slider"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59105",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/react-component/util/pull/806",
+      "repository": "react-component/util"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59103",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/react-component/tree/pull/1070",
+      "repository": "react-component/tree"
+    },
+    {
+      "url": "https://github.com/react-component/slider/pull/1087",
+      "repository": "react-component/slider"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59032",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59024",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59020",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59007",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59006",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59002",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59001",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/react-component/pagination/pull/719",
+      "repository": "react-component/pagination"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/59000",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/58999",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/58965",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/58957",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/58955",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/58953",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/58951",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/apache/superset/pull/43063",
+      "repository": "apache/superset"
+    },
+    {
+      "url": "https://github.com/ohmyzsh/ohmyzsh/pull/13932",
+      "repository": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "url": "https://github.com/mui/material-ui/pull/48946",
+      "repository": "mui/material-ui"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design/pull/58947",
+      "repository": "ant-design/ant-design"
+    },
+    {
+      "url": "https://github.com/1Panel-dev/1Panel/pull/13536",
+      "repository": "1Panel-dev/1Panel"
+    },
+    {
+      "url": "https://github.com/neovim/neovim/pull/41273",
+      "repository": "neovim/neovim"
+    },
+    {
+      "url": "https://github.com/siyuan-note/siyuan/pull/18650",
+      "repository": "siyuan-note/siyuan"
+    },
+    {
+      "url": "https://github.com/payloadcms/payload/pull/17744",
+      "repository": "payloadcms/payload"
+    },
+    {
+      "url": "https://github.com/umami-software/umami/pull/4437",
+      "repository": "umami-software/umami"
+    },
+    {
+      "url": "https://github.com/HeyPuter/puter/pull/3541",
+      "repository": "HeyPuter/puter"
+    },
+    {
+      "url": "https://github.com/2dust/v2rayN/pull/9947",
+      "repository": "2dust/v2rayN"
+    },
+    {
+      "url": "https://github.com/Mintplex-Labs/anything-llm/pull/6112",
+      "repository": "Mintplex-Labs/anything-llm"
+    },
+    {
+      "url": "https://github.com/MHSanaei/3x-ui/pull/6202",
+      "repository": "MHSanaei/3x-ui"
+    },
+    {
+      "url": "https://github.com/drawdb-io/drawdb/pull/1099",
+      "repository": "drawdb-io/drawdb"
+    },
+    {
+      "url": "https://github.com/logseq/logseq/pull/13012",
+      "repository": "logseq/logseq"
+    },
+    {
+      "url": "https://github.com/oldj/SwitchHosts/pull/1036",
+      "repository": "oldj/SwitchHosts"
+    },
+    {
+      "url": "https://github.com/GopeedLab/gopeed/pull/1431",
+      "repository": "GopeedLab/gopeed"
+    },
+    {
+      "url": "https://github.com/python/python-docs-zh-tw/pull/1240",
+      "repository": "python/python-docs-zh-tw"
+    },
+    {
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev/pull/7726",
+      "repository": "clash-verge-rev/clash-verge-rev"
+    },
+    {
+      "url": "https://github.com/lissy93/dashy/pull/2292",
+      "repository": "lissy93/dashy"
+    },
+    {
+      "url": "https://github.com/usememos/memos/pull/6177",
+      "repository": "usememos/memos"
+    },
+    {
+      "url": "https://github.com/Acly/krita-ai-diffusion/pull/2586",
+      "repository": "Acly/krita-ai-diffusion"
+    },
+    {
+      "url": "https://github.com/Foundry376/Mailspring/pull/2790",
+      "repository": "Foundry376/Mailspring"
+    },
+    {
+      "url": "https://github.com/rustdesk/rustdesk/pull/15829",
+      "repository": "rustdesk/rustdesk"
+    },
+    {
+      "url": "https://github.com/localsend/localsend/pull/3272",
+      "repository": "localsend/localsend"
+    }
+  ],
+  "review_count_note": "commander.js#2607 is searchable again; increase from 184 to 185 is recovery of historical search coverage, not a new unique review",
+  "coverage": {
+    "authored_prior_current_union": 87,
+    "authored_open": 81,
+    "reviewed_open_metadata": 106,
+    "watched": 10,
+    "reviewed_current_head_differs_from_last_own_review": 23,
+    "current_head_revalidated_this_round": 1,
+    "remaining_runtime_review_queue": 22
+  },
+  "upload_728": {
+    "url": "https://github.com/react-component/upload/pull/728",
+    "head": "3dc77c19d225067c2e8517c029602f7aa494f927",
+    "github_verified": true,
+    "file_blobs_match": true,
+    "body_matches": true,
+    "state": "OPEN",
+    "mergeable": "MERGEABLE",
+    "local": {
+      "suites": 2,
+      "tests": 65,
+      "passed": true,
+      "upstream_source_control": {
+        "failed_regressions": 3,
+        "passed_control": 1
+      },
+      "tsc": true,
+      "lint_errors": 0,
+      "existing_lint_warnings": 8,
+      "format": true,
+      "compile": true
+    },
+    "dependency_note": "Declared ranges installed with legacy-peer-deps and lifecycle scripts disabled; no manifest/lockfile changes",
+    "overlap": "Preserves merged #732 inactive button semantics; remaining diff covers wrapper Enter/Space and child activation",
+    "remote_note": "Current-head CI is evaluated separately; Vercel team authorization is an external gate"
+  },
+  "dropdown_273": {
+    "url": "https://github.com/react-component/dropdown/pull/273",
+    "head": "2c82c0cd805092660a78a769b3f3d3484794d9c1",
+    "review_url": "https://github.com/react-component/dropdown/pull/273#pullrequestreview-5680706770",
+    "review_state": "COMMENTED",
+    "local": {
+      "suites": 6,
+      "tests": 34,
+      "snapshots": 1,
+      "passed": true,
+      "tsc": true,
+      "lint_errors": 0,
+      "existing_lint_warnings": 1,
+      "compile": true
+    },
+    "native_chrome": {
+      "previous_head": "Tab from Search focuses the panel wrapper",
+      "current_head": "Tab from Search focuses the next button and keeps the panel open; Escape returns to trigger"
+    },
+    "limits": "No new screen-reader validation; no whole-WCAG claim; prior-head CI is not inherited"
+  },
+  "appflowy_8939": {
+    "url": "https://github.com/AppFlowy-IO/AppFlowy/pull/8939#issuecomment-6456529277",
+    "state": "CLOSED",
+    "merged": false,
+    "note": "Maintainer says applicable changes are being consolidated in a Premium-repository PR; private consolidation outcome not independently verified"
+  },
+  "role": "External contributor; Ant Design and Marked viewerPermission READ; no formal maintainer appointment verified",
+  "selection_claims": "None; open PRs and reviews are not authored merges"
+}

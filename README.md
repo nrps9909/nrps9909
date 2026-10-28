@@ -18,19 +18,21 @@ I also contribute to open source, including accessibility, reproducible bug fixe
 
 ## Open-source work at a glance
 
-The figures below are the recorded snapshot from October 7, 2026 at 03:10 UTC. They are historical counts; later merges are described separately.
+The figures below were checked against public GitHub data on October 28, 2026. Older dated evidence remains available in the maintenance record.
 
-| Verified public record (2026-10-07)                     | Snapshot total |
-| ------------------------------------------------------- | ------------: |
-| Merged PRs in non-owned upstream repositories           |        **83** |
-| Non-owned upstream repositories with merged work        |        **44** |
-| Merged PRs in the Ant Design main repository            |        **25** |
-| Merged PRs across the Ant Design ecosystem              |        **56** |
-| Public upstream PRs reviewed as an external contributor |       **181** |
+| Verified public record (2026-10-28) | Snapshot total |
+| ---------------------------------- | -------------: |
+| Merged PRs in non-owned upstream repositories | **85** |
+| Non-owned upstream repositories with merged work | **44** |
+| Merged PRs in the Ant Design main repository | **27** |
+| Merged PRs across the Ant Design ecosystem | **58** |
+| Public upstream PRs reviewed as an external contributor | **185** |
 
-These figures exclude repositories I own and direct team projects, and count a PR only after GitHub reports it as merged. Open and approved PRs are never included in the merged total. The review count includes published reviews on other authors' PRs, not a claim of current-head approval. See the [October 7 confirmed Marked review merges and combined validation](./evidence/oss-2026-10-07.json), the [October 6 verified Payload merge](./evidence/oss-2026-10-06.json), the [October 5 tested duration review and maintainer approval](./evidence/oss-2026-10-05.json), the [October 4 tested link-state review](./evidence/oss-2026-10-04.json), the [October 3 merge and tested follow-ups](./evidence/oss-2026-10-03.json), the [October 2 tested review and current-head snapshot](./evidence/oss-2026-10-02.json), the [October 1 merge and maintenance receipts](./evidence/oss-2026-10-01.json), the [complete contribution and review evidence](./OSS_MAINTENANCE.md), the [full September 21 snapshot](./evidence/2026-09-21.json), the [September 22 count refresh](./evidence/antd-59223-followup-2026-09-22.json), the [completed #59223 check snapshot](./evidence/antd-59223-ci-complete-2026-09-24.json), and the [September 26 ColorPicker/Table CI follow-up](./evidence/antd-2026-09-26-followup.json).
+These figures exclude repositories I own and direct team projects. Only GitHub-confirmed merges count toward authored merges. The review count records published reviews on other authors' PRs; it does not assert approval at their current commits. The return of historical Commander #2607 to search explains the latest one-item count increase.
 
-The later October 7 maintenance round adds one tested review, for 182 other-authored reviewed PRs; authored merges remain 83. I submitted a [focused Ant Design Collaborator maintenance proposal](./MAINTAINER_PATH.md) for Menu/Dropdown keyboard and focus behavior. My current role remains external / READ. [Later dated snapshot](./evidence/maintainer-path-2026-10-07.json).
+The current maintenance inventory covers 87 authored prior/current PRs (81 open), ten watched PRs, and metadata for all 106 open PRs I have reviewed. Twenty-three heads differ from my last review commit: Dropdown #273 was revalidated this round; 22 remain in the current-head validation queue. This inventory is not a claim that every source change has been re-reviewed. [October 28 evidence](./evidence/oss-2026-10-28.json) · [Complete maintenance record](./OSS_MAINTENANCE.md).
+
+My [Ant Design Collaborator maintenance proposal](./MAINTAINER_PATH.md) focuses on Menu/Dropdown keyboard and focus behavior. My verified role remains external / READ; no formal maintainer appointment is claimed.
 
 ## What I maintain
 
@@ -62,6 +64,10 @@ The later October 7 maintenance round adds one tested review, for 182 other-auth
 - **Neovim:** [complete and repair the Traditional Chinese message catalog](https://github.com/neovim/neovim/pull/41273) while preserving catalog structure.
 
 ## Latest contribution
+
+- [Upload #728](https://github.com/react-component/upload/pull/728): resolved the new mainline conflict while preserving merged #732. The remaining patch handles wrapper Enter/Space and native child-control activation. Signed/GitHub-Verified head `3dc77c1` passes 65 local tests, TypeScript, lint, formatting and compile; current-master source fails three keyboard regressions. It remains open, with remote checks assessed separately.
+- [Dropdown #273 follow-up](https://github.com/react-component/dropdown/pull/273#pullrequestreview-5680706770): the author adopted Escape-only capture and added the Tab/teardown regressions. I rechecked current head `2c82c0c`: 34 local tests and static/build checks pass; native Chrome preserves Tab to the next button and Escape back to the trigger. This is a tested review contribution, not an authored merge or new screen-reader validation.
+- [AppFlowy #8939](https://github.com/AppFlowy-IO/AppFlowy/pull/8939#issuecomment-6456529277) was closed for consolidation into the maintainer's Premium repository. The public PR is not merged, and the private consolidation outcome is unverified.
 
 - [Marked #4121](https://github.com/markedjs/marked/pull/4121) and [#4123](https://github.com/markedjs/marked/pull/4123) merged on October 6 after my tested reviews. Fresh validation at the combined merged commit `cc07bb9` passes **1,907 specification / 199 unit tests**, build/lint, and both independent boundary probes. Both squash commits are GitHub Verified; the author heads are unsigned. These are review contributions, so authored totals remain **83 merges / 44 repositories** and the reviewed total remains **181**. [Merge receipts and reproducible results](./evidence/oss-2026-10-07).
 - [Payload #17744](https://github.com/payloadcms/payload/pull/17744) merged at `2026-10-05T16:22:40Z`, bringing the fully checked public total to **83 upstream merges across 44 repositories**. Final authored head `86d62f8` and squash commit `282140b` are GitHub Verified. Authored-head CI passes 280 checks with 5 skipped. A new audit verifies the merged 673-key locale preserves all 23 corrections, interpolation/markup tokens, and two newer upstream additions. [Merge receipt and audit](./evidence/oss-2026-10-06.json). The remaining 83 authored open PRs retain their prior heads and gates.
