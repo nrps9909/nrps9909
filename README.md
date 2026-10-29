@@ -18,9 +18,9 @@ I also contribute to open source, including accessibility, reproducible bug fixe
 
 ## Open-source work at a glance
 
-The figures below were checked against public GitHub data on October 28, 2026. Older dated evidence remains available in the maintenance record.
+The figures below were checked against public GitHub data on October 29, 2026. Older dated evidence remains available in the maintenance record.
 
-| Verified public record (2026-10-28) | Snapshot total |
+| Verified public record (2026-10-29) | Snapshot total |
 | ---------------------------------- | -------------: |
 | Merged PRs in non-owned upstream repositories | **85** |
 | Non-owned upstream repositories with merged work | **44** |
@@ -30,7 +30,7 @@ The figures below were checked against public GitHub data on October 28, 2026. O
 
 These figures exclude repositories I own and direct team projects. Only GitHub-confirmed merges count toward authored merges. The review count records published reviews on other authors' PRs; it does not assert approval at their current commits. The return of historical Commander #2607 to search explains the latest one-item count increase.
 
-The current maintenance inventory covers 87 authored prior/current PRs (81 open), ten watched PRs, and metadata for all 106 open PRs I have reviewed. Twenty-three heads differ from my last review commit: Dropdown #273 was revalidated this round; 22 remain in the current-head validation queue. This inventory is not a claim that every source change has been re-reviewed. [October 28 evidence](./evidence/oss-2026-10-28.json) · [Complete maintenance record](./OSS_MAINTENANCE.md).
+The current maintenance inventory covers 87 authored prior/current PRs (80 open), ten watched PRs, and metadata for all 106 open PRs I have reviewed. Twenty-three heads differ from my last review commit: Dropdown #273 was revalidated this round; 22 remain in the current-head validation queue. This inventory is not a claim that every source change has been re-reviewed. [October 29 evidence](./evidence/oss-2026-10-29.json) · [October 28 validation](./evidence/oss-2026-10-28.json) · [Complete maintenance record](./OSS_MAINTENANCE.md).
 
 My [Ant Design Collaborator maintenance proposal](./MAINTAINER_PATH.md) focuses on Menu/Dropdown keyboard and focus behavior. My verified role remains external / READ; no formal maintainer appointment is claimed.
 
@@ -65,6 +65,7 @@ My [Ant Design Collaborator maintenance proposal](./MAINTAINER_PATH.md) focuses 
 
 ## Latest contribution
 
+- [Collapse #454](https://github.com/react-component/collapse/pull/454#issuecomment-6485826201): closed as superseded after merged #457 covered the keyboard fix and nested-control guard. Unmodified upstream commit `6b7be2a` passes 104 tests / 1 snapshot, TypeScript, lint, compile, and my original Enter/Space regression. The branch is retained; this closure does not increase authored merges. [Validation receipt](./evidence/oss-2026-10-29.json).
 - [Upload #728](https://github.com/react-component/upload/pull/728): resolved the new mainline conflict while preserving merged #732. The remaining patch handles wrapper Enter/Space and native child-control activation. Signed/GitHub-Verified head `3dc77c1` passes 65 local tests, TypeScript, lint, formatting and compile; current-master source fails three keyboard regressions. It remains open, with remote checks assessed separately.
 - [Dropdown #273 follow-up](https://github.com/react-component/dropdown/pull/273#pullrequestreview-5680706770): the author adopted Escape-only capture and added the Tab/teardown regressions. I rechecked current head `2c82c0c`: 34 local tests and static/build checks pass; native Chrome preserves Tab to the next button and Escape back to the trigger. This is a tested review contribution, not an authored merge or new screen-reader validation.
 - [AppFlowy #8939](https://github.com/AppFlowy-IO/AppFlowy/pull/8939#issuecomment-6456529277) was closed for consolidation into the maintainer's Premium repository. The public PR is not merged, and the private consolidation outcome is unverified.

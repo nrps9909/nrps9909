@@ -1,0 +1,50 @@
+{
+  "checked_at_utc": "2026-10-29T02:04:12.210148+00:00",
+  "counts": {
+    "merged_upstream_prs": 85,
+    "merged_upstream_repositories": 44,
+    "ant_design_main_merged_prs": 27,
+    "ant_design_ecosystem_merged_prs": 58,
+    "reviewed_upstream_prs": 185
+  },
+  "coverage": {
+    "authored_prior_current_union": 87,
+    "authored_open_after_closure": 80,
+    "watched": 10,
+    "reviewed_open_metadata": 106,
+    "distinct_open_prs_with_paginated_inline_comments": 188,
+    "remaining_runtime_review_queue": 22
+  },
+  "collapse454": {
+    "url": "https://github.com/react-component/collapse/pull/454",
+    "state": "CLOSED",
+    "mergedAt": null,
+    "original_head": "aed4afea22d1f5e4dbe806669bc9f1c9007c5d20",
+    "replaced_by": "https://github.com/react-component/collapse/pull/457",
+    "upstream_merged_commit": "6b7be2acbabeeb2d543fd53f95fcfa04d4698bb3",
+    "comment_url": "https://github.com/react-component/collapse/pull/454#issuecomment-6485826201",
+    "validation": {
+      "upstream_suite": {
+        "tests": 104,
+        "snapshots": 1,
+        "passed": true
+      },
+      "original_pr_keyboard_on_upstream": {
+        "tests_passed": 1,
+        "tests_skipped": 94,
+        "passed": true
+      },
+      "tsc": true,
+      "lint": true,
+      "compile": true
+    },
+    "dependency_install": "Declared ranges with legacy-peer-deps and lifecycle scripts disabled; no source/config/manifest/lockfile changes",
+    "branch_preserved": true,
+    "limitations": [
+      "No new native-browser or screen-reader validation",
+      "Original PR is closed as superseded, not counted merged"
+    ]
+  },
+  "followup": "No new human response or source-head changes in the remaining monitored PRs; no duplicate reminders or same-head re-testing",
+  "role": "External / READ; no new collaborator appointment verified"
+}
