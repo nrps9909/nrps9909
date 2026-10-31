@@ -1,0 +1,76 @@
+{
+  "checked_at_utc": "2026-10-31T04:08:39.675655+00:00",
+  "counts": {
+    "merged_upstream_prs": 85,
+    "merged_upstream_repositories": 44,
+    "ant_design_main_merged_prs": 27,
+    "ant_design_ecosystem_merged_prs": 58,
+    "reviewed_upstream_prs": 185
+  },
+  "counts_scope": "Full public census earlier today; followup refreshed all baseline OPEN authored/watched PRs and the changed-head queue, not a second full merged-history census",
+  "role": "External / READ; no formal maintainer appointment or elevated access verified",
+  "runtime_queue": {
+    "before": 22,
+    "completed_this_followup": 4,
+    "remaining": 18,
+    "completed_does_not_mean_approved_or_merged": true
+  },
+  "source_branches_changed": false,
+  "automation_changed": false,
+  "native_browser_or_AT_this_followup": false,
+  "picker990": {
+    "source_head": "c028f1d40e8166a093c8e5100e04900564e80e9f",
+    "maintainer_response": "https://github.com/react-component/picker/pull/990#discussion_r4429951662",
+    "validation_reply": "https://github.com/react-component/picker/pull/990#discussion_r4430404424",
+    "head_tests_pass": 487,
+    "head_skips": 2,
+    "snapshots": 29,
+    "head_tsc_lint_compile": true,
+    "independent_cases": 10,
+    "head_new_case_failures": 4,
+    "candidate_tests_pass": 497,
+    "candidate_skips": 2,
+    "candidate_tsc_compile": true,
+    "status": "Await author adoption of OK-only compatibility fallback; no approval or full re-review of inherited upstream refactors",
+    "reply_original_review_commit": "c028f1d40e8166a093c8e5100e04900564e80e9f"
+  },
+  "colorpicker286": {
+    "head": "fce493d2113c33127a87aca99c9f5fe3ad1d72a3",
+    "tests": 69,
+    "tsc": true,
+    "lint_errors": 0,
+    "compile": false,
+    "compile_control_prior_handler_passes": true,
+    "four_case_keyboard_probe": {
+      "head_pass": 4,
+      "prior_fail": 2,
+      "prior_pass": 2
+    },
+    "candidate_compile_tsc": true,
+    "candidate_adapted_tests": 69,
+    "candidate_initial_test_failure": "Unadapted test still mocked the old deep hook; adjusted public detector fixture passes",
+    "status": "CHANGES_REQUESTED; await author adoption of public API import fix",
+    "review_url": "https://github.com/react-component/color-picker/pull/286#pullrequestreview-5721109008",
+    "review_state": "CHANGES_REQUESTED"
+  },
+  "fastcolor96": {
+    "head": "0c8a743468234cafd266b59827fac63743f3dce2",
+    "tests": 212,
+    "lint_compile": true,
+    "base_regressions_fail": 3,
+    "base_controls_pass": 209,
+    "status": "COMMENTED; normalization verified; earlier change request remains, downstream canvas explanation needs exact source/reproducer or narrowing",
+    "review_url": "https://github.com/ant-design/fast-color/pull/96#pullrequestreview-5721111770",
+    "review_state": "COMMENTED"
+  },
+  "validator2883": {
+    "head": "480a8a7220e3e895854cc2006efa31f62b45a5f9",
+    "tests": 327,
+    "builds_lint": true,
+    "public_forms": 4,
+    "samples_per_form": 12,
+    "status": "COMMENTED; document 3–15 UTF16 units / whitespace policy, add boundary cases, align title",
+    "review_url": "https://github.com/validatorjs/validator.js/pull/2883#pullrequestreview-5721112113",
+    "review_state": "COMMENTED"
+  }
+}

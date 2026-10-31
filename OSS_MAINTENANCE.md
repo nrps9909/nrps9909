@@ -8,6 +8,13 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Upstream contributions
 
+### October 31, 2026: four current-head validations and actionable author follow-up
+
+- [Picker #990](https://github.com/react-component/picker/pull/990#discussion_r4430404424): maintainer confirmed that legacy button customization belongs to OK only. Unmodified current head passes 487 tests / 29 snapshots (2 skips), types, lint and compile. A ten-case Single/Range compatibility matrix exposes four failures; the two-line OK-only candidate plus corrected legacy fixtures passes 497 tests / 29 snapshots, types and compile. Candidate and migration update await the author; no approval or branch mutation.
+- [ColorPicker #286 change request](https://github.com/react-component/color-picker/pull/286#pullrequestreview-5721109008): fixed event composition is verified with Enter/Space controls, but a new internal hook import blocks package compile. Same-dependency prior-Handler control builds. A public-API candidate with the corresponding detector-fixture update compiles and passes types / all 69 tests; no upstream adoption claimed.
+- [FastColor #96](https://github.com/ant-design/fast-color/pull/96#pullrequestreview-5721111770): 212 tests / lint / compile pass, while base has three direct boundary regression failures / 209 passing controls. The low-level fix is sound; the new downstream canvas narrative still needs exact source/reproduction or narrower comments. [Validator #2883](https://github.com/validatorjs/validator.js/pull/2883#pullrequestreview-5721112113): 327 tests / builds / lint pass; four public forms agree on username boundaries and accepted whitespace, which still need an explicit documented contract and tests.
+- Four current-head runtime items completed, leaving 18 of the original 22 pending. All four remain OPEN / unmerged; completed validation is distinct from approval, adoption, maintainer role, and authored merges. No new native-browser or screen-reader results. [Exact commits, candidate patches, probes and limits](./evidence/oss-2026-10-31/README.md).
+
 ### October 29, 2026: upstream replacement verified and redundant PR closed
 
 - Collapse #457 merged at `6b7be2acbabeeb2d543fd53f95fcfa04d4698bb3` and covers the Space activation/default-scroll fix, disabled headers, nested controls, and React-normalized legacy Space events. I verified unmodified upstream source with its full 104-test / 1-snapshot suite, TypeScript, lint and compile; my original PR's Enter/Space regression also passes there.

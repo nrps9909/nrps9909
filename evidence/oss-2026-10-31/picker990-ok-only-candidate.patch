@@ -1,0 +1,32 @@
+diff --git a/src/PickerInput/Popup/Footer.tsx b/src/PickerInput/Popup/Footer.tsx
+index ef08fb3..6fdcc09 100644
+--- a/src/PickerInput/Popup/Footer.tsx
++++ b/src/PickerInput/Popup/Footer.tsx
+@@ -81,8 +81,8 @@ export default function Footer(props: FooterProps) {
+     }
+   };
+ 
+-  const NowButton = nowButton || button;
+-  const OkButton = okButton || button;
++  const NowButton = nowButton ?? 'button';
++  const OkButton = okButton ?? button;
+ 
+   const presetNode = showNow && (
+     <NowButton
+diff --git a/tests/components.spec.tsx b/tests/components.spec.tsx
+index b113cda..6a69926 100644
+--- a/tests/components.spec.tsx
++++ b/tests/components.spec.tsx
+@@ -58,9 +58,9 @@ describe('Picker.Components', () => {
+         />,
+       );
+ 
+-      // Fallback for both 'nowButton' and 'okButton'
+-      expect(document.querySelector('.rc-picker-footer').querySelectorAll('h1')).toHaveLength(2);
+-      expect(document.querySelector('.rc-picker-now').tagName).toBe('H1');
++      // Legacy fallback applies to OK only; Now keeps a native button.
++      expect(document.querySelector('.rc-picker-footer').querySelectorAll('h1')).toHaveLength(1);
++      expect(document.querySelector('.rc-picker-now').tagName).toBe('BUTTON');
+       expect(document.querySelector('.rc-picker-ok').tagName).toBe('H1');
+ 
+       // Legacy 'button' should not receive the native 'type' attribute

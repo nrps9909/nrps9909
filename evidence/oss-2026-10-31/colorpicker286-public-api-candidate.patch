@@ -1,0 +1,67 @@
+diff --git a/src/components/Handler.tsx b/src/components/Handler.tsx
+index 9f77d73..7725c6f 100644
+--- a/src/components/Handler.tsx
++++ b/src/components/Handler.tsx
+@@ -1,5 +1,4 @@
+-import { omit } from '@rc-component/util';
+-import useMobile from '@rc-component/util/lib/hooks/useMobile';
++import { isMobile, omit, useLayoutEffect } from '@rc-component/util';
+ import { clsx } from 'clsx';
+ import React from 'react';
+ 
+@@ -100,7 +99,10 @@ const Handler: React.FC<HandlerProps> = ({
+   // Whether both axes stay in the accessibility tree for good — see the
+   // a11y-tree note below. Detected after mount, so the server and the first
+   // client render produce the same markup.
+-  const exposeBothAxes = useMobile();
++  const [exposeBothAxes, setExposeBothAxes] = React.useState(false);
++  useLayoutEffect(() => {
++    setExposeBothAxes(isMobile());
++  }, []);
+ 
+   const stepAxis = (
+     axis: HandlerAxis,
+diff --git a/tests/index.test.tsx b/tests/index.test.tsx
+index 851a675..9e9816b 100644
+--- a/tests/index.test.tsx
++++ b/tests/index.test.tsx
+@@ -1,6 +1,5 @@
+ /* eslint-disable @typescript-eslint/no-loop-func */
+-import { spyElementPrototypes } from '@rc-component/util';
+-import useMobile from '@rc-component/util/lib/hooks/useMobile';
++import { isMobile, spyElementPrototypes } from '@rc-component/util';
+ import {
+   act,
+   createEvent,
+@@ -18,9 +17,10 @@ vi.mock('@rc-component/trigger', async () => {
+ });
+ 
+ // The underlying `isMobile` caches its first answer, so platforms are simulated
+-// by mocking the hook rather than the user agent.
+-vi.mock('@rc-component/util/lib/hooks/useMobile', () => ({
+-  default: vi.fn(() => false),
++// by mocking the public detector rather than the user agent.
++vi.mock('@rc-component/util', async importOriginal => ({
++  ...(await importOriginal<typeof import('@rc-component/util')>()),
++  isMobile: vi.fn(() => false),
+ }));
+ 
+ export async function waitFakeTimer(advanceTime = 1000, times = 20) {
+@@ -601,7 +601,7 @@ describe('ColorPicker', () => {
+     });
+ 
+     it('Should expose both picker axes to touch screen readers on mobile', () => {
+-      vi.mocked(useMobile).mockReturnValue(true);
++      vi.mocked(isMobile).mockReturnValue(true);
+ 
+       render(<ColorPicker defaultValue={defaultColor} />);
+ 
+@@ -620,7 +620,7 @@ describe('ColorPicker', () => {
+       expect(saturation).not.toHaveAttribute('aria-hidden');
+       expect(brightness).not.toHaveAttribute('aria-hidden');
+ 
+-      vi.mocked(useMobile).mockReturnValue(false);
++      vi.mocked(isMobile).mockReturnValue(false);
+     });
+ 
+     it('Should not hide or untab a 1-D slider', () => {

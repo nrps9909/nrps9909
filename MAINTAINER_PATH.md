@@ -6,7 +6,7 @@ I am an external contributor (`nrps9909`) with READ access, without Ant Design o
 
 Ant Design's current [Collaborators guide](https://github.com/ant-design/ant-design/wiki/Collaborators) asks for sustained engagement and a significant contribution, such as an important feature, major refactor, or long-standing problem. The published route uses [#3222](https://github.com/ant-design/ant-design/issues/3222), community assessment, and an invitation. The [official maintenance guide](https://ant.design/docs/blog/contributor-development-maintenance-guide/) describes ongoing issue/PR and merge responsibilities. A recent invitation in August 2026 confirms the thread remains in use, despite being closed and unlocked.
 
-My 25 merged Ant Design PRs provide a contribution history; they do not establish that the significant-contribution requirement or role assessment has been met. Collaborator, repository permissions, and any formal core-maintainer appointment are separate states.
+My 27 merged Ant Design PRs (October 31, 2026 census) provide a contribution history; they do not establish that the significant-contribution requirement or role assessment has been met. Collaborator, repository permissions, and any formal core-maintainer appointment are separate states.
 
 Marked's [role definitions](https://github.com/markedjs/marked/blob/master/docs/AUTHORS.md) distinguish contributors, committers, admins, and publishers. Committers participate in direction and review/merge others' work. Marked remains a secondary maintenance direction, with adopted review work already recorded. I have submitted one scoped proposal to Ant Design in this round.
 
@@ -34,3 +34,7 @@ AI assistance: Codex helped research the process, run isolated validation, and p
 ## 2026-10-24 native Tab / Escape follow-up
 
 Published a [source-only native comparison](evidence/dropdown-native-2026-10-24/README.md) for Dropdown#273 and the Menu#899 / Dropdown#275 integration. Real Tab advances from Search to the next control on base and the temporary Escape-only combined candidate; the current #273 head instead focuses the panel wrapper. The combined candidate retains nested Escape unwind and root-trigger focus. This extends the earlier jsdom evidence and does not imply the author adopted the candidate, a merge/release, or screen-reader conformance. #275 checks pass; Menu#899 still requires upstream workflow/Vercel authorization. The collaborator proposal remains pending; current role remains external/READ.
+
+## 2026-10-31 sustained review follow-through
+
+The maintainer confirmed the corrected Picker #990 legacy compatibility mapping. I supplied a runtime-verified OK-only candidate with ten new compatibility cases; ColorPicker #286 also has a build-blocker reproducer and tested public-API candidate. FastColor and Validator received evidence-backed current-head follow-up. Four runtime queue entries completed; 18 remain. All four await author/upstream decisions and remain unmerged. [Results and reproducible candidates](evidence/oss-2026-10-31/README.md). This extends delivered review work; the formal responsibility proposal and external/READ role are unchanged.
