@@ -1,0 +1,61 @@
+{
+  "checked_at_utc": "2026-11-01T02:31:00.836900+00:00",
+  "counts": {
+    "merged_upstream_prs": 85,
+    "merged_upstream_repositories": 44,
+    "ant_design_main_merged_prs": 27,
+    "ant_design_ecosystem_merged_prs": 58,
+    "reviewed_upstream_prs": 185
+  },
+  "coverage": {
+    "authored_union": 87,
+    "authored_open": 80,
+    "watched_union": 10,
+    "reviewed_open": 106,
+    "distinct_open_inline_prs": 187
+  },
+  "authored_watched_new_actionable_change": false,
+  "new_source_heads": false,
+  "picker990": {
+    "head": "c028f1d40e8166a093c8e5100e04900564e80e9f",
+    "new_maintainer": "yoyo837",
+    "decision": "CHANGES_REQUESTED: agrees OK-only legacy fallback and requests tests/migration updates",
+    "reviewed_at_utc": "2026-10-31T05:04:18Z",
+    "url": "https://github.com/react-component/picker/pull/990#pullrequestreview-5721388580",
+    "action": "No duplicate reply: exact candidate, matrix and full validation already supplied in original thread; await author source update"
+  },
+  "trigger622": {
+    "head": "9db7ec626fd94ee46794cc450ed9219428661498",
+    "previous_reviewed_head": "5fe5e27b0d12eded6fe2d7d1dbe64a528d7e9d22",
+    "review_state": "APPROVED",
+    "review_url": "https://github.com/react-component/trigger/pull/622#pullrequestreview-5726057973",
+    "tests": 137,
+    "skipped": 1,
+    "suites": 20,
+    "format_tsc_lint_compile": true,
+    "lint_errors": 0,
+    "lint_existing_warnings": 11,
+    "format_only_emitted_js_identical": true,
+    "independent_mutation": {
+      "focused_head_passed": 1,
+      "focused_mutant_failed": 1,
+      "mutant_observed_callbacks": 0,
+      "expected_callbacks": 1,
+      "initial_wrong_string_filter_ran_full_suite": "Head 137 pass/1 skip; mutant 1 fail/136 controls pass/1 skip. Correct array-filter focused result separately retained."
+    },
+    "state": "OPEN",
+    "merged": false,
+    "remote_boundary": "4 successful bot/security contexts, Vercel team authorization fails; no green functional-CI claim",
+    "new_browser_or_AT": false
+  },
+  "runtime_queue": {
+    "previous_pending": 18,
+    "completed_this_run": 1,
+    "remaining": 17,
+    "completion_not_equivalent_to_merge": true
+  },
+  "role": "External / READ; proposal pending, no new appointment/elevated access",
+  "automation_changed": false,
+  "private_projects_touched": false,
+  "source_branch_changes": false
+}

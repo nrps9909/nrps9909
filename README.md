@@ -18,9 +18,9 @@ I also contribute to open source, including accessibility, reproducible bug fixe
 
 ## Open-source work at a glance
 
-The figures below were checked against public GitHub data on October 29, 2026. Older dated evidence remains available in the maintenance record.
+The figures below were checked against public GitHub data on November 1, 2026. Older dated evidence remains available in the maintenance record.
 
-| Verified public record (2026-10-29) | Snapshot total |
+| Verified public record (2026-11-01) | Snapshot total |
 | ---------------------------------- | -------------: |
 | Merged PRs in non-owned upstream repositories | **85** |
 | Non-owned upstream repositories with merged work | **44** |
@@ -30,7 +30,7 @@ The figures below were checked against public GitHub data on October 29, 2026. O
 
 These figures exclude repositories I own and direct team projects. Only GitHub-confirmed merges count toward authored merges. The review count records published reviews on other authors' PRs; it does not assert approval at their current commits. The return of historical Commander #2607 to search explains the latest one-item count increase.
 
-The current maintenance inventory covers 87 authored prior/current PRs (80 open), ten watched PRs, and metadata for all 106 open PRs I have reviewed. The original 23-head follow-up queue now has five completed current-head runtime validations (Dropdown #273 plus Picker #990, ColorPicker #286, FastColor #96 and Validator #2883); 18 remain. Completed validation can retain a change request or an unadopted candidate and does not mean current-head approval. This inventory is not a claim that every source change has been re-reviewed. [October 31 review evidence](./evidence/oss-2026-10-31.json) · [October 29 census](./evidence/oss-2026-10-29.json) · [October 28 validation](./evidence/oss-2026-10-28.json) · [Complete maintenance record](./OSS_MAINTENANCE.md).
+The current maintenance inventory covers 87 authored prior/current PRs (80 open), ten watched PRs, and metadata for all 106 open PRs I have reviewed. The original 23-head follow-up queue now has six completed current-head runtime validations (Dropdown #273, Picker #990, ColorPicker #286, FastColor #96, Validator #2883 and Trigger #622); 17 remain. Completed validation can retain a change request or an unadopted candidate and does not mean current-head approval. This inventory is not a claim that every source change has been re-reviewed. [November 1 review/census](./evidence/oss-2026-11-01.json) · [October 31 candidates](./evidence/oss-2026-10-31.json) · [October 29 census](./evidence/oss-2026-10-29.json) · [October 28 validation](./evidence/oss-2026-10-28.json) · [Complete maintenance record](./OSS_MAINTENANCE.md).
 
 My [Ant Design Collaborator maintenance proposal](./MAINTAINER_PATH.md) focuses on Menu/Dropdown keyboard and focus behavior. My verified role remains external / READ; no formal maintainer appointment is claimed.
 

@@ -38,3 +38,7 @@ Published a [source-only native comparison](evidence/dropdown-native-2026-10-24/
 ## 2026-10-31 sustained review follow-through
 
 The maintainer confirmed the corrected Picker #990 legacy compatibility mapping. I supplied a runtime-verified OK-only candidate with ten new compatibility cases; ColorPicker #286 also has a build-blocker reproducer and tested public-API candidate. FastColor and Validator received evidence-backed current-head follow-up. Four runtime queue entries completed; 18 remain. All four await author/upstream decisions and remain unmerged. [Results and reproducible candidates](evidence/oss-2026-10-31/README.md). This extends delivered review work; the formal responsibility proposal and external/READ role are unchanged.
+
+## 2026-11-01 follow-through on existing reviews
+
+Trigger #622's final formatting concern is resolved and the exact updated head is now approved after fresh full tests, types, lint, compile, and a causal suspended-render mutation check. Picker #990 has a second maintainer supporting the already-tested OK-only mapping; the author has not yet adopted it. Seventeen current-head runtime items remain. This is continued external review, not a merge, role appointment, or program award. [Dated evidence](evidence/oss-2026-11-01.json).
