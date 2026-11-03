@@ -1,19 +1,19 @@
 {
-  "checked_at_utc": "2026-11-03T02:12:18.380677+00:00",
+  "checked_at_utc": "2026-11-03T02:17:02.156331+00:00",
   "counts": {
-    "merged_upstream_prs": 86,
+    "merged_upstream_prs": 87,
     "merged_upstream_repositories": 45,
     "ant_design_main_merged_prs": 27,
-    "ant_design_ecosystem_merged_prs": 59,
+    "ant_design_ecosystem_merged_prs": 60,
     "reviewed_upstream_prs": 185
   },
   "coverage": {
     "authored_union": 87,
-    "authored_open": 79,
+    "authored_open": 78,
     "watched_union": 10,
     "reviewed_open": 106,
     "inline_paginated_prior_current_scope": 187,
-    "current_distinct_open_scope": 186
+    "current_distinct_open_scope": 185
   },
   "menu899": {
     "url": "https://github.com/react-component/menu/pull/899",
@@ -46,10 +46,16 @@
     "lint_errors": 0,
     "lint_existing_warnings": 11,
     "reply_url": "https://github.com/react-component/menu/pull/893#issuecomment-6593594875",
-    "state": "OPEN",
-    "mergeable": "MERGEABLE",
+    "state": "MERGED",
     "new_head_remote": "10 successful code/security/coverage/preview contexts; Vercel team authorization failure remains",
-    "native_browser_integration_this_rebase": false
+    "native_browser_integration_this_rebase": false,
+    "merged": true,
+    "merged_at": "2026-11-03T02:13:40Z",
+    "merge_commit": "4bdff45fb0517e9e4beff839fa6e5c03e3e223cf",
+    "merged_by": "yoyo837",
+    "merge_signature_verified": true,
+    "three_changed_files_byte_match": true,
+    "release_for_893_verified": false
   },
   "picker990": {
     "head": "c458ee205c3112608ad9a22ca5589c2a8b6e2b92",
