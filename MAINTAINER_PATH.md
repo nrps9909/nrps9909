@@ -42,3 +42,7 @@ The maintainer confirmed the corrected Picker #990 legacy compatibility mapping.
 ## 2026-11-01 follow-through on existing reviews
 
 Trigger #622's final formatting concern is resolved and the exact updated head is now approved after fresh full tests, types, lint, compile, and a causal suspended-render mutation check. Picker #990 has a second maintainer supporting the already-tested OK-only mapping; the author has not yet adopted it. Seventeen current-head runtime items remain. This is continued external review, not a merge, role appointment, or program award. [Dated evidence](evidence/oss-2026-11-01.json).
+
+## 2026-11-03 delivered Menu fix and release follow-through
+
+Menu #899 is merged and published in npm/GitHub 1.6.1. I verified the merge signatures/file bytes and published Escape guard, while keeping Ant integration pending at its actual ~1.5.0 declaration. The maintainer-requested #893 rebase is signed, tested and pushed. Picker #990 adopted the tested compatibility direction; its migration text still needs correction. Ant X #2039 has completed package validation with formatting feedback pending, leaving 16 runtime queue items. [Dated evidence](evidence/oss-2026-11-03.json). This is delivered external-contributor work; no new assignment, invitation, write permission or maintainer appointment is verified.

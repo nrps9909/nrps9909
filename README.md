@@ -18,19 +18,19 @@ I also contribute to open source, including accessibility, reproducible bug fixe
 
 ## Open-source work at a glance
 
-The figures below were checked against public GitHub data on November 1, 2026. Older dated evidence remains available in the maintenance record.
+The figures below were checked against public GitHub data on November 3, 2026. Older dated evidence remains available in the maintenance record.
 
-| Verified public record (2026-11-01) | Snapshot total |
+| Verified public record (2026-11-03) | Snapshot total |
 | ---------------------------------- | -------------: |
-| Merged PRs in non-owned upstream repositories | **85** |
-| Non-owned upstream repositories with merged work | **44** |
+| Merged PRs in non-owned upstream repositories | **86** |
+| Non-owned upstream repositories with merged work | **45** |
 | Merged PRs in the Ant Design main repository | **27** |
-| Merged PRs across the Ant Design ecosystem | **58** |
+| Merged PRs across the Ant Design ecosystem | **59** |
 | Public upstream PRs reviewed as an external contributor | **185** |
 
 These figures exclude repositories I own and direct team projects. Only GitHub-confirmed merges count toward authored merges. The review count records published reviews on other authors' PRs; it does not assert approval at their current commits. The return of historical Commander #2607 to search explains the latest one-item count increase.
 
-The current maintenance inventory covers 87 authored prior/current PRs (80 open), ten watched PRs, and metadata for all 106 open PRs I have reviewed. The original 23-head follow-up queue now has six completed current-head runtime validations (Dropdown #273, Picker #990, ColorPicker #286, FastColor #96, Validator #2883 and Trigger #622); 17 remain. Completed validation can retain a change request or an unadopted candidate and does not mean current-head approval. This inventory is not a claim that every source change has been re-reviewed. [November 1 review/census](./evidence/oss-2026-11-01.json) · [October 31 candidates](./evidence/oss-2026-10-31.json) · [October 29 census](./evidence/oss-2026-10-29.json) · [October 28 validation](./evidence/oss-2026-10-28.json) · [Complete maintenance record](./OSS_MAINTENANCE.md).
+The current maintenance inventory covers 87 authored prior/current PRs (79 open), ten watched PRs, and metadata for all 106 open PRs I have reviewed. The original 23-head follow-up queue now has seven completed current-head runtime validations (Dropdown #273, Picker #990, ColorPicker #286, FastColor #96, Validator #2883, Trigger #622 and Ant X #2039); 16 remain. Completed validation can retain a change request or an unadopted candidate and does not mean current-head approval. This inventory is not a claim that every source change has been re-reviewed. [November 3 merge/release and follow-up](./evidence/oss-2026-11-03.json) · [November 1 review/census](./evidence/oss-2026-11-01.json) · [October 31 candidates](./evidence/oss-2026-10-31.json) · [October 29 census](./evidence/oss-2026-10-29.json) · [October 28 validation](./evidence/oss-2026-10-28.json) · [Complete maintenance record](./OSS_MAINTENANCE.md).
 
 My [Ant Design Collaborator maintenance proposal](./MAINTAINER_PATH.md) focuses on Menu/Dropdown keyboard and focus behavior. My verified role remains external / READ; no formal maintainer appointment is claimed.
 
@@ -43,6 +43,7 @@ My [Ant Design Collaborator maintenance proposal](./MAINTAINER_PATH.md) focuses 
 
 ## Selected merged contributions
 
+- **React Component Menu:** [consume Escape when returning from a submenu](https://github.com/react-component/menu/pull/899), merged November 2 and published in npm 1.6.1. Ant Design integration remains pending; its master still declares menu ~1.5.0.
 - **Payload:** [improve Traditional Chinese interface wording](https://github.com/payloadcms/payload/pull/17744), merged October 5, 2026, preserving locale keys and interpolation tokens.
 - **Pro Components:** [preserve the object-form Select search callback pipeline](https://github.com/ant-design/pro-components/pull/9711), merged October 2, 2026.
 - **Logseq:** [translate Traditional Chinese account and authentication messages](https://github.com/logseq/logseq/pull/13012), merged September 30, 2026.

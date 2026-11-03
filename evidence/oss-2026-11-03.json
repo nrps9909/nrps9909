@@ -1,0 +1,109 @@
+{
+  "checked_at_utc": "2026-11-03T02:12:18.380677+00:00",
+  "counts": {
+    "merged_upstream_prs": 86,
+    "merged_upstream_repositories": 45,
+    "ant_design_main_merged_prs": 27,
+    "ant_design_ecosystem_merged_prs": 59,
+    "reviewed_upstream_prs": 185
+  },
+  "coverage": {
+    "authored_union": 87,
+    "authored_open": 79,
+    "watched_union": 10,
+    "reviewed_open": 106,
+    "inline_paginated_prior_current_scope": 187,
+    "current_distinct_open_scope": 186
+  },
+  "menu899": {
+    "url": "https://github.com/react-component/menu/pull/899",
+    "head": "e00e0c2a5b87dd2b7408156bf68eb808cf672b6f",
+    "merge_commit": "3092e6d375f39c0e4524bafcdd72b8c8606ea733",
+    "merged": true,
+    "merged_at": "2026-11-02T10:34:03Z",
+    "merged_by": "yoyo837",
+    "authored_head_and_merge_verified": true,
+    "two_changed_files_byte_match": true,
+    "npm_release": "1.6.1",
+    "npm_tarball_integrity_verified": true,
+    "published_ESM_CJS_consume_guard_present": true,
+    "github_release": "https://github.com/react-component/menu/releases/tag/%40rc-component/menu%401.6.1",
+    "ant_master_menu_range": "~1.5.0",
+    "formal_ant_integration_verified": false
+  },
+  "menu893": {
+    "head": "41236b0556f84c069d92e3a99c28d7aa39e0e0ce",
+    "base": "ff8a0c4333fd856b522e6ac982ec5053307b8366",
+    "previous_head": "3baedee262c09cd20b202d4e5ae6e1854a99d7c2",
+    "signature_verified": true,
+    "source_blobs_verified": 3,
+    "base_root_escape_regression_failed": 1,
+    "base_skipped": 23,
+    "tests": 147,
+    "snapshots": 20,
+    "suites": 13,
+    "tsc_lint_compile_format": true,
+    "lint_errors": 0,
+    "lint_existing_warnings": 11,
+    "reply_url": "https://github.com/react-component/menu/pull/893#issuecomment-6593594875",
+    "state": "OPEN",
+    "mergeable": "MERGEABLE",
+    "new_head_remote": "10 successful code/security/coverage/preview contexts; Vercel team authorization failure remains",
+    "native_browser_integration_this_rebase": false
+  },
+  "picker990": {
+    "head": "c458ee205c3112608ad9a22ca5589c2a8b6e2b92",
+    "adopted_OK_only_legacy_fallback": true,
+    "independent_cases": 10,
+    "suite_passed": 528,
+    "skipped": 2,
+    "snapshots": 29,
+    "suites": 18,
+    "tsc_lint_compile": true,
+    "lint_errors": 0,
+    "lint_existing_warnings": 16,
+    "review_url": "https://github.com/react-component/picker/pull/990#pullrequestreview-5746286988",
+    "review_state": "COMMENTED",
+    "remaining": "PR body still advertises legacy both-action fallback/migration; ask for OK-only behavior-preserving example",
+    "state": "OPEN",
+    "approval_merge_claimed": false
+  },
+  "antx2039": {
+    "head": "d26059aa9166570bf0464be5ad64618eede84b73",
+    "package_suites": 7,
+    "package_tests": 370,
+    "snapshots": 28,
+    "upstream_happy_dom_Ant_tools_runner": true,
+    "tsc_compile": true,
+    "changed_files_lint": true,
+    "changed_files_format": false,
+    "prior_source_current_Parser_tests": {
+      "failed": 2,
+      "passed": 40
+    },
+    "earlier_independent_observations_per_head": 2048,
+    "earlier_current_violations": 0,
+    "review_url": "https://github.com/ant-design/x/pull/2039#pullrequestreview-5746287563",
+    "review_state": "COMMENTED",
+    "remaining": "Format method signature and nested-emphasis assertion; earlier change request not cleared",
+    "remote_test": "Existing red monorepo test remains; local x-markdown success is not all workspace/CI success",
+    "all_monorepo_native_browser_or_AT_tested": false
+  },
+  "colorpicker286": {
+    "head": "fce493d2113c33127a87aca99c9f5fe3ad1d72a3",
+    "author_response": "https://github.com/react-component/color-picker/pull/286#discussion_r4441613710",
+    "proposal": "Author asks maintainer agreement to public util useMobile export; no maintainer decision/source update",
+    "action": "Track dependency; no duplicate reply/test, no approval; author open util PR search returned none in this bounded query"
+  },
+  "runtime_queue": {
+    "previous_pending": 17,
+    "completed_new_pending_item": 1,
+    "revalidated_new_Picker_head": true,
+    "remaining": 16,
+    "completion_not_equivalent_to_approval_or_merge": true
+  },
+  "role": "External / READ, no new role/assignment/invitation verified",
+  "source_checkouts_clean": true,
+  "automation_changed": false,
+  "private_projects_touched": false
+}
