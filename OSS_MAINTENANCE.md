@@ -8,6 +8,13 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Upstream contributions
 
+### November 4, 2026: inline Escape fix, merged review and Ant integration
+
+- [Dropdown #275 response](https://github.com/react-component/dropdown/pull/275#issuecomment-6620752593): fixed the maintainer-reported inline Escape close/focus regression in signed/Verified `b32c80c724e5cabd39eb3d9be64b2f42933f1c67`. Three new inline cases fail on prior source; fixed full suite passes 38 tests / one snapshot, types, lint (0 errors / one warning), compile and format. Popup controls include wrapped/direct refs and in-root custom popup containers. A temporary capture-registration variant also passes 38 tests, then source registration is restored. Exact remote head/two blobs and PR body/reply read back; no new native-browser or AT run.
+- [Picker #990](https://github.com/react-component/picker/pull/990) merged at `2026-11-03T03:02:37Z` after its migration description was corrected. The unchanged tested head and merge changed files were compared; details are in the receipt. November 3's 528-test validation remains dated; no redundant suite, late approval, or authored-merge increment. Reviewed-open inventory is now 105, and the runtime queue remains 16.
+- [Ant #59786](https://github.com/ant-design/ant-design/pull/59786) merged dependency upgrades to menu ~1.6.1 / dropdown ~2.0.1 into master. Current package blob matches the declared ranges. This records #899's source dependency adoption; it does not claim a new published Ant release, or inclusion of still-open #273/#275.
+- Weekly official-program/form and targeted application-mail checks completed. No notification was found in that bounded search; the existing application remains untouched and the actual role stays external/READ. Weekly discovery identified Marked #4184's existing author/PR #4185, avoiding a duplicate patch while prioritizing concrete maintainer feedback. Counts remain 87 authored merges / 45 repos / Ant 27 / ecosystem 60 / 185 distinct reviewed PRs. [Dated evidence](./evidence/oss-2026-11-04.json).
+
 ### November 3, 2026: Menu merge/release, requested rebase, and adopted review fixes
 
 - [Menu #899](https://github.com/react-component/menu/pull/899) was merged by yoyo837 at `2026-11-02T10:34:03Z`; signed/GitHub-Verified head `e00e0c2` and verified squash `3092e6d` have identical two changed files. npm 1.6.1 and the [GitHub release](https://github.com/react-component/menu/releases/tag/%40rc-component/menu%401.6.1) are published. Registry tarball integrity and the actual CJS/ESM submenu Escape consume-guard were checked. Ant master still declares menu `~1.5.0`; no formal Ant integration or fresh native-browser release validation is claimed.

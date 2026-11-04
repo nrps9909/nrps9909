@@ -46,3 +46,7 @@ Trigger #622's final formatting concern is resolved and the exact updated head i
 ## 2026-11-03 delivered Menu fix and release follow-through
 
 Menu #899 is merged and published in npm/GitHub 1.6.1. I verified the merge signatures/file bytes and published Escape guard, while keeping Ant integration pending at its actual ~1.5.0 declaration. The maintainer-requested #893 rebase is signed, tested and pushed. The maintainer subsequently merged the exact head on November 3, with three changed files verified identical; its later release is not yet verified. Picker #990 adopted the tested compatibility direction; its migration text still needs correction. Ant X #2039 has completed package validation with formatting feedback pending, leaving 16 runtime queue items. [Dated evidence](evidence/oss-2026-11-03.json). This is delivered external-contributor work; no new assignment, invitation, write permission or maintainer appointment is verified.
+
+## 2026-11-04 author cooperation and integration
+
+Dropdown #275's inline Escape feedback is addressed by a signed, tested fix; popup behavior is retained with custom-container controls. Picker #990 is now merged after the adopted review and migration correction. Ant master adopted menu1.6.1/dropdown2.0.1 via #59786; published Ant release status remains unverified and #273/#275 are open. Role remains external/READ; the weekly existing-application check found no program notice in its bounded query. [Evidence](evidence/oss-2026-11-04.json).

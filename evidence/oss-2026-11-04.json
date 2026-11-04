@@ -1,0 +1,149 @@
+{
+  "checked_at_utc": "2026-11-04T02:21:36.794361+00:00",
+  "counts": {
+    "merged_upstream_prs": 87,
+    "merged_upstream_repositories": 45,
+    "ant_design_main_merged_prs": 27,
+    "ant_design_ecosystem_merged_prs": 60,
+    "reviewed_upstream_prs": 185
+  },
+  "authored_union": 87,
+  "authored_open": 78,
+  "reviewed_open": 105,
+  "watched_union": 10,
+  "inline_paginated_prior_current_scope": 184,
+  "runtime_queue_remaining": 16,
+  "dropdown275": {
+    "head": "b32c80c724e5cabd39eb3d9be64b2f42933f1c67",
+    "previous_head": "a7c05d2ee40971ecc0002d43ca2ffe3e04e2b93b",
+    "signature_verified": true,
+    "two_blobs_verified": true,
+    "reply_url": "https://github.com/react-component/dropdown/pull/275#issuecomment-6620752593",
+    "prior_new_inline_regressions_failed": 3,
+    "prior_controls_pass": 3,
+    "tests_pass": 38,
+    "suites": 6,
+    "snapshots": 1,
+    "capture_registration_variant_pass": 38,
+    "tsc_lint_compile_format": true,
+    "lint_errors": 0,
+    "lint_warnings": 1,
+    "state": "OPEN",
+    "mergeable": "MERGEABLE",
+    "new_native_browser_or_AT": false,
+    "capture_scope": "Listener capture registration control, not full #273 source integration; committed registration restored",
+    "scope": "Mode-class-aware inline exception, retaining popup deferral for custom in-root containers"
+  },
+  "picker990": {
+    "checked_at_utc": "2026-11-04T02:20:18.914644+00:00",
+    "head": "c458ee205c3112608ad9a22ca5589c2a8b6e2b92",
+    "merge_commit": "7e38ed9d697cbad08f768adf90528f1bec97984d",
+    "merged_at": "2026-11-03T03:02:37Z",
+    "merged_by": "zombieJ",
+    "merge_signature_verified": true,
+    "files": [
+      {
+        "path": "assets/index.less",
+        "byte_match": true,
+        "head_sha256": "de8eb8fa988b5bf01dc0414b8893d2d55bcf74fe6210ce28c962f56419b69070",
+        "merged_sha256": "de8eb8fa988b5bf01dc0414b8893d2d55bcf74fe6210ce28c962f56419b69070"
+      },
+      {
+        "path": "src/PickerInput/Popup/Footer.tsx",
+        "byte_match": true,
+        "head_sha256": "fb4d8918859088c408852f762fccaa85ff61bd1ba6d950e3f0e5bc7202f5addc",
+        "merged_sha256": "fb4d8918859088c408852f762fccaa85ff61bd1ba6d950e3f0e5bc7202f5addc"
+      },
+      {
+        "path": "src/PickerInput/RangePicker.tsx",
+        "byte_match": true,
+        "head_sha256": "1bd5c3d65948c73f6d55eb15058b1f7eeb18874f57a8794c8f066be3bcc51901",
+        "merged_sha256": "1bd5c3d65948c73f6d55eb15058b1f7eeb18874f57a8794c8f066be3bcc51901"
+      },
+      {
+        "path": "src/PickerInput/SinglePicker.tsx",
+        "byte_match": true,
+        "head_sha256": "99e8fc045c6a0d51086660000bd0da2c8a0ed2380c7a33dcbd0902e2d5f763e5",
+        "merged_sha256": "99e8fc045c6a0d51086660000bd0da2c8a0ed2380c7a33dcbd0902e2d5f763e5"
+      },
+      {
+        "path": "src/PickerInput/context.tsx",
+        "byte_match": true,
+        "head_sha256": "9847a8596a7f2a42b8a46c5203bc9acb71482bceca66c90708f6aa5dadec3f45",
+        "merged_sha256": "9847a8596a7f2a42b8a46c5203bc9acb71482bceca66c90708f6aa5dadec3f45"
+      },
+      {
+        "path": "src/PickerInput/hooks/useFilledProps.ts",
+        "byte_match": true,
+        "head_sha256": "aa5c5f3453fcd0b950c77f2a6c5db58054cdda0a13d62d37a5980ab5f0c3c81d",
+        "merged_sha256": "aa5c5f3453fcd0b950c77f2a6c5db58054cdda0a13d62d37a5980ab5f0c3c81d"
+      },
+      {
+        "path": "src/interface.tsx",
+        "byte_match": true,
+        "head_sha256": "dac6a2dfbeacbc54e3c7b2527567135d25e95889ed27e24988ae1095b918f1d6",
+        "merged_sha256": "dac6a2dfbeacbc54e3c7b2527567135d25e95889ed27e24988ae1095b918f1d6"
+      },
+      {
+        "path": "tests/components.spec.tsx",
+        "byte_match": true,
+        "head_sha256": "65dcce5b9163dcffb5ec154b04da260157f56b52c062cce75056cced72463422",
+        "merged_sha256": "65dcce5b9163dcffb5ec154b04da260157f56b52c062cce75056cced72463422"
+      },
+      {
+        "path": "tests/multiple.spec.tsx",
+        "byte_match": true,
+        "head_sha256": "13ee2d28817abeef1b4ed84fdb100e31ff37a99be747866c42b3de4da4e9ed67",
+        "merged_sha256": "13ee2d28817abeef1b4ed84fdb100e31ff37a99be747866c42b3de4da4e9ed67"
+      },
+      {
+        "path": "tests/new-range.spec.tsx",
+        "byte_match": true,
+        "head_sha256": "ded1922a27897c84624c19672b45c1565498e513d574e9db090c3667921b1205",
+        "merged_sha256": "ded1922a27897c84624c19672b45c1565498e513d574e9db090c3667921b1205"
+      },
+      {
+        "path": "tests/picker.spec.tsx",
+        "byte_match": true,
+        "head_sha256": "5277129ce0055a0a260557e25681aa80f6c3782b181e9de55569f779e9e1395e",
+        "merged_sha256": "5277129ce0055a0a260557e25681aa80f6c3782b181e9de55569f779e9e1395e"
+      },
+      {
+        "path": "tests/range.spec.tsx",
+        "byte_match": true,
+        "head_sha256": "c653ebea02eb663c28c6d1a114a7e2179b80cf846620498e0533b45cc7a55e5b",
+        "merged_sha256": "c653ebea02eb663c28c6d1a114a7e2179b80cf846620498e0533b45cc7a55e5b"
+      },
+      {
+        "path": "tests/util/commonUtil.tsx",
+        "byte_match": true,
+        "head_sha256": "e6c2937cb8f359d016c191c5fdbae4c8749200da95a1aa7c7f046478c89ea855",
+        "merged_sha256": "e6c2937cb8f359d016c191c5fdbae4c8749200da95a1aa7c7f046478c89ea855"
+      }
+    ],
+    "all_changed_files_match": true,
+    "test_evidence": "528 tests/29 snapshots/2 skips on unchanged head November3; no repeated suite on merge snapshot",
+    "new_approval_posted": false,
+    "authored_merge_count_increment": 0
+  },
+  "ant_integration": {
+    "pr": "https://github.com/ant-design/ant-design/pull/59786",
+    "merge_commit": "11ce4af4d9f09f748bd5f3d8dbc0a301d72acec6",
+    "merged_at": "2026-11-04T01:04:58Z",
+    "master_menu": "~1.6.1",
+    "master_dropdown": "~2.0.1",
+    "master_package_blob": "35209d0bbd4905c57e84183d0e0fc4fcc55b3a5a",
+    "published_Ant_release_not_verified": true,
+    "not_authored_merge_increment": true,
+    "Dropdown273_275_still_unmerged": true
+  },
+  "new_other_feedback": {
+    "Menu898": "Maintainer independently confirmed existing native activation/focus issues, requests author rebase; no branch takeover or duplicate reply",
+    "ColorPicker286": "Maintainer approved author public useMobile export direction; author owns followup, no source update",
+    "Ant58984_58956": "Conflicting other-authored branches recorded, not mutated"
+  },
+  "role": "External / READ; proposal119 comments unchanged by IDs/latest bodies, no assignment/invitation/new permission",
+  "source_clean": true,
+  "automation_changed": false,
+  "private_projects_touched": false
+}
