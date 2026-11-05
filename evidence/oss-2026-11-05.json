@@ -1,0 +1,132 @@
+{
+  "checked_at_utc": "2026-11-05T02:11:52.387176+00:00",
+  "decision": "NOTIFY",
+  "counts": {
+    "merged_upstream_prs": 87,
+    "merged_upstream_repositories": 45,
+    "ant_design_main_merged_prs": 27,
+    "ant_design_ecosystem_merged_prs": 60,
+    "reviewed_upstream_prs": 185
+  },
+  "authored_union": 87,
+  "authored_open": 78,
+  "reviewed_open": 105,
+  "watched_union": 10,
+  "inline_paginated_prior_current_scope": 184,
+  "reviewed_removed_urls": [],
+  "runtime_queue_remaining": 15,
+  "x2036": {
+    "checked_at_utc": "2026-11-05T02:09:48.979837+00:00",
+    "head": "5c47bdd1f7b45bfdc97c0a8bbfd5780c4926e53a",
+    "metadata_prior_review_commit": "2ce8f4674ed158c01a261d1193edb495cb183838",
+    "body_prior_review_commit": "f8a25eab1458cc6ea113fd8211d8277084e181ef",
+    "diff_since_metadata_review": "Four menu-ID-only snapshot files; no runtime source differences",
+    "body_review_to_head": "Also contains Mermaid zoom/export changes; independently read and ran its 70-test mocked component scope, not a native PNG export validation",
+    "component_suites": 2,
+    "component_tests_pass": 94,
+    "component_snapshots_pass": 2,
+    "independent_probes_pass": 2,
+    "memo_removal_mutant_menu_calls": 2000,
+    "memo_mutant_expected_bound": 8,
+    "snapshot_runs": [
+      {
+        "suites_pass": 2,
+        "suites_fail": 1,
+        "tests_pass": 20,
+        "tests_fail": 1,
+        "snapshots_pass": 35,
+        "snapshots_fail": 1,
+        "early_bail": true
+      },
+      {
+        "suites_pass": 2,
+        "suites_fail": 1,
+        "tests_pass": 35,
+        "tests_fail": 1,
+        "snapshots_pass": 56,
+        "snapshots_fail": 1
+      }
+    ],
+    "baseline_snapshot_control": {
+      "same_two_failures": true,
+      "base": "25aad7b9c13abeb165466d53b375d0f2ffe81fa0",
+      "cases": [
+        "attachments/overflow.tsx segmented selected-text class",
+        "sender/slot-filling.tsx slider wrapper padding-inline20px"
+      ],
+      "component_source_and_tests_unchanged_from_base": true
+    },
+    "tsc": true,
+    "compile": true,
+    "biome_all_five_runtime_test_files": true,
+    "diff_check": true,
+    "clean": true,
+    "approval_posted": false
+  },
+  "ant59157": {
+    "checked_at_utc": "2026-11-05T02:05:43.329824+00:00",
+    "head": "6d8373b0085e83943361a99cff220ad91c877138",
+    "base": "a199f593ce1276d7fbb226ef51a30b3246bff07d",
+    "previous_census_head": "78cd4ee16db57c8327927ff2fe883629b947e145",
+    "prior_review_head": "319d26ec517083351e34a2443c8a78781d561afc",
+    "source_findings": {
+      "angle_accessible_name": "aria-label=\"Gradient angle\" remains hardcoded",
+      "locale_contract_added": false,
+      "new_non_English_test": false
+    },
+    "runtime_validation_pending": false,
+    "approval": false,
+    "author_branch_mutated": false,
+    "runtime": {
+      "submitted_gradient_pass": 15,
+      "independent_localized_names_fail": 2,
+      "English_render_control_pass": 1,
+      "locales": [
+        "zh_CN",
+        "zh_TW"
+      ],
+      "dependency_tree": "Reused read-only node_modules from clean canonical Ant59544 checkout; temporary link removed",
+      "runtime_scope": "current source and actual jsdom runner, focused gradient and locale only; not complete type/build/native/AT validation"
+    },
+    "source_clean": true,
+    "validated_at_utc": "2026-11-05T02:07:00.712742+00:00",
+    "runtime_validated_head": "6d8373b0085e83943361a99cff220ad91c877138"
+  },
+  "reviews": {
+    "x2036": {
+      "head": "5c47bdd1f7b45bfdc97c0a8bbfd5780c4926e53a",
+      "url": "https://github.com/ant-design/x/pull/2036#pullrequestreview-5778845336",
+      "state": "COMMENTED"
+    },
+    "ant59157": {
+      "head": "6d8373b0085e83943361a99cff220ad91c877138",
+      "url": "https://github.com/ant-design/ant-design/pull/59157#pullrequestreview-5778845910",
+      "state": "COMMENTED"
+    }
+  },
+  "ant_formal_release": {
+    "checked_at_utc": "2026-11-05T02:09:48.889016+00:00",
+    "release": "https://github.com/ant-design/ant-design/releases/tag/6.7.0",
+    "published_at": "2026-11-04T03:44:43Z",
+    "version": "6.7.0",
+    "tarball_integrity_verified": true,
+    "integrity": "sha512-QwFK+butqX4HA3xG2zWN9OOQVLdlV4S3WC5BETtDEXGypBlSZy0LPFFwQIGJl10UtGAQi3p6Z4WiDVf7nr4FcA==",
+    "tarball_bytes": 10677842,
+    "package_json_sha256": "19dca88dd73b6543658fd36f9bdd9420622a43c0610b03d4313a660d45f94651",
+    "tag_package_blob": "89312b1eb3b7d879aa4201306522edcf6b65e33e",
+    "npm_tarball_and_tag_dependencies_match": true,
+    "dependencies": {
+      "@rc-component/menu": "~1.6.1",
+      "@rc-component/dropdown": "~2.0.1",
+      "@rc-component/upload": "~1.1.1",
+      "@rc-component/picker": "~1.17.0"
+    },
+    "Menu899_published_and_integrated": true,
+    "Menu893_release_not_verified": true,
+    "Dropdown273_275_still_open": true,
+    "new_native_or_AT_test": false
+  },
+  "own_prs": "No new head, maintainer feedback, conflicts, merge or actionable code failure; Dropdown275 CodeRabbit success addition only",
+  "source_clean": true,
+  "role": "External contributor / READ; no appointment or award evidence"
+}

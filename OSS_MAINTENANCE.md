@@ -8,6 +8,13 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Upstream contributions
 
+### November 5, 2026: published Ant integration and current-head review
+
+- [Ant Design 6.7.0](https://github.com/ant-design/ant-design/releases/tag/6.7.0) now declares menu ~1.6.1 in its published npm package. The actual tarball SHA512 integrity, registry dependencies and release-tag package agree: this closes the formal Ant adoption step for Menu #899. Menu #893's later release remains unverified; Dropdown #273/#275 remain open.
+- [Ant X #2036 follow-up](https://github.com/ant-design/x/pull/2036#pullrequestreview-5778845336): 94 Conversations/Mermaid component tests, two independent memo/callback/style probes, types, compile and changed-file Biome pass. Removing memo produces 2,000 menu computations and fails the bound. Two wider demo snapshot mismatches reproduce against original base snapshots and unchanged demo/test sources. This is COMMENTED current-head validation, not full-monorepo green or renewed blanket approval; no native Mermaid export claim. Runtime queue: 16 → 15.
+- [Ant #59157 new-head recheck](https://github.com/ant-design/ant-design/pull/59157#pullrequestreview-5778845910): 15 gradient tests pass; both zh_CN/zh_TW localized accessible-name checks fail while the English control passes. Existing change request remains unresolved. Wider ColorPicker tests: 126 pass / 16 fail / 2 skip (demo snapshots), so complete dependency/baseline/type/build closure is still pending and this item remains in the queue.
+- Public census remains 87 authored merges / 45 repositories / Ant main 27 / ecosystem 60 / 185 reviewed PRs. No new role or application disposition is established. [Dated evidence](./evidence/oss-2026-11-05.json).
+
 ### November 4, 2026: inline Escape fix, merged review and Ant integration
 
 - [Dropdown #275 response](https://github.com/react-component/dropdown/pull/275#issuecomment-6620752593): fixed the maintainer-reported inline Escape close/focus regression in signed/Verified `b32c80c724e5cabd39eb3d9be64b2f42933f1c67`. Three new inline cases fail on prior source; fixed full suite passes 38 tests / one snapshot, types, lint (0 errors / one warning), compile and format. Popup controls include wrapped/direct refs and in-root custom popup containers. A temporary capture-registration variant also passes 38 tests, then source registration is restored. Exact remote head/two blobs and PR body/reply read back; no new native-browser or AT run.

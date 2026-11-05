@@ -50,3 +50,7 @@ Menu #899 is merged and published in npm/GitHub 1.6.1. I verified the merge sign
 ## 2026-11-04 author cooperation and integration
 
 Dropdown #275's inline Escape feedback is addressed by a signed, tested fix; popup behavior is retained with custom-container controls. Picker #990 is now merged after the adopted review and migration correction. Ant master adopted menu1.6.1/dropdown2.0.1 via #59786; published Ant release status remains unverified and #273/#275 are open. Role remains external/READ; the weekly existing-application check found no program notice in its bounded query. [Evidence](evidence/oss-2026-11-04.json).
+
+## 2026-11-05 published integration
+
+Menu #899 is verified in the published Ant6.7.0 dependency set via registry, tarball integrity and release-tag package checks. Current-head AntX2036 review has causal memo and callback evidence, with inherited snapshot mismatches explicitly retained. Ant59157's new head still lacks localized angle names in zhCN/zhTW and remains pending full closure. Queue15; external/READ role unchanged. [Evidence](evidence/oss-2026-11-05.json).

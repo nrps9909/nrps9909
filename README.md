@@ -18,9 +18,11 @@ I also contribute to open source, including accessibility, reproducible bug fixe
 
 ## Open-source work at a glance
 
-The figures below were checked against public GitHub data on November 4, 2026. Older dated evidence remains available in the maintenance record.
+Latest follow-up: [Menu #899](https://github.com/react-component/menu/pull/899) is integrated in the published Ant Design 6.7.0 dependency set (npm tarball integrity and tag verified). Revalidated Ant X #2036 with bounded regression evidence; 15 changed-head items remain pending. [November 5 evidence](./evidence/oss-2026-11-05.json).
 
-| Verified public record (2026-11-04) | Snapshot total |
+The figures below were checked against public GitHub data on November 5, 2026. Older dated evidence remains available in the maintenance record.
+
+| Verified public record (2026-11-05) | Snapshot total |
 | ---------------------------------- | -------------: |
 | Merged PRs in non-owned upstream repositories | **87** |
 | Non-owned upstream repositories with merged work | **45** |
