@@ -54,3 +54,7 @@ Dropdown #275's inline Escape feedback is addressed by a signed, tested fix; pop
 ## 2026-11-05 published integration
 
 Menu #899 is verified in the published Ant6.7.0 dependency set via registry, tarball integrity and release-tag package checks. Current-head AntX2036 review has causal memo and callback evidence, with inherited snapshot mismatches explicitly retained. Ant59157's new head still lacks localized angle names in zhCN/zhTW and remains pending full closure. Queue15; external/READ role unchanged. [Evidence](evidence/oss-2026-11-05.json).
+
+## 2026-11-06 concrete maintainer follow-up
+
+The util1.14.1 announcement led to a validated ColorPicker286 public-hook/minimum-dependency candidate, leaving the existing author's source branch untouched. Sender2034 current-head regression and caret evidence is COMMENTED; queue14. External/READ, no new appointment or program-disposition evidence. [Evidence](evidence/oss-2026-11-06.json).

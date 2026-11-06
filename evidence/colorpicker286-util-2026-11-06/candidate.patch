@@ -1,0 +1,53 @@
+diff --git a/package.json b/package.json
+index 6ada746..ff79c06 100644
+--- a/package.json
++++ b/package.json
+@@ -47,7 +47,7 @@
+   },
+   "dependencies": {
+     "@ant-design/fast-color": "^3.0.1",
+-    "@rc-component/util": "^1.11.1",
++    "@rc-component/util": "^1.14.1",
+     "clsx": "^2.1.1"
+   },
+   "devDependencies": {
+diff --git a/src/components/Handler.tsx b/src/components/Handler.tsx
+index 9f77d73..7719dc7 100644
+--- a/src/components/Handler.tsx
++++ b/src/components/Handler.tsx
+@@ -1,5 +1,4 @@
+-import { omit } from '@rc-component/util';
+-import useMobile from '@rc-component/util/lib/hooks/useMobile';
++import { omit, useMobile } from '@rc-component/util';
+ import { clsx } from 'clsx';
+ import React from 'react';
+ 
+diff --git a/tests/index.test.tsx b/tests/index.test.tsx
+index 851a675..b7fff69 100644
+--- a/tests/index.test.tsx
++++ b/tests/index.test.tsx
+@@ -1,6 +1,5 @@
+ /* eslint-disable @typescript-eslint/no-loop-func */
+-import { spyElementPrototypes } from '@rc-component/util';
+-import useMobile from '@rc-component/util/lib/hooks/useMobile';
++import { spyElementPrototypes, useMobile } from '@rc-component/util';
+ import {
+   act,
+   createEvent,
+@@ -19,9 +18,13 @@ vi.mock('@rc-component/trigger', async () => {
+ 
+ // The underlying `isMobile` caches its first answer, so platforms are simulated
+ // by mocking the hook rather than the user agent.
+-vi.mock('@rc-component/util/lib/hooks/useMobile', () => ({
+-  default: vi.fn(() => false),
+-}));
++vi.mock('@rc-component/util', async () => {
++  const actual =
++    await vi.importActual<typeof import('@rc-component/util')>(
++      '@rc-component/util',
++    );
++  return { ...actual, useMobile: vi.fn(() => false) };
++});
+ 
+ export async function waitFakeTimer(advanceTime = 1000, times = 20) {
+   for (let i = 0; i < times; i += 1) {

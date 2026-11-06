@@ -18,11 +18,11 @@ I also contribute to open source, including accessibility, reproducible bug fixe
 
 ## Open-source work at a glance
 
-Latest follow-up: [Menu #899](https://github.com/react-component/menu/pull/899) is integrated in the published Ant Design 6.7.0 dependency set (npm tarball integrity and tag verified). Revalidated Ant X #2036 with bounded regression evidence; 15 changed-head items remain pending. [November 5 evidence](./evidence/oss-2026-11-05.json).
+Latest follow-up: [ColorPicker #286 public-hook candidate](./evidence/colorpicker286-util-2026-11-06) follows the maintainer's util1.14.1 release, with 69 tests/types/build verified and the minimum dependency raised. Sender #2034 now has current-head regression/caret validation; 14 changed-head items remain pending. [November 6 evidence](./evidence/oss-2026-11-06.json).
 
-The figures below were checked against public GitHub data on November 5, 2026. Older dated evidence remains available in the maintenance record.
+The figures below were checked against public GitHub data on November 6, 2026. Older dated evidence remains available in the maintenance record.
 
-| Verified public record (2026-11-05) | Snapshot total |
+| Verified public record (2026-11-06) | Snapshot total |
 | ---------------------------------- | -------------: |
 | Merged PRs in non-owned upstream repositories | **87** |
 | Non-owned upstream repositories with merged work | **45** |

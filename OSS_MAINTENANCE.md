@@ -8,6 +8,12 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Upstream contributions
 
+### November 6, 2026: public API follow-up and Sender validation
+
+- ColorPicker #286's maintainer announced util1.14.1. The actual npm tarball exports useMobile publicly in ESM/CJS/types. A [source-only candidate](./evidence/colorpicker286-util-2026-11-06) changes Handler and its fixture to the root API and raises the minimum dependency to ^1.14.1. It passes 69 tests, types, lint (0 errors/1 existing warning), compile and formatting. The original source/manifest/dependency were restored; the existing author has not adopted this candidate. No duplicate PR, branch takeover or screen-reader claim.
+- [Sender #2034](https://github.com/ant-design/x/pull/2034#pullrequestreview-5794837152): 160 tests/4 snapshots and two independent DOM/caret/noncollapsed probes pass at current524c992. Exact base-runtime substitution fails both positive newline cases and passes three controls. Types/Biome pass; five unchanged snapshot files reuse November5's bounded inherited-failure evidence. COMMENTED, not a new blanket approval or complete remote/native-browser claim. Runtime queue15→14.
+- Counts remain 87 authored merges / 45 repositories / Ant27 / ecosystem60 / 185 reviewed PRs. Owned PRs, READ role and proposal remain unchanged. [Dated evidence](./evidence/oss-2026-11-06.json).
+
 ### November 5, 2026: published Ant integration and current-head review
 
 - [Ant Design 6.7.0](https://github.com/ant-design/ant-design/releases/tag/6.7.0) now declares menu ~1.6.1 in its published npm package. The actual tarball SHA512 integrity, registry dependencies and release-tag package agree: this closes the formal Ant adoption step for Menu #899. Menu #893's later release remains unverified; Dropdown #273/#275 remain open.

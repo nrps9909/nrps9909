@@ -1,0 +1,118 @@
+{
+  "candidate": {
+    "head": "fce493d2113c33127a87aca99c9f5fe3ad1d72a3",
+    "prior_util_version": "1.14.0",
+    "prior_root_exports_useMobile": false,
+    "candidate_util_version": "1.14.1",
+    "minimum_dependency_raised": "^1.11.1 -> ^1.14.1",
+    "checks": [
+      {
+        "name": "color286-candidate-format",
+        "args": [
+          "npx",
+          "--no-install",
+          "prettier",
+          "--write",
+          "src/components/Handler.tsx",
+          "tests/index.test.tsx",
+          "package.json"
+        ],
+        "exit_code": 0,
+        "checked_at_utc": "2026-11-06T02:08:51.599116+00:00"
+      },
+      {
+        "name": "color286-candidate-test",
+        "args": [
+          "npm",
+          "test"
+        ],
+        "exit_code": 0,
+        "checked_at_utc": "2026-11-06T02:08:55.658459+00:00"
+      },
+      {
+        "name": "color286-candidate-tsc",
+        "args": [
+          "npm",
+          "run",
+          "tsc"
+        ],
+        "exit_code": 0,
+        "checked_at_utc": "2026-11-06T02:08:58.963621+00:00"
+      },
+      {
+        "name": "color286-candidate-lint",
+        "args": [
+          "npm",
+          "run",
+          "lint"
+        ],
+        "exit_code": 0,
+        "checked_at_utc": "2026-11-06T02:09:03.038965+00:00"
+      },
+      {
+        "name": "color286-candidate-compile",
+        "args": [
+          "npm",
+          "run",
+          "compile"
+        ],
+        "exit_code": 0,
+        "checked_at_utc": "2026-11-06T02:09:15.906803+00:00"
+      },
+      {
+        "name": "color286-candidate-format-check",
+        "args": [
+          "npx",
+          "--no-install",
+          "prettier",
+          "--check",
+          "src/components/Handler.tsx",
+          "tests/index.test.tsx",
+          "package.json"
+        ],
+        "exit_code": 0,
+        "checked_at_utc": "2026-11-06T02:09:16.739722+00:00"
+      }
+    ],
+    "source_and_manifest_restored": true,
+    "dependency_restored": true,
+    "new_AT_test": false,
+    "author_branch_modified": false,
+    "tests_pass": 69,
+    "test_files": 3,
+    "lint_errors": 0,
+    "lint_warnings": 1,
+    "candidate_patch_applies_to_exact_head": true,
+    "upstream_source": "https://github.com/react-component/color-picker/pull/286",
+    "upstream_release": "https://github.com/react-component/util/releases/tag/%40rc-component%2Futil%401.14.1",
+    "candidate_author_adopted": false
+  },
+  "published_util_package": {
+    "checked_at_utc": "2026-11-06T02:06:52.766510+00:00",
+    "version": "1.14.1",
+    "integrity_verified": true,
+    "integrity": "sha512-pyCKpJ+L2EcNspFpKBG10C1dyMv0w9FzcM+gM3FK4h6/NtMZzdimr5iYDR8ptfp4wJj9lnYHg3OTvLVE1EuTbQ==",
+    "files": {
+      "lib/index.js": {
+        "sha256": "47860ed1448edc630f749706a223291a2c6a029a60f75b9b3f71c48c5170c8b1",
+        "useMobile_export_text": true
+      },
+      "es/index.js": {
+        "sha256": "270c8f6935d8f4d878730aad8c09034e018e4b1f1d5f6cd1a66a68a3188d1129",
+        "useMobile_export_text": true
+      },
+      "lib/index.d.ts": {
+        "sha256": "a014cfbd7b71fa64f09a0fca1984050b37b54308feabec6efe76bbd6a5a2985f",
+        "useMobile_export_text": true
+      },
+      "es/index.d.ts": {
+        "sha256": "a014cfbd7b71fa64f09a0fca1984050b37b54308feabec6efe76bbd6a5a2985f",
+        "useMobile_export_text": true
+      },
+      "package.json": {
+        "sha256": "e1158a2f8d09b902c7c5af1d61a58e5fe60e01cc40340dd5cab354ad407fc12f",
+        "useMobile_export_text": false
+      }
+    }
+  }
+}

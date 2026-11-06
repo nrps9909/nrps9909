@@ -1,0 +1,176 @@
+{
+  "checked_at_utc": "2026-11-06T02:12:12.058515+00:00",
+  "decision": "NOTIFY",
+  "counts": {
+    "merged_upstream_prs": 87,
+    "merged_upstream_repositories": 45,
+    "ant_design_main_merged_prs": 27,
+    "ant_design_ecosystem_merged_prs": 60,
+    "reviewed_upstream_prs": 185
+  },
+  "authored_union": 87,
+  "authored_open": 78,
+  "reviewed_open": 105,
+  "watched_union": 10,
+  "inline_paginated_prior_current_scope": 184,
+  "reviewed_removed_urls": [],
+  "runtime_queue_remaining": 14,
+  "x2034": {
+    "checked_at_utc": "2026-11-06T02:10:36.239465+00:00",
+    "head": "524c992a15476a0e8fa627c4f0ef15c7105dc8a7",
+    "previous_review_head": "8d052ad59b913e437a2e4dc83810f6364c96add6",
+    "runtime_source_unchanged": true,
+    "current_sender_unit_suites": 8,
+    "current_sender_tests_pass": 160,
+    "snapshots_pass": 4,
+    "new_upstream_controls": 2,
+    "independent_probes_pass": 2,
+    "independent_scope": [
+      "two slots and text node order preserved",
+      "caret Range start/end at original line index and selection.addRange",
+      "one onChange",
+      "noncollapsed selection left to browser"
+    ],
+    "base_runtime_control": {
+      "base": "25aad7b9c13abeb165466d53b375d0f2ffe81fa0",
+      "positive_cases_failed": 2,
+      "controls_pass": 3
+    },
+    "tsc": true,
+    "changed_source_and_test_biome": true,
+    "compile_rerun": false,
+    "reason_no_compile_rerun": "Source byte-identical to previously reviewed head; added tests/current package noEmit checked",
+    "new_native_Chromium_or_AT": false,
+    "wider_demo_tests_rerun": false,
+    "snapshot_files_identical_to_Nov5_tested_head": "5c47bdd1f7b45bfdc97c0a8bbfd5780c4926e53a",
+    "known_inherited_snapshot_mismatches_retained": 2,
+    "temporary_edits_restored": true,
+    "clean": true,
+    "approval_posted": false
+  },
+  "x2034_review": {
+    "url": "https://github.com/ant-design/x/pull/2034#pullrequestreview-5794837152",
+    "state": "COMMENTED",
+    "head": "524c992a15476a0e8fa627c4f0ef15c7105dc8a7"
+  },
+  "color286_candidate": {
+    "head": "fce493d2113c33127a87aca99c9f5fe3ad1d72a3",
+    "prior_util_version": "1.14.0",
+    "prior_root_exports_useMobile": false,
+    "candidate_util_version": "1.14.1",
+    "minimum_dependency_raised": "^1.11.1 -> ^1.14.1",
+    "checks": [
+      {
+        "name": "color286-candidate-format",
+        "args": [
+          "npx",
+          "--no-install",
+          "prettier",
+          "--write",
+          "src/components/Handler.tsx",
+          "tests/index.test.tsx",
+          "package.json"
+        ],
+        "exit_code": 0,
+        "checked_at_utc": "2026-11-06T02:08:51.599116+00:00"
+      },
+      {
+        "name": "color286-candidate-test",
+        "args": [
+          "npm",
+          "test"
+        ],
+        "exit_code": 0,
+        "checked_at_utc": "2026-11-06T02:08:55.658459+00:00"
+      },
+      {
+        "name": "color286-candidate-tsc",
+        "args": [
+          "npm",
+          "run",
+          "tsc"
+        ],
+        "exit_code": 0,
+        "checked_at_utc": "2026-11-06T02:08:58.963621+00:00"
+      },
+      {
+        "name": "color286-candidate-lint",
+        "args": [
+          "npm",
+          "run",
+          "lint"
+        ],
+        "exit_code": 0,
+        "checked_at_utc": "2026-11-06T02:09:03.038965+00:00"
+      },
+      {
+        "name": "color286-candidate-compile",
+        "args": [
+          "npm",
+          "run",
+          "compile"
+        ],
+        "exit_code": 0,
+        "checked_at_utc": "2026-11-06T02:09:15.906803+00:00"
+      },
+      {
+        "name": "color286-candidate-format-check",
+        "args": [
+          "npx",
+          "--no-install",
+          "prettier",
+          "--check",
+          "src/components/Handler.tsx",
+          "tests/index.test.tsx",
+          "package.json"
+        ],
+        "exit_code": 0,
+        "checked_at_utc": "2026-11-06T02:09:16.739722+00:00"
+      }
+    ],
+    "source_and_manifest_restored": true,
+    "dependency_restored": true,
+    "new_AT_test": false,
+    "author_branch_modified": false,
+    "tests_pass": 69,
+    "test_files": 3,
+    "lint_errors": 0,
+    "lint_warnings": 1,
+    "candidate_patch_applies_to_exact_head": true,
+    "upstream_source": "https://github.com/react-component/color-picker/pull/286",
+    "upstream_release": "https://github.com/react-component/util/releases/tag/%40rc-component%2Futil%401.14.1",
+    "candidate_author_adopted": false
+  },
+  "color286_dependency_release": {
+    "checked_at_utc": "2026-11-06T02:06:52.766510+00:00",
+    "version": "1.14.1",
+    "integrity_verified": true,
+    "integrity": "sha512-pyCKpJ+L2EcNspFpKBG10C1dyMv0w9FzcM+gM3FK4h6/NtMZzdimr5iYDR8ptfp4wJj9lnYHg3OTvLVE1EuTbQ==",
+    "files": {
+      "lib/index.js": {
+        "sha256": "47860ed1448edc630f749706a223291a2c6a029a60f75b9b3f71c48c5170c8b1",
+        "useMobile_export_text": true
+      },
+      "es/index.js": {
+        "sha256": "270c8f6935d8f4d878730aad8c09034e018e4b1f1d5f6cd1a66a68a3188d1129",
+        "useMobile_export_text": true
+      },
+      "lib/index.d.ts": {
+        "sha256": "a014cfbd7b71fa64f09a0fca1984050b37b54308feabec6efe76bbd6a5a2985f",
+        "useMobile_export_text": true
+      },
+      "es/index.d.ts": {
+        "sha256": "a014cfbd7b71fa64f09a0fca1984050b37b54308feabec6efe76bbd6a5a2985f",
+        "useMobile_export_text": true
+      },
+      "package.json": {
+        "sha256": "e1158a2f8d09b902c7c5af1d61a58e5fe60e01cc40340dd5cab354ad407fc12f",
+        "useMobile_export_text": false
+      }
+    }
+  },
+  "color286_author_head_unchanged": true,
+  "role": "External/READ; proposal119comments unchanged",
+  "own_prs": "No changed head, feedback, merge, conflicts or actionable CI failure; no reruns/posts to unchanged owned PRs",
+  "source_clean": true
+}
