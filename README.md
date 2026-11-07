@@ -18,11 +18,11 @@ I also contribute to open source, including accessibility, reproducible bug fixe
 
 ## Open-source work at a glance
 
-Latest follow-up: [ColorPicker #286 public-hook candidate](./evidence/colorpicker286-util-2026-11-06) follows the maintainer's util1.14.1 release, with 69 tests/types/build verified and the minimum dependency raised. Sender #2034 now has current-head regression/caret validation; 14 changed-head items remain pending. [November 6 evidence](./evidence/oss-2026-11-06.json).
+Latest follow-up: [ColorPicker #286 touch cancellation reproduction and candidate](./evidence/colorpicker286-touchcancel-2026-11-07). The author adopted the util public API. Sender #2033 validation reduces the pending queue to 13. [November 7 evidence](./evidence/oss-2026-11-07.json).
 
-The figures below were checked against public GitHub data on November 6, 2026. Older dated evidence remains available in the maintenance record.
+The figures below were checked against public GitHub data on November 7, 2026. Older dated evidence remains available in the maintenance record.
 
-| Verified public record (2026-11-06) | Snapshot total |
+| Verified public record (2026-11-07) | Snapshot total |
 | ---------------------------------- | -------------: |
 | Merged PRs in non-owned upstream repositories | **87** |
 | Non-owned upstream repositories with merged work | **45** |

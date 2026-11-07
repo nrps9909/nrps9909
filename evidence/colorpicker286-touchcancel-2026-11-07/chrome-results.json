@@ -1,0 +1,991 @@
+{
+  "chrome": "Chrome/156.0.8078.80",
+  "checked_at_utc": "2026-11-07T02:07:54.956Z",
+  "variants": {
+    "prior": {
+      "sha": "fce493d2113c33127a87aca99c9f5fe3ad1d72a3",
+      "normal": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchend",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 184
+          },
+          {
+            "x": 74,
+            "y": 160
+          },
+          {
+            "x": 74,
+            "y": 181
+          },
+          {
+            "x": 74,
+            "y": 181
+          },
+          {
+            "x": 74,
+            "y": 181
+          },
+          {
+            "x": 74,
+            "y": 181
+          }
+        ],
+        "completions": 1,
+        "scrollY": 212
+      },
+      "afterEnd": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchend",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": ""
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": ""
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": ""
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": ""
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": ""
+          },
+          {
+            "type": "touchend",
+            "prevented": false,
+            "cancelable": false,
+            "target": ""
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 184
+          },
+          {
+            "x": 74,
+            "y": 160
+          },
+          {
+            "x": 74,
+            "y": 181
+          },
+          {
+            "x": 74,
+            "y": 181
+          },
+          {
+            "x": 74,
+            "y": 181
+          },
+          {
+            "x": 74,
+            "y": 181
+          }
+        ],
+        "completions": 1,
+        "scrollY": 916
+      },
+      "canceled": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchcancel",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 134
+          },
+          {
+            "x": 74,
+            "y": 94
+          }
+        ],
+        "completions": 0,
+        "scrollY": 25
+      },
+      "afterCancel": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchcancel",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchend",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 134
+          },
+          {
+            "x": 74,
+            "y": 94
+          },
+          {
+            "x": 244,
+            "y": 244
+          },
+          {
+            "x": 244,
+            "y": 244
+          },
+          {
+            "x": 244,
+            "y": 244
+          },
+          {
+            "x": 244,
+            "y": 244
+          },
+          {
+            "x": 244,
+            "y": 244
+          }
+        ],
+        "completions": 1,
+        "scrollY": 511
+      },
+      "afterUnmount": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchend",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 134
+          }
+        ],
+        "completions": 0,
+        "scrollY": 504
+      }
+    },
+    "current": {
+      "sha": "9ce50dcf3b7d3b3fd58d24e2c538107957c7ec4f",
+      "normal": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchend",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 184
+          },
+          {
+            "x": 74,
+            "y": 160
+          },
+          {
+            "x": 74,
+            "y": 136
+          },
+          {
+            "x": 74,
+            "y": 112
+          },
+          {
+            "x": 74,
+            "y": 88
+          },
+          {
+            "x": 74,
+            "y": 64
+          }
+        ],
+        "completions": 1,
+        "scrollY": 0
+      },
+      "afterEnd": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchend",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchend",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 184
+          },
+          {
+            "x": 74,
+            "y": 160
+          },
+          {
+            "x": 74,
+            "y": 136
+          },
+          {
+            "x": 74,
+            "y": 112
+          },
+          {
+            "x": 74,
+            "y": 88
+          },
+          {
+            "x": 74,
+            "y": 64
+          }
+        ],
+        "completions": 1,
+        "scrollY": 498
+      },
+      "canceled": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchcancel",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 134
+          },
+          {
+            "x": 74,
+            "y": 94
+          }
+        ],
+        "completions": 0,
+        "scrollY": 0
+      },
+      "afterCancel": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchcancel",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "outside"
+          },
+          {
+            "type": "touchend",
+            "prevented": true,
+            "cancelable": true,
+            "target": "outside"
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 134
+          },
+          {
+            "x": 74,
+            "y": 94
+          },
+          {
+            "x": 244,
+            "y": 244
+          },
+          {
+            "x": 244,
+            "y": 244
+          },
+          {
+            "x": 244,
+            "y": 244
+          },
+          {
+            "x": 244,
+            "y": 238
+          },
+          {
+            "x": 244,
+            "y": 184
+          }
+        ],
+        "completions": 1,
+        "scrollY": 0
+      },
+      "afterUnmount": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchend",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 134
+          }
+        ],
+        "completions": 0,
+        "scrollY": 502
+      }
+    },
+    "candidate": {
+      "sha": "9ce50dcf3b7d3b3fd58d24e2c538107957c7ec4f",
+      "normal": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchend",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 184
+          },
+          {
+            "x": 74,
+            "y": 160
+          },
+          {
+            "x": 74,
+            "y": 136
+          },
+          {
+            "x": 74,
+            "y": 112
+          },
+          {
+            "x": 74,
+            "y": 88
+          },
+          {
+            "x": 74,
+            "y": 64
+          }
+        ],
+        "completions": 1,
+        "scrollY": 0
+      },
+      "afterEnd": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchend",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchend",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 184
+          },
+          {
+            "x": 74,
+            "y": 160
+          },
+          {
+            "x": 74,
+            "y": 136
+          },
+          {
+            "x": 74,
+            "y": 112
+          },
+          {
+            "x": 74,
+            "y": 88
+          },
+          {
+            "x": 74,
+            "y": 64
+          }
+        ],
+        "completions": 1,
+        "scrollY": 488
+      },
+      "canceled": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchcancel",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 134
+          },
+          {
+            "x": 74,
+            "y": 94
+          }
+        ],
+        "completions": 0,
+        "scrollY": 0
+      },
+      "afterCancel": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": true,
+            "cancelable": true,
+            "target": "panel"
+          },
+          {
+            "type": "touchcancel",
+            "prevented": false,
+            "cancelable": false,
+            "target": "panel"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchend",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 134
+          },
+          {
+            "x": 74,
+            "y": 94
+          }
+        ],
+        "completions": 0,
+        "scrollY": 478
+      },
+      "afterUnmount": {
+        "events": [
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchmove",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          },
+          {
+            "type": "touchend",
+            "prevented": false,
+            "cancelable": false,
+            "target": "outside"
+          }
+        ],
+        "changes": [
+          {
+            "x": 74,
+            "y": 134
+          }
+        ],
+        "completions": 0,
+        "scrollY": 472
+      }
+    }
+  }
+}

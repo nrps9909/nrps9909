@@ -8,6 +8,11 @@ Taiwan-based open-source developer focused on reproducible AI, data tooling, and
 
 ## Upstream contributions
 
+### November 7, 2026: touch cancellation and Sender coverage
+
+- ColorPicker #286 adopted the public util hook and minimum version. The updated author head builds and passes 69 tests. Native Chrome touch input on the hook fixture found that after touchcancel, an outside swipe still changes color and no longer scrolls. A [tested cleanup candidate and reproduction](./evidence/colorpicker286-touchcancel-2026-11-07) restores scrolling and stops stray changes, preserving normal drag behavior.
+- Sender #2033: 158 unit tests and four snapshots pass. Exact-base substitution fails the selected-text regression while both collapsed-caret slot/skill controls pass. No renewed approval. Pending queue: 13. [Dated evidence](./evidence/oss-2026-11-07.json).
+
 ### November 6, 2026: public API follow-up and Sender validation
 
 - ColorPicker #286's maintainer announced util1.14.1. The actual npm tarball exports useMobile publicly in ESM/CJS/types. A [source-only candidate](./evidence/colorpicker286-util-2026-11-06) changes Handler and its fixture to the root API and raises the minimum dependency to ^1.14.1. It passes 69 tests, types, lint (0 errors/1 existing warning), compile and formatting. The original source/manifest/dependency were restored; the existing author has not adopted this candidate. No duplicate PR, branch takeover or screen-reader claim.
